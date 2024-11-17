@@ -3,25 +3,26 @@ import requests as req
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 import json
 
-URL: str = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'
-WEEK: list[str] = ['poniedzialek', 'wtorek', 'sroda', 'czwartek', 'piatek']
-PLANY = dict()
-#debuging
-PLAIN_TEXT = dict()
+URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'
+WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek']
+PLANY: dict[str, dict[str, list[str]]] = dict()
+PLAIN_TEXT = dict() #to be deleted
 
 with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
-    LESSONS = json.load(f)
+    LESSONS: dict[str, str] = json.load(f)
 with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:
-    TEACHERS = json.load(f)
+    TEACHERS: dict[str, str] = json.load(f)
 with open('./JSON/plain_text_solution.json', 'r', encoding='utf-8') as f:
-    PLAIN_TEXT_SOLUTION = json.load(f)
-
-def extract_data(span: ResultSet[Tag], num_col: int, num_row: int, grade: str) -> None:
+    PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f)
+    
+def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     lesson_title: str = span[0].text.split('-')[0] if span[0].text not in LESSONS else LESSONS[span[0].text]
     lesson_teacher: str = span[1].text if span[1].text[0] != '#' else TEACHERS[span[1].text]
     lesson_classroom: str = span[2].text
+    return lesson_title, lesson_teacher, lesson_classroom
+
+def extract_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
     if lesson_teacher not in PLANY:
-        #add names instead of initials
         PLANY[lesson_teacher] = {day: ['' for _ in range(11)] for day in WEEK}
     if PLANY[lesson_teacher][WEEK[num_col]][num_row] == '':
         PLANY[lesson_teacher][WEEK[num_col]][num_row] = f'{grade} {lesson_title} {lesson_classroom}'
@@ -54,31 +55,24 @@ def main() -> None:
                     if PLAIN_TEXT_SOLUTION[col.text] is None:
                         continue
                     else:
-                        if '/' in PLAIN_TEXT_SOLUTION[col.text]:
-                            col_spans: list[str] = PLAIN_TEXT_SOLUTION[col.text].split('/')
-                            for span in col_spans:
-                                span: ResultSet[Tag] = [bs(f'<span>{x}</span>', 'html.parser').find('span', recursive=False) for x in span.split(' ')]
-                                extract_data(span, num_col, num_row, grade)
-                        else:
-                            span: ResultSet[Tag] = [bs(f'<span>{x}</span>', 'html.parser').find('span', recursive=False) for x in PLAIN_TEXT_SOLUTION[col.text].split(' ')]
-                            extract_data(span, num_col, num_row, grade)
+                        col_spans: list[str] = PLAIN_TEXT_SOLUTION[col.text].split('/')
+                        for span in col_spans:
+                            extract_data(*span.split(' '), num_col, num_row, grade)
                     
                     #to be added (plain text problem)
                 elif len(col_spans) == 3:
-                    extract_data(col_spans, num_col, num_row, grade)
+                    extract_data(*get_lesson_details(col_spans), num_col, num_row, grade)
                 elif len(col_spans) == 2:
                     span: Tag
                     for span in col_spans:
-                        extract_data(span.find_all('span'), num_col, num_row, grade)
+                        extract_data(*get_lesson_details(span.find_all('span')), num_col, num_row, grade)
                 elif len(col_spans) == 1:
-                    col_spans: ResultSet[Tag] = col_spans[0].find_all('span', recursive=False)
-                    extract_data(col_spans, num_col, num_row, grade)
+                    extract_data(*get_lesson_details(col_spans[0].find_all('span', recursive=False)), num_col, num_row, grade)
                 else:
-                    it: Iterator[Tag] = iter(col_spans)
-                    col_spans: zip[tuple[Tag, Tag, Tag]] = zip(it, it, it)
-                    span: Tag
+                    it = iter(col_spans)
+                    col_spans = zip(it, it, it)
                     for span in col_spans:
-                        extract_data(span, num_col, num_row, grade)
+                        extract_data(*get_lesson_details(span), num_col, num_row, grade)
                     
 if __name__ == '__main__':
     main()  

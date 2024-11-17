@@ -3,14 +3,18 @@ import requests as req
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 import json
 
-URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'
-WEEK = ['poniedzialek', 'wtorek', 'sroda', 'czwartek', 'piatek']
+URL: str = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'
+WEEK: list[str] = ['poniedzialek', 'wtorek', 'sroda', 'czwartek', 'piatek']
 PLANY = dict()
+#debuging
+PLAIN_TEXT = dict()
 
 with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
     LESSONS = json.load(f)
 with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:
     TEACHERS = json.load(f)
+with open('./JSON/plain_text_solution.json', 'r', encoding='utf-8') as f:
+    PLAIN_TEXT_SOLUTION = json.load(f)
 
 def extract_data(span: ResultSet[Tag], num_col: int, num_row: int, grade: str) -> None:
     lesson_title: str = span[0].text.split('-')[0] if span[0].text not in LESSONS else LESSONS[span[0].text]
@@ -38,9 +42,27 @@ def main() -> None:
             for num_col, col in enumerate(row.find_all('td')[2:]):
                 col_spans: ResultSet[Tag] = col.find_all('span', recursive=False)
                 if len(col_spans) == 0:
-                    pass
-                    # if col.text != '\xa0':
-                    #     print(col)
+                    if col.text == '\xa0': continue
+                    if grade not in PLAIN_TEXT:
+                        PLAIN_TEXT[grade] = dict()
+                    if num_col not in PLAIN_TEXT[grade]:
+                        PLAIN_TEXT[grade][num_col] = dict()
+                    PLAIN_TEXT[grade][num_col][num_row] = col.text
+                    
+                    if col.text not in PLAIN_TEXT_SOLUTION:
+                        raise ValueError(f'Error: {col.text} not in PLAIN_TEXT_SOLUTION')
+                    if PLAIN_TEXT_SOLUTION[col.text] is None:
+                        continue
+                    else:
+                        if '/' in PLAIN_TEXT_SOLUTION[col.text]:
+                            col_spans: list[str] = PLAIN_TEXT_SOLUTION[col.text].split('/')
+                            for span in col_spans:
+                                span: ResultSet[Tag] = [bs(f'<span>{x}</span>', 'html.parser').find('span', recursive=False) for x in span.split(' ')]
+                                extract_data(span, num_col, num_row, grade)
+                        else:
+                            span: ResultSet[Tag] = [bs(f'<span>{x}</span>', 'html.parser').find('span', recursive=False) for x in PLAIN_TEXT_SOLUTION[col.text].split(' ')]
+                            extract_data(span, num_col, num_row, grade)
+                    
                     #to be added (plain text problem)
                 elif len(col_spans) == 3:
                     extract_data(col_spans, num_col, num_row, grade)
@@ -48,9 +70,12 @@ def main() -> None:
                     span: Tag
                     for span in col_spans:
                         extract_data(span.find_all('span'), num_col, num_row, grade)
+                elif len(col_spans) == 1:
+                    col_spans: ResultSet[Tag] = col_spans[0].find_all('span', recursive=False)
+                    extract_data(col_spans, num_col, num_row, grade)
                 else:
                     it: Iterator[Tag] = iter(col_spans)
-                    col_spans: ResultSet[Tag] = zip(it, it, it)
+                    col_spans: zip[tuple[Tag, Tag, Tag]] = zip(it, it, it)
                     span: Tag
                     for span in col_spans:
                         extract_data(span, num_col, num_row, grade)
@@ -59,3 +84,5 @@ if __name__ == '__main__':
     main()  
     with open('./JSON/plany.json', 'w', encoding='utf-8') as f:
         json.dump(PLANY, f, ensure_ascii=False, indent=4)
+    with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
+        json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4)

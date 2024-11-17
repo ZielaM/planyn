@@ -15,7 +15,7 @@
         ],
         "wtorek": [
             "",
-            "",
+            "1B Językniemiecki 21",
             "5B Językniemiecki 21",
             "",
             "2G Językniemiecki 21",
@@ -23,18 +23,18 @@
             "2D Językniemiecki 21",
             "1B Językniemiecki 21",
             "4F Zajęciazwychowawcą 21",
-            "",
+            "4F Językniemiecki 21",
             ""
         ],
         "sroda": [
             "4D,4E,4F JęzykniemieckiDSDIPro 21",
             "4D,4E,4F JęzykniemieckiDSDIPro 21",
-            "",
+            "4A Językniemiecki 21",
             "",
             "",
             "1C Językniemiecki 21",
-            "",
-            "",
+            "2H Językniemiecki 21",
+            "2H Językniemiecki 21",
             "1A,1B,1C,1D JęzykniemieckiDSDIPro 21",
             "1A,1B,1C,1D JęzykniemieckiDSDIPro 21",
             ""
@@ -215,9 +215,9 @@
             ""
         ],
         "wtorek": [
-            "",
-            "",
-            "",
+            "3C Pracowniaaplikacjiinternetowych 57",
+            "3C Pracowniaaplikacjiinternetowych 57",
+            "3C Pracowniaaplikacjiinternetowych 57",
             "3D Pracowniaaplikacjiinternetowych 56",
             "3D Pracowniaaplikacjiinternetowych 56",
             "3D Pracowniaaplikacjiinternetowych 56",
@@ -249,8 +249,8 @@
             "1C Projektowaniewitryninternetowych B102",
             "2E Tworzenieaplikacjiinternetowych B101",
             "2E Tworzenieaplikacjiinternetowych B103",
-            "",
-            "",
+            "1C Pracowniawitryninternetowych B204",
+            "1C Pracowniawitryninternetowych B204",
             ""
         ],
         "piatek": [
@@ -291,8 +291,8 @@
             "",
             "2D HiT 38",
             "2B Historia 38",
-            "",
-            ""
+            "4D,5F,5G Etyka 38",
+            "4D,5E,5F,5G Etyka 38"
         ],
         "sroda": [
             "",
@@ -329,6 +329,73 @@
             "2B Historia 43",
             "1A Historia 37",
             "1A Zajęciazwychowawcą 21",
+            "2A Etyka 37",
+            "2A Etyka 37",
+            ""
+        ]
+    },
+    "RA": {
+        "poniedzialek": [
+            "3F Religia B108A",
+            "5G Religia B108A",
+            "1A,1B Religia B108A",
+            "1A,1B Religia B108A",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "wtorek": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "1C,1D Religia B108A",
+            "1C,1D Religia B108A",
+            "3B Religia B108A",
+            "3B Religia B108A"
+        ],
+        "sroda": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "2C Religia B108A",
+            "2C Religia B108A",
+            "2B Religia B108A"
+        ],
+        "czwartek": [
+            "3A Religia 62",
+            "3A Religia 62",
+            "4A,4B Religia 62",
+            "3F Religia 62",
+            "5A Religia 62",
+            "2B Religia 62",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "piatek": [
+            "2A Religia 62",
+            "2A Religia 62",
+            "5F Religia 23",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -349,7 +416,7 @@
             ""
         ],
         "wtorek": [
-            "",
+            "4F Geografia 36",
             "3D Geografia 36",
             "4F Geografia 36",
             "4E Geografia 36",
@@ -383,8 +450,8 @@
             "4A Geografia 36",
             "4E Zajęciazwychowawcą 36",
             "4D Geografia 36",
-            "",
-            "",
+            "5G Geografia 36",
+            "5G Geografia 36",
             ""
         ],
         "piatek": [
@@ -497,7 +564,7 @@
         ],
         "sroda": [
             "",
-            "",
+            "1B Językhiszpański 26",
             "3D Językhiszpański 26",
             "3D Językhiszpański 21",
             "",
@@ -831,8 +898,8 @@
             ""
         ],
         "sroda": [
-            "",
-            "",
+            "5F Fizyka 27",
+            "5F Fizyka 27",
             "",
             "2H Fizyka 27",
             "1A Fizyka 27",
@@ -865,7 +932,7 @@
             "",
             "3F Fizyka B108",
             "3F Zajęciazwychowawcą B108",
-            "",
+            "4F Fizyka B108",
             "",
             ""
         ]
@@ -1077,11 +1144,11 @@
             "5D Językniemiecki 34",
             "1C Plastyka 34",
             "1D Językniemiecki 34",
+            "3E Językniemiecki 34",
+            "3E Językniemiecki 34",
             "",
-            "",
-            "",
-            "",
-            "",
+            "3E Językniemiecki 34",
+            "3E Językniemiecki 34",
             "",
             ""
         ],
@@ -1093,10 +1160,10 @@
             "",
             "",
             "3F Językniemiecki 34",
-            "",
+            "3F Językniemiecki 34",
             "3D,3E,3F JęzykniemieckiDSDIPro 34",
             "3D,3E,3F JęzykniemieckiDSDIPro 34",
-            ""
+            "3D,3E,3F JęzykNiemieckiDSDIPro 34"
         ],
         "sroda": [
             "",
@@ -1107,7 +1174,7 @@
             "",
             "",
             "1D Plastyka 34",
-            "",
+            "3D,3F JęzykNiemieckiDSDIPro 34",
             "",
             ""
         ],
@@ -1443,7 +1510,7 @@
             "3E,3F Językangielski 31",
             "3E,3F Językangielski 31",
             "",
-            "",
+            "2E Językangielski 31",
             ""
         ],
         "czwartek": [
@@ -1509,8 +1576,8 @@
             "5F,5G Językangielski 22",
             "",
             "3D Językangielski 22",
-            "",
-            "",
+            "3D Językangielski 22",
+            "3D Językangielski 22",
             ""
         ],
         "czwartek": [
@@ -1617,7 +1684,7 @@
             "",
             "5A Pracowniabazdanych 41",
             "",
-            "",
+            "5B Pracowniabazdanych 41",
             "4B BazydanychD_DW 57",
             ""
         ],
@@ -1649,7 +1716,7 @@
         ],
         "czwartek": [
             "1B SiecikomputeroweD_DW 41",
-            "",
+            "5C Pracowniabazdanych 41",
             "5A Pracowniabazdanych 41",
             "1B SystemykomputeroweD_DW 41",
             "3A Bazydanych 37",
@@ -1668,7 +1735,7 @@
             "4B Pracowniabazdanych 41",
             "5A Pracowniabazdanych 41",
             "2E SystemybazdanychD_DW 57",
-            "",
+            "3C Pracowniabazdanych 41",
             "3D Pracowniabazdanych 41",
             "",
             ""
@@ -1689,8 +1756,8 @@
             ""
         ],
         "wtorek": [
-            "",
-            "",
+            "5A Pracowniaprogramowania 50",
+            "5A Pracowniaprogramowania 50",
             "",
             "1B Podstawyprogramowania 50",
             "5C Pracowniaprogramowania 57",
@@ -1702,8 +1769,8 @@
             ""
         ],
         "sroda": [
-            "",
-            "",
+            "1C Pracowniapodstawprogramowania 57",
+            "1C Pracowniapodstawprogramowania 57",
             "1C Podstawyprogramowania 31",
             "",
             "1B Pracowniapodstawprogramowania 57",
@@ -1899,7 +1966,7 @@
             "4B Chemia 26",
             "5C Matematyka 26",
             "5C Matematyka 26",
-            "",
+            "5C MatematykaDodatkowa 26",
             ""
         ],
         "sroda": [
@@ -1912,7 +1979,7 @@
             "2A Matematyka B109",
             "2A Matematyka B109",
             "5G Matematyka B109",
-            "",
+            "5G MatematykaDodatkowa B109",
             ""
         ],
         "czwartek": [
@@ -2011,9 +2078,9 @@
     },
     "SW": {
         "poniedzialek": [
-            "",
-            "",
-            "",
+            "2B Wychowaniefizyczne SG1",
+            "2B Wychowaniefizyczne SG1",
+            "2B Wychowaniefizyczne SG1",
             "3D Wychowaniefizyczne SG1",
             "3D Wychowaniefizyczne SG1",
             "3D Wychowaniefizyczne SG1",
@@ -2037,9 +2104,9 @@
             ""
         ],
         "sroda": [
-            "",
-            "",
-            "",
+            "2B Wychowaniefizyczne BSG",
+            "2B Wychowaniefizyczne BSG",
+            "2B Wychowaniefizyczne BSG",
             "2B Zajęciazwychowawcą B201",
             "",
             "",
@@ -2078,14 +2145,14 @@
     },
     "GL": {
         "poniedzialek": [
-            "",
+            "3A Pracowniawitryninternetowych B204",
             "2D Tworzenieaplikacjiinternetowych B101",
             "2D Tworzenieaplikacjiinternetowych B101",
             "3A Witrynyiaplikacjeinternetowe B101",
             "2D Pracowniaaplikacjiinternetowych B204",
             "2D Pracowniaaplikacjiinternetowych B204",
             "",
-            "",
+            "3A Pracowniawitryninternetowych B204",
             "1B Projektowaniewitryninternetowych B107",
             "1B Projektowaniewitryninternetowych B107",
             ""
@@ -2483,17 +2550,17 @@
             "1D Zajęciazwychowawcą 36",
             "1D Elektrotechnikaielektronika 36",
             "1D Elektrotechnikaielektronika 36",
-            "",
+            "5F Eksploatacjaurządzeńelektronicznych 47",
             "4E Eksploatacjaurządzeńelektronicznych 47",
             "2G Układyanalogowe 47",
             "2G Urządzeniaiinstalacjeelektroniczne 47",
             "",
-            "",
-            "",
+            "3F Urządzeniaiinstalacjeelektroniczne B109",
+            "3F Urządzeniaiinstalacjeelektroniczne B109",
             ""
         ],
         "wtorek": [
-            "",
+            "2G Urządzeniaiinstalacjeelektroniczne 47",
             "5F Eksploatacjaurządzeńelektronicznych 47",
             "5F Eksploatacjaurządzeńelektronicznych 47",
             "5F Eksploatacjaurządzeńelektronicznych 47",
@@ -2532,9 +2599,9 @@
             ""
         ],
         "piatek": [
-            "",
-            "",
-            "",
+            "2G Urządzeniaiinstalacjeelektroniczne 47",
+            "4E Pracowniaeksploatacjiurządzeńelektronicznych 47",
+            "4E Pracowniaeksploatacjiurządzeńelektronicznych 47",
             "4E Pracowniaeksploatacjiurządzeńelektronicznych 47",
             "2F Pracowniaelektrycznaielektroniczna 47",
             "2F Pracowniaelektrycznaielektroniczna 47",
@@ -2813,18 +2880,18 @@
             ""
         ]
     },
-    "RA": {
+    "DS": {
         "poniedzialek": [
-            "3F Religia B108A",
-            "5G Religia B108A",
+            "2F Informatyka 50",
             "",
+            "2F Informatyka 50",
+            "2H Informatyka 50",
+            "2H Informatyka 50",
+            "2F Informatyka 50",
+            "2F Informatyka 50",
+            "4B Matematyka 36",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "2G Informatyka 41",
             ""
         ],
         "wtorek": [
@@ -2832,34 +2899,34 @@
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "2G Informatyka 50",
+            "4B Matematyka 33",
+            "3F Informatyka3F 50",
+            "2A Informatyka 50",
+            "2A Informatyka 50",
             "",
             ""
         ],
         "sroda": [
+            "2C Informatyka B203",
+            "2A Informatyka B203",
+            "4B Matematyka B108",
+            "4B Matematyka B108",
             "",
+            "2B Informatyka B203",
+            "2B Informatyka B203",
+            "2C Informatyka B203",
             "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "2C Religia B108A",
-            "2C Religia B108A",
-            "2B Religia B108A"
+            "2A Informatyka B203",
+            ""
         ],
         "czwartek": [
             "",
+            "2D Informatyka 57",
+            "2D Informatyka 57",
             "",
-            "4A,4B Religia 62",
-            "3F Religia 62",
-            "5A Religia 62",
-            "2B Religia 62",
+            "3F Informatyka3F 43",
+            "",
             "",
             "",
             "",
@@ -2867,9 +2934,9 @@
             ""
         ],
         "piatek": [
-            "2A Religia 62",
-            "2A Religia 62",
-            "5F Religia 23",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2889,7 +2956,7 @@
             "4B Informatyka 41",
             "5E Pracowniatestowaniaidokumentowaniaaplikacji 41",
             "3B Programowanie 27",
-            "",
+            "5E Pracowniatestowaniaidokumentowaniaaplikacji 40",
             "",
             "",
             ""
@@ -2922,7 +2989,7 @@
         ],
         "czwartek": [
             "5B Pracowniaprogramowania 51",
-            "",
+            "5A Pracowniaprogramowania 51",
             "2B Programowanie 34",
             "5B Pracowniaprogramowania 51",
             "5E Testowanieidokumentowanieaplikacji SwF",
@@ -3117,7 +3184,7 @@
             "2F Językniemiecki 33",
             "3C Językniemiecki 33",
             "",
-            "",
+            "2G Językniemiecki 33",
             "",
             ""
         ],
@@ -3131,7 +3198,7 @@
             "2G Językniemiecki 27",
             "2A Językniemiecki 27",
             "4A,4B,4C,4D,4E Językniemiecki 27",
-            "",
+            "2A,2B,2C,2D,2E JęzykNiemieckiDSDIPro 23",
             "2A,2B,2C,2D,2E JęzykniemieckiDSDIPro 23"
         ],
         "piatek": [
@@ -3143,75 +3210,8 @@
             "2E Językniemiecki 62",
             "2B Językniemiecki 62",
             "2A Językniemiecki 62",
-            "",
-            "",
-            ""
-        ]
-    },
-    "DS": {
-        "poniedzialek": [
-            "",
-            "",
-            "2F Informatyka 50",
-            "2H Informatyka 50",
-            "2H Informatyka 50",
-            "2F Informatyka 50",
-            "",
-            "4B Matematyka 36",
-            "",
-            "2G Informatyka 41",
-            ""
-        ],
-        "wtorek": [
-            "",
-            "",
-            "",
-            "",
-            "2G Informatyka 50",
-            "4B Matematyka 33",
-            "3F Informatyka3F 50",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "sroda": [
-            "2C Informatyka B203",
-            "",
-            "4B Matematyka B108",
-            "4B Matematyka B108",
-            "",
-            "2B Informatyka B203",
-            "2B Informatyka B203",
-            "2C Informatyka B203",
-            "",
-            "",
-            ""
-        ],
-        "czwartek": [
-            "",
-            "2D Informatyka 57",
-            "2D Informatyka 57",
-            "",
-            "3F Informatyka3F 43",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "piatek": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+            "2A,2B,2C,2D,2E JęzykNiemieckiDSDIPro 62",
+            "2A,2B,2C,2D,2E JęzykNiemieckiDSDIPro 62",
             ""
         ]
     },
@@ -3311,7 +3311,7 @@
         ],
         "sroda": [
             "",
-            "",
+            "2E Językangielski 32",
             "5C Językangielski 32",
             "5C Językangielski 32",
             "5C Językangielski 32",
@@ -3342,7 +3342,7 @@
             "",
             "3B Językangielski 32",
             "2C Językangielski 32",
-            "",
+            "5C Językangielski 32",
             "2E Językangielski 32",
             "",
             "",
@@ -3365,7 +3365,7 @@
         ],
         "wtorek": [
             "",
-            "",
+            "2D Pracowniabazdanych 40",
             "5A Pracowniabazdanych 40",
             "3C Systemybazdanych 44",
             "2D Systemybazdanych 44",
@@ -3399,7 +3399,7 @@
             "5A Pracowniabazdanych 40",
             "",
             "2D Pracowniabazdanych 40",
-            "",
+            "5B Pracowniabazdanych 40",
             ""
         ],
         "piatek": [
@@ -3408,7 +3408,7 @@
             "4A Pracowniabazdanych 40",
             "4A Pracowniabazdanych 40",
             "4A Bazydanych 57",
-            "",
+            "5C Pracowniabazdanych 40",
             "4B Pracowniabazdanych 40",
             "4B Pracowniabazdanych 40",
             "3D Pracowniabazdanych 40",
@@ -3444,7 +3444,7 @@
             ""
         ],
         "sroda": [
-            "",
+            "3D Pracowniaprogramowaniaobiektowego 41",
             "3D Pracowniaprogramowaniaobiektowego 41",
             "2E Pracowniaprogramowaniaobiektowego 57",
             "2E Pracowniaprogramowaniaobiektowego 57",
@@ -3457,7 +3457,7 @@
             ""
         ],
         "czwartek": [
-            "",
+            "3C Pracowniaprogramowaniaobiektowego B203",
             "3C Pracowniaprogramowaniaobiektowego B203",
             "3C Pracowniaprogramowaniaobiektowego B203",
             "",
@@ -3466,11 +3466,11 @@
             "2D Programowanieobiektowe 57",
             "2D Programowanieobiektowe 34",
             "2D Pracowniaprogramowaniaobiektowego 41",
-            "",
+            "2D Pracowniaprogramowaniaobiektowego 34",
             ""
         ],
         "piatek": [
-            "",
+            "3D Pracowniaprogramowaniaobiektowego 50",
             "3D Programowanieobiektowe 36",
             "3C Programowanieobiektowe 43",
             "",
@@ -3485,7 +3485,7 @@
     },
     "PS": {
         "poniedzialek": [
-            "",
+            "5C,5E Religia 62",
             "2G Religia 62",
             "3E Religia 62",
             "3E Religia 62",
@@ -3532,7 +3532,7 @@
             "",
             "",
             "2G Religia 62",
-            "",
+            "5D Religia 62",
             "4C,4F Religia 62",
             ""
         ],
@@ -3558,28 +3558,28 @@
             "5A Informatyka 58",
             "5E Programowanieaplikacjimobilnych 57",
             "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
-            "",
-            "",
-            "",
-            "",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             ""
         ],
         "wtorek": [
-            "",
-            "",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5C Informatyka 58",
             "5C Informatyka 58",
             "5D Informatyka 58",
-            "",
-            "",
-            "",
-            "",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
             "",
             ""
         ],
         "sroda": [
             "",
-            "",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
             "2E Informatyka 58",
             "2E Informatyka 58",
             "2E Informatyka 58",
@@ -3591,14 +3591,14 @@
             ""
         ],
         "czwartek": [
-            "",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "4C Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5D Programowanieaplikacjimobilnych 17",
             "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
-            "",
+            "5D Pracowniaprogramowaniaaplikacjimobilnych 58",
             "5E Informatyka 58",
             "4D Pracowniaprogramowaniaaplikacjimobilnych 58",
             ""
@@ -3610,10 +3610,10 @@
             "5E Programowanieaplikacjimobilnych 32",
             "2E Zajęciazwychowawcą 36",
             "",
-            "",
-            "",
-            "",
-            "",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
+            "5E Pracowniaprogramowaniaaplikacjimobilnych 58",
             ""
         ]
     },
@@ -3766,7 +3766,7 @@
             ""
         ],
         "wtorek": [
-            "",
+            "5F Urządzeniaautomatykiprzemysłowej 33",
             "5F Urządzeniaautomatykiprzemysłowej 33",
             "4E Instalacjeautomatykiprzemysłowej 26",
             "",
@@ -3792,8 +3792,8 @@
             ""
         ],
         "czwartek": [
-            "",
-            "",
+            "4E Urządzeniaautomatykiprzemysłowej 33",
+            "5F Urządzeniaautomatykiprzemysłowej 33",
             "3E Instalacjeautomatykiprzemysłowej 33",
             "3E Instalacjeautomatykiprzemysłowej 33",
             "2F Instalacjeautomatykiprzemysłowej 33",
@@ -3801,7 +3801,7 @@
             "3E Pracowniaurządzeńautomatykiprzemysłowej 46",
             "4E Instalacjeautomatykiprzemysłowej 46",
             "",
-            "",
+            "4E Urządzeniaautomatykiprzemysłowej 17",
             ""
         ],
         "piatek": [
@@ -3913,7 +3913,7 @@
             ""
         ],
         "sroda": [
-            "",
+            "3F Pracowniaeksploatacjiurządzeńelektronicznych 47",
             "3F Pracowniaeksploatacjiurządzeńelektronicznych 47",
             "3F Pomiaryelektryczneielektroniczne 47",
             "3F Pomiaryelektryczneielektroniczne 47",
@@ -3921,9 +3921,9 @@
             "2G Pracowniamontażuinstalacjiiurządzeńelektronicznych 47",
             "2G Pracowniamontażuinstalacjiiurządzeńelektronicznych 47",
             "2G Pracowniamontażuinstalacjiiurządzeńelektronicznych 47",
-            "",
-            "",
-            ""
+            "3E Pracowniaelektrycznaielektroniczna 48",
+            "3E Pracowniaelektrycznaielektroniczna 48",
+            "3E Pracowniaelektrycznaielektroniczna 48"
         ],
         "czwartek": [
             "3F Pracowniaelektrycznaielektroniczna 48",
@@ -3933,8 +3933,8 @@
             "2G Pomiaryelektryczneielektroniczne 48",
             "2G Pomiaryelektryczneielektroniczne 48",
             "3E Pracowniaelektrycznaielektroniczna 48",
-            "",
-            "",
+            "3E Pracowniaelektrycznaielektroniczna 48",
+            "3E Pracowniaelektrycznaielektroniczna 48",
             "",
             ""
         ],
@@ -3944,7 +3944,7 @@
             "",
             "2G Pracowniaelektrycznaielektroniczna 48",
             "2G Pracowniaelektrycznaielektroniczna 48",
-            "",
+            "2G Pracowniaelektrycznaielektroniczna 48",
             "",
             "2F Pracowniaelektrycznaielektroniczna 48",
             "2F Pracowniaelektrycznaielektroniczna 48",
@@ -4209,8 +4209,8 @@
         "piatek": [
             "",
             "",
-            "",
-            "",
+            "2H Pracowniaruchukolejowego B105",
+            "2H Pracowniaruchukolejowego B105",
             "4F Pracowniaorganizacjipracystacji B105",
             "4F Pracowniaorganizacjipracystacji B105",
             "2H Pracowniaruchukolejowego B105",
@@ -4436,7 +4436,7 @@
             ""
         ],
         "wtorek": [
-            "",
+            "4E Informatyka 51",
             "4B Informatyka 51",
             "5C Informatyka 51",
             "5C Informatyka 51",
@@ -4471,7 +4471,7 @@
             "",
             "",
             "5E Informatyka 51",
-            "",
+            "3E Informatyka 51",
             ""
         ],
         "piatek": [
@@ -4484,7 +4484,7 @@
             "4C Informatyka 51",
             "5F Informatyka 51",
             "5F Informatyka 51",
-            "",
+            "4E Informatyka 51",
             ""
         ]
     },
@@ -4499,7 +4499,7 @@
             "5A Pracowniawitryninternetowych 56",
             "",
             "3D Projektowanieoprogramowania 37",
-            "",
+            "5C Pracowniawitryninternetowych 42",
             ""
         ],
         "wtorek": [
@@ -4512,7 +4512,7 @@
             "5D Testowanieidokumentowanieaplikacji 43",
             "4A Pracowniawitryninternetowych 43",
             "4A Pracowniawitryninternetowych 43",
-            "",
+            "3C Pracowniaprojektowaniaoprogramowania 43",
             ""
         ],
         "sroda": [
@@ -4538,7 +4538,7 @@
             "5D Pracowniatestowaniaidokumentowaniaaplikacji 51",
             "5A Witrynyiaplikacjeinternetowe 17",
             "5A Witrynyiaplikacjeinternetowe 26",
-            "",
+            "5A Pracowniawitryninternetowych 56",
             ""
         ],
         "piatek": [
@@ -4552,6 +4552,73 @@
             "",
             "",
             "",
+            ""
+        ]
+    },
+    "AS": {
+        "poniedzialek": [
+            "",
+            "",
+            "",
+            "",
+            "5G Eksploatacjaelektrycznychpojazdówtrakcyjnych B104",
+            "5G Eksploatacjaelektrycznychpojazdówtrakcyjnych B104",
+            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
+            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
+            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
+            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
+            ""
+        ],
+        "wtorek": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "sroda": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "czwartek": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "piatek": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "4F Eksploatacjataboruszynowego B104",
+            "4F Eksploatacjataboruszynowego B104",
+            "3F Maszynyiurządzeniaelektryczne B104",
+            "3F Maszynyiurządzeniaelektryczne B104",
             ""
         ]
     },
@@ -4846,7 +4913,7 @@
             "5F Pracowniainstalacjiautomatykiprzemysłowej 46",
             "5F Pracowniainstalacjiautomatykiprzemysłowej 46",
             "5F Instalacjeautomatykiprzemysłowej 46",
-            "",
+            "5F Instalacjeautomatykiprzemysłowej 46",
             "",
             ""
         ],
@@ -4932,8 +4999,8 @@
         ],
         "czwartek": [
             "",
-            "",
-            "",
+            "5G Eksploatacjahandlowakolei 30",
+            "5G Eksploatacjahandlowakolei 30",
             "5G Działalnośćusługowakolei 30",
             "5G Działalnośćusługowakolei 30",
             "",
@@ -4950,76 +5017,9 @@
             "",
             "",
             "5G Eksploatacjahandlowakolei 27",
-            "",
+            "5G Eksploatacjahandlowakolei 27",
             "5G Działalnośćusługowakolei 27",
             "5G Działalnośćusługowakolei 27",
-            "",
-            ""
-        ]
-    },
-    "AS": {
-        "poniedzialek": [
-            "",
-            "",
-            "",
-            "",
-            "5G Eksploatacjaelektrycznychpojazdówtrakcyjnych B104",
-            "5G Eksploatacjaelektrycznychpojazdówtrakcyjnych B104",
-            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
-            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
-            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
-            "4F Pracowniaeksploatacjiśrodkówtransportuszynowego B104",
-            ""
-        ],
-        "wtorek": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "sroda": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "czwartek": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "piatek": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "4F Eksploatacjataboruszynowego B104",
-            "4F Eksploatacjataboruszynowego B104",
-            "",
             "",
             ""
         ]
@@ -5078,11 +5078,11 @@
             ""
         ],
         "piatek": [
-            "",
-            "",
-            "",
-            "",
-            "",
+            "5G Pracowniaeksploatacjiśrodkówtransportuszynowego @",
+            "5G Pracowniaeksploatacjiśrodkówtransportuszynowego @",
+            "5G Pracowniaeksploatacjiśrodkówtransportuszynowego @",
+            "5G Pracowniaeksploatacjiśrodkówtransportuszynowego @",
+            "5G Przygotowaniepraktycznedozawodumaszynisty @",
             "5G Przygotowaniepraktycznedozawodumaszynisty @",
             "",
             "",

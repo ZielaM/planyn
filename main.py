@@ -1,20 +1,8 @@
 import requests as req
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 import json
-
-# Constants
-URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/' # URL to the timetables
-WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek'] 
-PLANY: dict[str, dict[str, list[str]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
-PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict() # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION) 
-                                                          # {grade: {day: {lesson: lesson_text}}}
-
-with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
-    LESSONS: dict[str, str] = json.load(f) # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
-with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:
-    TEACHERS: dict[str, str] = json.load(f) # Constant to replace corrupted teacher names {corrupted_teacher: teacher_name}
-with open('./JSON/plain_text_solution.json', 'r', encoding='utf-8') as f:
-    PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f) # Constant to replace plain text lessons {pt_lesson: lesson_data}
+from aiohttp import ClientResponse, ClientSession
+import asyncio
     
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     """extracts lesson details from spans
@@ -55,10 +43,16 @@ def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_
     else:
         raise ValueError(f'Error: {PLANY[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
 
-def main() -> None:
-    for i in range(1, 32):
-        timetable = req.get(f'{URL}o{i}.html') # get the timetable
-        timetable_html = bs(timetable.content, 'html.parser') # parse the timetable
+async def main() -> None:
+    tasks: list[asyncio.Task] = list() # list to store tasks
+    async with ClientSession() as session:
+        for i in range(1, 32):
+            tasks.append(asyncio.create_task(get_timetable(session, i))) # create tasks for each timetable
+        await asyncio.gather(*tasks)
+                
+async def get_timetable(session: ClientSession, i: int) -> None:
+    async with session.get(f'{URL}o{i}.html') as response: # get the timetable
+        timetable_html = bs(await response.text(), 'html.parser') # parse the timetable
         grade = timetable_html.find('span', class_ = 'tytulnapis').text.split(' ')[0] # get the grade
         print(grade) # print the grade so we know the progress
         row: Tag
@@ -97,7 +91,22 @@ def main() -> None:
                         put_data(*get_lesson_details(span), num_col, num_row, grade)
                     
 if __name__ == '__main__':
-    main()  # run the main
+    # Constants
+    URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/' # URL to the timetables
+    WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek'] 
+    PLANY: dict[str, dict[str, list[str]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
+    PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict() # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION) 
+                                                            # {grade: {day: {lesson: lesson_text}}}
+
+    with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
+        LESSONS: dict[str, str] = json.load(f) # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
+    with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:
+        TEACHERS: dict[str, str] = json.load(f) # Constant to replace corrupted teacher names {corrupted_teacher: teacher_name}
+    with open('./JSON/plain_text_solution.json', 'r', encoding='utf-8') as f:
+        PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f) # Constant to replace plain text lessons {pt_lesson: lesson_data}
+        
+    asyncio.run(main())  # run the main
+    
     with open('./JSON/plany.json', 'w', encoding='utf-8') as f:
         json.dump(PLANY, f, ensure_ascii=False, indent=4) # save the PLANY dictionary to the file
     with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:

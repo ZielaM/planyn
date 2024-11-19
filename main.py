@@ -39,7 +39,14 @@ def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_
         PLANY[lesson_teacher][WEEK[num_col]][num_row] = f'{grade} {lesson_title} {lesson_classroom}' 
     elif PLANY[lesson_teacher][WEEK[num_col]][num_row].split(' ')[1] == lesson_title \
         and PLANY[lesson_teacher][WEEK[num_col]][num_row].split(' ')[2] == lesson_classroom: # if the lesson is the same as the new one, just add the grade
-        PLANY[lesson_teacher][WEEK[num_col]][num_row] = f'{PLANY[lesson_teacher][WEEK[num_col]][num_row].split(' ')[0]},{grade} {lesson_title} {lesson_classroom}'
+        grades_list: list[str] = PLANY[lesson_teacher][WEEK[num_col]][num_row].split(' ')[0].split(',')
+        i: int = 0
+        while i < len(grades_list) and grades_list[i] < grade: # find the place where to put the grade
+            i += 1
+        grades_list.insert(i, grade) # insert the grade
+            
+        PLANY[lesson_teacher][WEEK[num_col]][num_row] = \
+            f'{','.join(grades_list)} {lesson_title} {lesson_classroom}'
     else:
         raise ValueError(f'Error: {PLANY[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
 

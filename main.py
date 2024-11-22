@@ -4,6 +4,16 @@ from aiohttp import ClientSession
 import asyncio
 import aiofiles
 import os
+
+async def save_timetable(teacher: str, timetable: dict[str, list[tuple[list[str], str, str]]]) -> None:
+    """Saves the timetable to the file
+
+    Args:
+        teacher (str): teacher initials
+        timetable (dict[str, dict[str, list[list[str]]]): timetable to save
+    """
+    async with aiofiles.open(f'./JSON/timetables/{teacher}.json', 'w', encoding='utf-8') as f:
+        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4)) # save the timetable to the file
     
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     """extracts lesson details from spans
@@ -48,25 +58,6 @@ def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_
         PLANY[lesson_teacher][WEEK[num_col]][num_row][0].insert(i, grade) # insert the grade
     else:
         raise ValueError(f'Error: {PLANY[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
-
-async def main() -> None:
-    # getting timetables
-    tasks: list[asyncio.Task] = list() # list to store tasks
-    async with ClientSession() as session:
-        for i in range(1, 32):
-            tasks.append(asyncio.create_task(get_timetable(session, i))) # create tasks for each timetable
-        await asyncio.gather(*tasks)
-        
-    # saving timetables
-    tasks: list[asyncio.Task] = list() # list to store tasks
-    if not os.path.exists('./JSON/timetables'): # if the folder doesn't exist, create it
-        os.makedirs('./JSON/timetables')
-    for teacher in PLANY:
-        tasks.append(asyncio.create_task(save_timetable(teacher, PLANY[teacher]))) # create tasks for each timetable
-    await asyncio.gather(*tasks)
-    
-    with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
-        json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True) # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
                 
 async def get_timetable(session: ClientSession, i: int) -> None:
     async with session.get(f'{URL}o{i}.html') as response: # get the timetable
@@ -107,16 +98,25 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                     it = iter(col_spans)
                     for span in zip(it, it, it):
                         put_data(*get_lesson_details(span), num_col, num_row, grade)
-                        
-async def save_timetable(teacher: str, timetable: dict[str, list[list[str]]]) -> None:
-    """Saves the timetable to the file
-
-    Args:
-        teacher (str): teacher initials
-        timetable (dict[str, dict[str, list[list[str]]]): timetable to save
-    """
-    async with aiofiles.open(f'./JSON/timetables/{teacher}.json', 'w', encoding='utf-8') as f:
-        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4)) # save the timetable to the file
+    
+async def main() -> None:
+    # getting timetables
+    tasks: list[asyncio.Task] = list() # list to store tasks
+    async with ClientSession() as session:
+        for i in range(1, 32):
+            tasks.append(asyncio.create_task(get_timetable(session, i))) # create tasks for each timetable
+        await asyncio.gather(*tasks)
+        
+    # saving timetables
+    tasks: list[asyncio.Task] = list() # list to store tasks
+    if not os.path.exists('./JSON/timetables'): # if the folder doesn't exist, create it
+        os.makedirs('./JSON/timetables')
+    for teacher in PLANY:
+        tasks.append(asyncio.create_task(save_timetable(teacher, PLANY[teacher]))) # create tasks for each timetable
+    await asyncio.gather(*tasks)
+    
+    with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
+        json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True) # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
                     
 if __name__ == '__main__':
     # Constants
@@ -125,7 +125,6 @@ if __name__ == '__main__':
     PLANY: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict() # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION) 
                                                             # {grade: {day: {lesson: lesson_text}}}
-
     with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
         LESSONS: dict[str, str] = json.load(f) # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
     with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:

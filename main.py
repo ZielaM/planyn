@@ -1,7 +1,6 @@
-import requests as req
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 import json
-from aiohttp import ClientResponse, ClientSession
+from aiohttp import ClientSession
 import asyncio
     
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:

@@ -5,14 +5,15 @@ import asyncio
 import aiofiles
 import os
 
-async def save_timetable(teacher: str, timetable: dict[str, list[tuple[list[str], str, str]]]) -> None:
+async def save_timetable(timetable_name: str, timetable, directory: str) -> None:
     """Saves the timetable to the file
 
     Args:
-        teacher (str): teacher initials
-        timetable (dict[str, dict[str, list[list[str]]]): timetable to save
+        timetable_name (str): timetable name
+        timetable (Any): timetable to save
+        directory (str): directory to save the timetable
     """
-    async with aiofiles.open(f'./JSON/timetables/{teacher}.json', 'w', encoding='utf-8') as f:
+    async with aiofiles.open(f'{directory}{timetable_name}.json', 'w', encoding='utf-8') as f:
         await f.write(json.dumps(timetable, ensure_ascii=False, indent=4)) # save the timetable to the file
     
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
@@ -30,8 +31,8 @@ def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     lesson_classroom: str = span[2].text 
     return lesson_title, lesson_teacher, lesson_classroom
 
-def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
-    """Puts lesson data into PLANY dictionary in aprioriate place
+def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+    """Puts lesson data into TEACHERS_TIMETABLES dictionary in aprioriate place
 
     Args:
         lesson_title (str): name of the lesson
@@ -42,22 +43,49 @@ def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_
         grade (str): just a grade
 
     Raises:
-        ValueError: if the lesson is already in the PLANY dictionary and it's not the same as the new one (except the grade)
+        ValueError: if the lesson is already in the TEACHERS_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
-    if lesson_teacher not in PLANY: # if teacher is not in the PLANY dictionary, add him
-        PLANY[lesson_teacher] = {day: [None for _ in range(11)] for day in WEEK} # add 11 lessons per day
-    if not PLANY[lesson_teacher][WEEK[num_col]][num_row]: # if the lesson is empty, put it there
-        PLANY[lesson_teacher][WEEK[num_col]][num_row] = ([grade], lesson_title, lesson_classroom)
-    elif PLANY[lesson_teacher][WEEK[num_col]][num_row][1] == lesson_title \
-        and PLANY[lesson_teacher][WEEK[num_col]][num_row][2] == lesson_classroom: # if the lesson is the same as the new one, just add the grade
-        # grades_list: list[str] = PLANY[lesson_teacher][WEEK[num_col]][num_row][0]
+    if lesson_teacher not in TEACHERS_TIMETABLES: # if teacher is not in the TEACHERS_TIMETABLES dictionary, add him
+        TEACHERS_TIMETABLES[lesson_teacher] = {day: [None for _ in range(11)] for day in WEEK} # add 11 lessons per day
+    if not TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row]: # if the lesson is empty, put it there
+        TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row] = ([grade], lesson_title, lesson_classroom)
+    elif TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][1] == lesson_title \
+        and TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][2] == lesson_classroom: # if the lesson is the same as the new one, just add the grade
         i: int = 0
-        while i < len(PLANY[lesson_teacher][WEEK[num_col]][num_row][0]) and \
-            PLANY[lesson_teacher][WEEK[num_col]][num_row][0][i] < grade: # find the place where to put the grade
+        while i < len(TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0]) and \
+            TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0][i] < grade: # find the place where to put the grade
             i += 1
-        PLANY[lesson_teacher][WEEK[num_col]][num_row][0].insert(i, grade) # insert the grade
+        TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0].insert(i, grade) # insert the grade
     else:
-        raise ValueError(f'Error: {PLANY[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
+        raise ValueError(f'Error: {TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
+    
+def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+    """Puts lesson data into CLASSROOMS_TIMETABLES dictionary in aprioriate place
+
+    Args:
+        lesson_title (str): name of the lesson
+        lesson_teacher (str): initials of the teacher
+        lesson_classroom (str): number of the classroom
+        num_col (int): day of a week
+        num_row (int): number of the lesson
+        grade (str): just a grade
+
+    Raises:
+        ValueError: if the lesson is already in the TEACHERS_TIMETABLES dictionary and it's not the same as the new one (except the grade)
+    """
+    if lesson_classroom not in CLASSROOMS_TIMETABLES: # if classroom is not in the CLASSROOMS_TIMETABLES dictionary, add it
+        CLASSROOMS_TIMETABLES[lesson_classroom] = {day: [None for _ in range(11)] for day in WEEK} # add 11 lessons per day
+    if not CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row]: # if the lesson is empty, put it there
+        CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row] = (lesson_teacher, [grade], lesson_title)
+    elif CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][2] == lesson_title \
+        and CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][0] == lesson_teacher: # if the lesson is the same as the new one, just add the grade
+        i: int = 0
+        while i < len(CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1]) and \
+            CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1][i] < grade: # find the place where to put the grade
+            i += 1
+        CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1].insert(i, grade) # insert the grade
+    else:
+        raise ValueError(f'Error: {CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row]} != {grade} {lesson_teacher} {lesson_title}') # if the lesson is different, raise an error
                 
 async def get_timetable(session: ClientSession, i: int) -> None:
     async with session.get(f'{URL}o{i}.html') as response: # get the timetable
@@ -83,21 +111,26 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                         raise ValueError(f'Error: {grade}/{WEEK[num_col]}/{num_row}: {col.text} not in PLAIN_TEXT_SOLUTION')
                     if PLAIN_TEXT_SOLUTION[col.text] is None: # if the plain text solution is None, skip it (I considered it an unnecessary data)
                         continue
-                    else: # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the PLANY dictionary
+                    else: # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the TEACHERS_TIMETABLES dictionary
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('/'): 
-                            put_data(*span.split(' '), num_col, num_row, grade)
+                            insert_data_to_teachers(*(w := span.split(' ')), num_col, num_row, grade)
+                            insert_data_to_classrooms(*w, num_col, num_row, grade)
                     
-                elif len(col_spans) == 3: # if there are 3 spans, put the data in the PLANY dictionary (the default case)
-                    put_data(*get_lesson_details(col_spans), num_col, num_row, grade)
-                elif len(col_spans) == 2: # if there are 2 spans, iterate over it and put the data in the PLANY dictionary (group lesson case)
+                elif len(col_spans) == 3: # if there are 3 spans, put the data in the TEACHERS_TIMETABLES dictionary (the default case)
+                    insert_data_to_teachers(*(w := get_lesson_details(col_spans)), num_col, num_row, grade)
+                    insert_data_to_classrooms(*w, num_col, num_row, grade)
+                elif len(col_spans) == 2: # if there are 2 spans, iterate over it and put the data in the TEACHERS_TIMETABLES dictionary (group lesson case)
                     for span in col_spans:
-                        put_data(*get_lesson_details(span.find_all('span')), num_col, num_row, grade)
+                        insert_data_to_teachers(*(w := get_lesson_details(span.find_all('span'))), num_col, num_row, grade)
+                        insert_data_to_classrooms(*w, num_col, num_row, grade)
                 elif len(col_spans) == 1: # if there is only one span, it's a group lesson with one group (half of the class case)
-                    put_data(*get_lesson_details(col_spans[0].find_all('span', recursive=False)), num_col, num_row, grade)
-                else: # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the PLANY dictionary (more than two groups case)
+                    insert_data_to_teachers(*(w := get_lesson_details(col_spans[0].find_all('span', recursive=False))), num_col, num_row, grade)
+                    insert_data_to_classrooms(*w, num_col, num_row, grade)
+                else: # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the TEACHERS_TIMETABLES dictionary (more than two groups case)
                     it = iter(col_spans)
                     for span in zip(it, it, it):
-                        put_data(*get_lesson_details(span), num_col, num_row, grade)
+                        insert_data_to_teachers(*(w := get_lesson_details(span)), num_col, num_row, grade)
+                        insert_data_to_classrooms(*w, num_col, num_row, grade)
     
 async def main() -> None:
     # getting timetables
@@ -107,12 +140,22 @@ async def main() -> None:
             tasks.append(asyncio.create_task(get_timetable(session, i))) # create tasks for each timetable
         await asyncio.gather(*tasks)
         
-    # saving timetables
+    # saving teachers' timetables
     tasks: list[asyncio.Task] = list() # list to store tasks
-    if not os.path.exists('./JSON/timetables'): # if the folder doesn't exist, create it
-        os.makedirs('./JSON/timetables')
-    for teacher in PLANY:
-        tasks.append(asyncio.create_task(save_timetable(teacher, PLANY[teacher]))) # create tasks for each timetable
+    path = './JSON/timetables/teachers/'
+    if not os.path.exists(path): # if the folder doesn't exist, create it
+        os.makedirs(path)
+    for classroom in TEACHERS_TIMETABLES:
+        tasks.append(asyncio.create_task(save_timetable(classroom, TEACHERS_TIMETABLES[classroom], path))) # create tasks for each timetable
+    await asyncio.gather(*tasks)
+    
+    # saving classrooms' timetables
+    tasks: list[asyncio.Task] = list() # list to store tasks
+    path = './JSON/timetables/classrooms/'
+    if not os.path.exists(path): # if the folder doesn't exist, create it
+        os.makedirs(path)
+    for classroom in CLASSROOMS_TIMETABLES:
+        tasks.append(asyncio.create_task(save_timetable(classroom, CLASSROOMS_TIMETABLES[classroom], path))) # create tasks for each timetable
     await asyncio.gather(*tasks)
     
     with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
@@ -122,7 +165,8 @@ if __name__ == '__main__':
     # Constants
     URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/' # URL to the timetables
     WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek'] 
-    PLANY: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
+    TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
+    CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict() # Constant to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict() # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION) 
                                                             # {grade: {day: {lesson: lesson_text}}}
     with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:

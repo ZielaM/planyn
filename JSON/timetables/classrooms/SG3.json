@@ -1,0 +1,79 @@
+{
+    "poniedzialek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "wtorek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "środa": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "czwartek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "MT",
+            [
+                "5C"
+            ],
+            "Wychowaniefizyczne"
+        ],
+        null,
+        null
+    ],
+    "piątek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "WZ",
+            [
+                "2G"
+            ],
+            "Zajęciazwychowawcą"
+        ],
+        null,
+        null,
+        null
+    ]
+}

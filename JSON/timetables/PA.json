@@ -7,17 +7,23 @@
         null,
         null,
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językpolski",
             "28"
         ],
@@ -27,32 +33,44 @@
     "wtorek": [
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językpolski",
             "28"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językpolski",
             "28"
         ],
@@ -64,37 +82,51 @@
     "środa": [
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językpolski",
             "23"
         ],
@@ -106,12 +138,16 @@
         null,
         null,
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Językpolski",
             "18"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Językpolski",
             "18"
         ],
@@ -126,39 +162,53 @@
     "piątek": [
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językpolski",
             "28"
         ],
         null,
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Zajęciazwychowawcą",
             "Piwnica"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Językpolski",
             "23"
         ],
         null,
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Językpolski",
             "23"
         ],

@@ -2,28 +2,38 @@
     "poniedzialek": [
         null,
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Językniemiecki",
             "31"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Językniemiecki",
             "31"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językniemiecki",
             "36"
         ],
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językniemiecki",
             "44"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językniemiecki",
             "44"
         ],
@@ -35,37 +45,51 @@
     "wtorek": [
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Językniemiecki",
             "62"
         ],
@@ -80,18 +104,24 @@
         null,
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Językniemiecki",
             "33"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językniemiecki",
             "33"
         ],
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językniemiecki",
             "33"
         ],
@@ -106,27 +136,49 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językniemiecki",
             "27"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Językniemiecki",
             "27"
         ],
         [
-            "4A,4B,4C,4D,4E",
+            [
+                "4A",
+                "4B",
+                "4C",
+                "4D",
+                "4E"
+            ],
             "Językniemiecki",
             "27"
         ],
         [
-            "2A,2B,2C,2D,2E",
+            [
+                "2A",
+                "2B",
+                "2C",
+                "2D",
+                "2E"
+            ],
             "JęzykNiemieckiDSDIPro",
             "23"
         ],
         [
-            "2A,2B,2C,2D,2E",
+            [
+                "2A",
+                "2B",
+                "2C",
+                "2D",
+                "2E"
+            ],
             "JęzykniemieckiDSDIPro",
             "23"
         ]
@@ -138,27 +190,45 @@
         null,
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Językniemiecki",
             "62"
         ],
         [
-            "2A,2B,2C,2D,2E",
+            [
+                "2A",
+                "2B",
+                "2C",
+                "2D",
+                "2E"
+            ],
             "JęzykNiemieckiDSDIPro",
             "62"
         ],
         [
-            "2A,2B,2C,2D,2E",
+            [
+                "2A",
+                "2B",
+                "2C",
+                "2D",
+                "2E"
+            ],
             "JęzykNiemieckiDSDIPro",
             "62"
         ],

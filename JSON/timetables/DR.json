@@ -4,29 +4,39 @@
         null,
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         null,
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Zajęciazwychowawcą",
             "44"
         ],
@@ -35,37 +45,51 @@
     "wtorek": [
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Projektowanieoprogramowania",
             "57"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Systemyoperacyjne",
             "27"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Systemyoperacyjne",
             "27"
         ],
@@ -77,33 +101,45 @@
         null,
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Systemyoperacyjne",
             "B101"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Systemyoperacyjne",
             "B101"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Systemyoperacyjne",
             "B101"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Systemyoperacyjne",
             "B101"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Projektowanieoprogramowania",
             "B101"
         ],
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Systemyoperacyjne",
             "B101"
         ],
@@ -112,43 +148,59 @@
     ],
     "czwartek": [
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Systemyoperacyjne",
             "42"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Systemyoperacyjne",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Systemyoperacyjne",
             "42"
         ],
         null,
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Systemyoperacyjne",
             "34"
         ],
@@ -157,22 +209,30 @@
     ],
     "piątek": [
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasystemówoperacyjnych",
             "56"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Systemyoperacyjne",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],

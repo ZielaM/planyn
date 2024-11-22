@@ -1,48 +1,66 @@
 {
     "poniedzialek": [
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Zajęciazwychowawcą",
             "36"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Elektrotechnikaielektronika",
             "36"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Elektrotechnikaielektronika",
             "36"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Układyanalogowe",
             "47"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Urządzeniaiinstalacjeelektroniczne",
             "B109"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Urządzeniaiinstalacjeelektroniczne",
             "B109"
         ],
@@ -50,42 +68,58 @@
     ],
     "wtorek": [
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
@@ -99,17 +133,23 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Układyanalogowe",
             "46"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Elektrotechnikaielektronika",
             "46"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Elektrotechnikaielektronika",
             "46"
         ],
@@ -120,44 +160,60 @@
     ],
     "czwartek": [
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Układyanalogowe",
             "32"
         ],
         null,
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "17"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Eksploatacjaurządzeńelektronicznych",
             "26"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
@@ -165,37 +221,51 @@
     ],
     "piątek": [
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Pracowniaelektrycznaielektroniczna",
             "47"
         ],

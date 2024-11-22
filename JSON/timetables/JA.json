@@ -27,37 +27,51 @@
     ],
     "środa": [
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Informatyka",
             "50"
         ],
@@ -82,17 +96,23 @@
     "piątek": [
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Informatyka",
             "41"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Informatyka",
             "41"
         ],

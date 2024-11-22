@@ -9,12 +9,16 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Geografia",
             "36"
         ],
@@ -22,47 +26,65 @@
     ],
     "wtorek": [
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Geografia",
             "36"
         ],
@@ -74,32 +96,44 @@
         null,
         null,
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Geografia",
             "B102"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Geografia",
             "B102"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Geografia",
             "B102"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Geografia",
             "B102"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Geografia",
             "B102"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Geografia",
             "B102"
         ],
@@ -108,52 +142,72 @@
     ],
     "czwartek": [
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Zajęciazwychowawcą",
             "36"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Geografia",
             "36"
         ],
@@ -166,17 +220,23 @@
         null,
         null,
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Geografia",
             "36"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Geografia",
             "36"
         ],

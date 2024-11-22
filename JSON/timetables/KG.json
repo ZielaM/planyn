@@ -8,12 +8,16 @@
         null,
         null,
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Przygotowaniepraktycznedozawodumaszynisty",
             "30"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Przygotowaniepraktycznedozawodumaszynisty",
             "30"
         ],
@@ -61,32 +65,44 @@
     ],
     "piątek": [
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
             "@"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
             "@"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
             "@"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
             "@"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Przygotowaniepraktycznedozawodumaszynisty",
             "@"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Przygotowaniepraktycznedozawodumaszynisty",
             "@"
         ],

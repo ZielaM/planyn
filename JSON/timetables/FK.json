@@ -1,37 +1,51 @@
 {
     "poniedzialek": [
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
@@ -43,43 +57,59 @@
     "wtorek": [
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Systemybazdanych",
             "44"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Systemybazdanych",
             "44"
         ],
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Bazydanych",
             "44"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
@@ -88,34 +118,46 @@
     "środa": [
         null,
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Bazydanych",
             "B107"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniabazdanych",
             "B203"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniabazdanych",
             "B203"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Bazydanych",
             "B107"
         ],
         null,
         null,
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Bazydanych",
             "B107"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Bazydanych",
             "B107"
         ],
@@ -126,38 +168,52 @@
         null,
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Systemybazdanych",
             "34"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
@@ -165,47 +221,65 @@
     ],
     "piątek": [
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Bazydanych",
             "57"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Pracowniabazdanych",
             "40"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Pracowniabazdanych",
             "40"
         ],

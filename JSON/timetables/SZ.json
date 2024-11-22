@@ -4,29 +4,39 @@
         null,
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Systemykomputerowe",
             "22"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Urządzeniatechnikikomputerowej",
             "48"
         ],
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Urządzeniatechnikikomputerowej",
             "B108"
         ],
         null,
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Urządzeniatechnikikomputerowej",
             "B108"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Urządzeniatechnikikomputerowej",
             "B108"
         ],
@@ -35,43 +45,59 @@
     "wtorek": [
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Urządzeniatechnikikomputerowej",
             "18"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
@@ -92,52 +118,72 @@
     ],
     "czwartek": [
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Urządzeniatechnikikomputerowej",
             "33"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
@@ -145,33 +191,45 @@
     ],
     "piątek": [
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Urządzeniatechnikikomputerowej",
             "28"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Systemykomputerowe",
             "42"
         ],
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Zajęciazwychowawcą",
             "SwF"
         ],

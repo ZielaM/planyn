@@ -2,42 +2,58 @@
     "poniedzialek": [
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Matematyka",
             "16"
         ],
@@ -47,28 +63,38 @@
     "wtorek": [
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Matematyka",
             "16"
         ],
         null,
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Matematyka",
             "16"
         ],
@@ -79,47 +105,65 @@
     ],
     "środa": [
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Matematyka",
             "16"
         ],
@@ -129,37 +173,51 @@
     "czwartek": [
         null,
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Zajęciazwychowawcą",
             "16"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Matematyka",
             "16"
         ],
@@ -170,17 +228,23 @@
     "piątek": [
         null,
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Matematyka",
             "16"
         ],

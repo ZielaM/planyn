@@ -1,48 +1,66 @@
 {
     "poniedzialek": [
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniawitryninternetowych",
             "B204"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Tworzenieaplikacjiinternetowych",
             "B101"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Tworzenieaplikacjiinternetowych",
             "B101"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Witrynyiaplikacjeinternetowe",
             "B101"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniaaplikacjiinternetowych",
             "B204"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniaaplikacjiinternetowych",
             "B204"
         ],
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniawitryninternetowych",
             "B204"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Projektowaniewitryninternetowych",
             "B107"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Projektowaniewitryninternetowych",
             "B107"
         ],
@@ -77,38 +95,52 @@
     "czwartek": [
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniaaplikacjiinternetowych",
             "56"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Pracowniaaplikacjiinternetowych",
             "56"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniawitryninternetowych",
             "56"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniawitryninternetowych",
             "56"
         ],
         null,
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Witrynyiaplikacjeinternetowe",
             "33"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Pracowniawitryninternetowych",
             "56"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Pracowniawitryninternetowych",
             "56"
         ],

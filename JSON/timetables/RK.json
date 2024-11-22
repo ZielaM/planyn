@@ -2,42 +2,58 @@
     "poniedzialek": [
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
@@ -46,22 +62,30 @@
     ],
     "wtorek": [
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
@@ -76,37 +100,51 @@
     "środa": [
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Informatyka",
             "42"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Informatyka",
             "42"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Informatyka",
             "42"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Informatyka",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Siecikomputerowe",
             "44"
         ],
@@ -129,47 +167,65 @@
     ],
     "piątek": [
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Siecikomputerowe",
             "44"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Pracowniasiecikomputerowych",
             "42"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Zajęciazwychowawcą",
             "42"
         ],

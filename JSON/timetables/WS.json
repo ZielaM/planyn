@@ -1,32 +1,44 @@
 {
     "poniedzialek": [
         [
-            "2E",
+            [
+                "2E"
+            ],
             "HistoriaD_DW",
             "37"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "HistoriaD_DW",
             "37"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "HistoriaD_DW",
             "37"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "HistoriaD_DW",
             "37"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "HistoriaD_DW",
             "37"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Zajęciazwychowawcą",
             "37"
         ],
@@ -40,23 +52,31 @@
         null,
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "HistoriaD_DW",
             "33"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "HiT",
             "33"
         ],
         null,
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Historia",
             "48"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "HistoriaD_DW",
             "48"
         ],
@@ -69,22 +89,30 @@
         null,
         null,
         [
-            "2C",
+            [
+                "2C"
+            ],
             "HiT_DW",
             "B103"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Historia",
             "B103"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Historia",
             "B103"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "WiedzaospołeczeństwieD_DW",
             "B103"
         ],
@@ -97,28 +125,38 @@
     "czwartek": [
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "HiT_DW",
             "B103"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Historia",
             "B103"
         ],
         null,
         [
-            "3D",
+            [
+                "3D"
+            ],
             "HistoriaD_DW",
             "B103"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Historia",
             "B103"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Historia",
             "B103"
         ],
@@ -131,37 +169,51 @@
         null,
         null,
         [
-            "3B",
+            [
+                "3B"
+            ],
             "HiT_DW",
             "36"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "HistoriaD_DW",
             "28"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "WiedzaospołeczeństwieD_DW",
             "28"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "HistoriaD_DW",
             "28"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "HiT_DW",
             "28"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "WiedzaospołeczeństwieD_DW",
             "28"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "HistoriaD_DW",
             "28"
         ],

@@ -2,37 +2,51 @@
     "poniedzialek": [
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Chemia",
             "B109"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Chemia",
             "B109"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Chemia",
             "B109"
         ],
@@ -45,37 +59,51 @@
         null,
         null,
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Chemia",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "MatematykaDodatkowa",
             "26"
         ],
@@ -84,43 +112,59 @@
     "środa": [
         null,
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Chemia",
             "B109"
         ],
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Chemia",
             "B109"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Zajęciazwychowawcą",
             "B109"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Matematyka",
             "B109"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "MatematykaDodatkowa",
             "B109"
         ],
@@ -129,32 +173,44 @@
     "czwartek": [
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Chemia",
             "26"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Chemia",
             "26"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Chemia",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Matematyka",
             "26"
         ],
@@ -167,22 +223,30 @@
         null,
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Chemia",
             "26"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Matematyka",
             "26"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Matematyka",
             "26"
         ],

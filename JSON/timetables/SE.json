@@ -2,42 +2,58 @@
     "poniedzialek": [
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Matematyka",
             "B202"
         ],
@@ -46,43 +62,59 @@
     ],
     "wtorek": [
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Matematyka",
             "17"
         ],
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Matematyka",
             "17"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Matematyka",
             "17"
         ],
@@ -91,42 +123,58 @@
     ],
     "środa": [
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Informatyka",
             "B204"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Zajęciazwychowawcą",
             "B202"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Informatyka",
             "B204"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Informatyka",
             "B204"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Informatyka",
             "B204"
         ],
@@ -150,43 +198,59 @@
     "piątek": [
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Matematyka",
             "B202"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Matematyka",
             "B202"
         ],
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Matematyka",
             "16"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Matematyka",
             "16"
         ],

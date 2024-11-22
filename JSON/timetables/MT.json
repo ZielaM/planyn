@@ -7,64 +7,88 @@
         null,
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ]
     ],
     "wtorek": [
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Zajęciazwychowawcą",
             "31"
         ],
@@ -78,27 +102,37 @@
         null,
         null,
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
@@ -116,17 +150,23 @@
         null,
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Wychowaniefizyczne",
             "SG3"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Wychowaniefizyczne",
             "SG1"
         ]
@@ -136,17 +176,23 @@
         null,
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Wychowaniefizyczne",
             "SG2"
         ],

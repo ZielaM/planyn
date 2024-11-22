@@ -4,27 +4,37 @@
         null,
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Pracowniaprogramowania",
             "43"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Informatyka",
             "41"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Pracowniatestowaniaidokumentowaniaaplikacji",
             "41"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Programowanie",
             "27"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Pracowniatestowaniaidokumentowaniaaplikacji",
             "40"
         ],
@@ -35,43 +45,59 @@
     "wtorek": [
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Informatyka",
             "41"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Programowanie",
             "44"
         ],
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniaprogramowania",
             "41"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniaprogramowania",
             "41"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Pracowniaprogramowania",
             "41"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Programowanie",
             "16"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniaprogramowania",
             "41"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniaprogramowania",
             "41"
         ],
@@ -81,86 +107,118 @@
         null,
         null,
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Testowanieidokumentowanieaplikacji",
             "27"
         ],
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Programowanie",
             "28"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Testowanieidokumentowanieaplikacji",
             "28"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Testowanieidokumentowanieaplikacji",
             "28"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Pracowniaprogramowania",
             "50"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Pracowniaprogramowania",
             "50"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Informatyka",
             "50"
         ]
     ],
     "czwartek": [
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniaprogramowania",
             "51"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Pracowniaprogramowania",
             "51"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Programowanie",
             "34"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniaprogramowania",
             "51"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Testowanieidokumentowanieaplikacji",
             "SwF"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Pracowniaprogramowania",
             "42"
         ],
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Pracowniaprogramowania",
             "50"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Programowanie",
             "17"
         ],
@@ -170,37 +228,51 @@
     "piątek": [
         null,
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Pracowniatestowaniaidokumentowaniaaplikacji",
             "57"
         ],
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Pracowniatestowaniaidokumentowaniaaplikacji",
             "57"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Informatyka",
             "57"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Informatyka",
             "40"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Informatyka",
             "57"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Informatyka",
             "41"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Programowanie",
             "57"
         ],

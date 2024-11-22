@@ -5,27 +5,37 @@
         null,
         null,
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Organizacjaprzewozówkolejowych",
             "31"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Eksploatacjahandlowakolei",
             "31"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Organizacjaprzewozówkolejowych",
             "31"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Odprawapociągównastacji",
             "33"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Podstawyruchukolejowego",
             "33"
         ],
@@ -36,18 +46,24 @@
         null,
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Podstawyruchukolejowego",
             "38"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Eksploatacjahandlowakolei",
             "38"
         ],
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Odprawapociągównastacji",
             "38"
         ],

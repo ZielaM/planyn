@@ -2,39 +2,53 @@
     "poniedzialek": [
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Działalnośćgospodarcza",
             "26"
         ],
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Biznesizarządzanie",
             "26"
         ],
@@ -49,7 +63,9 @@
         null,
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Biznesizarządzanie",
             "22"
         ],
@@ -63,32 +79,44 @@
         null,
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Działalnośćgospodarcza",
             "B108"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Biznesizarządzanie",
             "B107"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Biznesizarządzanie",
             "B108"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Biznesizarządzanie",
             "B101"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Biznesizarządzanie",
             "B108"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Biznesizarządzanie",
             "B108"
         ],
@@ -100,18 +128,24 @@
         null,
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Działalnośćgospodarcza",
             "23"
         ],
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Biznesizarządzanie",
             "23"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Biznesizarządzanie",
             "23"
         ],
@@ -125,12 +159,16 @@
         null,
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Biznesizarządzanie",
             "B101"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Biznesizarządzanie",
             "B101"
         ],

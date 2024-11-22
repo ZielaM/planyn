@@ -37,17 +37,15 @@ def put_data(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_
     if lesson_teacher not in PLANY: # if teacher is not in the PLANY dictionary, add him
         PLANY[lesson_teacher] = {day: [None for _ in range(11)] for day in WEEK} # add 11 lessons per day
     if not PLANY[lesson_teacher][WEEK[num_col]][num_row]: # if the lesson is empty, put it there
-        PLANY[lesson_teacher][WEEK[num_col]][num_row] = [grade, lesson_title, lesson_classroom]
+        PLANY[lesson_teacher][WEEK[num_col]][num_row] = ([grade], lesson_title, lesson_classroom)
     elif PLANY[lesson_teacher][WEEK[num_col]][num_row][1] == lesson_title \
         and PLANY[lesson_teacher][WEEK[num_col]][num_row][2] == lesson_classroom: # if the lesson is the same as the new one, just add the grade
-        grades_list: list[str] = PLANY[lesson_teacher][WEEK[num_col]][num_row][0].split(',')
+        # grades_list: list[str] = PLANY[lesson_teacher][WEEK[num_col]][num_row][0]
         i: int = 0
-        while i < len(grades_list) and grades_list[i] < grade: # find the place where to put the grade
+        while i < len(PLANY[lesson_teacher][WEEK[num_col]][num_row][0]) and \
+            PLANY[lesson_teacher][WEEK[num_col]][num_row][0][i] < grade: # find the place where to put the grade
             i += 1
-        grades_list.insert(i, grade) # insert the grade
-            
-        PLANY[lesson_teacher][WEEK[num_col]][num_row] = \
-            [','.join(grades_list), lesson_title, lesson_classroom]
+        PLANY[lesson_teacher][WEEK[num_col]][num_row][0].insert(i, grade) # insert the grade
     else:
         raise ValueError(f'Error: {PLANY[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}') # if the lesson is different, raise an error
 
@@ -124,7 +122,7 @@ if __name__ == '__main__':
     # Constants
     URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/' # URL to the timetables
     WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek'] 
-    PLANY: dict[str, dict[str, list[list[str]]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
+    PLANY: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict() # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict() # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION) 
                                                             # {grade: {day: {lesson: lesson_text}}}
 
@@ -136,7 +134,4 @@ if __name__ == '__main__':
         PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f) # Constant to replace plain text lessons {pt_lesson: lesson_data}
         
     asyncio.run(main())  # run the main
-    
-    # PLANY = {i : PLANY[i] for i in sorted(PLANY.keys())} # sort the teachers
-    
     

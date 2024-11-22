@@ -16,12 +16,16 @@
         null,
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Sieciipodstacjetrakcyjne",
             "48"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Sieciipodstacjetrakcyjne",
             "48"
         ],
@@ -36,37 +40,51 @@
     "środa": [
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Pracowniamontażuiutrzymaniasiecizasilających",
             "48"
         ],
@@ -79,22 +97,30 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Sieciipodstacjetrakcyjne",
             "47"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Sieciipodstacjetrakcyjne",
             "47"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Sieciipodstacjetrakcyjne",
             "47"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Sieciipodstacjetrakcyjne",
             "47"
         ],

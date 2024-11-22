@@ -4,32 +4,44 @@
         null,
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Organizacjatransportukolejowego",
             "21"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Organizacjatransportukolejowego",
             "21"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Pracowniaurządzeńtechnikikomputerowej",
             "61"
         ],
@@ -42,7 +54,9 @@
         null,
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Infrastrukturakolejowa",
             "37"
         ],
@@ -87,12 +101,16 @@
         null,
         null,
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Rysunektechniczny",
             "44"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Rysunektechniczny",
             "44"
         ],

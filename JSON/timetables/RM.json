@@ -2,12 +2,20 @@
     "poniedzialek": [
         null,
         [
-            "4D,4E,4F",
+            [
+                "4D",
+                "4E",
+                "4F"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "4D,4E,4F",
+            [
+                "4D",
+                "4E",
+                "4F"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
@@ -23,43 +31,59 @@
     "wtorek": [
         null,
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Językniemiecki",
             "21"
         ],
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Zajęciazwychowawcą",
             "21"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Językniemiecki",
             "21"
         ],
@@ -67,44 +91,70 @@
     ],
     "środa": [
         [
-            "4D,4E,4F",
+            [
+                "4D",
+                "4E",
+                "4F"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "4D,4E,4F",
+            [
+                "4D",
+                "4E",
+                "4F"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Językniemiecki",
             "21"
         ],
         null,
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "1A,1B,1C,1D",
+            [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "1A,1B,1C,1D",
+            [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
@@ -116,77 +166,121 @@
         null,
         null,
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językniemiecki",
             "21"
         ],
         null,
         [
-            "4D,4E,4F",
+            [
+                "4D",
+                "4E",
+                "4F"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "3A,3B,3C",
+            [
+                "3A",
+                "3B",
+                "3C"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "3A,3B,3C",
+            [
+                "3A",
+                "3B",
+                "3C"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ]
     ],
     "piątek": [
         [
-            "1A,1B,1C,1D",
+            [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "1A,1B,1C,1D",
+            [
+                "1A",
+                "1B",
+                "1C",
+                "1D"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Językniemiecki",
             "21"
         ],
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Językniemiecki",
             "21"
         ],
         null,
         [
-            "3A,3B,3C",
+            [
+                "3A",
+                "3B",
+                "3C"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],
         [
-            "3A,3B,3C",
+            [
+                "3A",
+                "3B",
+                "3C"
+            ],
             "JęzykniemieckiDSDIPro",
             "21"
         ],

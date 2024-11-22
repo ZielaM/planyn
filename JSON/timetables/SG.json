@@ -3,22 +3,30 @@
         null,
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Zajęciazwychowawcą",
             "B205"
         ],
@@ -31,37 +39,51 @@
     "wtorek": [
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językpolski",
             "33"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Językpolski",
             "37"
         ],
@@ -73,27 +95,37 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Językpolski",
             "36"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językpolski",
             "36"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Językpolski",
             "36"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Językpolski",
             "36"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językpolski",
             "36"
         ],
@@ -107,32 +139,44 @@
         null,
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Językpolski",
             "B205"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Językpolski",
             "B205"
         ],
@@ -143,28 +187,38 @@
         null,
         null,
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Językpolski",
             "34"
         ],
         [
-            "5D",
+            [
+                "5D"
+            ],
             "Językpolski",
             "34"
         ],
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Językpolski",
             "23"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językpolski",
             "26"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językpolski",
             "26"
         ],

@@ -2,32 +2,47 @@
     "poniedzialek": [
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5A,5B",
+            [
+                "5A",
+                "5B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5A,5B",
+            [
+                "5A",
+                "5B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielskizawodowy",
             "36"
         ],
@@ -40,17 +55,24 @@
         null,
         null,
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5A,5B",
+            [
+                "5A",
+                "5B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielski",
             "30"
         ],
@@ -63,38 +85,58 @@
     ],
     "środa": [
         [
-            "2G,2H",
+            [
+                "2G",
+                "2H"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "2G,2H",
+            [
+                "2G",
+                "2H"
+            ],
             "Językangielski",
             "30"
         ],
         null,
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Językangielskizawodowy",
             "31"
         ],
         [
-            "5F,5G",
+            [
+                "5F",
+                "5G"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5F,5G",
+            [
+                "5F",
+                "5G"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "3E,3F",
+            [
+                "3E",
+                "3F"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "3E,3F",
+            [
+                "3E",
+                "3F"
+            ],
             "Językangielski",
             "30"
         ],
@@ -109,17 +151,26 @@
         null,
         null,
         [
-            "5F,5G",
+            [
+                "5F",
+                "5G"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4A,4C",
+            [
+                "4A",
+                "4C"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4A,4C",
+            [
+                "4A",
+                "4C"
+            ],
             "Językangielski",
             "30"
         ],
@@ -129,52 +180,83 @@
     ],
     "piątek": [
         [
-            "2D,2F",
+            [
+                "2D",
+                "2F"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "2D,2F",
+            [
+                "2D",
+                "2F"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "3A,3C",
+            [
+                "3A",
+                "3C"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "3A,3C",
+            [
+                "3A",
+                "3C"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "4A,4C",
+            [
+                "4A",
+                "4C"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "1A,1C,1D",
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
             "Językangielski",
             "30"
         ],
         [
-            "1A,1C,1D",
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
             "Językangielski",
             "30"
         ],

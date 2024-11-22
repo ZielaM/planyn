@@ -2,23 +2,32 @@
     "poniedzialek": [
         null,
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językniemiecki",
             "33"
         ],
         [
-            "4D,4E",
+            [
+                "4D",
+                "4E"
+            ],
             "Językniemiecki",
             "33"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Językniemiecki",
             "38"
         ],
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Językniemiecki",
             "36"
         ],
@@ -33,12 +42,16 @@
         null,
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językniemiecki",
             "17"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Językniemiecki",
             "16"
         ],
@@ -56,7 +69,9 @@
         null,
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Językniemiecki",
             "34"
         ],
@@ -71,24 +86,33 @@
         null,
         null,
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językniemiecki",
             "21"
         ],
         [
-            "5F",
+            [
+                "5F"
+            ],
             "Językniemiecki",
             "18"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językniemiecki",
             "17"
         ],
         null,
         null,
         [
-            "4B,4C",
+            [
+                "4B",
+                "4C"
+            ],
             "Językniemiecki",
             "23"
         ],
@@ -103,12 +127,16 @@
         null,
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Językniemiecki",
             "20"
         ],
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Językniemiecki",
             "23"
         ],

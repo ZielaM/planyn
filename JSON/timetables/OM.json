@@ -2,17 +2,26 @@
     "poniedzialek": [
         null,
         [
-            "5E",
+            [
+                "5E"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "4C,4D,4E,4F",
+            [
+                "4C",
+                "4D",
+                "4E",
+                "4F"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językhiszpański",
             "21"
         ],
@@ -27,43 +36,59 @@
     "wtorek": [
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językhiszpański",
             "26"
         ],
         [
-            "5B",
+            [
+                "5B"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językhiszpański",
             "41"
         ],
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Językhiszpański",
             "20"
         ],
@@ -72,28 +97,38 @@
     "środa": [
         null,
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językhiszpański",
             "26"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Językhiszpański",
             "26"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Językhiszpański",
             "21"
         ],
         null,
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Językhiszpański",
             "18"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Językhiszpański",
             "22"
         ],
@@ -106,33 +141,49 @@
         null,
         null,
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Językhiszpański",
             "21"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Językhiszpański",
             "58"
         ],
         [
-            "5C",
+            [
+                "5C"
+            ],
             "Językhiszpański",
             "38"
         ],
         [
-            "5A",
+            [
+                "5A"
+            ],
             "Językhiszpański",
             "23"
         ],
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Językhiszpański",
             "21"
         ],
         [
-            "4A,4B,4C,4D,4E",
+            [
+                "4A",
+                "4B",
+                "4C",
+                "4D",
+                "4E"
+            ],
             "Językhiszpański",
             "16"
         ],
@@ -143,37 +194,52 @@
         null,
         null,
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Językhiszpański",
             "33"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Językhiszpański",
             "20"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Językhiszpański",
             "58"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językhiszpański",
             "SwF"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Językhiszpański",
             "Piwnica"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Językhiszpański",
             "34"
         ],
         [
-            "4A,4B",
+            [
+                "4A",
+                "4B"
+            ],
             "Językhiszpański",
             "26"
         ],

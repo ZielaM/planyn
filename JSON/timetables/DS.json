@@ -1,44 +1,60 @@
 {
     "poniedzialek": [
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Informatyka",
             "50"
         ],
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Matematyka",
             "36"
         ],
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Informatyka",
             "41"
         ],
@@ -50,27 +66,37 @@
         null,
         null,
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Matematyka",
             "33"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Informatyka3F",
             "50"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Informatyka",
             "50"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Informatyka",
             "50"
         ],
@@ -79,44 +105,60 @@
     ],
     "środa": [
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Matematyka",
             "B108"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Matematyka",
             "B108"
         ],
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Informatyka",
             "B203"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Informatyka",
             "B203"
         ],
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Informatyka",
             "B203"
         ],
@@ -125,18 +167,24 @@
     "czwartek": [
         null,
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Informatyka",
             "57"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Informatyka",
             "57"
         ],
         null,
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Informatyka3F",
             "43"
         ],

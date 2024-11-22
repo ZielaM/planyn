@@ -4,7 +4,10 @@
         null,
         null,
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "31"
         ],
@@ -12,12 +15,16 @@
         null,
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językangielski",
             "31"
         ],
@@ -28,22 +35,30 @@
         null,
         null,
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Językangielskizawodowy",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Zajęciazwychowawcą",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
@@ -59,28 +74,40 @@
         null,
         null,
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "3E,3F",
+            [
+                "3E",
+                "3F"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "3E,3F",
+            [
+                "3E",
+                "3F"
+            ],
             "Językangielski",
             "31"
         ],
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językangielski",
             "31"
         ],
@@ -88,28 +115,40 @@
     ],
     "czwartek": [
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         null,
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "2A,2B",
+            [
+                "2A",
+                "2B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "2A,2B",
+            [
+                "2A",
+                "2B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
@@ -121,52 +160,82 @@
     ],
     "piątek": [
         [
-            "2D,2F",
+            [
+                "2D",
+                "2F"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "2D,2F",
+            [
+                "2D",
+                "2F"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "3A,3C",
+            [
+                "3A",
+                "3C"
+            ],
             "Językangielski",
             "36"
         ],
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "5D,5E",
+            [
+                "5D",
+                "5E"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "3A,3C",
+            [
+                "3A",
+                "3C"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1A,1C,1D",
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
             "Językangielski",
             "31"
         ],
         [
-            "1A,1C,1D",
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
             "Językangielski",
             "31"
         ],

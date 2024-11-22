@@ -3,32 +3,44 @@
         null,
         null,
         [
-            "3A",
+            [
+                "3A"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "3F",
+            [
+                "3F"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "4A",
+            [
+                "4A"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "1A",
+            [
+                "1A"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "2D",
+            [
+                "2D"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "1B",
+            [
+                "1B"
+            ],
             "Biologia",
             "B107"
         ],
@@ -39,28 +51,38 @@
     "wtorek": [
         null,
         [
-            "2A",
+            [
+                "2A"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "3D",
+            [
+                "3D"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "4B",
+            [
+                "4B"
+            ],
             "Biologia",
             "37"
         ],
         null,
         [
-            "2B",
+            [
+                "2B"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "2G",
+            [
+                "2G"
+            ],
             "Biologia",
             "37"
         ],
@@ -73,27 +95,37 @@
         null,
         null,
         [
-            "2H",
+            [
+                "2H"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "3B",
+            [
+                "3B"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Zajęciazwychowawcą",
             "37"
         ],
         [
-            "3C",
+            [
+                "3C"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "4E",
+            [
+                "4E"
+            ],
             "Biologia",
             "37"
         ],
@@ -106,23 +138,31 @@
         null,
         null,
         [
-            "2E",
+            [
+                "2E"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "1C",
+            [
+                "1C"
+            ],
             "Biologia",
             "B107"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Biologia",
             "B107"
         ],
         null,
         [
-            "1D",
+            [
+                "1D"
+            ],
             "Biologia",
             "B107"
         ],
@@ -135,28 +175,38 @@
         null,
         null,
         [
-            "2F",
+            [
+                "2F"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "2C",
+            [
+                "2C"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "4C",
+            [
+                "4C"
+            ],
             "Biologia",
             "37"
         ],
         [
-            "4D",
+            [
+                "4D"
+            ],
             "Biologia",
             "37"
         ],
         null,
         [
-            "3E",
+            [
+                "3E"
+            ],
             "Biologia",
             "37"
         ],

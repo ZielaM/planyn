@@ -16,17 +16,23 @@
         null,
         null,
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Działalnośćusługowakolei",
             "27"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Technikaruchukolejowego",
             "27"
         ],
         [
-            "4F",
+            [
+                "4F"
+            ],
             "Działalnośćusługowakolei",
             "27"
         ],
@@ -53,22 +59,30 @@
     "czwartek": [
         null,
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Eksploatacjahandlowakolei",
             "30"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Eksploatacjahandlowakolei",
             "30"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Działalnośćusługowakolei",
             "30"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Działalnośćusługowakolei",
             "30"
         ],
@@ -86,22 +100,30 @@
         null,
         null,
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Eksploatacjahandlowakolei",
             "27"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Eksploatacjahandlowakolei",
             "27"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Działalnośćusługowakolei",
             "27"
         ],
         [
-            "5G",
+            [
+                "5G"
+            ],
             "Działalnośćusługowakolei",
             "27"
         ],

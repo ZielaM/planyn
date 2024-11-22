@@ -158,6 +158,7 @@ async def main() -> None:
         tasks.append(asyncio.create_task(save_timetable(classroom, CLASSROOMS_TIMETABLES[classroom], path))) # create tasks for each timetable
     await asyncio.gather(*tasks)
     
+    # saving plain text
     with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
         json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True) # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
                     

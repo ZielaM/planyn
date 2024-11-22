@@ -1,0 +1,83 @@
+{
+    "poniedzialek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "4E",
+            "Kompetencjespołeczne",
+            "26"
+        ],
+        null,
+        null,
+        null,
+        null
+    ],
+    "wtorek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "4B",
+            "Kompetencjespołeczne",
+            "16"
+        ],
+        [
+            "4A",
+            "Kompetencjespołeczne",
+            "16"
+        ],
+        null
+    ],
+    "środa": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "czwartek": [
+        null,
+        null,
+        null,
+        [
+            "4F",
+            "Kompetencjespołeczne",
+            "B108"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "piątek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

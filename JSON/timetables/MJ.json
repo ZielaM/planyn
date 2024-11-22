@@ -1,0 +1,83 @@
+{
+    "poniedzialek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "wtorek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "środa": [
+        null,
+        [
+            "3E",
+            "HiT",
+            "37"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "czwartek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "piątek": [
+        [
+            "3A",
+            "HiT",
+            "37"
+        ],
+        [
+            "3C",
+            "HiT",
+            "37"
+        ],
+        null,
+        [
+            "3F",
+            "HiT",
+            "B107"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

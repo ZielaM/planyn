@@ -1,0 +1,83 @@
+{
+    "poniedzialek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "4C",
+            "Pracowniatestowaniaidokumentowaniaaplikacji",
+            "50"
+        ],
+        [
+            "4C",
+            "Pracowniatestowaniaidokumentowaniaaplikacji",
+            "50"
+        ],
+        [
+            "4D",
+            "Pracowniatestowaniaidokumentowaniaaplikacji",
+            "50"
+        ],
+        [
+            "4D",
+            "Pracowniatestowaniaidokumentowaniaaplikacji",
+            "50"
+        ]
+    ],
+    "wtorek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "środa": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "czwartek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "piątek": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

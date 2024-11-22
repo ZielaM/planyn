@@ -66,8 +66,7 @@ async def main() -> None:
     for teacher in PLANY:
         tasks.append(asyncio.create_task(save_timetable(teacher, PLANY[teacher]))) # create tasks for each timetable
     await asyncio.gather(*tasks)
-    # with open('./JSON/plany.json', 'w', encoding='utf-8') as f:
-    #     json.dump(PLANY, f, ensure_ascii=False, indent=4) # save the PLANY dictionary to the file
+    
     with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
         json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True) # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
                 

@@ -6,18 +6,6 @@ import aiofiles
 import os
 
 
-async def save_timetable(timetable_name: str, timetable, directory: str) -> None:
-    """Saves the timetable to the file
-
-    Args:
-        timetable_name (str): timetable name
-        timetable (Any): timetable to save
-        directory (str): directory to save the timetable
-    """
-    async with aiofiles.open(f'{directory}{timetable_name}.json', 'w', encoding='utf-8') as f:
-        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4))   # save the timetable to the file
-
-
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     """extracts lesson details from spans
 
@@ -168,6 +156,31 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                         insert_data_to_grades(*w, num_col, num_row, grade)
 
 
+async def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]], directory: str, tasks: list[asyncio.Task]) -> None:
+    """Saves the timetables to the files
+
+    Args:
+        timetables (dict[str, dict[str, list[tuple[str, str, str]]]): timetables to save
+        directory (str): directory to save the timetables
+    """
+    if not os.path.exists(directory):  # if the folder doesn't exist, create it
+        os.makedirs(directory)
+    for timetable_name in timetables:
+        tasks.append(asyncio.create_task(save_timetable(timetable_name, timetables[timetable_name], directory)))
+
+
+async def save_timetable(timetable_name: str, timetable, directory: str) -> None:
+    """Saves the timetable to the file
+
+    Args:
+        timetable_name (str): timetable name
+        timetable (Any): timetable to save
+        directory (str): directory to save the timetable
+    """
+    async with aiofiles.open(f'{directory}{timetable_name}.json', 'w', encoding='utf-8') as f:
+        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4))   # save the timetable to the file
+ 
+
 async def main() -> None:
     # getting timetables
     tasks: list[asyncio.Task] = list()  # list to store tasks
@@ -176,31 +189,19 @@ async def main() -> None:
             tasks.append(asyncio.create_task(get_timetable(session, i)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
 
-    # saving teachers' timetables
     tasks: list[asyncio.Task] = list()  # list to store tasks
+    # saving teachers' timetables
     path = './JSON/timetables/teachers/'
-    if not os.path.exists(path):  # if the folder doesn't exist, create it
-        os.makedirs(path)
-    for classroom in TEACHERS_TIMETABLES:
-        tasks.append(asyncio.create_task(save_timetable(classroom, TEACHERS_TIMETABLES[classroom], path)))  # create tasks for each timetable
-    await asyncio.gather(*tasks)
+    await save_timetables(TEACHERS_TIMETABLES, path, tasks)
 
     # saving classrooms' timetables
-    tasks: list[asyncio.Task] = list()  # list to store tasks
     path = './JSON/timetables/classrooms/'
-    if not os.path.exists(path):  # if the folder doesn't exist, create it
-        os.makedirs(path)
-    for classroom in CLASSROOMS_TIMETABLES:
-        tasks.append(asyncio.create_task(save_timetable(classroom, CLASSROOMS_TIMETABLES[classroom], path)))  # create tasks for each timetable
-    await asyncio.gather(*tasks)
+    await save_timetables(CLASSROOMS_TIMETABLES, path, tasks)
     
     # saving grades' timetables
-    tasks: list[asyncio.Task] = list()  # list to store tasks
     path = './JSON/timetables/grades/'
-    if not os.path.exists(path):  # if the folder doesn't exist, create it
-        os.makedirs(path)
-    for grade in GRADES_TIMETABLES:
-        tasks.append(asyncio.create_task(save_timetable(grade, GRADES_TIMETABLES[grade], path)))
+    await save_timetables(GRADES_TIMETABLES, path, tasks)
+    
     await asyncio.gather(*tasks)
 
     # saving plain text

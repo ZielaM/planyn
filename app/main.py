@@ -1,10 +1,10 @@
-from bs4 import BeautifulSoup as bs, ResultSet, Tag
-import json
-from aiohttp import ClientSession
 import asyncio
-import aiofiles
-import os
+import json
 
+from bs4 import BeautifulSoup as bs, ResultSet, Tag
+from aiohttp import ClientSession
+
+from saving import *
 
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     """extracts lesson details from spans
@@ -129,17 +129,17 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                         raise ValueError(f'Error: {grade}/{WEEK[num_col]}/{num_row}: {col.text} not in PLAIN_TEXT_SOLUTION')
                     if PLAIN_TEXT_SOLUTION[col.text] is None:  # if the plain text solution is None, skip it (I considered it an unnecessary data)
                         continue
-                    else:  # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the TEACHERS_TIMETABLES dictionary
+                    else:  # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the dictionaries
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('/'):
                             insert_data_to_teachers(*(w := span.split(' ')), num_col, num_row, grade)
                             insert_data_to_classrooms(*w, num_col, num_row, grade)
                             insert_data_to_grades(*w, num_col, num_row, grade)
 
-                elif len(col_spans) == 3:  # if there are 3 spans, put the data in the TEACHERS_TIMETABLES dictionary (the default case)
+                elif len(col_spans) == 3:  # if there are 3 spans, put the data in the Dictionaries (the default case)
                     insert_data_to_teachers(*(w := get_lesson_details(col_spans)), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
                     insert_data_to_grades(*w, num_col, num_row, grade)
-                elif len(col_spans) == 2:  # if there are 2 spans, iterate over it and put the data in the TEACHERS_TIMETABLES dictionary (group lesson case)
+                elif len(col_spans) == 2:  # if there are 2 spans, iterate over it and put the data in the Dictionaries (group lesson case)
                     for span in col_spans:
                         insert_data_to_teachers(*(w := get_lesson_details(span.find_all('span'))), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
@@ -148,38 +148,13 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                     insert_data_to_teachers(*(w := get_lesson_details(col_spans[0].find_all('span', recursive=False))), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
                     insert_data_to_grades(*w, num_col, num_row, grade)
-                else:  # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the TEACHERS_TIMETABLES dictionary (more than two groups case)
+                else:  # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the Dictionaries (more than two groups case)
                     it = iter(col_spans)
                     for span in zip(it, it, it):
                         insert_data_to_teachers(*(w := get_lesson_details(span)), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
                         insert_data_to_grades(*w, num_col, num_row, grade)
 
-
-async def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]], directory: str, tasks: list[asyncio.Task]) -> None:
-    """Saves the timetables to the files
-
-    Args:
-        timetables (dict[str, dict[str, list[tuple[str, str, str]]]): timetables to save
-        directory (str): directory to save the timetables
-    """
-    if not os.path.exists(directory):  # if the folder doesn't exist, create it
-        os.makedirs(directory)
-    for timetable_name in timetables:
-        tasks.append(asyncio.create_task(save_timetable(timetable_name, timetables[timetable_name], directory)))
-
-
-async def save_timetable(timetable_name: str, timetable, directory: str) -> None:
-    """Saves the timetable to the file
-
-    Args:
-        timetable_name (str): timetable name
-        timetable (Any): timetable to save
-        directory (str): directory to save the timetable
-    """
-    async with aiofiles.open(f'{directory}{timetable_name}.json', 'w', encoding='utf-8') as f:
-        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4))   # save the timetable to the file
- 
 
 async def main() -> None:
     # getting timetables
@@ -191,38 +166,39 @@ async def main() -> None:
 
     tasks: list[asyncio.Task] = list()  # list to store tasks
     # saving teachers' timetables
-    path = './JSON/timetables/teachers/'
+    path = f'{JSON_PATH}timetables/teachers/'
     await save_timetables(TEACHERS_TIMETABLES, path, tasks)
 
     # saving classrooms' timetables
-    path = './JSON/timetables/classrooms/'
+    path = f'{JSON_PATH}timetables/classrooms/'
     await save_timetables(CLASSROOMS_TIMETABLES, path, tasks)
     
     # saving grades' timetables
-    path = './JSON/timetables/grades/'
+    path = f'{JSON_PATH}timetables/grades/'
     await save_timetables(GRADES_TIMETABLES, path, tasks)
     
     await asyncio.gather(*tasks)
 
     # saving plain text
-    with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
+    with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
         json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
 
 
 if __name__ == '__main__':
     # Constants
+    JSON_PATH = '../JSON/'  # path to the JSON files
     URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'  # URL to the timetables
     WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek']
     TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
     CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Constant to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
-    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()            # Constant to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
+    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Constant to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     # {grade: {day: {lesson: lesson_text}}}
-    with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:
+    with open(f'{JSON_PATH}lessons.json', 'r', encoding='utf-8') as f:
         LESSONS: dict[str, str] = json.load(f)  # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
-    with open('./JSON/teachers.json', 'r', encoding='utf-8') as f:
+    with open(f'{JSON_PATH}teachers.json', 'r', encoding='utf-8') as f:
         TEACHERS: dict[str, str] = json.load(f)  # Constant to replace corrupted teacher names {corrupted_teacher: teacher_name}
-    with open('./JSON/plain_text_solution.json', 'r', encoding='utf-8') as f:
+    with open(f'{JSON_PATH}plain_text_solution.json', 'r', encoding='utf-8') as f:
         PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f)  # Constant to replace plain text lessons {pt_lesson: lesson_data}
 
     asyncio.run(main())   # run the main

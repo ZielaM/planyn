@@ -78,7 +78,7 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         grade (str): just a grade
 
     Raises:
-        ValueError: if the lesson is already in the TEACHERS_TIMETABLES dictionary and it's not the same as the new one (except the grade)
+        ValueError: if the lesson is already in the CLASSROOMS_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
     if lesson_classroom not in CLASSROOMS_TIMETABLES:  # if classroom is not in the CLASSROOMS_TIMETABLES dictionary, add it
         CLASSROOMS_TIMETABLES[lesson_classroom] = {day: [None for _ in range(11)] for day in WEEK}  # add 11 lessons per day
@@ -93,6 +93,28 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1].insert(i, grade)  # insert the grade
     else:
         raise ValueError(f'Error: {CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row]} != {grade} {lesson_teacher} {lesson_title}')  # if the lesson is different, raise an error
+
+
+def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+    """Puts lesson data into GRADES_TIMETABLES dictionary in aprioriate place
+
+    Args:
+        lesson_title (str): name of the lesson
+        lesson_teacher (str): initials of the teacher
+        lesson_classroom (str): number of the classroom
+        num_col (int): day of a week
+        num_row (int): number of the lesson
+        grade (str): just a grade
+
+    Raises:
+        None
+    """
+    if grade not in GRADES_TIMETABLES:  # if grade is not in the GRADES_TIMETABLES dictionary, add it
+        GRADES_TIMETABLES[grade] = {day: [None for _ in range(11)] for day in WEEK}  # add 11 lessons per day
+    if not GRADES_TIMETABLES[grade][WEEK[num_col]][num_row]:  # if the lesson is empty, put it there
+        GRADES_TIMETABLES[grade][WEEK[num_col]][num_row] = [(lesson_title, lesson_teacher, lesson_classroom)]
+    else:
+        GRADES_TIMETABLES[grade][WEEK[num_col]][num_row].append((lesson_title, lesson_teacher, lesson_classroom))
 
 
 async def get_timetable(session: ClientSession, i: int) -> None:
@@ -123,22 +145,27 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('/'):
                             insert_data_to_teachers(*(w := span.split(' ')), num_col, num_row, grade)
                             insert_data_to_classrooms(*w, num_col, num_row, grade)
+                            insert_data_to_grades(*w, num_col, num_row, grade)
 
                 elif len(col_spans) == 3:  # if there are 3 spans, put the data in the TEACHERS_TIMETABLES dictionary (the default case)
                     insert_data_to_teachers(*(w := get_lesson_details(col_spans)), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
+                    insert_data_to_grades(*w, num_col, num_row, grade)
                 elif len(col_spans) == 2:  # if there are 2 spans, iterate over it and put the data in the TEACHERS_TIMETABLES dictionary (group lesson case)
                     for span in col_spans:
                         insert_data_to_teachers(*(w := get_lesson_details(span.find_all('span'))), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
+                        insert_data_to_grades(*w, num_col, num_row, grade)
                 elif len(col_spans) == 1:   # if there is only one span, it's a group lesson with one group (half of the class case)
                     insert_data_to_teachers(*(w := get_lesson_details(col_spans[0].find_all('span', recursive=False))), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
+                    insert_data_to_grades(*w, num_col, num_row, grade)
                 else:  # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the TEACHERS_TIMETABLES dictionary (more than two groups case)
                     it = iter(col_spans)
                     for span in zip(it, it, it):
                         insert_data_to_teachers(*(w := get_lesson_details(span)), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
+                        insert_data_to_grades(*w, num_col, num_row, grade)
 
 
 async def main() -> None:
@@ -166,6 +193,15 @@ async def main() -> None:
     for classroom in CLASSROOMS_TIMETABLES:
         tasks.append(asyncio.create_task(save_timetable(classroom, CLASSROOMS_TIMETABLES[classroom], path)))  # create tasks for each timetable
     await asyncio.gather(*tasks)
+    
+    # saving grades' timetables
+    tasks: list[asyncio.Task] = list()  # list to store tasks
+    path = './JSON/timetables/grades/'
+    if not os.path.exists(path):  # if the folder doesn't exist, create it
+        os.makedirs(path)
+    for grade in GRADES_TIMETABLES:
+        tasks.append(asyncio.create_task(save_timetable(grade, GRADES_TIMETABLES[grade], path)))
+    await asyncio.gather(*tasks)
 
     # saving plain text
     with open('./JSON/plain_text.json', 'w', encoding='utf-8') as f:
@@ -178,6 +214,7 @@ if __name__ == '__main__':
     WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek']
     TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
     CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Constant to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
+    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()            # Constant to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     # {grade: {day: {lesson: lesson_text}}}
     with open('./JSON/lessons.json', 'r', encoding='utf-8') as f:

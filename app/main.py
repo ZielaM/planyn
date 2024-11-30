@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup as bs, ResultSet, Tag
 from aiohttp import ClientSession
 
 from getting import get_lesson_details
-from saving import *
+from saving import save_timetables
 from constants import JSON_PATH, LESSONS_NUMBER, PLAIN_TEXT_SOLUTION, URL, WEEK_DAYS_NUMBER  
 
 

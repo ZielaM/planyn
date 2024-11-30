@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as bs, ResultSet, Tag
 from aiohttp import ClientSession
 
 from saving import *
+from constants import *
 
 def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
     """extracts lesson details from spans
@@ -18,8 +19,8 @@ def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
         tuple[str, str, str]: returns a tuple with lesson title,
         teacher and classroom in string format
     """
-    lesson_title: str = span[0].text.split('-')[0] if span[0].text not in LESSONS else LESSONS[span[0].text]  # if lesson is corrupted, replace it with correct one
-    lesson_teacher: str = span[1].text if span[1].text[0] != '#' else TEACHERS[span[1].text]  # if teacher is corrupted, replace it with correct one
+    lesson_title: str = (w := span[0].text).split('-')[0] if w not in LESSONS else LESSONS[w]  # if lesson is corrupted, replace it with correct one
+    lesson_teacher: str = (w := span[1].text) if w[0] != '#' else TEACHERS[w]  # if teacher is corrupted, replace it with correct one
     lesson_classroom: str = span[2].text
     return lesson_title, lesson_teacher, lesson_classroom
 
@@ -185,20 +186,10 @@ async def main() -> None:
 
 
 if __name__ == '__main__':
-    # Constants
-    JSON_PATH = '../JSON/'  # path to the JSON files
-    URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'  # URL to the timetables
-    WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek']
-    TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Constant to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
-    CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Constant to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
-    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Constant to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
-    PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Constant to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
+    # tiemetables dictionaries
+    CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Variable to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
+    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Variable to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
+    PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     # {grade: {day: {lesson: lesson_text}}}
-    with open(f'{JSON_PATH}lessons.json', 'r', encoding='utf-8') as f:
-        LESSONS: dict[str, str] = json.load(f)  # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
-    with open(f'{JSON_PATH}teachers.json', 'r', encoding='utf-8') as f:
-        TEACHERS: dict[str, str] = json.load(f)  # Constant to replace corrupted teacher names {corrupted_teacher: teacher_name}
-    with open(f'{JSON_PATH}plain_text_solution.json', 'r', encoding='utf-8') as f:
-        PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f)  # Constant to replace plain text lessons {pt_lesson: lesson_data}
 
     asyncio.run(main())   # run the main

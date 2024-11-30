@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         [
             [
@@ -96,7 +96,7 @@
         ],
         null
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "Wychowaniefizyczne",
@@ -163,7 +163,7 @@
             ]
         ]
     ],
-    "środa": [
+    "2": [
         null,
         [
             [
@@ -244,7 +244,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         null,
         [
             [
@@ -331,7 +331,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Pracowniaeksploatacjiśrodkówtransportuszynowego",

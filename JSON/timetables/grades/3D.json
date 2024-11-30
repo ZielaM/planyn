@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "Pracowniabazdanych",
@@ -80,7 +80,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -173,7 +173,7 @@
             ]
         ]
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Pracowniaprogramowaniaobiektowego",
@@ -281,7 +281,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         null,
         [
             [
@@ -348,7 +348,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Pracowniaprogramowaniaobiektowego",

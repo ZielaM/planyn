@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             "SW",
             [
@@ -78,7 +78,7 @@
             "Wychowaniefizyczne"
         ]
     ],
-    "wtorek": [
+    "1": [
         [
             "MT",
             [
@@ -157,7 +157,7 @@
             "Wychowaniefizyczne"
         ]
     ],
-    "środa": [
+    "2": [
         [
             "WZ",
             [
@@ -236,7 +236,7 @@
             "Wychowaniefizyczne"
         ]
     ],
-    "czwartek": [
+    "3": [
         null,
         [
             "ZI",
@@ -309,7 +309,7 @@
             "Wychowaniefizyczne"
         ]
     ],
-    "piątek": [
+    "4": [
         [
             "WM",
             [

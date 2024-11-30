@@ -1,10 +1,10 @@
 import json
 
 
-JSON_PATH = '../JSON/'  # path to the JSON files
+JSON_PATH = 'JSON/'  # path to the JSON files
 URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'  # URL to the timetables
-WEEK = ['poniedzialek', 'wtorek', 'środa', 'czwartek', 'piątek']
-TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Variable to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
+WEEK_DAYS_NUMBER = 5
+LESSONS_NUMBER = 11
 with open(f'{JSON_PATH}lessons.json', 'r', encoding='utf-8') as f:
     LESSONS: dict[str, str] = json.load(f)  # Constant to replace corrupted lesson names {corrupted_lesson: lesson_name}
 with open(f'{JSON_PATH}teachers.json', 'r', encoding='utf-8') as f:

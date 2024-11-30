@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         null,
         null,
@@ -36,7 +36,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "Urządzeniaautomatykiprzemysłowej",
@@ -150,7 +150,7 @@
             ]
         ]
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Fizyka",
@@ -243,7 +243,7 @@
             ]
         ]
     ],
-    "czwartek": [
+    "3": [
         null,
         [
             [
@@ -345,7 +345,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         null,
         null,
         [

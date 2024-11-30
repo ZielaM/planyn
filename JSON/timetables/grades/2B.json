@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "Wychowaniefizyczne",
@@ -92,7 +92,7 @@
         ],
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -168,7 +168,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Wychowaniefizyczne",
@@ -257,7 +257,7 @@
             ]
         ]
     ],
-    "czwartek": [
+    "3": [
         null,
         [
             [
@@ -360,7 +360,7 @@
             ]
         ]
     ],
-    "piątek": [
+    "4": [
         null,
         [
             [

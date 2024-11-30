@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         null,
         [
@@ -54,7 +54,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -121,7 +121,7 @@
             ]
         ]
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Informatyka",
@@ -235,7 +235,7 @@
             ]
         ]
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Technologieipomiarywautomatyce",
@@ -313,7 +313,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Pracowniaurządzeńautomatykiprzemysłowej",

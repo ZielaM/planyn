@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         [
             [
@@ -75,7 +75,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "Informatyka",
@@ -149,7 +149,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         [
             [
                 "JęzykniemieckiDSDIPro",
@@ -242,7 +242,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Urządzeniaautomatykiprzemysłowej",
@@ -360,7 +360,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         null,
         [
             [

@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "HistoriaD_DW",
@@ -102,7 +102,7 @@
         ],
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -174,7 +174,7 @@
         ],
         null
     ],
-    "środa": [
+    "2": [
         null,
         [
             [
@@ -261,7 +261,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Chemia",
@@ -349,7 +349,7 @@
             ]
         ]
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Matematyka",

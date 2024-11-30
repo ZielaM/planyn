@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         null,
         null,
@@ -42,7 +42,7 @@
             "SG1"
         ]
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "5G"
@@ -97,7 +97,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         null,
         null,
         null,
@@ -140,7 +140,7 @@
         null,
         null
     ],
-    "czwartek": [
+    "3": [
         null,
         null,
         null,
@@ -171,7 +171,7 @@
             "SG1"
         ]
     ],
-    "piątek": [
+    "4": [
         null,
         null,
         null,

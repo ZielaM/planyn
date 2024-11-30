@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             "AL",
             [
@@ -66,7 +66,7 @@
             "Pracowniaaplikacjiwebowych"
         ]
     ],
-    "wtorek": [
+    "1": [
         [
             "AL",
             [
@@ -121,7 +121,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         [
             "AL",
             [
@@ -194,7 +194,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         [
             "CL",
             [
@@ -255,7 +255,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         [
             "AL",
             [

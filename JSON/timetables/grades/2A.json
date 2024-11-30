@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         [
             [
@@ -101,7 +101,7 @@
             ]
         ]
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -162,7 +162,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         null,
         [
             [
@@ -229,7 +229,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Pracowniasystemówoperacyjnych",
@@ -353,7 +353,7 @@
             ]
         ]
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Religia",

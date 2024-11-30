@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         null,
         null,
@@ -30,7 +30,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         null,
         [
@@ -67,7 +67,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         null,
         [
             "ZF",
@@ -140,7 +140,7 @@
             "Pracowniaelektrycznaielektroniczna"
         ]
     ],
-    "czwartek": [
+    "3": [
         [
             "JG",
             [
@@ -207,7 +207,7 @@
         null,
         null
     ],
-    "piątek": [
+    "4": [
         [
             "FN",
             [

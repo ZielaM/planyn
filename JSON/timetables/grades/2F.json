@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "Informatyka",
@@ -64,7 +64,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         [
             [
@@ -128,7 +128,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Matematyka",
@@ -200,7 +200,7 @@
         null,
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Geografia",
@@ -273,7 +273,7 @@
         ],
         null
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "Językangielski",

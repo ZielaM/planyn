@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "Religia",
@@ -72,7 +72,7 @@
         ],
         null
     ],
-    "wtorek": [
+    "1": [
         null,
         null,
         [
@@ -154,7 +154,7 @@
             ]
         ]
     ],
-    "środa": [
+    "2": [
         [
             [
                 "Pracowniaeksploatacjiurządzeńelektronicznych",
@@ -271,7 +271,7 @@
         null,
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
@@ -363,7 +363,7 @@
         null,
         null
     ],
-    "piątek": [
+    "4": [
         null,
         [
             [

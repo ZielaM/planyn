@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         [
             [
                 "Zajęciazwychowawcą",
@@ -47,7 +47,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "Zajęciapraktyczne",
@@ -133,7 +133,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         null,
         [
             [
@@ -205,7 +205,7 @@
         ],
         null
     ],
-    "czwartek": [
+    "3": [
         [
             [
                 "Wychowaniefizyczne",
@@ -272,7 +272,7 @@
         null,
         null
     ],
-    "piątek": [
+    "4": [
         [
             [
                 "JęzykniemieckiDSDIPro",

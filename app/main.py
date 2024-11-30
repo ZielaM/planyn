@@ -4,25 +4,9 @@ import json
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 from aiohttp import ClientSession
 
+from getting import get_lesson_details
 from saving import *
-from constants import *
-
-def get_lesson_details(span: ResultSet[Tag]) -> tuple[str, str, str]:
-    """extracts lesson details from spans
-
-    Args:
-        span (ResultSet[Tag]): a result of bs.find_all('span', recursive=False) method. 
-        It should contain 3 spans with lesson title {lesson_title-group},
-        teacher {teacher_initials} and classroom {classroom_number}
-
-    Returns:
-        tuple[str, str, str]: returns a tuple with lesson title,
-        teacher and classroom in string format
-    """
-    lesson_title: str = (w := span[0].text).split('-')[0] if w not in LESSONS else LESSONS[w]  # if lesson is corrupted, replace it with correct one
-    lesson_teacher: str = (w := span[1].text) if w[0] != '#' else TEACHERS[w]  # if teacher is corrupted, replace it with correct one
-    lesson_classroom: str = span[2].text
-    return lesson_title, lesson_teacher, lesson_classroom
+from constants import JSON_PATH, LESSONS_NUMBER, PLAIN_TEXT_SOLUTION, URL, WEEK_DAYS_NUMBER  
 
 
 def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
@@ -41,18 +25,18 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
         and it's not the same as the new one (except the grade)
     """
     if lesson_teacher not in TEACHERS_TIMETABLES:   # if teacher is not in the TEACHERS_TIMETABLES dictionary, add him
-        TEACHERS_TIMETABLES[lesson_teacher] = {day: [None for _ in range(11)] for day in WEEK}  # add 11 lessons per day
-    if not TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row]:  # if the lesson is empty, put it there
-        TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row] = ([grade], lesson_title, lesson_classroom)
-    elif TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][1] == lesson_title \
-            and TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][2] == lesson_classroom:  # if the lesson is the same as the new one, just add the grade
+        TEACHERS_TIMETABLES[lesson_teacher] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    if not TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row]:  # if the lesson is empty, put it there
+        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row] = ([grade], lesson_title, lesson_classroom)
+    elif TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][1] == lesson_title \
+            and TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][2] == lesson_classroom:  # if the lesson is the same as the new one, just add the grade
         i: int = 0
-        while i < len(TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0]) and \
-                TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0][i] < grade:  # find the place where to put the grade
+        while i < len(TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][0]) and \
+                TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][0][i] < grade:  # find the place where to put the grade
             i += 1
-        TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row][0].insert(i, grade)  # insert the grade
+        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][0].insert(i, grade)  # insert the grade
     else:
-        raise ValueError(f'Error: {TEACHERS_TIMETABLES[lesson_teacher][WEEK[num_col]][num_row]} != {grade} {lesson_title} {lesson_classroom}')  # if the lesson is different, raise an error
+        raise ValueError(f'Error: {TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row]} != {grade} {lesson_title} {lesson_classroom}')  # if the lesson is different, raise an error
 
 
 def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
@@ -70,18 +54,18 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         ValueError: if the lesson is already in the CLASSROOMS_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
     if lesson_classroom not in CLASSROOMS_TIMETABLES:  # if classroom is not in the CLASSROOMS_TIMETABLES dictionary, add it
-        CLASSROOMS_TIMETABLES[lesson_classroom] = {day: [None for _ in range(11)] for day in WEEK}  # add 11 lessons per day
-    if not CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row]:  # if the lesson is empty, put it there
-        CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row] = (lesson_teacher, [grade], lesson_title)
-    elif CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][2] == lesson_title \
-            and CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][0] == lesson_teacher:  # if the lesson is the same as the new one, just add the grade
+        CLASSROOMS_TIMETABLES[lesson_classroom] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    if not CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row]:  # if the lesson is empty, put it there
+        CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row] = (lesson_teacher, [grade], lesson_title)
+    elif CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][2] == lesson_title \
+            and CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][0] == lesson_teacher:  # if the lesson is the same as the new one, just add the grade
         i: int = 0
-        while i < len(CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1]) and \
-                CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1][i] < grade:  # find the place where to put the grade
+        while i < len(CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][1]) and \
+                CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][1][i] < grade:  # find the place where to put the grade
             i += 1
-        CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row][1].insert(i, grade)  # insert the grade
+        CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][1].insert(i, grade)  # insert the grade
     else:
-        raise ValueError(f'Error: {CLASSROOMS_TIMETABLES[lesson_classroom][WEEK[num_col]][num_row]} != {grade} {lesson_teacher} {lesson_title}')  # if the lesson is different, raise an error
+        raise ValueError(f'Error: {CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row]} != {grade} {lesson_teacher} {lesson_title}')  # if the lesson is different, raise an error
 
 
 def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
@@ -99,11 +83,11 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
         None
     """
     if grade not in GRADES_TIMETABLES:  # if grade is not in the GRADES_TIMETABLES dictionary, add it
-        GRADES_TIMETABLES[grade] = {day: [None for _ in range(11)] for day in WEEK}  # add 11 lessons per day
-    if not GRADES_TIMETABLES[grade][WEEK[num_col]][num_row]:  # if the lesson is empty, put it there
-        GRADES_TIMETABLES[grade][WEEK[num_col]][num_row] = [(lesson_title, lesson_teacher, lesson_classroom)]
+        GRADES_TIMETABLES[grade] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    if not GRADES_TIMETABLES[grade][num_col][num_row]:  # if the lesson is empty, put it there
+        GRADES_TIMETABLES[grade][num_col][num_row] = [(lesson_title, lesson_teacher, lesson_classroom)]
     else:
-        GRADES_TIMETABLES[grade][WEEK[num_col]][num_row].append((lesson_title, lesson_teacher, lesson_classroom))
+        GRADES_TIMETABLES[grade][num_col][num_row].append((lesson_title, lesson_teacher, lesson_classroom))
 
 
 async def get_timetable(session: ClientSession, i: int) -> None:
@@ -127,7 +111,7 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                     PLAIN_TEXT[grade][num_col][num_row] = col.text  # add the plain text to the PLAIN_TEXT dictionary 
 
                     if col.text not in PLAIN_TEXT_SOLUTION:  # if the plain text is not in the PLAIN_TEXT_SOLUTION dictionary, raise an error (if so probably the file is outdated)
-                        raise ValueError(f'Error: {grade}/{WEEK[num_col]}/{num_row}: {col.text} not in PLAIN_TEXT_SOLUTION')
+                        raise ValueError(f'Error: {grade}/{num_col}/{num_row}: {col.text} not in PLAIN_TEXT_SOLUTION')
                     if PLAIN_TEXT_SOLUTION[col.text] is None:  # if the plain text solution is None, skip it (I considered it an unnecessary data)
                         continue
                     else:  # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the dictionaries
@@ -187,6 +171,7 @@ async def main() -> None:
 
 if __name__ == '__main__':
     # tiemetables dictionaries
+    TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Variable to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
     CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Variable to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
     GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Variable to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)

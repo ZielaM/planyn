@@ -1,5 +1,5 @@
 {
-    "poniedzialek": [
+    "0": [
         null,
         null,
         null,
@@ -12,7 +12,7 @@
         null,
         null
     ],
-    "wtorek": [
+    "1": [
         [
             [
                 "5A"
@@ -73,7 +73,7 @@
         null,
         null
     ],
-    "środa": [
+    "2": [
         [
             [
                 "1C"
@@ -128,7 +128,7 @@
         null,
         null
     ],
-    "czwartek": [
+    "3": [
         null,
         null,
         null,
@@ -177,7 +177,7 @@
         null,
         null
     ],
-    "piątek": [
+    "4": [
         null,
         null,
         null,

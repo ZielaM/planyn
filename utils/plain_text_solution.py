@@ -13,8 +13,7 @@ for grade in PLAIN_TEXT: # iterate over the grades in PLAIN_TEXT
                 continue
             print(f'{grade}/{day}/{lesson}: {PLAIN_TEXT[grade][day][lesson]}: ', end='') # else print the lesson and ask for the solution 
                                                                                          # (must be done by hand sorry :/)
-            w=input()
-            PLAIN_TEXT_SOLUTION[PLAIN_TEXT[grade][day][lesson]] = w if w != '' else None # if the solution is not empty, 
+            PLAIN_TEXT_SOLUTION[PLAIN_TEXT[grade][day][lesson]] = w if (w:=input()) != '' else None # if the solution is not empty, 
                                                                                          # add it to the PLAIN_TEXT_SOLUTION
                                                                                          # else add None (it's not necessary)
             print()

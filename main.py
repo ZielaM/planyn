@@ -4,9 +4,9 @@ import json
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 from aiohttp import ClientSession
 
-from getting import get_lesson_details
-from saving import save_timetables
-from constants import JSON_PATH, LESSONS_NUMBER, PLAIN_TEXT_SOLUTION, URL, WEEK_DAYS_NUMBER  
+from utils.getting import get_lesson_details
+from utils.saving import save_timetables
+from utils.constants import JSON_PATH, LESSONS_NUMBER, PLAIN_TEXT_SOLUTION, URL, WEEK_DAYS_NUMBER  
 
 
 def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:

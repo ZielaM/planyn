@@ -143,24 +143,24 @@ async def get_timetable(session: ClientSession, i: int) -> None:
 
 async def main() -> None:
     # getting timetables
-    tasks: list[asyncio.Task] = list()  # list to store tasks
+    tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, 32):
             tasks.append(asyncio.create_task(get_timetable(session, i)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
 
-    tasks: list[asyncio.Task] = list()  # list to store tasks
+    tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
     # saving teachers' timetables
     path = f'{JSON_PATH}timetables/teachers/'
-    await save_timetables(TEACHERS_TIMETABLES, path, tasks)
+    tasks.extend(save_timetables(TEACHERS_TIMETABLES, path))
 
     # saving classrooms' timetables
     path = f'{JSON_PATH}timetables/classrooms/'
-    await save_timetables(CLASSROOMS_TIMETABLES, path, tasks)
+    tasks.extend(save_timetables(CLASSROOMS_TIMETABLES, path))
     
     # saving grades' timetables
     path = f'{JSON_PATH}timetables/grades/'
-    await save_timetables(GRADES_TIMETABLES, path, tasks)
+    tasks.extend(save_timetables(GRADES_TIMETABLES, path))
     
     await asyncio.gather(*tasks)
 

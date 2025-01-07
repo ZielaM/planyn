@@ -5,17 +5,20 @@ import os
 import aiofiles
 
 
-async def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]], directory: str, tasks: list[asyncio.Task]) -> None:
+def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]], directory: str) -> None:
     """Saves the timetables to the files
 
     Args:
         timetables (dict[str, dict[str, list[tuple[str, str, str]]]): timetables to save
         directory (str): directory to save the timetables
     """
+    tasks: list[asyncio.Task] = [] # list of tasks to save the timetables
+    
     if not os.path.exists(directory):  # if the folder doesn't exist, create it
         os.makedirs(directory)
     for timetable_name in timetables:
         tasks.append(asyncio.create_task(save_timetable(timetable_name, timetables[timetable_name], directory)))
+    return tasks
 
 
 async def save_timetable(timetable_name: str, timetable, directory: str) -> None:

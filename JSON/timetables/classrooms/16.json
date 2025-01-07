@@ -65,7 +65,7 @@
         [
             "MR",
             [
-                "2H"
+                "5E"
             ],
             "Matematyka"
         ],
@@ -79,17 +79,11 @@
         [
             "MR",
             [
-                "5D"
+                "2H"
             ],
             "Matematyka"
         ],
-        [
-            "JT",
-            [
-                "2B"
-            ],
-            "Językniemiecki"
-        ],
+        null,
         [
             "MR",
             [
@@ -104,27 +98,9 @@
             ],
             "Matematyka"
         ],
-        [
-            "CL",
-            [
-                "4B"
-            ],
-            "Programowanie"
-        ],
-        [
-            "EG",
-            [
-                "4B"
-            ],
-            "Kompetencjespołeczne"
-        ],
-        [
-            "EG",
-            [
-                "4A"
-            ],
-            "Kompetencjespołeczne"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "2": [
@@ -187,7 +163,7 @@
         [
             "MR",
             [
-                "5E"
+                "5D"
             ],
             "Matematyka"
         ],
@@ -245,17 +221,7 @@
             ],
             "Matematyka"
         ],
-        [
-            "OM",
-            [
-                "4A",
-                "4B",
-                "4C",
-                "4D",
-                "4E"
-            ],
-            "Językhiszpański"
-        ],
+        null,
         null,
         null
     ],

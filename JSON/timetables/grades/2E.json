@@ -1,128 +1,96 @@
 {
     "0": [
-        [
-            [
-                "HistoriaD_DW",
-                "WS",
-                "37"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "56"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "56"
-            ]
-        ],
-        [
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "56"
-            ],
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ]
-        ],
-        [
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "56"
-            ],
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "LA",
-                "23"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "LA",
-                "23"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
-            ]
-        ],
-        [
-            [
-                "Biznesizarządzanie",
-                "MŁ",
-                "26"
-            ]
-        ],
-        null
-    ],
-    "1": [
         null,
         [
             [
-                "Językhiszpański",
-                "OM",
-                "26"
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "56"
             ],
             [
-                "Językniemiecki",
-                "ME",
-                "62"
+                "Językangielski",
+                "EP",
+                "31"
             ]
         ],
         [
             [
-                "HistoriaD_DW",
-                "WS",
-                "33"
+                "Pracowniabazdanych",
+                "FK",
+                "40"
+            ],
+            [
+                "Językangielski",
+                "EP",
+                "31"
             ]
         ],
+        [
+            [
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "56"
+            ],
+            [
+                "Pracowniabazdanych",
+                "FK",
+                "40"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ],
+            [
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "56"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "LA",
+                "23"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "LA",
+                "23"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ],
+            [
+                "Pracowniabazdanych",
+                "FK",
+                "40"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ],
+            [
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "58"
+            ]
+        ],
+        null,
+        null
+    ],
+    "1": [
         [
             [
                 "Projektowanieoprogramowania",
@@ -132,9 +100,14 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Językhiszpański",
+                "OM",
+                "38"
+            ],
+            [
+                "Językniemiecki",
+                "ME",
+                "62"
             ]
         ],
         [
@@ -142,6 +115,32 @@
                 "Matematyka",
                 "AG",
                 "18"
+            ]
+        ],
+        [
+            [
+                "Pracowniabazdanych",
+                "FK",
+                "40"
+            ],
+            [
+                "Językangielski",
+                "EP",
+                "31"
+            ]
+        ],
+        [
+            [
+                "HistoriaD_DW",
+                "WS",
+                "34"
+            ]
+        ],
+        [
+            [
+                "Biznesizarządzanie",
+                "MŁ",
+                "33"
             ]
         ],
         [
@@ -155,7 +154,7 @@
             [
                 "Biznesizarządzanie",
                 "MŁ",
-                "22"
+                "33"
             ]
         ],
         [
@@ -175,12 +174,47 @@
         null
     ],
     "2": [
-        null,
+        [
+            [
+                "Zajęciazwychowawcą",
+                "GI",
+                "44"
+            ]
+        ],
         [
             [
                 "Językangielski",
                 "JO",
                 "32"
+            ],
+            [
+                "Informatyka",
+                "GI",
+                "58"
+            ]
+        ],
+        [
+            [
+                "Informatyka",
+                "GI",
+                "58"
+            ],
+            [
+                "Pracowniaprogramowaniaobiektowego",
+                "MS",
+                "57"
+            ]
+        ],
+        [
+            [
+                "Informatyka",
+                "GI",
+                "58"
+            ],
+            [
+                "Pracowniaprogramowaniaobiektowego",
+                "MS",
+                "57"
             ]
         ],
         [
@@ -189,76 +223,46 @@
                 "MS",
                 "57"
             ],
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaobiektowego",
-                "MS",
-                "57"
-            ],
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniaprogramowaniaobiektowego",
-                "MS",
-                "40"
-            ]
-        ],
-        [
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniaprogramowaniaobiektowego",
-                "MS",
-                "40"
-            ]
-        ],
-        [
-            [
-                "Programowanieobiektowe",
-                "MS",
-                "44"
-            ]
-        ],
-        [
-            [
-                "SystemybazdanychD_DW",
-                "JR",
-                "32"
-            ]
-        ],
-        [
-            [
-                "Programowanieobiektowe",
-                "MS",
-                "44"
-            ]
-        ],
-        [
             [
                 "Językangielski",
                 "EP",
                 "31"
             ]
         ],
+        [
+            [
+                "Pracowniaprogramowaniaobiektowego",
+                "MS",
+                "57"
+            ],
+            [
+                "Informatyka",
+                "GI",
+                "58"
+            ]
+        ],
+        [
+            [
+                "Programowanieobiektowe",
+                "MS",
+                "44"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "AG",
+                "18"
+            ]
+        ],
+        [
+            [
+                "Programowanieobiektowe",
+                "MS",
+                "38"
+            ]
+        ],
+        null,
         null
     ],
     "3": [
@@ -330,13 +334,13 @@
             [
                 "Tworzenieaplikacjiinternetowych",
                 "AW",
-                "B103"
+                "B101"
             ]
         ],
         null,
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "23"
             ]
@@ -345,7 +349,7 @@
             [
                 "JęzykniemieckiDSDIPro",
                 "ME",
-                "23"
+                "27"
             ]
         ]
     ],
@@ -380,16 +384,16 @@
         ],
         [
             [
-                "Zajęciazwychowawcą",
-                "GI",
-                "36"
+                "HistoriaD_DW",
+                "WS",
+                "28"
             ]
         ],
         [
             [
                 "Językhiszpański",
                 "OM",
-                "SwF"
+                "22"
             ],
             [
                 "Językniemiecki",
@@ -406,26 +410,21 @@
         ],
         [
             [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
+                "SystemybazdanychD_DW",
+                "JR",
+                "57"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]

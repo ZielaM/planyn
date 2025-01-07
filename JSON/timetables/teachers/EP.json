@@ -1,8 +1,20 @@
 {
     "0": [
         null,
-        null,
-        null,
+        [
+            [
+                "2E"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "2E"
+            ],
+            "Językangielski",
+            "31"
+        ],
         [
             [
                 "5D",
@@ -14,55 +26,43 @@
         null,
         null,
         null,
-        [
-            [
-                "2E"
-            ],
-            "Językangielski",
-            "31"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "Językangielski",
-            "31"
-        ],
+        null,
+        null,
         null,
         null
     ],
     "1": [
         null,
         null,
-        [
-            [
-                "4E"
-            ],
-            "Językangielskizawodowy",
-            "31"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "Językangielski",
-            "31"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "Zajęciazwychowawcą",
-            "31"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "Językangielski",
-            "31"
-        ],
         null,
+        [
+            [
+                "2E"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "1B"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "1B"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "1B"
+            ],
+            "Językangielski",
+            "31"
+        ],
         null,
         null,
         null,
@@ -70,8 +70,13 @@
     ],
     "2": [
         null,
-        null,
-        null,
+        [
+            [
+                "1B"
+            ],
+            "Zajęciazwychowawcą",
+            "31"
+        ],
         null,
         [
             [
@@ -80,30 +85,6 @@
             "Językangielski",
             "31"
         ],
-        [
-            [
-                "1B"
-            ],
-            "Językangielski",
-            "31"
-        ],
-        [
-            [
-                "3E",
-                "3F"
-            ],
-            "Językangielski",
-            "31"
-        ],
-        [
-            [
-                "3E",
-                "3F"
-            ],
-            "Językangielski",
-            "31"
-        ],
-        null,
         [
             [
                 "2E"
@@ -111,16 +92,35 @@
             "Językangielski",
             "31"
         ],
+        [
+            [
+                "1B"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "3E",
+                "3F"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        [
+            [
+                "3E",
+                "3F"
+            ],
+            "Językangielski",
+            "31"
+        ],
+        null,
+        null,
         null
     ],
     "3": [
-        [
-            [
-                "1B"
-            ],
-            "Językangielski",
-            "31"
-        ],
+        null,
         null,
         [
             [
@@ -152,7 +152,13 @@
             "Językangielski",
             "31"
         ],
-        null,
+        [
+            [
+                "4E"
+            ],
+            "Językangielskizawodowy",
+            "31"
+        ],
         null,
         null,
         null,
@@ -188,7 +194,7 @@
                 "3C"
             ],
             "Językangielski",
-            "36"
+            "31"
         ],
         [
             [
@@ -214,13 +220,7 @@
             "Językangielski",
             "31"
         ],
-        [
-            [
-                "2E"
-            ],
-            "Językangielski",
-            "31"
-        ],
+        null,
         [
             [
                 "1A",

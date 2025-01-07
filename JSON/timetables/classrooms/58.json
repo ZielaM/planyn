@@ -10,125 +10,89 @@
         [
             "GI",
             [
+                "5A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "GI",
+            [
                 "5B"
             ],
             "Informatyka"
         ],
-        [
-            "GI",
-            [
-                "5A"
-            ],
-            "Informatyka"
-        ],
-        [
-            "GI",
-            [
-                "5A"
-            ],
-            "Informatyka"
-        ],
+        null,
         null,
         [
             "GI",
             [
-                "5E"
+                "5C"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Informatyka"
         ],
         [
             "GI",
             [
-                "5D"
+                "4D"
             ],
             "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
+        null,
         [
-            "GI",
+            "AW",
             [
-                "5D"
+                "2E"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaaplikacjiinternetowych"
         ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
+        null,
         null
     ],
     "1": [
+        null,
         [
-            "GI",
+            "AW",
             [
-                "5D"
+                "3C"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
-            "GI",
+            "AW",
             [
-                "5D"
+                "3C"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
-            "GI",
+            "KW",
             [
-                "5C"
+                "3D"
             ],
-            "Informatyka"
+            "Pracowniaprojektowaniaoprogramowania"
         ],
         [
-            "GI",
+            "KW",
             [
-                "5C"
+                "3D"
             ],
-            "Informatyka"
+            "Pracowniaprojektowaniaoprogramowania"
         ],
         [
-            "GI",
+            "KW",
             [
-                "5D"
+                "4B"
             ],
-            "Informatyka"
+            "Pracowniawitryninternetowych"
         ],
+        null,
+        null,
         [
-            "GI",
+            "KW",
             [
-                "5E"
+                "4A"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniawitryninternetowych"
         ],
         null,
         null
@@ -138,13 +102,6 @@
         [
             "GI",
             [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
                 "2E"
             ],
             "Informatyka"
@@ -163,6 +120,7 @@
             ],
             "Informatyka"
         ],
+        null,
         [
             "GI",
             [
@@ -177,6 +135,19 @@
             ],
             "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
+        [
+            "GI",
+            [
+                "4C"
+            ],
+            "Pracowniaprogramowaniaaplikacjimobilnych"
+        ],
+        null,
+        null,
+        null
+    ],
+    "3": [
+        null,
         null,
         [
             "GI",
@@ -188,33 +159,23 @@
         [
             "GI",
             [
+                "5C"
+            ],
+            "Informatyka"
+        ],
+        [
+            "GI",
+            [
                 "5D"
             ],
             "Informatyka"
         ],
-        null
-    ],
-    "3": [
         [
             "GI",
             [
                 "5D"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "4C"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Informatyka"
         ],
         [
             "OM",
@@ -223,121 +184,71 @@
             ],
             "Językhiszpański"
         ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Informatyka"
-        ],
-        [
-            "GI",
-            [
-                "4D"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "4": [
         [
-            "GI",
+            "AW",
             [
-                "5E"
+                "3D"
             ],
-            "Informatyka"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
-            "GI",
+            "AW",
             [
-                "5E"
+                "3D"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "OL",
+            "KW",
             [
                 "4B"
             ],
-            "Pracowniaprogramowania"
+            "Pracowniawitryninternetowych"
         ],
         [
-            "OM",
+            "KW",
             [
-                "2C"
+                "4A"
             ],
-            "Językhiszpański"
+            "Pracowniawitryninternetowych"
         ],
         [
-            "LS",
+            "JK",
             [
-                "2C"
+                "5D",
+                "5E"
             ],
             "Językangielski"
         ],
         [
             "GI",
             [
+                "5A"
+            ],
+            "Informatyka"
+        ],
+        null,
+        [
+            "GI",
+            [
                 "5E"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Informatyka"
         ],
         [
             "GI",
             [
                 "5E"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Informatyka"
         ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
-        [
-            "GI",
-            [
-                "5E"
-            ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
-        ],
+        null,
         null
     ]
 }

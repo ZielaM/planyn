@@ -3,13 +3,7 @@
         null,
         null,
         null,
-        [
-            [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "47"
-            ]
-        ],
+        null,
         [
             [
                 "Matematyka",
@@ -37,104 +31,39 @@
         null
     ],
     "1": [
+        null,
+        null,
         [
             [
-                "Urządzeniaautomatykiprzemysłowej",
-                "FN",
-                "33"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [
             [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Urządzeniaautomatykiprzemysłowej",
-                "FN",
-                "33"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [
             [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Instalacjeautomatykiprzemysłowej",
-                "WR",
-                "46"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
             [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniainstalacjiautomatykiprzemysłowej",
-                "WR",
-                "46"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
-        [
-            [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniainstalacjiautomatykiprzemysłowej",
-                "WR",
-                "46"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniainstalacjiautomatykiprzemysłowej",
-                "WR",
-                "46"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniainstalacjiautomatykiprzemysłowej",
-                "WR",
-                "46"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Instalacjeautomatykiprzemysłowej",
-                "WR",
-                "46"
-            ]
-        ],
-        [
-            [
-                "Instalacjeautomatykiprzemysłowej",
-                "WR",
-                "46"
-            ]
-        ],
+        null,
+        null,
+        null,
         [
             [
                 "Etyka",
@@ -151,6 +80,7 @@
         ]
     ],
     "2": [
+        null,
         [
             [
                 "Fizyka",
@@ -163,13 +93,6 @@
                 "Fizyka",
                 "KJ",
                 "27"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
             ]
         ],
         [
@@ -245,13 +168,7 @@
     ],
     "3": [
         null,
-        [
-            [
-                "Urządzeniaautomatykiprzemysłowej",
-                "FN",
-                "33"
-            ]
-        ],
+        null,
         [
             [
                 "Historia",
@@ -295,54 +212,10 @@
                 "20"
             ]
         ],
-        [
-            [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "17"
-            ],
-            [
-                "Pracowniatechnologiiipomiarówwautomatyce",
-                "WR",
-                "44"
-            ]
-        ],
-        [
-            [
-                "Pracowniasystemówmikroprocesorowych",
-                "RT",
-                "47"
-            ],
-            [
-                "Pracowniatechnologiiipomiarówwautomatyce",
-                "WR",
-                "44"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniatechnologiiipomiarówwautomatyce",
-                "WR",
-                "44"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiurządzeńelektronicznych",
-                "RG",
-                "47"
-            ],
-            [
-                "Pracowniatechnologiiipomiarówwautomatyce",
-                "WR",
-                "44"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [
@@ -352,7 +225,7 @@
             [
                 "Religia",
                 "RA",
-                "23"
+                "32"
             ]
         ],
         [
@@ -376,37 +249,9 @@
                 "18"
             ]
         ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Pracowniasystemówmikroprocesorowych",
-                "RT",
-                "46"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Pracowniasystemówmikroprocesorowych",
-                "RT",
-                "46"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
-            ]
-        ],
+        null,
+        null,
+        null,
         null,
         null
     ]

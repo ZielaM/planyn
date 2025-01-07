@@ -7,7 +7,6 @@
             ],
             "Informatyka"
         ],
-        null,
         [
             "DS",
             [
@@ -15,6 +14,7 @@
             ],
             "Informatyka"
         ],
+        null,
         [
             "DS",
             [
@@ -73,40 +73,22 @@
         ]
     ],
     "1": [
+        null,
+        null,
+        null,
         [
             "OL",
             [
-                "5A"
+                "4B"
             ],
             "Pracowniaprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5A"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
         ],
         [
             "OL",
             [
                 "1B"
             ],
-            "Podstawyprogramowania"
-        ],
-        [
-            "DS",
-            [
-                "2G"
-            ],
-            "Informatyka"
+            "Pracowniapodstawprogramowania"
         ],
         null,
         [
@@ -195,31 +177,19 @@
             [
                 "4A"
             ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "CL",
-            [
-                "4A"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "CL",
-            [
-                "4A"
-            ],
             "Informatyka"
-        ]
+        ],
+        [
+            "CL",
+            [
+                "4A"
+            ],
+            "Pracowniaprogramowania"
+        ],
+        null
     ],
     "3": [
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
+        null,
         null,
         [
             "PP",
@@ -228,55 +198,13 @@
             ],
             "Pracowniaaplikacjiwebowych"
         ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "CL",
-            [
-                "4B"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "PP",
-            [
-                "4D"
-            ],
-            "Pracowniaaplikacjiwebowych"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [
@@ -288,41 +216,41 @@
             "Pracowniaprogramowaniaobiektowego"
         ],
         [
-            "JA",
+            "MS",
             [
-                "3A"
+                "3D"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        null,
+        [
+            "CL",
+            [
+                "4D"
+            ],
+            "Informatyka"
+        ],
+        [
+            "CL",
+            [
+                "4D"
             ],
             "Informatyka"
         ],
         [
             "KW",
             [
-                "5C"
+                "3C"
             ],
-            "Pracowniawitryninternetowych"
+            "Pracowniaprojektowaniaoprogramowania"
         ],
         [
-            "KW",
+            "CL",
             [
-                "4B"
+                "4C"
             ],
-            "Pracowniawitryninternetowych"
+            "Informatyka"
         ],
-        [
-            "KW",
-            [
-                "4B"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        null,
         null,
         null,
         null,

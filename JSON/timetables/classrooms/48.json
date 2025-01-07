@@ -2,14 +2,26 @@
     "0": [
         null,
         null,
-        null,
-        null,
         [
-            "SZ",
+            "SJ",
             [
-                "2C"
+                "2H"
             ],
-            "Urządzeniatechnikikomputerowej"
+            "Urządzeniasterowaniaruchemkolejowym"
+        ],
+        [
+            "SJ",
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
+        ],
+        [
+            "SJ",
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
         ],
         [
             "SJ",
@@ -32,7 +44,6 @@
     ],
     "1": [
         null,
-        null,
         [
             "ZF",
             [
@@ -48,20 +59,9 @@
             "Sieciipodstacjetrakcyjne"
         ],
         null,
-        [
-            "WS",
-            [
-                "5B"
-            ],
-            "Historia"
-        ],
-        [
-            "WS",
-            [
-                "1B"
-            ],
-            "HistoriaD_DW"
-        ],
+        null,
+        null,
+        null,
         null,
         null,
         null,

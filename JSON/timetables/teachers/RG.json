@@ -21,13 +21,7 @@
             "Elektrotechnikaielektronika",
             "36"
         ],
-        [
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych",
-            "47"
-        ],
+        null,
         [
             [
                 "4E"
@@ -69,60 +63,24 @@
     "1": [
         [
             [
-                "2G"
-            ],
-            "Urządzeniaiinstalacjeelektroniczne",
-            "47"
-        ],
-        [
-            [
-                "5F"
+                "4E"
             ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "5F"
+                "3F"
             ],
-            "Eksploatacjaurządzeńelektronicznych",
+            "Układyanalogowe",
             "47"
         ],
-        [
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych",
-            "47"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych",
-            "47"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych",
-            "47"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych",
-            "47"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych",
-            "47"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -154,7 +112,13 @@
             "46"
         ],
         null,
-        null,
+        [
+            [
+                "2G"
+            ],
+            "Urządzeniaiinstalacjeelektroniczne",
+            "47"
+        ],
         null,
         null
     ],
@@ -181,42 +145,12 @@
             "47"
         ],
         null,
-        [
-            [
-                "3F"
-            ],
-            "Układyanalogowe",
-            "32"
-        ],
         null,
-        [
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych",
-            "17"
-        ],
-        [
-            [
-                "4E"
-            ],
-            "Eksploatacjaurządzeńelektronicznych",
-            "26"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych",
-            "47"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych",
-            "47"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [

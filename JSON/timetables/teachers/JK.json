@@ -41,7 +41,7 @@
                 "4F"
             ],
             "Językangielski",
-            "23"
+            "21"
         ],
         null,
         [
@@ -125,14 +125,14 @@
                 "4C"
             ],
             "Językangielskizawodowy",
-            "Piwnica"
+            "43"
         ],
         [
             [
                 "4D"
             ],
             "Językangielskizawodowy",
-            "18"
+            "43"
         ],
         [
             [
@@ -140,7 +140,7 @@
                 "4C"
             ],
             "Językangielski",
-            "Piwnica"
+            "23"
         ],
         [
             [
@@ -148,7 +148,7 @@
                 "4C"
             ],
             "Językangielski",
-            "31"
+            "23"
         ],
         null,
         null,
@@ -161,7 +161,7 @@
                 "2F"
             ],
             "Językangielski",
-            "23"
+            "22"
         ],
         [
             [
@@ -169,7 +169,7 @@
                 "2F"
             ],
             "Językangielski",
-            "23"
+            "22"
         ],
         null,
         [
@@ -178,7 +178,7 @@
                 "3C"
             ],
             "Językangielski",
-            "Piwnica"
+            "56"
         ],
         [
             [
@@ -186,7 +186,7 @@
                 "5E"
             ],
             "Językangielski",
-            "Piwnica"
+            "58"
         ],
         [
             [
@@ -194,7 +194,7 @@
                 "5E"
             ],
             "Językangielski",
-            "21"
+            "57"
         ],
         [
             [
@@ -210,6 +210,15 @@
                 "4C"
             ],
             "Językangielski",
+            "32"
+        ],
+        [
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
+            "Językangielski",
             "33"
         ],
         [
@@ -219,16 +228,7 @@
                 "1D"
             ],
             "Językangielski",
-            "32"
-        ],
-        [
-            [
-                "1A",
-                "1C",
-                "1D"
-            ],
-            "Językangielski",
-            "32"
+            "33"
         ],
         null
     ]

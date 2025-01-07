@@ -7,21 +7,21 @@
                 "2H"
             ],
             "Urządzeniasterowaniaruchemkolejowym",
-            "46"
+            "48"
         ],
         [
             [
                 "2H"
             ],
             "Pracowniaurządzeństerowaniaruchemkolejowym",
-            "46"
+            "48"
         ],
         [
             [
                 "2H"
             ],
             "Pracowniaurządzeństerowaniaruchemkolejowym",
-            "46"
+            "48"
         ],
         [
             [
@@ -92,24 +92,24 @@
             [
                 "2H"
             ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym",
-            "B101"
-        ],
-        [
-            [
-                "2H"
-            ],
             "Urządzeniasterowaniaruchemkolejowym",
-            "B101"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym",
-            "B101"
+            "B102"
         ],
         null,
+        [
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym",
+            "B102"
+        ],
+        [
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym",
+            "B102"
+        ],
         null
     ]
 }

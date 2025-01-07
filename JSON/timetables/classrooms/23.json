@@ -1,14 +1,20 @@
 {
     "0": [
         null,
-        null,
+        [
+            "CL",
+            [
+                "2C"
+            ],
+            "Programowanie"
+        ],
         null,
         [
-            "LS",
+            "LA",
             [
-                "4D"
+                "3B"
             ],
-            "Językangielski"
+            "Językpolski"
         ],
         [
             "LA",
@@ -38,7 +44,13 @@
             ],
             "Językpolski"
         ],
-        null,
+        [
+            "LA",
+            [
+                "4E"
+            ],
+            "Językpolski"
+        ],
         [
             "LA",
             [
@@ -50,14 +62,7 @@
     ],
     "1": [
         null,
-        [
-            "JK",
-            [
-                "4E",
-                "4F"
-            ],
-            "Językangielski"
-        ],
+        null,
         [
             "AB",
             [
@@ -100,13 +105,7 @@
     ],
     "2": [
         null,
-        [
-            "PA",
-            [
-                "5C"
-            ],
-            "Językpolski"
-        ],
+        null,
         [
             "PA",
             [
@@ -117,7 +116,7 @@
         [
             "PA",
             [
-                "5E"
+                "5C"
             ],
             "Językpolski"
         ],
@@ -131,7 +130,7 @@
         [
             "PA",
             [
-                "3E"
+                "5E"
             ],
             "Językpolski"
         ],
@@ -149,7 +148,13 @@
             ],
             "Językpolski"
         ],
-        null,
+        [
+            "PA",
+            [
+                "4D"
+            ],
+            "Językpolski"
+        ],
         null,
         null
     ],
@@ -164,12 +169,11 @@
             "Językpolski"
         ],
         [
-            "LS",
+            "AB",
             [
-                "2A",
-                "2B"
+                "2D"
             ],
-            "Językangielski"
+            "Językpolski"
         ],
         [
             "MŁ",
@@ -179,13 +183,6 @@
             "Działalnośćgospodarcza"
         ],
         [
-            "OM",
-            [
-                "5A"
-            ],
-            "Językhiszpański"
-        ],
-        [
             "MŁ",
             [
                 "2A"
@@ -193,11 +190,20 @@
             "Biznesizarządzanie"
         ],
         [
-            "MŁ",
+            "JK",
             [
-                "2B"
+                "4A",
+                "4C"
             ],
-            "Biznesizarządzanie"
+            "Językangielski"
+        ],
+        [
+            "JK",
+            [
+                "4A",
+                "4C"
+            ],
+            "Językangielski"
         ],
         [
             "JT",
@@ -216,43 +222,25 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro"
-        ],
-        [
-            "ME",
-            [
-                "2A",
-                "2B",
-                "2C",
-                "2D",
-                "2E"
-            ],
             "JęzykniemieckiDSDIPro"
-        ]
+        ],
+        null
     ],
     "4": [
+        null,
         [
-            "JK",
+            "PA",
             [
-                "2D",
-                "2F"
+                "5C"
             ],
-            "Językangielski"
+            "Językpolski"
         ],
         [
-            "JK",
+            "PA",
             [
-                "2D",
-                "2F"
+                "5C"
             ],
-            "Językangielski"
-        ],
-        [
-            "RA",
-            [
-                "5F"
-            ],
-            "Religia"
+            "Językpolski"
         ],
         [
             "PA",
@@ -265,13 +253,6 @@
             "PA",
             [
                 "5F"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "4A"
             ],
             "Językpolski"
         ],
@@ -283,16 +264,9 @@
             "Językpolski"
         ],
         [
-            "JT",
-            [
-                "1D"
-            ],
-            "Językniemiecki"
-        ],
-        [
             "PA",
             [
-                "3E"
+                "5E"
             ],
             "Językpolski"
         ],
@@ -303,6 +277,14 @@
             ],
             "Językpolski"
         ],
+        [
+            "PA",
+            [
+                "3E"
+            ],
+            "Językpolski"
+        ],
+        null,
         null
     ]
 }

@@ -2,50 +2,14 @@
     "0": [
         null,
         null,
-        [
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji",
-            "38"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Witrynyiaplikacjeinternetowe",
-            "57"
-        ],
-        [
-            [
-                "3C"
-            ],
-            "Projektowanieoprogramowania",
-            "38"
-        ],
         null,
-        [
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych",
-            "56"
-        ],
         null,
-        [
-            [
-                "3D"
-            ],
-            "Projektowanieoprogramowania",
-            "37"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "42"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
@@ -53,182 +17,74 @@
         null,
         [
             [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Pracowniaprojektowaniaoprogramowania",
-            "40"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Pracowniaprojektowaniaoprogramowania",
-            "40"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji",
-            "43"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji",
-            "43"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniawitryninternetowych",
-            "43"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniawitryninternetowych",
-            "43"
-        ],
-        [
-            [
                 "3C"
             ],
             "Pracowniaprojektowaniaoprogramowania",
-            "43"
+            "40"
         ],
+        [
+            [
+                "3D"
+            ],
+            "Pracowniaprojektowaniaoprogramowania",
+            "58"
+        ],
+        [
+            [
+                "3D"
+            ],
+            "Pracowniaprojektowaniaoprogramowania",
+            "58"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Pracowniawitryninternetowych",
+            "58"
+        ],
+        null,
+        [
+            [
+                "3D"
+            ],
+            "Projektowanieoprogramowania",
+            "44"
+        ],
+        [
+            [
+                "4A"
+            ],
+            "Pracowniawitryninternetowych",
+            "58"
+        ],
+        null,
         null
     ],
     "2": [
         null,
         null,
-        [
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "41"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "41"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "41"
-        ],
         null,
-        [
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji",
-            "18"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Witrynyiaplikacjeinternetowe",
-            "18"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "56"
-        ],
-        [
-            [
-                "3C"
-            ],
-            "Pracowniaprojektowaniaoprogramowania",
-            "56"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "3": [
         null,
-        [
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji",
-            "43"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych",
-            "43"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych",
-            "43"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji",
-            "51"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji",
-            "51"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji",
-            "51"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Witrynyiaplikacjeinternetowe",
-            "17"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Witrynyiaplikacjeinternetowe",
-            "26"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych",
-            "56"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [
@@ -236,34 +92,34 @@
         null,
         [
             [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
                 "4B"
             ],
             "Pracowniawitryninternetowych",
-            "50"
+            "58"
         ],
         [
             [
-                "4B"
+                "4A"
             ],
             "Pracowniawitryninternetowych",
-            "50"
+            "58"
         ],
+        null,
         [
             [
-                "5A"
+                "3C"
             ],
-            "Pracowniawitryninternetowych",
+            "Pracowniaprojektowaniaoprogramowania",
             "50"
         ],
         null,
-        null,
+        [
+            [
+                "3C"
+            ],
+            "Projektowanieoprogramowania",
+            "28"
+        ],
         null,
         null,
         null

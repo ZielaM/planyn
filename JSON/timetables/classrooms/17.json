@@ -4,7 +4,7 @@
         [
             "KC",
             [
-                "3B"
+                "1C"
             ],
             "Matematyka"
         ],
@@ -39,7 +39,7 @@
         [
             "KC",
             [
-                "2C"
+                "5B"
             ],
             "Matematyka"
         ],
@@ -50,20 +50,8 @@
             ],
             "Matematyka"
         ],
-        [
-            "KC",
-            [
-                "1C"
-            ],
-            "Matematyka"
-        ],
-        [
-            "KC",
-            [
-                "1C"
-            ],
-            "Matematyka"
-        ],
+        null,
+        null,
         null
     ],
     "1": [
@@ -88,13 +76,7 @@
             ],
             "Matematyka"
         ],
-        [
-            "JT",
-            [
-                "1A"
-            ],
-            "Językniemiecki"
-        ],
+        null,
         [
             "SE",
             [
@@ -112,21 +94,21 @@
         [
             "SE",
             [
-                "2B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "SE",
-            [
-                "2B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "SE",
-            [
                 "1A"
+            ],
+            "Matematyka"
+        ],
+        [
+            "SE",
+            [
+                "2B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "SE",
+            [
+                "2B"
             ],
             "Matematyka"
         ],
@@ -136,7 +118,13 @@
     "2": [
         null,
         null,
-        null,
+        [
+            "KC",
+            [
+                "2G"
+            ],
+            "Matematyka"
+        ],
         [
             "KC",
             [
@@ -174,118 +162,15 @@
             ],
             "Językangielski"
         ],
-        [
-            "PP",
-            [
-                "4D"
-            ],
-            "Programowanieaplikacjimobilnych"
-        ],
+        null,
         null,
         null
     ],
     "3": [
-        null,
-        [
-            "KC",
-            [
-                "5B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "KC",
-            [
-                "5B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Programowanieaplikacjimobilnych"
-        ],
-        [
-            "KC",
-            [
-                "2C"
-            ],
-            "Matematyka"
-        ],
-        [
-            "JT",
-            [
-                "5A"
-            ],
-            "Językniemiecki"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych"
-        ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Witrynyiaplikacjeinternetowe"
-        ],
-        [
-            "CL",
-            [
-                "2C"
-            ],
-            "Programowanie"
-        ],
-        [
-            "FN",
-            [
-                "4E"
-            ],
-            "Urządzeniaautomatykiprzemysłowej"
-        ],
-        null
-    ],
-    "4": [
-        null,
         [
             "KC",
             [
                 "2G"
-            ],
-            "Matematyka"
-        ],
-        [
-            "KC",
-            [
-                "2G"
-            ],
-            "Matematyka"
-        ],
-        [
-            "KC",
-            [
-                "5B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "KC",
-            [
-                "5B"
-            ],
-            "Matematyka"
-        ],
-        null,
-        [
-            "KC",
-            [
-                "4E"
             ],
             "Matematyka"
         ],
@@ -296,6 +181,97 @@
             ],
             "Matematyka"
         ],
+        [
+            "KC",
+            [
+                "5B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "KC",
+            [
+                "2C"
+            ],
+            "Matematyka"
+        ],
+        [
+            "KC",
+            [
+                "2C"
+            ],
+            "Matematyka"
+        ],
+        [
+            "LS",
+            [
+                "2C"
+            ],
+            "Językangielski"
+        ],
+        [
+            "LS",
+            [
+                "4D"
+            ],
+            "Językangielski"
+        ],
+        [
+            "LS",
+            [
+                "3B"
+            ],
+            "Językangielski"
+        ],
+        null,
+        null,
+        null
+    ],
+    "4": [
+        null,
+        [
+            "KC",
+            [
+                "5B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "KC",
+            [
+                "3B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "KC",
+            [
+                "5B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "SZ",
+            [
+                "1C"
+            ],
+            "Systemykomputerowe"
+        ],
+        [
+            "KC",
+            [
+                "1C"
+            ],
+            "Matematyka"
+        ],
+        [
+            "KC",
+            [
+                "4E"
+            ],
+            "Matematyka"
+        ],
+        null,
         [
             "LS",
             [

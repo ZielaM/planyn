@@ -1,6 +1,13 @@
 {
     "0": [
         null,
+        [
+            "ME",
+            [
+                "2F"
+            ],
+            "Językniemiecki"
+        ],
         null,
         [
             "KL",
@@ -10,18 +17,11 @@
             "Językpolski"
         ],
         [
-            "KL",
+            "EG",
             [
-                "5B"
+                "4B"
             ],
-            "Językpolski"
-        ],
-        [
-            "KL",
-            [
-                "4C"
-            ],
-            "Językpolski"
+            "Kompetencjespołeczne"
         ],
         [
             "KL",
@@ -33,24 +33,18 @@
         [
             "PA",
             [
-                "4D"
+                "3C"
             ],
-            "Językpolski"
+            "Zajęciazwychowawcą"
         ],
         [
             "PA",
             [
-                "5C"
+                "3E"
             ],
             "Językpolski"
         ],
-        [
-            "PA",
-            [
-                "5C"
-            ],
-            "Językpolski"
-        ],
+        null,
         null,
         null
     ],
@@ -77,28 +71,28 @@
             ],
             "Językpolski"
         ],
-        [
-            "PA",
-            [
-                "5E"
-            ],
-            "Językpolski"
-        ],
-        [
-            "PA",
-            [
-                "3C"
-            ],
-            "Językpolski"
-        ],
-        [
-            "PA",
-            [
-                "3C"
-            ],
-            "Językpolski"
-        ],
         null,
+        [
+            "PA",
+            [
+                "3C"
+            ],
+            "Językpolski"
+        ],
+        [
+            "PA",
+            [
+                "3C"
+            ],
+            "Językpolski"
+        ],
+        [
+            "EG",
+            [
+                "4A"
+            ],
+            "Kompetencjespołeczne"
+        ],
         null,
         null,
         null
@@ -120,41 +114,17 @@
             ],
             "Językangielski"
         ],
+        null,
+        null,
+        null,
         [
-            "KL",
+            "JT",
             [
-                "5G"
+                "2F"
             ],
-            "Językpolski"
+            "Językniemiecki"
         ],
-        [
-            "KL",
-            [
-                "5G"
-            ],
-            "Językpolski"
-        ],
-        [
-            "CL",
-            [
-                "4A"
-            ],
-            "Programowanie"
-        ],
-        [
-            "CL",
-            [
-                "5E"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "CL",
-            [
-                "5E"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
+        null,
         null,
         null,
         null,
@@ -179,36 +149,7 @@
         [
             "KL",
             [
-                "2C"
-            ],
-            "Językpolski"
-        ],
-        [
-            "LS",
-            [
-                "2A",
-                "2B"
-            ],
-            "Językangielski"
-        ],
-        [
-            "LS",
-            [
-                "2C"
-            ],
-            "Językangielski"
-        ],
-        [
-            "KL",
-            [
-                "5G"
-            ],
-            "Językpolski"
-        ],
-        [
-            "KL",
-            [
-                "5G"
+                "5B"
             ],
             "Językpolski"
         ],
@@ -219,30 +160,40 @@
             ],
             "Językpolski"
         ],
-        null,
-        null
-    ],
-    "4": [
         [
-            "PS",
+            "KL",
             [
-                "5B"
-            ],
-            "Religia"
-        ],
-        [
-            "PA",
-            [
-                "5C"
+                "4C"
             ],
             "Językpolski"
         ],
         [
-            "SZ",
+            "KL",
             [
-                "1A"
+                "5G"
             ],
-            "Urządzeniatechnikikomputerowej"
+            "Językpolski"
+        ],
+        [
+            "KL",
+            [
+                "5G"
+            ],
+            "Językpolski"
+        ],
+        null,
+        null,
+        null
+    ],
+    "4": [
+        null,
+        null,
+        [
+            "AM",
+            [
+                "2F"
+            ],
+            "Historia"
         ],
         [
             "WS",
@@ -254,9 +205,9 @@
         [
             "WS",
             [
-                "5C"
+                "2E"
             ],
-            "WiedzaospołeczeństwieD_DW"
+            "HistoriaD_DW"
         ],
         [
             "WS",
@@ -266,26 +217,20 @@
             "HistoriaD_DW"
         ],
         [
-            "WS",
+            "AM",
             [
-                "3D"
+                "1A"
             ],
-            "HiT_DW"
+            "Historia"
         ],
         [
-            "WS",
+            "KW",
             [
-                "4D"
+                "3C"
             ],
-            "WiedzaospołeczeństwieD_DW"
+            "Projektowanieoprogramowania"
         ],
-        [
-            "WS",
-            [
-                "4D"
-            ],
-            "HistoriaD_DW"
-        ],
+        null,
         null,
         null
     ]

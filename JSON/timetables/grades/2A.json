@@ -105,23 +105,16 @@
         null,
         [
             [
-                "Biologia",
-                "SU",
-                "37"
+                "Matematyka",
+                "MW",
+                "26"
             ]
         ],
         [
             [
-                "Programowanie",
-                "CL",
-                "44"
-            ]
-        ],
-        [
-            [
-                "Historia",
-                "AM",
-                "32"
+                "Matematyka",
+                "MW",
+                "26"
             ]
         ],
         [
@@ -129,6 +122,13 @@
                 "Historia",
                 "AM",
                 "32"
+            ]
+        ],
+        [
+            [
+                "HiT",
+                "AM",
+                "33"
             ]
         ],
         [
@@ -173,9 +173,9 @@
         ],
         [
             [
-                "Systemyoperacyjne",
-                "DR",
-                "B101"
+                "Matematyka",
+                "MW",
+                "B109"
             ]
         ],
         [
@@ -189,7 +189,7 @@
             [
                 "Chemia",
                 "MW",
-                "B109"
+                "B105"
             ]
         ],
         [
@@ -208,9 +208,9 @@
         ],
         [
             [
-                "Matematyka",
-                "MW",
-                "B109"
+                "Systemyoperacyjne",
+                "DR",
+                "B101"
             ]
         ],
         [
@@ -270,7 +270,7 @@
             [
                 "Językangielski",
                 "LS",
-                "23"
+                "57"
             ],
             [
                 "Językangielski",
@@ -292,7 +292,7 @@
             [
                 "Językangielski",
                 "LS",
-                "28"
+                "32"
             ],
             [
                 "Językangielski",
@@ -307,16 +307,16 @@
         ],
         [
             [
-                "HiT",
-                "AM",
-                "37"
+                "Biznesizarządzanie",
+                "MŁ",
+                "23"
             ]
         ],
         [
             [
-                "Biznesizarządzanie",
-                "MŁ",
-                "23"
+                "Programowanie",
+                "CL",
+                "33"
             ]
         ],
         [
@@ -335,12 +335,12 @@
             [
                 "Urządzeniatechnikikomputerowej",
                 "SZ",
-                "33"
+                "44"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "23"
             ]
@@ -349,7 +349,7 @@
             [
                 "JęzykniemieckiDSDIPro",
                 "ME",
-                "23"
+                "27"
             ]
         ]
     ],
@@ -384,23 +384,23 @@
         ],
         [
             [
-                "Matematyka",
-                "MW",
+                "Historia",
+                "AM",
                 "26"
             ]
         ],
         [
             [
-                "Matematyka",
-                "MW",
-                "26"
+                "Biologia",
+                "SU",
+                "37"
             ]
         ],
         [
             [
                 "Zajęciazwychowawcą",
                 "SZ",
-                "SwF"
+                "22"
             ]
         ],
         [
@@ -417,7 +417,7 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ],
@@ -429,7 +429,7 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ],

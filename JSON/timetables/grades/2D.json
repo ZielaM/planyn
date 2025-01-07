@@ -77,12 +77,18 @@
         null
     ],
     "1": [
-        null,
         [
             [
                 "Pracowniabazdanych",
                 "FK",
                 "40"
+            ]
+        ],
+        [
+            [
+                "Systemybazdanych",
+                "FK",
+                "44"
             ]
         ],
         [
@@ -178,20 +184,6 @@
         ],
         [
             [
-                "Geografia",
-                "NM",
-                "B102"
-            ]
-        ],
-        [
-            [
-                "Biznesizarządzanie",
-                "MŁ",
-                "B107"
-            ]
-        ],
-        [
-            [
                 "Projektowanieoprogramowania",
                 "DR",
                 "B101"
@@ -201,16 +193,24 @@
             [
                 "Biznesizarządzanie",
                 "MŁ",
-                "B101"
+                "B108"
             ]
         ],
         [
             [
-                "Językpolski",
-                "AB",
-                "B201"
+                "Geografia",
+                "NM",
+                "B102"
             ]
         ],
+        [
+            [
+                "Biznesizarządzanie",
+                "MŁ",
+                "B108"
+            ]
+        ],
+        null,
         null,
         null
     ],
@@ -231,7 +231,7 @@
             [
                 "Informatyka",
                 "DS",
-                "57"
+                "51"
             ]
         ],
         [
@@ -243,14 +243,14 @@
             [
                 "Informatyka",
                 "DS",
-                "57"
+                "51"
             ]
         ],
         [
             [
-                "Systemybazdanych",
-                "FK",
-                "34"
+                "Językpolski",
+                "AB",
+                "23"
             ]
         ],
         [
@@ -263,6 +263,18 @@
                 "Pracowniaprogramowaniaobiektowego",
                 "MS",
                 "41"
+            ]
+        ],
+        [
+            [
+                "Pracowniaprogramowaniaobiektowego",
+                "MS",
+                "41"
+            ],
+            [
+                "Pracowniabazdanych",
+                "FK",
+                "40"
             ]
         ],
         [
@@ -281,7 +293,7 @@
             [
                 "Programowanieobiektowe",
                 "MS",
-                "57"
+                "34"
             ]
         ],
         [
@@ -293,19 +305,7 @@
         ],
         [
             [
-                "Pracowniaprogramowaniaobiektowego",
-                "MS",
-                "41"
-            ],
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ]
-        ],
-        [
-            [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "23"
             ],
@@ -319,7 +319,7 @@
             [
                 "JęzykniemieckiDSDIPro",
                 "ME",
-                "23"
+                "27"
             ]
         ]
     ],
@@ -343,7 +343,7 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "22"
             ]
         ],
         [
@@ -365,7 +365,7 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "22"
             ]
         ],
         null,
@@ -415,14 +415,14 @@
         null,
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]

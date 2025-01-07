@@ -1,7 +1,13 @@
 {
     "0": [
         null,
-        null,
+        [
+            [
+                "Matematyka",
+                "KC",
+                "17"
+            ]
+        ],
         [
             [
                 "Plastyka",
@@ -13,7 +19,7 @@
             [
                 "Systemykomputerowe",
                 "SZ",
-                "22"
+                "57"
             ]
         ],
         null,
@@ -42,20 +48,8 @@
                 "SG2"
             ]
         ],
-        [
-            [
-                "Matematyka",
-                "KC",
-                "17"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "KC",
-                "17"
-            ]
-        ],
+        null,
+        null,
         null
     ],
     "1": [
@@ -68,37 +62,37 @@
         ],
         [
             [
+                "Historia",
+                "KK",
+                "B103"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "KC",
+                "B202"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "KC",
+                "B202"
+            ]
+        ],
+        [
+            [
+                "Historia",
+                "KK",
+                "B103"
+            ]
+        ],
+        [
+            [
                 "Fizyka",
                 "KJ",
                 "B108"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "KC",
-                "B202"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "KC",
-                "B202"
-            ]
-        ],
-        [
-            [
-                "Historia",
-                "KK",
-                "B103"
-            ]
-        ],
-        [
-            [
-                "Historia",
-                "KK",
-                "B103"
             ]
         ],
         [
@@ -126,25 +120,19 @@
         null
     ],
     "2": [
+        null,
         [
             [
                 "Pracowniapodstawprogramowania",
                 "OL",
-                "57"
+                "41"
             ]
         ],
         [
             [
                 "Pracowniapodstawprogramowania",
                 "OL",
-                "57"
-            ]
-        ],
-        [
-            [
-                "Podstawyprogramowania",
-                "OL",
-                "31"
+                "41"
             ]
         ],
         [
@@ -170,7 +158,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "18"
+                "27"
             ],
             [
                 "Językniemiecki",
@@ -187,7 +175,7 @@
             [
                 "Pracowniapodstawprogramowania",
                 "OL",
-                "57"
+                "40"
             ]
         ],
         [
@@ -199,7 +187,7 @@
             [
                 "Pracowniapodstawprogramowania",
                 "OL",
-                "57"
+                "40"
             ]
         ],
         [
@@ -220,8 +208,20 @@
     ],
     "3": [
         null,
-        null,
-        null,
+        [
+            [
+                "Podstawyprogramowania",
+                "OL",
+                "B102"
+            ]
+        ],
+        [
+            [
+                "Podstawyprogramowania",
+                "OL",
+                "B102"
+            ]
+        ],
         [
             [
                 "Biologia",
@@ -233,14 +233,14 @@
             [
                 "Projektowaniewitryninternetowych",
                 "AW",
-                "B102"
+                "B101"
             ]
         ],
         [
             [
                 "Projektowaniewitryninternetowych",
                 "AW",
-                "B102"
+                "B101"
             ]
         ],
         [
@@ -306,21 +306,21 @@
             [
                 "Systemykomputerowe",
                 "SZ",
-                "42"
+                "17"
             ]
         ],
         [
             [
-                "Podstawyprogramowania",
-                "OL",
-                "42"
+                "Matematyka",
+                "KC",
+                "17"
             ]
         ],
         [
             [
                 "Językhiszpański",
                 "OM",
-                "Piwnica"
+                "32"
             ],
             [
                 "Językniemiecki",
@@ -339,7 +339,7 @@
             [
                 "Językangielski",
                 "JK",
-                "32"
+                "33"
             ],
             [
                 "Językangielski",
@@ -371,7 +371,7 @@
             [
                 "Językangielski",
                 "JK",
-                "32"
+                "33"
             ],
             [
                 "Językangielski",

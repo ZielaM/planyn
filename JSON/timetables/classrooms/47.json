@@ -3,13 +3,7 @@
         null,
         null,
         null,
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych"
-        ],
+        null,
         [
             "RG",
             [
@@ -40,59 +34,23 @@
         [
             "RG",
             [
-                "2G"
-            ],
-            "Urządzeniaiinstalacjeelektroniczne"
-        ],
-        [
-            "RG",
-            [
-                "5F"
+                "4E"
             ],
             "Eksploatacjaurządzeńelektronicznych"
         ],
         [
             "RG",
             [
-                "5F"
+                "3F"
             ],
-            "Eksploatacjaurządzeńelektronicznych"
+            "Układyanalogowe"
         ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Eksploatacjaurządzeńelektronicznych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -154,7 +112,13 @@
             ],
             "Pracowniamontażuinstalacjiiurządzeńelektronicznych"
         ],
-        null,
+        [
+            "RG",
+            [
+                "2G"
+            ],
+            "Urządzeniaiinstalacjeelektroniczne"
+        ],
         null,
         null
     ],
@@ -208,27 +172,9 @@
             ],
             "Sieciipodstacjetrakcyjne"
         ],
-        [
-            "RT",
-            [
-                "5F"
-            ],
-            "Pracowniasystemówmikroprocesorowych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych"
-        ],
-        [
-            "RG",
-            [
-                "5F"
-            ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "4": [
@@ -281,27 +227,9 @@
             ],
             "Pracowniaelektrycznaielektroniczna"
         ],
-        [
-            "FN",
-            [
-                "2F"
-            ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
-        ],
-        [
-            "FN",
-            [
-                "2F"
-            ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
-        ],
-        [
-            "FN",
-            [
-                "2F"
-            ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
-        ],
+        null,
+        null,
+        null,
         null
     ]
 }

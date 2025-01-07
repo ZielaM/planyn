@@ -13,87 +13,76 @@
         null
     ],
     "1": [
-        [
-            [
-                "5A"
-            ],
-            "Pracowniaprogramowania",
-            "50"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniaprogramowania",
-            "50"
-        ],
         null,
+        null,
+        null,
+        [
+            [
+                "4B"
+            ],
+            "Pracowniaprogramowania",
+            "50"
+        ],
+        [
+            [
+                "1B"
+            ],
+            "Pracowniapodstawprogramowania",
+            "50"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Pracowniaprogramowania",
+            "51"
+        ],
         [
             [
                 "1B"
             ],
             "Podstawyprogramowania",
-            "50"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniaprogramowania",
-            "51"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniaprogramowania",
             "51"
         ],
         null,
+        [
+            [
+                "4A"
+            ],
+            "Pracowniaprogramowania",
+            "51"
+        ],
+        [
+            [
+                "4A"
+            ],
+            "Pracowniaprogramowania",
+            "51"
+        ],
         null
     ],
     "2": [
+        null,
         [
             [
                 "1C"
             ],
             "Pracowniapodstawprogramowania",
-            "57"
+            "41"
         ],
         [
             [
                 "1C"
             ],
             "Pracowniapodstawprogramowania",
-            "57"
+            "41"
         ],
         [
             [
-                "1C"
+                "1B"
             ],
             "Podstawyprogramowania",
-            "31"
+            "41"
         ],
         null,
         [
@@ -101,28 +90,21 @@
                 "1B"
             ],
             "Pracowniapodstawprogramowania",
-            "57"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "Pracowniapodstawprogramowania",
-            "57"
+            "41"
         ],
         [
             [
                 "1C"
             ],
             "Pracowniapodstawprogramowania",
-            "57"
+            "40"
         ],
         [
             [
                 "1C"
             ],
             "Pracowniapodstawprogramowania",
-            "57"
+            "40"
         ],
         null,
         null,
@@ -130,50 +112,26 @@
     ],
     "3": [
         null,
-        null,
-        null,
         [
             [
-                "5A"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "1B"
+                "1C"
             ],
             "Podstawyprogramowania",
-            "56"
+            "B102"
         ],
         [
             [
-                "5B"
+                "1C"
             ],
-            "Pracowniaprogramowania",
-            "56"
+            "Podstawyprogramowania",
+            "B102"
         ],
-        [
-            [
-                "4B"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania",
-            "57"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
     ],
@@ -181,21 +139,9 @@
         null,
         null,
         null,
-        [
-            [
-                "4B"
-            ],
-            "Pracowniaprogramowania",
-            "58"
-        ],
         null,
-        [
-            [
-                "1C"
-            ],
-            "Podstawyprogramowania",
-            "42"
-        ],
+        null,
+        null,
         null,
         null,
         null,

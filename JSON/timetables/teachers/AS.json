@@ -6,20 +6,6 @@
         null,
         [
             [
-                "5G"
-            ],
-            "Eksploatacjaelektrycznychpojazdówtrakcyjnych",
-            "B104"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Eksploatacjaelektrycznychpojazdówtrakcyjnych",
-            "B104"
-        ],
-        [
-            [
                 "4F"
             ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
@@ -44,6 +30,20 @@
                 "4F"
             ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego",
+            "B104"
+        ],
+        [
+            [
+                "3F"
+            ],
+            "Maszynyiurządzeniaelektryczne",
+            "B104"
+        ],
+        [
+            [
+                "3F"
+            ],
+            "Maszynyiurządzeniaelektryczne",
             "B104"
         ],
         null
@@ -108,20 +108,8 @@
             "Eksploatacjataboruszynowego",
             "B104"
         ],
-        [
-            [
-                "3F"
-            ],
-            "Maszynyiurządzeniaelektryczne",
-            "B104"
-        ],
-        [
-            [
-                "3F"
-            ],
-            "Maszynyiurządzeniaelektryczne",
-            "B104"
-        ],
+        null,
+        null,
         null
     ]
 }

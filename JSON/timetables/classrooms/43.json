@@ -1,6 +1,12 @@
 {
     "0": [
-        null,
+        [
+            "CL",
+            [
+                "4B"
+            ],
+            "Informatyka"
+        ],
         [
             "KZ",
             [
@@ -22,7 +28,13 @@
             ],
             "Pracowniaprogramowania"
         ],
-        null,
+        [
+            "CL",
+            [
+                "4C"
+            ],
+            "Informatyka"
+        ],
         [
             "KZ",
             [
@@ -96,41 +108,11 @@
             ],
             "Zajęciazwychowawcą"
         ],
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "KW",
-            [
-                "4A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "KW",
-            [
-                "4A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "KW",
-            [
-                "3C"
-            ],
-            "Pracowniaprojektowaniaoprogramowania"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "2": [
@@ -183,60 +165,30 @@
             ],
             "Pracowniasiecikomputerowych"
         ],
-        [
-            "WK",
-            [
-                "4C"
-            ],
-            "Programowanieaplikacjidesktopowych"
-        ],
-        [
-            "WK",
-            [
-                "4C"
-            ],
-            "Pracowniaaplikacjidesktopowych"
-        ],
-        [
-            "WK",
-            [
-                "4C"
-            ],
-            "Pracowniaaplikacjidesktopowych"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "3": [
         null,
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "DS",
-            [
-                "3F"
-            ],
-            "Informatyka3F"
-        ],
         null,
+        null,
+        null,
+        [
+            "JK",
+            [
+                "4C"
+            ],
+            "Językangielskizawodowy"
+        ],
+        [
+            "JK",
+            [
+                "4D"
+            ],
+            "Językangielskizawodowy"
+        ],
         [
             "KZ",
             [
@@ -276,13 +228,7 @@
             ],
             "Pracowniasystemówoperacyjnych"
         ],
-        [
-            "MS",
-            [
-                "3C"
-            ],
-            "Programowanieobiektowe"
-        ],
+        null,
         [
             "KZ",
             [
@@ -297,13 +243,7 @@
             ],
             "Układycyfrowe"
         ],
-        [
-            "AM",
-            [
-                "2B"
-            ],
-            "Historia"
-        ],
+        null,
         [
             "KZ",
             [

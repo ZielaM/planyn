@@ -13,27 +13,9 @@
         null
     ],
     "1": [
-        [
-            [
-                "5F"
-            ],
-            "Urządzeniaautomatykiprzemysłowej",
-            "33"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Urządzeniaautomatykiprzemysłowej",
-            "33"
-        ],
-        [
-            [
-                "4E"
-            ],
-            "Instalacjeautomatykiprzemysłowej",
-            "26"
-        ],
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -66,9 +48,9 @@
         ],
         [
             [
-                "5F"
+                "4E"
             ],
-            "Urządzeniaautomatykiprzemysłowej",
+            "Instalacjeautomatykiprzemysłowej",
             "33"
         ],
         [
@@ -119,7 +101,7 @@
                 "4E"
             ],
             "Urządzeniaautomatykiprzemysłowej",
-            "17"
+            "46"
         ],
         null
     ],
@@ -150,21 +132,21 @@
                 "4E"
             ],
             "Instalacjeautomatykiprzemysłowej",
-            "31"
+            "36"
         ],
         [
             [
                 "3E"
             ],
             "Urządzeniaautomatykiprzemysłowej",
-            "34"
+            "42"
         ],
         [
             [
                 "3E"
             ],
             "Urządzeniaautomatykiprzemysłowej",
-            "34"
+            "42"
         ],
         null,
         [
@@ -172,21 +154,21 @@
                 "2F"
             ],
             "Pracowniaurządzeńautomatykiprzemysłowej",
-            "47"
+            "46"
         ],
         [
             [
                 "2F"
             ],
             "Pracowniaurządzeńautomatykiprzemysłowej",
-            "47"
+            "46"
         ],
         [
             [
                 "2F"
             ],
             "Pracowniaurządzeńautomatykiprzemysłowej",
-            "47"
+            "46"
         ],
         null
     ]

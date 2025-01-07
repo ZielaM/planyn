@@ -4,48 +4,12 @@
         null,
         null,
         null,
-        [
-            [
-                "4F"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Taborszynowy",
-            "B103"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
@@ -115,23 +79,23 @@
         ],
         [
             [
-                "5G"
-            ],
-            "Eksploatacjataboruszynowego",
-            "B103"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Eksploatacjataboruszynowego",
-            "B103"
-        ],
-        [
-            [
                 "2H"
             ],
             "Kolejowepojazdyszynowe",
+            "B103"
+        ],
+        [
+            [
+                "4F"
+            ],
+            "Taborszynowy",
+            "B103"
+        ],
+        [
+            [
+                "4F"
+            ],
+            "Taborszynowy",
             "B103"
         ],
         null

@@ -2,29 +2,29 @@
     "0": [
         null,
         null,
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Urządzeniasterowaniaruchemkolejowym"
-        ],
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym"
-        ],
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym"
-        ],
         null,
         null,
+        [
+            "JR",
+            [
+                "3B"
+            ],
+            "SiecikomputeroweD_DW"
+        ],
+        [
+            "ME",
+            [
+                "2H"
+            ],
+            "Językniemiecki"
+        ],
+        [
+            "ME",
+            [
+                "2H"
+            ],
+            "Językniemiecki"
+        ],
         null,
         null,
         null,
@@ -34,54 +34,30 @@
         null,
         null,
         [
-            "WR",
+            "PM",
             [
-                "5F"
+                "4F"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Działalnośćusługowakolei"
         ],
         [
-            "WR",
+            "PM",
             [
-                "5F"
+                "4F"
             ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
+            "Działalnośćusługowakolei"
         ],
         [
-            "WR",
+            "PM",
             [
-                "5F"
+                "4F"
             ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
+            "Technikaruchukolejowego"
         ],
-        [
-            "WR",
-            [
-                "5F"
-            ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
-        ],
-        [
-            "WR",
-            [
-                "5F"
-            ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
-        ],
-        [
-            "WR",
-            [
-                "5F"
-            ],
-            "Instalacjeautomatykiprzemysłowej"
-        ],
-        [
-            "WR",
-            [
-                "5F"
-            ],
-            "Instalacjeautomatykiprzemysłowej"
-        ],
+        null,
+        null,
+        null,
+        null,
         null,
         null
     ],
@@ -202,7 +178,13 @@
             "Instalacjeautomatykiprzemysłowej"
         ],
         null,
-        null,
+        [
+            "FN",
+            [
+                "4E"
+            ],
+            "Urządzeniaautomatykiprzemysłowej"
+        ],
         null
     ],
     "4": [
@@ -256,20 +238,26 @@
             "Pracowniaurządzeńautomatykiprzemysłowej"
         ],
         [
-            "RT",
+            "FN",
             [
-                "5F"
+                "2F"
             ],
-            "Pracowniasystemówmikroprocesorowych"
+            "Pracowniaurządzeńautomatykiprzemysłowej"
         ],
         [
-            "RT",
+            "FN",
             [
-                "5F"
+                "2F"
             ],
-            "Pracowniasystemówmikroprocesorowych"
+            "Pracowniaurządzeńautomatykiprzemysłowej"
         ],
-        null,
+        [
+            "FN",
+            [
+                "2F"
+            ],
+            "Pracowniaurządzeńautomatykiprzemysłowej"
+        ],
         null
     ]
 }

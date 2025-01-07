@@ -3,7 +3,7 @@
         [
             "KJ",
             [
-                "4B"
+                "3B"
             ],
             "Fizyka"
         ],
@@ -42,13 +42,7 @@
             ],
             "Fizyka"
         ],
-        [
-            "CL",
-            [
-                "3B"
-            ],
-            "Programowanie"
-        ],
+        null,
         null,
         null,
         null,
@@ -58,46 +52,53 @@
         null,
         null,
         [
-            "PM",
+            "WS",
             [
-                "4F"
+                "2H"
             ],
-            "Działalnośćusługowakolei"
+            "HiT"
         ],
         [
-            "PM",
+            "EG",
             [
-                "4F"
+                "4E"
             ],
-            "Technikaruchukolejowego"
-        ],
-        [
-            "PM",
-            [
-                "4F"
-            ],
-            "Działalnośćusługowakolei"
+            "Kompetencjespołeczne"
         ],
         null,
         [
-            "DR",
+            "SG",
             [
-                "1A"
+                "5D"
             ],
-            "Systemyoperacyjne"
+            "Językpolski"
         ],
         [
-            "DR",
+            "SG",
             [
-                "1A"
+                "5D"
             ],
-            "Systemyoperacyjne"
+            "Językpolski"
         ],
-        null,
+        [
+            "SG",
+            [
+                "4F"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "1B"
+            ],
+            "Językpolski"
+        ],
         null,
         null
     ],
     "2": [
+        null,
         [
             "KJ",
             [
@@ -111,13 +112,6 @@
                 "5F"
             ],
             "Fizyka"
-        ],
-        [
-            "CL",
-            [
-                "5E"
-            ],
-            "Testowanieidokumentowanieaplikacji"
         ],
         [
             "KJ",
@@ -133,7 +127,13 @@
             ],
             "Fizyka"
         ],
-        null,
+        [
+            "OM",
+            [
+                "1C"
+            ],
+            "Językhiszpański"
+        ],
         [
             "KJ",
             [
@@ -235,11 +235,26 @@
             "Językniemiecki"
         ],
         null,
-        null
+        [
+            "ME",
+            [
+                "2A",
+                "2B",
+                "2C",
+                "2D",
+                "2E"
+            ],
+            "JęzykniemieckiDSDIPro"
+        ]
     ],
     "4": [
-        null,
-        null,
+        [
+            "KJ",
+            [
+                "4B"
+            ],
+            "Fizyka"
+        ],
         [
             "KJ",
             [
@@ -247,6 +262,7 @@
             ],
             "Fizyka"
         ],
+        null,
         [
             "KJ",
             [
@@ -262,33 +278,28 @@
             "Fizyka"
         ],
         [
-            "PM",
+            "LS",
             [
-                "5G"
+                "2C"
             ],
-            "Eksploatacjahandlowakolei"
+            "Językangielski"
         ],
         [
-            "PM",
+            "LS",
             [
-                "5G"
+                "3A",
+                "3C"
             ],
-            "Eksploatacjahandlowakolei"
+            "Językangielski"
         ],
         [
-            "PM",
+            "WS",
             [
-                "5G"
+                "3B"
             ],
-            "Działalnośćusługowakolei"
+            "HiT_DW"
         ],
-        [
-            "PM",
-            [
-                "5G"
-            ],
-            "Działalnośćusługowakolei"
-        ],
+        null,
         null,
         null
     ]

@@ -3,9 +3,9 @@
         null,
         [
             [
-                "HistoriaD_DW",
-                "WS",
-                "37"
+                "Programowanie",
+                "CL",
+                "23"
             ]
         ],
         [
@@ -26,7 +26,7 @@
             [
                 "Urządzeniatechnikikomputerowej",
                 "SZ",
-                "48"
+                "57"
             ]
         ],
         [
@@ -38,9 +38,9 @@
         ],
         [
             [
-                "Matematyka",
-                "KC",
-                "17"
+                "Zajęciazwychowawcą",
+                "DR",
+                "44"
             ]
         ],
         [
@@ -57,13 +57,7 @@
                 "26"
             ]
         ],
-        [
-            [
-                "Zajęciazwychowawcą",
-                "DR",
-                "44"
-            ]
-        ],
+        null,
         null
     ],
     "1": [
@@ -115,9 +109,9 @@
         ],
         [
             [
-                "SiecikomputeroweD_DW",
-                "JR",
-                "B102"
+                "Językpolski",
+                "KL",
+                "B201"
             ]
         ],
         [
@@ -173,9 +167,9 @@
         ],
         [
             [
-                "Chemia",
-                "MW",
-                "B109"
+                "HistoriaD_DW",
+                "WS",
+                "B103"
             ]
         ],
         [
@@ -194,23 +188,23 @@
         ],
         [
             [
-                "Systemyoperacyjne",
-                "DR",
-                "B101"
-            ]
-        ],
-        [
-            [
-                "Systemyoperacyjne",
-                "DR",
-                "B101"
-            ]
-        ],
-        [
-            [
                 "Biznesizarządzanie",
                 "MŁ",
                 "B108"
+            ]
+        ],
+        [
+            [
+                "Systemyoperacyjne",
+                "DR",
+                "B101"
+            ]
+        ],
+        [
+            [
+                "Systemyoperacyjne",
+                "DR",
+                "B101"
             ]
         ],
         [
@@ -242,13 +236,18 @@
         null
     ],
     "3": [
-        null,
-        null,
         [
             [
-                "Językpolski",
-                "KL",
-                "28"
+                "SiecikomputeroweD_DW",
+                "JR",
+                "44"
+            ]
+        ],
+        [
+            [
+                "Chemia",
+                "MW",
+                "26"
             ]
         ],
         [
@@ -267,9 +266,16 @@
         ],
         [
             [
+                "Matematyka",
+                "KC",
+                "17"
+            ]
+        ],
+        [
+            [
                 "Językangielski",
                 "LS",
-                "28"
+                "17"
             ],
             [
                 "Językangielski",
@@ -301,16 +307,10 @@
                 "61"
             ]
         ],
+        null,
         [
             [
-                "Programowanie",
-                "CL",
-                "17"
-            ]
-        ],
-        [
-            [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "23"
             ]
@@ -319,7 +319,7 @@
             [
                 "JęzykniemieckiDSDIPro",
                 "ME",
-                "23"
+                "27"
             ]
         ]
     ],
@@ -352,7 +352,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "33"
+                "20"
             ],
             [
                 "Językniemiecki",
@@ -371,7 +371,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "58"
+                "38"
             ],
             [
                 "Językniemiecki",
@@ -383,7 +383,7 @@
             [
                 "Językangielski",
                 "LS",
-                "58"
+                "27"
             ],
             [
                 "Językangielski",
@@ -417,14 +417,14 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]

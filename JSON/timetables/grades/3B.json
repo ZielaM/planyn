@@ -1,11 +1,17 @@
 {
     "0": [
-        null,
         [
             [
-                "Matematyka",
-                "KC",
-                "17"
+                "Fizyka",
+                "KJ",
+                "27"
+            ]
+        ],
+        [
+            [
+                "SiecikomputeroweD_DW",
+                "JR",
+                "38"
             ]
         ],
         [
@@ -17,21 +23,16 @@
         ],
         [
             [
-                "HistoriaD_DW",
-                "WS",
-                "37"
+                "Językpolski",
+                "LA",
+                "23"
             ]
         ],
         [
             [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Językangielski",
-                "LS",
-                "36"
+                "SiecikomputeroweD_DW",
+                "JR",
+                "46"
             ]
         ],
         [
@@ -43,9 +44,9 @@
         ],
         [
             [
-                "Programowanie",
-                "CL",
-                "27"
+                "HistoriaD_DW",
+                "WS",
+                "37"
             ]
         ],
         [
@@ -76,13 +77,7 @@
         null
     ],
     "1": [
-        [
-            [
-                "Fizyka",
-                "KJ",
-                "B108"
-            ]
-        ],
+        null,
         [
             [
                 "Językangielski",
@@ -165,13 +160,7 @@
         ]
     ],
     "2": [
-        [
-            [
-                "Podstawyprzedsiębiorczości",
-                "MN",
-                "33"
-            ]
-        ],
+        null,
         [
             [
                 "Informatyka",
@@ -235,12 +224,18 @@
     ],
     "3": [
         null,
-        null,
+        [
+            [
+                "Matematyka",
+                "KC",
+                "17"
+            ]
+        ],
         [
             [
                 "Językhiszpański",
                 "OM",
-                "21"
+                "30"
             ],
             [
                 "Pracowniaurządzeńtechnikikomputerowej",
@@ -288,21 +283,26 @@
             [
                 "Witrynyiaplikacjeinternetowe",
                 "GL",
+                "34"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ],
+            [
+                "Językangielski",
+                "LS",
+                "17"
+            ]
+        ],
+        [
+            [
+                "Programowanie",
+                "CL",
                 "33"
-            ]
-        ],
-        [
-            [
-                "SiecikomputeroweD_DW",
-                "JR",
-                "32"
-            ]
-        ],
-        [
-            [
-                "SiecikomputeroweD_DW",
-                "JR",
-                "32"
             ]
         ],
         [
@@ -347,9 +347,9 @@
         ],
         [
             [
-                "HiT_DW",
-                "WS",
-                "36"
+                "Matematyka",
+                "KC",
+                "17"
             ]
         ],
         [
@@ -373,13 +373,13 @@
             [
                 "Językangielski",
                 "LS",
-                "SwF"
+                "57"
             ]
         ],
         [
             [
-                "Językpolski",
-                "LA",
+                "Podstawyprzedsiębiorczości",
+                "MN",
                 "33"
             ]
         ],
@@ -392,9 +392,9 @@
         ],
         [
             [
-                "Matematyka",
-                "KC",
-                "17"
+                "HiT_DW",
+                "WS",
+                "27"
             ]
         ],
         [

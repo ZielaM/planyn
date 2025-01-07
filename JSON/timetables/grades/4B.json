@@ -2,9 +2,9 @@
     "0": [
         [
             [
-                "Fizyka",
-                "KJ",
-                "27"
+                "Informatyka",
+                "CL",
+                "43"
             ]
         ],
         [
@@ -45,14 +45,9 @@
         ],
         [
             [
-                "Informatyka",
-                "CL",
-                "41"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
+                "Kompetencjespołeczne",
+                "EG",
+                "28"
             ]
         ],
         [
@@ -66,34 +61,34 @@
             [
                 "Językangielskizawodowy",
                 "IS",
-                "36"
+                "30"
             ]
         ],
         [
             [
                 "Matematyka",
                 "DS",
-                "36"
+                "37"
             ]
         ],
         [
             [
-                "Witrynyiaplikacjeinternetowe",
-                "AW",
-                "57"
+                "Matematyka",
+                "DS",
+                "37"
             ]
         ],
-        [
-            [
-                "BazydanychD_DW",
-                "JR",
-                "57"
-            ]
-        ],
+        null,
         null
     ],
     "1": [
-        null,
+        [
+            [
+                "Informatyka",
+                "AL",
+                "51"
+            ]
+        ],
         [
             [
                 "Informatyka",
@@ -120,9 +115,14 @@
         ],
         [
             [
-                "Biologia",
-                "SU",
-                "37"
+                "Pracowniaprogramowania",
+                "CL",
+                "41"
+            ],
+            [
+                "Pracowniaprogramowania",
+                "OL",
+                "50"
             ]
         ],
         [
@@ -139,9 +139,14 @@
         ],
         [
             [
-                "Matematyka",
-                "DS",
-                "33"
+                "Pracowniawitryninternetowych",
+                "KW",
+                "58"
+            ],
+            [
+                "Pracowniaprogramowania",
+                "OL",
+                "51"
             ]
         ],
         [
@@ -153,18 +158,12 @@
         ],
         [
             [
-                "Programowanie",
-                "CL",
-                "16"
+                "Biologia",
+                "SU",
+                "37"
             ]
         ],
-        [
-            [
-                "Kompetencjespołeczne",
-                "EG",
-                "16"
-            ]
-        ],
+        null,
         null,
         null
     ],
@@ -173,7 +172,7 @@
             [
                 "Zajęciazwychowawcą",
                 "JR",
-                "B108"
+                "B102"
             ]
         ],
         [
@@ -199,9 +198,9 @@
         ],
         [
             [
-                "Działalnośćgospodarcza",
-                "MŁ",
-                "B108"
+                "Geografia",
+                "NM",
+                "B102"
             ]
         ],
         [
@@ -213,9 +212,9 @@
         ],
         [
             [
-                "Geografia",
-                "NM",
-                "B102"
+                "Działalnośćgospodarcza",
+                "MŁ",
+                "B108"
             ]
         ],
         [
@@ -236,8 +235,20 @@
         null
     ],
     "3": [
-        null,
-        null,
+        [
+            [
+                "JęzykniemieckiDSDIPro",
+                "TE",
+                "34"
+            ]
+        ],
+        [
+            [
+                "JęzykniemieckiDSDIPro",
+                "TE",
+                "34"
+            ]
+        ],
         [
             [
                 "Religia",
@@ -273,14 +284,9 @@
         null,
         [
             [
-                "Pracowniaprogramowania",
+                "Programowanie",
                 "CL",
-                "50"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "OL",
-                "57"
+                "33"
             ]
         ],
         [
@@ -292,7 +298,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "16"
+                "22"
             ],
             [
                 "Językniemiecki",
@@ -311,23 +317,23 @@
     "4": [
         [
             [
-                "JęzykniemieckiDSDIPro",
-                "TE",
-                "34"
+                "Fizyka",
+                "KJ",
+                "27"
             ]
         ],
         [
             [
-                "Językniemiecki",
-                "TE",
-                "34"
+                "BazydanychD_DW",
+                "JR",
+                "44"
             ]
         ],
         [
             [
-                "Językangielski",
-                "SK",
-                "22"
+                "Pracowniawitryninternetowych",
+                "KW",
+                "58"
             ],
             [
                 "Językangielski",
@@ -337,21 +343,16 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "50"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "OL",
-                "58"
+                "Witrynyiaplikacjeinternetowe",
+                "AW",
+                "57"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "50"
+                "Językangielski",
+                "SK",
+                "22"
             ],
             [
                 "Pracowniabazdanych",
@@ -411,7 +412,7 @@
         ],
         [
             [
-                "JęzykniemieckiDSDIPro",
+                "Językniemiecki",
                 "TE",
                 "34"
             ]

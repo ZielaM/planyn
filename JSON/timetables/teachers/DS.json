@@ -7,7 +7,6 @@
             "Informatyka",
             "50"
         ],
-        null,
         [
             [
                 "2F"
@@ -15,6 +14,7 @@
             "Informatyka",
             "50"
         ],
+        null,
         [
             [
                 "2H"
@@ -48,9 +48,15 @@
                 "4B"
             ],
             "Matematyka",
-            "36"
+            "37"
         ],
-        null,
+        [
+            [
+                "4B"
+            ],
+            "Matematyka",
+            "37"
+        ],
         [
             [
                 "2G"
@@ -64,21 +70,21 @@
         null,
         null,
         null,
-        null,
+        [
+            [
+                "3F"
+            ],
+            "Informatyka3F",
+            "57"
+        ],
         [
             [
                 "2G"
             ],
             "Informatyka",
-            "50"
+            "40"
         ],
-        [
-            [
-                "4B"
-            ],
-            "Matematyka",
-            "33"
-        ],
+        null,
         [
             [
                 "3F"
@@ -171,23 +177,17 @@
                 "2D"
             ],
             "Informatyka",
-            "57"
+            "51"
         ],
         [
             [
                 "2D"
             ],
             "Informatyka",
-            "57"
+            "51"
         ],
         null,
-        [
-            [
-                "3F"
-            ],
-            "Informatyka3F",
-            "43"
-        ],
+        null,
         null,
         null,
         null,

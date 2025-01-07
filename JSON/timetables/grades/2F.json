@@ -9,21 +9,21 @@
         ],
         [
             [
-                "Biznesizarządzanie",
-                "MŁ",
-                "26"
-            ]
-        ],
-        [
-            [
                 "Językniemiecki",
                 "ME",
-                "31"
+                "28"
             ],
             [
                 "Informatyka",
                 "DS",
                 "50"
+            ]
+        ],
+        [
+            [
+                "Biznesizarządzanie",
+                "MŁ",
+                "26"
             ]
         ],
         [
@@ -65,7 +65,13 @@
         null
     ],
     "1": [
-        null,
+        [
+            [
+                "Chemia",
+                "AJ",
+                "B109"
+            ]
+        ],
         [
             [
                 "Językpolski",
@@ -168,19 +174,19 @@
             [
                 "Językniemiecki",
                 "ME",
-                "33"
+                "36"
             ],
             [
                 "Językniemiecki",
                 "JT",
-                "34"
+                "28"
             ]
         ],
         [
             [
-                "Chemia",
-                "AJ",
-                "26"
+                "Biologia",
+                "SU",
+                "37"
             ]
         ],
         [
@@ -252,13 +258,6 @@
         ],
         [
             [
-                "Historia",
-                "AM",
-                "37"
-            ]
-        ],
-        [
-            [
                 "Technologieipomiarywautomatyce",
                 "RT",
                 "18"
@@ -271,6 +270,7 @@
                 "18"
             ]
         ],
+        null,
         null
     ],
     "4": [
@@ -293,7 +293,7 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "22"
             ]
         ],
         [
@@ -315,14 +315,14 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "22"
             ]
         ],
         [
             [
-                "Biologia",
-                "SU",
-                "37"
+                "Historia",
+                "AM",
+                "28"
             ]
         ],
         [
@@ -372,7 +372,7 @@
             [
                 "Pracowniaurządzeńautomatykiprzemysłowej",
                 "FN",
-                "47"
+                "46"
             ],
             [
                 "Pracowniaelektrycznaielektroniczna",
@@ -384,7 +384,7 @@
             [
                 "Pracowniaurządzeńautomatykiprzemysłowej",
                 "FN",
-                "47"
+                "46"
             ],
             [
                 "Pracowniaelektrycznaielektroniczna",
@@ -396,7 +396,7 @@
             [
                 "Pracowniaurządzeńautomatykiprzemysłowej",
                 "FN",
-                "47"
+                "46"
             ],
             [
                 "Pracowniaelektrycznaielektroniczna",

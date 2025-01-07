@@ -1,10 +1,11 @@
 {
     "0": [
+        null,
         [
             [
-                "2E"
+                "5B"
             ],
-            "HistoriaD_DW",
+            "Historia",
             "37"
         ],
         [
@@ -16,16 +17,9 @@
         ],
         [
             [
-                "2C"
+                "4D"
             ],
-            "HistoriaD_DW",
-            "37"
-        ],
-        [
-            [
-                "3B"
-            ],
-            "HistoriaD_DW",
+            "WiedzaospołeczeństwieD_DW",
             "37"
         ],
         [
@@ -42,7 +36,13 @@
             "Zajęciazwychowawcą",
             "37"
         ],
-        null,
+        [
+            [
+                "3B"
+            ],
+            "HistoriaD_DW",
+            "37"
+        ],
         null,
         null,
         null,
@@ -53,32 +53,32 @@
         null,
         [
             [
-                "2E"
-            ],
-            "HistoriaD_DW",
-            "33"
-        ],
-        [
-            [
                 "2H"
             ],
             "HiT",
-            "33"
-        ],
-        null,
-        [
-            [
-                "5B"
-            ],
-            "Historia",
-            "48"
+            "27"
         ],
         [
             [
                 "1B"
             ],
             "HistoriaD_DW",
-            "48"
+            "18"
+        ],
+        [
+            [
+                "2E"
+            ],
+            "HistoriaD_DW",
+            "34"
+        ],
+        null,
+        [
+            [
+                "5C"
+            ],
+            "WiedzaospołeczeństwieD_DW",
+            "33"
         ],
         null,
         null,
@@ -87,7 +87,13 @@
     ],
     "2": [
         null,
-        null,
+        [
+            [
+                "2C"
+            ],
+            "HistoriaD_DW",
+            "B103"
+        ],
         [
             [
                 "2C"
@@ -138,7 +144,13 @@
             "Historia",
             "B103"
         ],
-        null,
+        [
+            [
+                "3C"
+            ],
+            "Historia",
+            "B103"
+        ],
         [
             [
                 "3D"
@@ -155,9 +167,9 @@
         ],
         [
             [
-                "3C"
+                "3D"
             ],
-            "Historia",
+            "HiT_DW",
             "B103"
         ],
         null,
@@ -168,13 +180,7 @@
     "4": [
         null,
         null,
-        [
-            [
-                "3B"
-            ],
-            "HiT_DW",
-            "36"
-        ],
+        null,
         [
             [
                 "1B"
@@ -184,9 +190,9 @@
         ],
         [
             [
-                "5C"
+                "2E"
             ],
-            "WiedzaospołeczeństwieD_DW",
+            "HistoriaD_DW",
             "28"
         ],
         [
@@ -198,25 +204,19 @@
         ],
         [
             [
-                "3D"
-            ],
-            "HiT_DW",
-            "28"
-        ],
-        [
-            [
-                "4D"
-            ],
-            "WiedzaospołeczeństwieD_DW",
-            "28"
-        ],
-        [
-            [
                 "4D"
             ],
             "HistoriaD_DW",
-            "28"
+            "37"
         ],
+        [
+            [
+                "3B"
+            ],
+            "HiT_DW",
+            "27"
+        ],
+        null,
         null,
         null
     ]

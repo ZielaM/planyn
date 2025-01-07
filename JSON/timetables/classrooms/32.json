@@ -18,14 +18,14 @@
         [
             "JO",
             [
-                "4D"
+                "5C"
             ],
             "Językangielski"
         ],
         [
             "JO",
             [
-                "3B"
+                "2E"
             ],
             "Językangielski"
         ],
@@ -78,11 +78,11 @@
             "Historia"
         ],
         [
-            "AM",
+            "JT",
             [
-                "2A"
+                "2B"
             ],
-            "Historia"
+            "Językniemiecki"
         ],
         [
             "AM",
@@ -91,7 +91,13 @@
             ],
             "HiT"
         ],
-        null,
+        [
+            "AM",
+            [
+                "2B"
+            ],
+            "Historia"
+        ],
         null,
         null,
         null,
@@ -114,59 +120,11 @@
             "Językangielski"
         ],
         [
-            "JO",
+            "OM",
             [
-                "5C"
+                "3D"
             ],
-            "Językangielski"
-        ],
-        [
-            "JO",
-            [
-                "5C"
-            ],
-            "Językangielski"
-        ],
-        [
-            "JR",
-            [
-                "5C"
-            ],
-            "BazydanychD_DW"
-        ],
-        [
-            "JR",
-            [
-                "5C"
-            ],
-            "BazydanychD_DW"
-        ],
-        [
-            "JR",
-            [
-                "2E"
-            ],
-            "SystemybazdanychD_DW"
-        ],
-        null,
-        null,
-        null
-    ],
-    "3": [
-        null,
-        [
-            "JO",
-            [
-                "4D"
-            ],
-            "Językangielski"
-        ],
-        [
-            "JO",
-            [
-                "5C"
-            ],
-            "Językangielski"
+            "Językhiszpański"
         ],
         [
             "JO",
@@ -176,11 +134,54 @@
             "Zajęciazwychowawcą"
         ],
         [
-            "RG",
+            "JO",
             [
-                "3F"
+                "5C"
             ],
-            "Układyanalogowe"
+            "Językangielski"
+        ],
+        [
+            "JO",
+            [
+                "5C"
+            ],
+            "Językangielski"
+        ],
+        null,
+        null,
+        null,
+        null
+    ],
+    "3": [
+        null,
+        [
+            "JO",
+            [
+                "5C"
+            ],
+            "Językangielski"
+        ],
+        [
+            "JO",
+            [
+                "4D"
+            ],
+            "Językangielski"
+        ],
+        [
+            "JO",
+            [
+                "5C"
+            ],
+            "Językangielski"
+        ],
+        [
+            "LS",
+            [
+                "2A",
+                "2B"
+            ],
+            "Językangielski"
         ],
         [
             "JO",
@@ -197,19 +198,13 @@
             "Językangielski"
         ],
         [
-            "JR",
+            "JO",
             [
                 "3B"
             ],
-            "SiecikomputeroweD_DW"
+            "Językangielski"
         ],
-        [
-            "JR",
-            [
-                "3B"
-            ],
-            "SiecikomputeroweD_DW"
-        ],
+        null,
         null,
         null
     ],
@@ -217,18 +212,18 @@
         null,
         null,
         [
-            "JO",
+            "RA",
             [
-                "5C"
+                "5F"
             ],
-            "Językangielski"
+            "Religia"
         ],
         [
-            "GI",
+            "RA",
             [
-                "5E"
+                "5A"
             ],
-            "Programowanieaplikacjimobilnych"
+            "Religia"
         ],
         [
             "JO",
@@ -245,37 +240,22 @@
             "Językangielski"
         ],
         [
-            "JO",
+            "OM",
             [
-                "5C"
+                "1C"
             ],
-            "Językangielski"
-        ],
-        [
-            "JO",
-            [
-                "2E"
-            ],
-            "Językangielski"
+            "Językhiszpański"
         ],
         [
             "JK",
             [
-                "1A",
-                "1C",
-                "1D"
+                "4A",
+                "4C"
             ],
             "Językangielski"
         ],
-        [
-            "JK",
-            [
-                "1A",
-                "1C",
-                "1D"
-            ],
-            "Językangielski"
-        ],
+        null,
+        null,
         null
     ]
 }

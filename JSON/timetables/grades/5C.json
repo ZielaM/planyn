@@ -12,11 +12,13 @@
                 "Językangielski",
                 "JO",
                 "32"
-            ],
+            ]
+        ],
+        [
             [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
+                "Językangielski",
+                "JO",
+                "32"
             ]
         ],
         [
@@ -26,16 +28,9 @@
                 "32"
             ],
             [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Witrynyiaplikacjeinternetowe",
-                "KW",
-                "57"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [
@@ -47,9 +42,9 @@
         ],
         [
             [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
+                "Informatyka",
+                "GI",
+                "58"
             ],
             [
                 "Językangielski",
@@ -59,100 +54,28 @@
         ],
         [
             [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
                 "Językangielski",
                 "JO",
                 "32"
             ]
         ],
-        [
-            [
-                "Językpolski",
-                "PA",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "PA",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "42"
-            ]
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "1": [
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         [
             [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowania",
-                "OL",
-                "57"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "CL",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowania",
-                "OL",
-                "57"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "CL",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowania",
-                "OL",
-                "57"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "CL",
-                "41"
+                "WiedzaospołeczeństwieD_DW",
+                "WS",
+                "33"
             ]
         ],
         [
@@ -180,104 +103,19 @@
     ],
     "2": [
         null,
+        null,
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ]
+        ],
         [
             [
                 "Językpolski",
                 "PA",
                 "23"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ],
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "41"
-            ],
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ]
-        ],
-        [
-            [
-                "BazydanychD_DW",
-                "JR",
-                "32"
-            ]
-        ],
-        [
-            [
-                "BazydanychD_DW",
-                "JR",
-                "32"
-            ]
-        ],
-        [
-            [
-                "Witrynyiaplikacjeinternetowe",
-                "KW",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "56"
-            ],
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
-            ]
-        ],
-        null,
-        null
-    ],
-    "3": [
-        null,
-        [
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Językangielski",
-                "JO",
-                "32"
             ]
         ],
         [
@@ -289,9 +127,56 @@
         ],
         [
             [
+                "Językangielski",
+                "JO",
+                "32"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ]
+        ],
+        null,
+        null,
+        null,
+        null
+    ],
+    "3": [
+        null,
+        [
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "PA",
+                "18"
+            ]
+        ],
+        [
+            [
+                "Informatyka",
+                "GI",
+                "58"
+            ],
+            [
+                "Językangielski",
+                "JO",
+                "32"
+            ]
+        ],
+        [
+            [
                 "Językhiszpański",
                 "OM",
-                "38"
+                "57"
             ],
             [
                 "Językniemiecki",
@@ -337,24 +222,25 @@
         ]
     ],
     "4": [
-        null,
         [
             [
-                "Językpolski",
-                "PA",
-                "28"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "50"
-            ],
+                "Językpolski",
+                "PA",
+                "23"
+            ]
+        ],
+        [
             [
-                "Językangielski",
-                "JO",
-                "32"
+                "Językpolski",
+                "PA",
+                "23"
             ]
         ],
         [
@@ -364,27 +250,9 @@
                 "26"
             ]
         ],
-        [
-            [
-                "WiedzaospołeczeństwieD_DW",
-                "WS",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JO",
-                "32"
-            ]
-        ],
+        null,
+        null,
+        null,
         null,
         null,
         null,

@@ -24,23 +24,23 @@
         ],
         [
             [
-                "3A"
-            ],
-            "Matematyka",
-            "B109"
-        ],
-        [
-            [
-                "3A"
-            ],
-            "Matematyka",
-            "B109"
-        ],
-        [
-            [
                 "4A"
             ],
             "Chemia",
+            "B109"
+        ],
+        [
+            [
+                "3A"
+            ],
+            "Matematyka",
+            "B109"
+        ],
+        [
+            [
+                "3A"
+            ],
+            "Matematyka",
             "B109"
         ],
         [
@@ -56,8 +56,20 @@
     ],
     "1": [
         null,
-        null,
-        null,
+        [
+            [
+                "2A"
+            ],
+            "Matematyka",
+            "26"
+        ],
+        [
+            [
+                "2A"
+            ],
+            "Matematyka",
+            "26"
+        ],
         [
             [
                 "5G"
@@ -111,14 +123,14 @@
     ],
     "2": [
         null,
+        null,
         [
             [
-                "2C"
+                "2A"
             ],
-            "Chemia",
+            "Matematyka",
             "B109"
         ],
-        null,
         [
             [
                 "3A"
@@ -131,7 +143,7 @@
                 "2A"
             ],
             "Chemia",
-            "B109"
+            "B105"
         ],
         [
             [
@@ -147,13 +159,7 @@
             "Matematyka",
             "B109"
         ],
-        [
-            [
-                "2A"
-            ],
-            "Matematyka",
-            "B109"
-        ],
+        null,
         [
             [
                 "5G"
@@ -174,7 +180,7 @@
         null,
         [
             [
-                "2B"
+                "2C"
             ],
             "Chemia",
             "26"
@@ -214,7 +220,13 @@
             "Matematyka",
             "26"
         ],
-        null,
+        [
+            [
+                "2B"
+            ],
+            "Chemia",
+            "26"
+        ],
         null,
         null,
         null
@@ -236,20 +248,8 @@
             "Matematyka",
             "26"
         ],
-        [
-            [
-                "2A"
-            ],
-            "Matematyka",
-            "26"
-        ],
-        [
-            [
-                "2A"
-            ],
-            "Matematyka",
-            "26"
-        ],
+        null,
+        null,
         null,
         null,
         null,

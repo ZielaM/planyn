@@ -26,11 +26,17 @@
         [
             "SG",
             [
+                "1B"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
                 "4A"
             ],
             "Zajęciazwychowawcą"
         ],
-        null,
         null,
         null,
         null,
@@ -107,57 +113,69 @@
     "3": [
         null,
         null,
+        [
+            "SG",
+            [
+                "5A"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "2H"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "2H"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "4F"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "4F"
+            ],
+            "Językpolski"
+        ],
+        [
+            "SG",
+            [
+                "3D"
+            ],
+            "Językpolski"
+        ],
         null,
-        [
-            "SG",
-            [
-                "2H"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "2H"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "4F"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "4F"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "3D"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "3D"
-            ],
-            "Językpolski"
-        ],
         null,
         null
     ],
     "4": [
         null,
         null,
-        null,
-        null,
+        [
+            "KL",
+            [
+                "5G"
+            ],
+            "Językpolski"
+        ],
+        [
+            "KL",
+            [
+                "5G"
+            ],
+            "Językpolski"
+        ],
         [
             "KL",
             [

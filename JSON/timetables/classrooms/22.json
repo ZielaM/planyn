@@ -16,11 +16,11 @@
             "Językangielski"
         ],
         [
-            "SZ",
+            "JT",
             [
-                "1C"
+                "1D"
             ],
-            "Systemykomputerowe"
+            "Językniemiecki"
         ],
         [
             "SK",
@@ -43,7 +43,7 @@
             [
                 "3D"
             ],
-            "Zajęciazwychowawcą"
+            "Językangielski"
         ],
         null,
         null,
@@ -96,13 +96,7 @@
             ],
             "Językangielski"
         ],
-        [
-            "MŁ",
-            [
-                "2E"
-            ],
-            "Biznesizarządzanie"
-        ],
+        null,
         null,
         null,
         null
@@ -148,13 +142,7 @@
             ],
             "Językangielski"
         ],
-        [
-            "OM",
-            [
-                "3C"
-            ],
-            "Językhiszpański"
-        ],
+        null,
         [
             "SK",
             [
@@ -180,6 +168,7 @@
     ],
     "3": [
         null,
+        null,
         [
             "LS",
             [
@@ -187,7 +176,6 @@
             ],
             "Językangielski"
         ],
-        null,
         [
             "SK",
             [
@@ -228,13 +216,51 @@
             ],
             "Językangielski"
         ],
-        null,
+        [
+            "OM",
+            [
+                "4A",
+                "4B",
+                "4C",
+                "4D",
+                "4E"
+            ],
+            "Językhiszpański"
+        ],
         null,
         null
     ],
     "4": [
-        null,
-        null,
+        [
+            "JK",
+            [
+                "2D",
+                "2F"
+            ],
+            "Językangielski"
+        ],
+        [
+            "JK",
+            [
+                "2D",
+                "2F"
+            ],
+            "Językangielski"
+        ],
+        [
+            "SK",
+            [
+                "3D"
+            ],
+            "Językangielski"
+        ],
+        [
+            "SK",
+            [
+                "3D"
+            ],
+            "Zajęciazwychowawcą"
+        ],
         [
             "SK",
             [
@@ -243,33 +269,18 @@
             "Językangielski"
         ],
         [
-            "JR",
+            "OM",
             [
-                "3D"
+                "2E"
             ],
-            "SystemybazdanychD_DW"
+            "Językhiszpański"
         ],
         [
-            "SK",
+            "SZ",
             [
-                "3D"
+                "2A"
             ],
-            "Językangielski"
-        ],
-        [
-            "SK",
-            [
-                "3D"
-            ],
-            "Językangielski"
-        ],
-        [
-            "LS",
-            [
-                "3A",
-                "3C"
-            ],
-            "Językangielski"
+            "Zajęciazwychowawcą"
         ],
         [
             "SK",

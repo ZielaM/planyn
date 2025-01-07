@@ -76,13 +76,7 @@
             "Językpolski",
             "B201"
         ],
-        [
-            [
-                "2D"
-            ],
-            "Językpolski",
-            "B201"
-        ],
+        null,
         null,
         null
     ],
@@ -96,7 +90,13 @@
             "Językpolski",
             "23"
         ],
-        null,
+        [
+            [
+                "2D"
+            ],
+            "Językpolski",
+            "23"
+        ],
         null,
         null,
         null,

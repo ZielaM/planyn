@@ -26,13 +26,12 @@
             ],
             "Językhiszpański"
         ],
-        null,
         [
-            "JJ",
+            "OM",
             [
-                "2G"
+                "3C"
             ],
-            "Organizacjatransportukolejowego"
+            "Językhiszpański"
         ],
         [
             "JJ",
@@ -41,19 +40,39 @@
             ],
             "Organizacjatransportukolejowego"
         ],
-        null,
-        null,
+        [
+            "JJ",
+            [
+                "2G"
+            ],
+            "Organizacjatransportukolejowego"
+        ],
+        [
+            "KG",
+            [
+                "4F"
+            ],
+            "Przygotowaniepraktycznedozawodumaszynisty"
+        ],
+        [
+            "KG",
+            [
+                "4F"
+            ],
+            "Przygotowaniepraktycznedozawodumaszynisty"
+        ],
         null,
         null
     ],
     "1": [
         null,
         [
-            "RM",
+            "JK",
             [
-                "1B"
+                "4E",
+                "4F"
             ],
-            "Językniemiecki"
+            "Językangielski"
         ],
         [
             "RM",
@@ -140,14 +159,14 @@
             ],
             "Językniemiecki"
         ],
-        [
-            "OM",
-            [
-                "3D"
-            ],
-            "Językhiszpański"
-        ],
         null,
+        [
+            "RM",
+            [
+                "1B"
+            ],
+            "Językniemiecki"
+        ],
         [
             "RM",
             [
@@ -194,13 +213,7 @@
     "3": [
         null,
         null,
-        [
-            "OM",
-            [
-                "3B"
-            ],
-            "Językhiszpański"
-        ],
+        null,
         [
             "JT",
             [
@@ -307,12 +320,11 @@
             "Językniemiecki"
         ],
         [
-            "JK",
+            "AM",
             [
-                "5D",
-                "5E"
+                "2B"
             ],
-            "Językangielski"
+            "Historia"
         ],
         [
             "RM",
@@ -322,11 +334,11 @@
             "Językniemiecki"
         ],
         [
-            "AM",
+            "JT",
             [
-                "1A"
+                "1D"
             ],
-            "Zajęciazwychowawcą"
+            "Językniemiecki"
         ],
         [
             "RM",

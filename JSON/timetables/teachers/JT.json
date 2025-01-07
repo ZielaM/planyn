@@ -21,7 +21,7 @@
                 "1D"
             ],
             "Językniemiecki",
-            "38"
+            "22"
         ],
         null,
         [
@@ -31,7 +31,13 @@
             "Językniemiecki",
             "36"
         ],
-        null,
+        [
+            [
+                "5A"
+            ],
+            "Językniemiecki",
+            "36"
+        ],
         null,
         null,
         null,
@@ -41,19 +47,13 @@
         null,
         null,
         null,
-        [
-            [
-                "1A"
-            ],
-            "Językniemiecki",
-            "17"
-        ],
+        null,
         [
             [
                 "2B"
             ],
             "Językniemiecki",
-            "16"
+            "32"
         ],
         null,
         null,
@@ -73,7 +73,7 @@
                 "2F"
             ],
             "Językniemiecki",
-            "34"
+            "28"
         ],
         null,
         null,
@@ -99,14 +99,14 @@
             "Językniemiecki",
             "18"
         ],
+        null,
         [
             [
-                "5A"
+                "1A"
             ],
             "Językniemiecki",
-            "17"
+            "38"
         ],
-        null,
         null,
         [
             [
@@ -138,7 +138,7 @@
                 "1D"
             ],
             "Językniemiecki",
-            "23"
+            "21"
         ],
         null,
         null,

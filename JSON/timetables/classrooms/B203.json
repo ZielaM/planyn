@@ -52,20 +52,8 @@
             ],
             "Informatyka"
         ],
-        [
-            "FK",
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych"
-        ],
+        null,
+        null,
         null,
         [
             "DS",

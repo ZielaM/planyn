@@ -93,7 +93,13 @@
         null
     ],
     "1": [
-        null,
+        [
+            [
+                "Programowanie",
+                "CL",
+                "44"
+            ]
+        ],
         [
             [
                 "Pracowniasystemówoperacyjnych",
@@ -122,7 +128,7 @@
             [
                 "Urządzeniatechnikikomputerowej",
                 "SZ",
-                "18"
+                "37"
             ]
         ],
         [
@@ -134,7 +140,7 @@
             [
                 "Językniemiecki",
                 "JT",
-                "16"
+                "32"
             ]
         ],
         [
@@ -146,23 +152,23 @@
         ],
         [
             [
-                "Matematyka",
-                "SE",
-                "17"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "SE",
-                "17"
-            ]
-        ],
-        [
-            [
                 "Historia",
                 "AM",
-                "38"
+                "32"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "SE",
+                "17"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "SE",
+                "17"
             ]
         ],
         null,
@@ -259,18 +265,12 @@
     ],
     "3": [
         null,
+        null,
         [
             [
-                "Chemia",
-                "MW",
-                "26"
-            ]
-        ],
-        [
-            [
-                "Programowanie",
-                "CL",
-                "34"
+                "Biznesizarządzanie",
+                "MŁ",
+                "36"
             ]
         ],
         [
@@ -282,7 +282,7 @@
             [
                 "Językangielski",
                 "LS",
-                "23"
+                "57"
             ],
             [
                 "Językangielski",
@@ -304,7 +304,7 @@
             [
                 "Językangielski",
                 "LS",
-                "28"
+                "32"
             ],
             [
                 "Językangielski",
@@ -333,23 +333,16 @@
         ],
         [
             [
-                "Biznesizarządzanie",
-                "MŁ",
-                "23"
+                "Chemia",
+                "MW",
+                "26"
             ]
         ],
         [
             [
                 "Systemyoperacyjne",
                 "DR",
-                "34"
-            ]
-        ],
-        [
-            [
-                "JęzykNiemieckiDSDIPro",
-                "ME",
-                "23"
+                "42"
             ]
         ],
         [
@@ -358,22 +351,29 @@
                 "ME",
                 "23"
             ]
+        ],
+        [
+            [
+                "JęzykniemieckiDSDIPro",
+                "ME",
+                "27"
+            ]
         ]
     ],
     "4": [
         null,
         [
             [
-                "Witrynyiaplikacjeinternetowe",
-                "AW",
-                "44"
+                "Fizyka",
+                "KJ",
+                "27"
             ]
         ],
         [
             [
-                "Fizyka",
-                "KJ",
-                "27"
+                "Witrynyiaplikacjeinternetowe",
+                "AW",
+                "57"
             ]
         ],
         [
@@ -394,7 +394,7 @@
             [
                 "Historia",
                 "AM",
-                "43"
+                "21"
             ]
         ],
         [
@@ -418,14 +418,14 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "ME",
                 "62"
             ]

@@ -27,14 +27,9 @@
         ],
         [
             [
-                "Językangielski",
-                "LS",
-                "23"
-            ],
-            [
-                "Językangielski",
-                "JO",
-                "32"
+                "WiedzaospołeczeństwieD_DW",
+                "WS",
+                "37"
             ]
         ],
         [
@@ -53,9 +48,14 @@
         ],
         [
             [
-                "Językpolski",
-                "PA",
-                "28"
+                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "GI",
+                "58"
+            ],
+            [
+                "Pracowniaaplikacjiwebowych",
+                "PP",
+                "51"
             ]
         ],
         [
@@ -151,7 +151,18 @@
                 "B101"
             ]
         ],
-        null,
+        [
+            [
+                "Językangielski",
+                "LS",
+                "B106"
+            ],
+            [
+                "Językangielski",
+                "JO",
+                "B101"
+            ]
+        ],
         null,
         [
             [
@@ -218,12 +229,12 @@
             [
                 "Pracowniaaplikacjiwebowych",
                 "PP",
-                "56"
+                "40"
             ],
             [
                 "Pracowniaaplikacjidesktopowych",
                 "WK",
-                "41"
+                "56"
             ]
         ],
         [
@@ -235,7 +246,7 @@
             [
                 "Pracowniaaplikacjidesktopowych",
                 "WK",
-                "41"
+                "57"
             ]
         ],
         [
@@ -247,16 +258,29 @@
         ],
         [
             [
-                "Programowanieaplikacjimobilnych",
-                "PP",
-                "17"
+                "Językpolski",
+                "PA",
+                "23"
             ]
         ],
         null,
         null
     ],
     "3": [
-        null,
+        [
+            [
+                "Programowanieaplikacjimobilnych",
+                "PP",
+                "57"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "PA",
+                "18"
+            ]
+        ],
         [
             [
                 "Językangielski",
@@ -267,13 +291,6 @@
                 "Językangielski",
                 "JO",
                 "32"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "PA",
-                "18"
             ]
         ],
         [
@@ -294,14 +311,14 @@
             [
                 "Językangielskizawodowy",
                 "JK",
-                "18"
+                "43"
             ]
         ],
         [
             [
                 "Językangielski",
                 "LS",
-                "31"
+                "17"
             ],
             [
                 "Językangielski",
@@ -325,7 +342,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "16"
+                "22"
             ],
             [
                 "Językniemiecki",
@@ -338,18 +355,7 @@
                 "21"
             ]
         ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniaaplikacjiwebowych",
-                "PP",
-                "50"
-            ]
-        ],
+        null,
         null
     ],
     "4": [
@@ -378,7 +384,7 @@
             [
                 "Informatyka",
                 "CL",
-                "57"
+                "50"
             ],
             [
                 "Informatyka",
@@ -390,19 +396,12 @@
             [
                 "Informatyka",
                 "CL",
-                "40"
+                "50"
             ],
             [
                 "Informatyka",
                 "AL",
                 "51"
-            ]
-        ],
-        [
-            [
-                "Biologia",
-                "SU",
-                "37"
             ]
         ],
         [
@@ -414,18 +413,19 @@
         ],
         [
             [
-                "WiedzaospołeczeństwieD_DW",
+                "HistoriaD_DW",
                 "WS",
-                "28"
+                "37"
             ]
         ],
         [
             [
-                "HistoriaD_DW",
-                "WS",
-                "28"
+                "Biologia",
+                "SU",
+                "37"
             ]
         ],
+        null,
         null,
         null
     ]

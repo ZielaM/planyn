@@ -59,11 +59,11 @@
             "Językangielski"
         ],
         [
-            "OM",
+            "EI",
             [
-                "5B"
+                "4F"
             ],
-            "Językhiszpański"
+            "Językangielskizawodowy"
         ],
         [
             "EI",
@@ -74,11 +74,11 @@
             "Językangielski"
         ],
         [
-            "EI",
+            "OM",
             [
-                "4F"
+                "5A"
             ],
-            "Językangielskizawodowy"
+            "Językhiszpański"
         ],
         [
             "OM",
@@ -262,7 +262,13 @@
             ],
             "Językangielski"
         ],
-        null,
+        [
+            "OM",
+            [
+                "2C"
+            ],
+            "Językhiszpański"
+        ],
         [
             "OM",
             [

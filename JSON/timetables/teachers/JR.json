@@ -4,43 +4,19 @@
             [
                 "3D"
             ],
-            "Pracowniabazdanych",
-            "41"
+            "SystemybazdanychD_DW",
+            "38"
         ],
         [
             [
-                "5C"
+                "3B"
             ],
-            "Pracowniabazdanych",
-            "41"
+            "SiecikomputeroweD_DW",
+            "38"
         ],
         [
             [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        [
-            [
-                "4B"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        null,
-        null,
-        [
-            [
-                "5A"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        null,
-        [
-            [
-                "5B"
+                "3C"
             ],
             "Pracowniabazdanych",
             "41"
@@ -49,9 +25,21 @@
             [
                 "4B"
             ],
-            "BazydanychD_DW",
-            "57"
+            "Pracowniabazdanych",
+            "41"
         ],
+        [
+            [
+                "3B"
+            ],
+            "SiecikomputeroweD_DW",
+            "46"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
@@ -84,13 +72,12 @@
             "TestowanieidokumentowanieaplikacjiD_DW",
             "B102"
         ],
-        null,
         [
             [
-                "2C"
+                "4C"
             ],
-            "SiecikomputeroweD_DW",
-            "B102"
+            "Testowanieidokumentowanieaplikacji",
+            "B107"
         ],
         [
             [
@@ -101,6 +88,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     "2": [
@@ -109,7 +97,7 @@
                 "4B"
             ],
             "Zajęciazwychowawcą",
-            "B108"
+            "B102"
         ],
         [
             [
@@ -118,84 +106,36 @@
             "BazydanychD_DW",
             "B102"
         ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "B204"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "B204"
-        ],
         null,
-        [
-            [
-                "5C"
-            ],
-            "BazydanychD_DW",
-            "32"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "BazydanychD_DW",
-            "32"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "SystemybazdanychD_DW",
-            "32"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ]
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
     ],
     "3": [
+        [
+            [
+                "2C"
+            ],
+            "SiecikomputeroweD_DW",
+            "44"
+        ],
+        [
+            [
+                "1B"
+            ],
+            "SystemykomputeroweD_DW",
+            "41"
+        ],
         [
             [
                 "1B"
             ],
             "SiecikomputeroweD_DW",
-            "41"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniabazdanych",
             "41"
         ],
         [
@@ -210,67 +150,37 @@
                 "3A"
             ],
             "Bazydanych",
-            "37"
+            "30"
         ],
-        [
-            [
-                "4C"
-            ],
-            "Testowanieidokumentowanieaplikacji",
-            "57"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniabazdanych",
-            "41"
-        ],
-        [
-            [
-                "3B"
-            ],
-            "SiecikomputeroweD_DW",
-            "32"
-        ],
-        [
-            [
-                "3B"
-            ],
-            "SiecikomputeroweD_DW",
-            "32"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "SystemykomputeroweD_DW",
-            "41"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [
         [
             [
-                "3C"
+                "4A"
             ],
             "Pracowniabazdanych",
             "41"
         ],
         [
             [
-                "5B"
+                "4B"
             ],
-            "Pracowniabazdanych",
-            "41"
+            "BazydanychD_DW",
+            "44"
         ],
         null,
         [
             [
-                "3D"
+                "4A"
             ],
-            "SystemybazdanychD_DW",
-            "22"
+            "Pracowniabazdanych",
+            "41"
         ],
         [
             [
@@ -281,7 +191,7 @@
         ],
         [
             [
-                "5A"
+                "3C"
             ],
             "Pracowniabazdanych",
             "41"
@@ -295,7 +205,14 @@
         ],
         [
             [
-                "3C"
+                "2E"
+            ],
+            "SystemybazdanychD_DW",
+            "57"
+        ],
+        [
+            [
+                "3D"
             ],
             "Pracowniabazdanych",
             "41"
@@ -307,7 +224,6 @@
             "Pracowniabazdanych",
             "41"
         ],
-        null,
         null
     ]
 }

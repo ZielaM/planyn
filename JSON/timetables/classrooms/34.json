@@ -1,13 +1,7 @@
 {
     "0": [
         null,
-        [
-            "TE",
-            [
-                "5D"
-            ],
-            "Językniemiecki"
-        ],
+        null,
         [
             "TE",
             [
@@ -43,21 +37,21 @@
             ],
             "Zajęciazwychowawcą"
         ],
-        [
-            "TE",
-            [
-                "3E"
-            ],
-            "Językniemiecki"
-        ],
-        [
-            "TE",
-            [
-                "3E"
-            ],
-            "Językniemiecki"
-        ],
         null,
+        [
+            "TE",
+            [
+                "3E"
+            ],
+            "Językniemiecki"
+        ],
+        [
+            "TE",
+            [
+                "3E"
+            ],
+            "Językniemiecki"
+        ],
         null
     ],
     "1": [
@@ -65,21 +59,7 @@
         [
             "SG",
             [
-                "2G"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "5D"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "2G"
+                "2H"
             ],
             "Językpolski"
         ],
@@ -93,10 +73,18 @@
         [
             "SG",
             [
-                "5A"
+                "2G"
             ],
             "Językpolski"
         ],
+        [
+            "WS",
+            [
+                "2E"
+            ],
+            "HistoriaD_DW"
+        ],
+        null,
         [
             "TE",
             [
@@ -136,12 +124,18 @@
                 "3E",
                 "3F"
             ],
-            "JęzykNiemieckiDSDIPro"
+            "JęzykniemieckiDSDIPro"
         ]
     ],
     "2": [
         null,
-        null,
+        [
+            "TE",
+            [
+                "1D"
+            ],
+            "Plastyka"
+        ],
         [
             "TE",
             [
@@ -163,69 +157,7 @@
             ],
             "Zajęciazwychowawcą"
         ],
-        [
-            "JT",
-            [
-                "2F"
-            ],
-            "Językniemiecki"
-        ],
-        [
-            "PP",
-            [
-                "4C"
-            ],
-            "Programowanieaplikacjiwebowych"
-        ],
-        [
-            "TE",
-            [
-                "1D"
-            ],
-            "Plastyka"
-        ],
-        [
-            "TE",
-            [
-                "3D",
-                "3F"
-            ],
-            "JęzykNiemieckiDSDIPro"
-        ],
         null,
-        null
-    ],
-    "3": [
-        null,
-        null,
-        [
-            "CL",
-            [
-                "2B"
-            ],
-            "Programowanie"
-        ],
-        [
-            "FK",
-            [
-                "2D"
-            ],
-            "Systemybazdanych"
-        ],
-        [
-            "TE",
-            [
-                "5F"
-            ],
-            "Językniemiecki"
-        ],
-        [
-            "TE",
-            [
-                "1A"
-            ],
-            "Plastyka"
-        ],
         [
             "TE",
             [
@@ -234,29 +166,24 @@
             "Plastyka"
         ],
         [
-            "MS",
+            "TE",
             [
-                "2D"
+                "5D"
             ],
-            "Programowanieobiektowe"
+            "Językniemiecki"
         ],
         [
-            "DR",
+            "TE",
             [
-                "2B"
+                "3D",
+                "3F"
             ],
-            "Systemyoperacyjne"
+            "JęzykniemieckiDSDIPro"
         ],
-        [
-            "MS",
-            [
-                "2D"
-            ],
-            "Pracowniaprogramowaniaobiektowego"
-        ],
+        null,
         null
     ],
-    "4": [
+    "3": [
         [
             "TE",
             [
@@ -273,12 +200,73 @@
                 "4B",
                 "4C"
             ],
+            "JęzykniemieckiDSDIPro"
+        ],
+        [
+            "TE",
+            [
+                "1A"
+            ],
+            "Plastyka"
+        ],
+        [
+            "FK",
+            [
+                "4A"
+            ],
+            "Bazydanych"
+        ],
+        [
+            "TE",
+            [
+                "5F"
+            ],
             "Językniemiecki"
+        ],
+        null,
+        [
+            "GL",
+            [
+                "3B"
+            ],
+            "Witrynyiaplikacjeinternetowe"
+        ],
+        [
+            "MS",
+            [
+                "2D"
+            ],
+            "Programowanieobiektowe"
+        ],
+        [
+            "MS",
+            [
+                "2D"
+            ],
+            "Programowanieobiektowe"
+        ],
+        [
+            "MS",
+            [
+                "2D"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        null
+    ],
+    "4": [
+        null,
+        [
+            "SG",
+            [
+                "2G"
+            ],
+            "Językpolski"
         ],
         [
             "SG",
             [
-                "3D"
+                "2G"
             ],
             "Językpolski"
         ],
@@ -290,18 +278,18 @@
             "Językpolski"
         ],
         [
-            "FN",
+            "SG",
             [
-                "3E"
+                "3D"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Językpolski"
         ],
         [
-            "FN",
+            "SG",
             [
-                "3E"
+                "3D"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Językpolski"
         ],
         [
             "TE",
@@ -342,7 +330,7 @@
                 "4B",
                 "4C"
             ],
-            "JęzykniemieckiDSDIPro"
+            "Językniemiecki"
         ]
     ]
 }

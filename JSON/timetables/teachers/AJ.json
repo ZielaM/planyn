@@ -13,7 +13,13 @@
         null
     ],
     "1": [
-        null,
+        [
+            [
+                "2F"
+            ],
+            "Chemia",
+            "B109"
+        ],
         null,
         null,
         [
@@ -30,6 +36,7 @@
             "Chemia",
             "B109"
         ],
+        null,
         [
             [
                 "3E"
@@ -44,7 +51,6 @@
             "Chemia",
             "B109"
         ],
-        null,
         null,
         null,
         null
@@ -70,18 +76,12 @@
         ],
         [
             [
-                "2F"
-            ],
-            "Chemia",
-            "26"
-        ],
-        [
-            [
                 "4E"
             ],
             "Chemia",
             "26"
         ],
+        null,
         null,
         null,
         null
@@ -115,7 +115,6 @@
             "Chemia",
             "B109"
         ],
-        null,
         [
             [
                 "3C"
@@ -133,6 +132,7 @@
             "Chemia",
             "B109"
         ],
+        null,
         null
     ],
     "4": [

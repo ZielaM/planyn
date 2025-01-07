@@ -90,13 +90,6 @@
         ],
         [
             [
-                "5F"
-            ],
-            "Pracowniasystemówmikroprocesorowych",
-            "47"
-        ],
-        [
-            [
                 "2F"
             ],
             "Technologieipomiarywautomatyce",
@@ -109,6 +102,7 @@
             "Technologieipomiarywautomatyce",
             "18"
         ],
+        null,
         null
     ],
     "4": [
@@ -161,20 +155,8 @@
             "Pracowniaurządzeńautomatykiprzemysłowej",
             "46"
         ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniasystemówmikroprocesorowych",
-            "46"
-        ],
-        [
-            [
-                "5F"
-            ],
-            "Pracowniasystemówmikroprocesorowych",
-            "46"
-        ],
+        null,
+        null,
         null,
         null
     ]

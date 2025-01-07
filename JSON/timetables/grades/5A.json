@@ -1,7 +1,6 @@
 {
     "0": [
         null,
-        null,
         [
             [
                 "Informatyka",
@@ -16,70 +15,9 @@
         ],
         [
             [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JK",
-                "33"
-            ],
-            [
-                "Językangielski",
-                "EI",
-                "20"
-            ],
-            [
-                "Językangielski",
-                "SK",
-                "22"
-            ],
-            [
-                "Językangielski",
-                "IS",
-                "30"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "JK",
-                "33"
-            ],
-            [
-                "Językangielski",
-                "EI",
-                "20"
-            ],
-            [
-                "Językangielski",
-                "SK",
-                "22"
-            ],
-            [
-                "Językangielski",
-                "IS",
-                "30"
-            ]
-        ],
-        [
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "56"
-            ],
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
@@ -91,45 +29,74 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Językangielski",
+                "JK",
+                "33"
+            ],
+            [
+                "Językangielski",
+                "EI",
+                "20"
+            ],
+            [
+                "Językangielski",
+                "SK",
+                "22"
+            ],
+            [
+                "Językangielski",
+                "IS",
+                "30"
             ]
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Językangielski",
+                "JK",
+                "33"
+            ],
+            [
+                "Językangielski",
+                "EI",
+                "20"
+            ],
+            [
+                "Językangielski",
+                "SK",
+                "22"
+            ],
+            [
+                "Językangielski",
+                "IS",
+                "30"
             ]
         ],
+        [
+            [
+                "Językniemiecki",
+                "JT",
+                "36"
+            ]
+        ],
+        null,
+        null,
+        null,
         null
     ],
     "1": [
+        null,
         [
             [
-                "Pracowniaprogramowania",
-                "OL",
-                "50"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
             [
-                "Pracowniaprogramowania",
-                "OL",
-                "50"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "50"
+                "Językpolski",
+                "SG",
+                "34"
             ]
         ],
         [
@@ -156,56 +123,16 @@
         ],
         [
             [
-                "Językpolski",
-                "SG",
-                "34"
+                "Językhiszpański",
+                "OM",
+                "20"
             ]
         ],
-        [
-            [
-                "Językpolski",
-                "SG",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "CL",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniaprogramowania",
-                "CL",
-                "41"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "2": [
@@ -240,115 +167,53 @@
                 "BSG"
             ]
         ],
-        [
-            [
-                "Bazydanych",
-                "FK",
-                "B107"
-            ]
-        ],
-        [
-            [
-                "Bazydanych",
-                "FK",
-                "B107"
-            ]
-        ],
+        null,
+        null,
         null,
         null
     ],
     "3": [
         null,
+        null,
         [
             [
-                "Pracowniaprogramowania",
-                "CL",
-                "51"
+                "Językpolski",
+                "SG",
+                "B205"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "43"
-            ],
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
+                "Matematyka",
+                "AG",
+                "B202"
             ]
         ],
         [
             [
-                "Pracowniaprogramowania",
-                "OL",
-                "57"
-            ],
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "43"
+                "Matematyka",
+                "AG",
+                "B202"
             ]
         ],
-        [
-            [
-                "Religia",
-                "RA",
-                "62"
-            ]
-        ],
-        [
-            [
-                "Językhiszpański",
-                "OM",
-                "23"
-            ],
-            [
-                "Językniemiecki",
-                "JT",
-                "17"
-            ]
-        ],
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
-            ]
-        ],
-        [
-            [
-                "Witrynyiaplikacjeinternetowe",
-                "KW",
-                "17"
-            ]
-        ],
-        [
-            [
-                "Witrynyiaplikacjeinternetowe",
-                "KW",
-                "26"
-            ]
-        ],
-        [
-            [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "56"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [
         null,
         null,
         null,
-        null,
+        [
+            [
+                "Religia",
+                "RA",
+                "32"
+            ]
+        ],
         [
             [
                 "Matematyka",
@@ -358,14 +223,14 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych",
-                "KW",
-                "50"
+                "Informatyka",
+                "GI",
+                "58"
             ],
             [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [

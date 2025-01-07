@@ -1,6 +1,7 @@
 {
     "0": [
         null,
+        null,
         [
             [
                 "2F"
@@ -8,7 +9,6 @@
             "Biznesizarządzanie",
             "26"
         ],
-        null,
         [
             [
                 "2G"
@@ -45,13 +45,7 @@
             "Biznesizarządzanie",
             "26"
         ],
-        [
-            [
-                "2E"
-            ],
-            "Biznesizarządzanie",
-            "26"
-        ],
+        null,
         null
     ],
     "1": [
@@ -60,14 +54,20 @@
         null,
         null,
         null,
-        null,
+        [
+            [
+                "2E"
+            ],
+            "Biznesizarządzanie",
+            "33"
+        ],
         null,
         [
             [
                 "2E"
             ],
             "Biznesizarządzanie",
-            "22"
+            "33"
         ],
         null,
         null,
@@ -80,20 +80,6 @@
         null,
         [
             [
-                "4B"
-            ],
-            "Działalnośćgospodarcza",
-            "B108"
-        ],
-        [
-            [
-                "2D"
-            ],
-            "Biznesizarządzanie",
-            "B107"
-        ],
-        [
-            [
                 "2C"
             ],
             "Biznesizarządzanie",
@@ -104,7 +90,21 @@
                 "2D"
             ],
             "Biznesizarządzanie",
-            "B101"
+            "B108"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Działalnośćgospodarcza",
+            "B108"
+        ],
+        [
+            [
+                "2D"
+            ],
+            "Biznesizarządzanie",
+            "B108"
         ],
         [
             [
@@ -125,7 +125,13 @@
     "3": [
         null,
         null,
-        null,
+        [
+            [
+                "2B"
+            ],
+            "Biznesizarządzanie",
+            "36"
+        ],
         null,
         [
             [
@@ -134,7 +140,6 @@
             "Działalnośćgospodarcza",
             "23"
         ],
-        null,
         [
             [
                 "2A"
@@ -142,13 +147,8 @@
             "Biznesizarządzanie",
             "23"
         ],
-        [
-            [
-                "2B"
-            ],
-            "Biznesizarządzanie",
-            "23"
-        ],
+        null,
+        null,
         null,
         null,
         null

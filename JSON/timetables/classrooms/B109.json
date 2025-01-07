@@ -25,23 +25,23 @@
         [
             "MW",
             [
-                "3A"
-            ],
-            "Matematyka"
-        ],
-        [
-            "MW",
-            [
-                "3A"
-            ],
-            "Matematyka"
-        ],
-        [
-            "MW",
-            [
                 "4A"
             ],
             "Chemia"
+        ],
+        [
+            "MW",
+            [
+                "3A"
+            ],
+            "Matematyka"
+        ],
+        [
+            "MW",
+            [
+                "3A"
+            ],
+            "Matematyka"
         ],
         [
             "MW",
@@ -67,7 +67,13 @@
         null
     ],
     "1": [
-        null,
+        [
+            "AJ",
+            [
+                "2F"
+            ],
+            "Chemia"
+        ],
         null,
         null,
         [
@@ -84,6 +90,7 @@
             ],
             "Chemia"
         ],
+        null,
         [
             "AJ",
             [
@@ -100,19 +107,18 @@
         ],
         null,
         null,
-        null,
         null
     ],
     "2": [
         null,
+        null,
         [
             "MW",
             [
-                "2C"
+                "2A"
             ],
-            "Chemia"
+            "Matematyka"
         ],
-        null,
         [
             "MW",
             [
@@ -120,13 +126,7 @@
             ],
             "Matematyka"
         ],
-        [
-            "MW",
-            [
-                "2A"
-            ],
-            "Chemia"
-        ],
+        null,
         [
             "MW",
             [
@@ -141,13 +141,7 @@
             ],
             "Matematyka"
         ],
-        [
-            "MW",
-            [
-                "2A"
-            ],
-            "Matematyka"
-        ],
+        null,
         [
             "MW",
             [
@@ -193,7 +187,6 @@
             ],
             "Chemia"
         ],
-        null,
         [
             "AJ",
             [
@@ -211,6 +204,7 @@
             ],
             "Chemia"
         ],
+        null,
         null
     ],
     "4": [

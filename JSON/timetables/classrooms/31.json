@@ -2,18 +2,18 @@
     "0": [
         null,
         [
-            "ME",
+            "EP",
             [
-                "5D"
+                "2E"
             ],
-            "Językniemiecki"
+            "Językangielski"
         ],
         [
-            "ME",
+            "EP",
             [
-                "2F"
+                "2E"
             ],
-            "Językniemiecki"
+            "Językangielski"
         ],
         [
             "EP",
@@ -24,39 +24,39 @@
             "Językangielski"
         ],
         [
-            "WSZ",
+            "GR",
             [
                 "4F"
             ],
-            "Organizacjaprzewozówkolejowych"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
-            "WSZ",
+            "GR",
             [
                 "4F"
             ],
-            "Eksploatacjahandlowakolei"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
-            "WSZ",
+            "GR",
             [
                 "4F"
             ],
-            "Organizacjaprzewozówkolejowych"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
-            "EP",
+            "GR",
             [
-                "2E"
+                "2H"
             ],
-            "Językangielski"
+            "Pracowniaruchukolejowego"
         ],
         [
-            "EP",
+            "GR",
             [
-                "2E"
+                "2H"
             ],
-            "Językangielski"
+            "Pracowniaruchukolejowego"
         ],
         null,
         null
@@ -64,12 +64,13 @@
     "1": [
         null,
         null,
+        null,
         [
             "EP",
             [
-                "4E"
+                "2E"
             ],
-            "Językangielskizawodowy"
+            "Językangielski"
         ],
         [
             "EP",
@@ -83,7 +84,7 @@
             [
                 "1B"
             ],
-            "Zajęciazwychowawcą"
+            "Językangielski"
         ],
         [
             "EP",
@@ -91,13 +92,6 @@
                 "1B"
             ],
             "Językangielski"
-        ],
-        [
-            "MT",
-            [
-                "5G"
-            ],
-            "Zajęciazwychowawcą"
         ],
         null,
         null,
@@ -106,21 +100,14 @@
     ],
     "2": [
         null,
+        [
+            "EP",
+            [
+                "1B"
+            ],
+            "Zajęciazwychowawcą"
+        ],
         null,
-        [
-            "OL",
-            [
-                "1C"
-            ],
-            "Podstawyprogramowania"
-        ],
-        [
-            "IS",
-            [
-                "4A"
-            ],
-            "Językangielskizawodowy"
-        ],
         [
             "EP",
             [
@@ -128,30 +115,6 @@
             ],
             "Językangielski"
         ],
-        [
-            "EP",
-            [
-                "1B"
-            ],
-            "Językangielski"
-        ],
-        [
-            "EP",
-            [
-                "3E",
-                "3F"
-            ],
-            "Językangielski"
-        ],
-        [
-            "EP",
-            [
-                "3E",
-                "3F"
-            ],
-            "Językangielski"
-        ],
-        null,
         [
             "EP",
             [
@@ -159,9 +122,6 @@
             ],
             "Językangielski"
         ],
-        null
-    ],
-    "3": [
         [
             "EP",
             [
@@ -169,6 +129,28 @@
             ],
             "Językangielski"
         ],
+        [
+            "EP",
+            [
+                "3E",
+                "3F"
+            ],
+            "Językangielski"
+        ],
+        [
+            "EP",
+            [
+                "3E",
+                "3F"
+            ],
+            "Językangielski"
+        ],
+        null,
+        null,
+        null
+    ],
+    "3": [
+        null,
         null,
         [
             "EP",
@@ -201,20 +183,13 @@
             "Językangielski"
         ],
         [
-            "LS",
+            "EP",
             [
-                "4D"
+                "4E"
             ],
-            "Językangielski"
+            "Językangielskizawodowy"
         ],
-        [
-            "JK",
-            [
-                "4A",
-                "4C"
-            ],
-            "Językangielski"
-        ],
+        null,
         null,
         null,
         null
@@ -244,11 +219,12 @@
             "Językangielski"
         ],
         [
-            "FN",
+            "EP",
             [
-                "4E"
+                "3A",
+                "3C"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Językangielski"
         ],
         [
             "EP",
@@ -275,11 +251,11 @@
             "Językangielski"
         ],
         [
-            "EP",
+            "CL",
             [
-                "2E"
+                "3A"
             ],
-            "Językangielski"
+            "Programowanie"
         ],
         [
             "EP",

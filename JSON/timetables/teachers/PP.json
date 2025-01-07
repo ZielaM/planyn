@@ -8,10 +8,10 @@
         null,
         [
             [
-                "5B"
+                "4D"
             ],
-            "Witrynyiaplikacjeinternetowe",
-            "33"
+            "Pracowniaaplikacjiwebowych",
+            "51"
         ],
         [
             [
@@ -90,18 +90,11 @@
                 "4D"
             ],
             "Pracowniaaplikacjiwebowych",
-            "56"
+            "40"
         ],
         [
             [
                 "4C"
-            ],
-            "Programowanieaplikacjiwebowych",
-            "34"
-        ],
-        [
-            [
-                "4D"
             ],
             "Programowanieaplikacjiwebowych",
             "33"
@@ -110,9 +103,10 @@
             [
                 "4D"
             ],
-            "Programowanieaplikacjimobilnych",
-            "17"
+            "Programowanieaplikacjiwebowych",
+            "33"
         ],
+        null,
         [
             [
                 "4C"
@@ -120,23 +114,23 @@
             "Pracowniaaplikacjiwebowych",
             "40"
         ],
-        null
-    ],
-    "3": [
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
         [
             [
                 "4C"
             ],
             "Programowanieaplikacjimobilnych",
-            "38"
+            "44"
+        ]
+    ],
+    "3": [
+        [
+            [
+                "4D"
+            ],
+            "Programowanieaplikacjimobilnych",
+            "57"
         ],
+        null,
         [
             [
                 "4C"
@@ -144,55 +138,13 @@
             "Pracowniaaplikacjiwebowych",
             "50"
         ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Witrynyiaplikacjeinternetowe",
-            "33"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniawitryninternetowych",
-            "50"
-        ],
-        [
-            [
-                "4D"
-            ],
-            "Pracowniaaplikacjiwebowych",
-            "50"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "4": [

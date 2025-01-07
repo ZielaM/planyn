@@ -57,13 +57,7 @@
             ],
             "Pracowniasiecikomputerowych"
         ],
-        [
-            "KW",
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
+        null,
         null
     ],
     "1": [
@@ -110,7 +104,13 @@
             "Pracowniasystemówoperacyjnych"
         ],
         null,
-        null,
+        [
+            "DR",
+            [
+                "1A"
+            ],
+            "Systemyoperacyjne"
+        ],
         null,
         null,
         null
@@ -159,21 +159,9 @@
             ],
             "Pracowniasiecikomputerowych"
         ],
-        [
-            "MS",
-            [
-                "3D"
-            ],
-            "Pracowniaprogramowaniaobiektowego"
-        ],
         null,
-        [
-            "MS",
-            [
-                "3C"
-            ],
-            "Pracowniaprogramowaniaobiektowego"
-        ],
+        null,
+        null,
         null
     ],
     "3": [
@@ -191,13 +179,7 @@
             ],
             "Pracowniasystemówoperacyjnych"
         ],
-        [
-            "DR",
-            [
-                "1B"
-            ],
-            "Systemyoperacyjne"
-        ],
+        null,
         [
             "DR",
             [
@@ -213,11 +195,11 @@
             "Systemyoperacyjne"
         ],
         [
-            "CL",
+            "DR",
             [
-                "5B"
+                "1B"
             ],
-            "Pracowniaprogramowania"
+            "Systemyoperacyjne"
         ],
         [
             "DR",
@@ -233,7 +215,13 @@
             ],
             "Pracowniasystemówoperacyjnych"
         ],
-        null,
+        [
+            "DR",
+            [
+                "2B"
+            ],
+            "Systemyoperacyjne"
+        ],
         null,
         null
     ],
@@ -267,18 +255,18 @@
             "Pracowniasystemówoperacyjnych"
         ],
         [
-            "SZ",
+            "FN",
             [
-                "1C"
+                "3E"
             ],
-            "Systemykomputerowe"
+            "Urządzeniaautomatykiprzemysłowej"
         ],
         [
-            "OL",
+            "FN",
             [
-                "1C"
+                "3E"
             ],
-            "Podstawyprogramowania"
+            "Urządzeniaautomatykiprzemysłowej"
         ],
         [
             "RK",

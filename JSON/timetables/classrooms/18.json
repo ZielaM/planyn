@@ -11,7 +11,7 @@
         [
             "AG",
             [
-                "3C"
+                "5A"
             ],
             "Matematyka"
         ],
@@ -53,34 +53,19 @@
         [
             "AG",
             [
-                "5A"
+                "3D"
             ],
             "Matematyka"
         ],
-        [
-            "AG",
-            [
-                "5A"
-            ],
-            "Matematyka"
-        ],
+        null,
         null
     ],
     "1": [
         null,
-        null,
-        null,
-        [
-            "SZ",
-            [
-                "2B"
-            ],
-            "Urządzeniatechnikikomputerowej"
-        ],
         [
             "AG",
             [
-                "2E"
+                "5A"
             ],
             "Matematyka"
         ],
@@ -92,30 +77,40 @@
             "Matematyka"
         ],
         [
+            "WS",
+            [
+                "1B"
+            ],
+            "HistoriaD_DW"
+        ],
+        [
             "AG",
             [
-                "5A"
+                "5F"
             ],
             "Matematyka"
         ],
         [
             "AG",
             [
-                "5A"
+                "5F"
             ],
             "Matematyka"
         ],
         [
-            "AG",
+            "MT",
             [
-                "3C"
+                "5G"
             ],
-            "Matematyka"
+            "Zajęciazwychowawcą"
         ],
+        null,
+        null,
         null,
         null
     ],
     "2": [
+        null,
         null,
         [
             "AG",
@@ -134,37 +129,30 @@
         [
             "AG",
             [
-                "5F"
+                "3D"
             ],
             "Matematyka"
         ],
         [
             "AG",
             [
-                "3D"
+                "3C"
             ],
             "Matematyka"
         ],
         [
-            "OM",
+            "AG",
             [
-                "1C"
+                "3C"
             ],
-            "Językhiszpański"
+            "Matematyka"
         ],
         [
-            "KW",
+            "AG",
             [
-                "5D"
+                "2E"
             ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "KW",
-            [
-                "5C"
-            ],
-            "Witrynyiaplikacjeinternetowe"
+            "Matematyka"
         ],
         null,
         null,
@@ -172,11 +160,17 @@
     ],
     "3": [
         null,
-        null,
         [
             "PA",
             [
                 "4D"
+            ],
+            "Językpolski"
+        ],
+        [
+            "PA",
+            [
+                "5C"
             ],
             "Językpolski"
         ],
@@ -194,20 +188,6 @@
             ],
             "Językniemiecki"
         ],
-        [
-            "JK",
-            [
-                "4D"
-            ],
-            "Językangielskizawodowy"
-        ],
-        [
-            "RT",
-            [
-                "2F"
-            ],
-            "Technologieipomiarywautomatyce"
-        ],
         null,
         [
             "RT",
@@ -223,6 +203,14 @@
             ],
             "Technologieipomiarywautomatyce"
         ],
+        [
+            "RT",
+            [
+                "2F"
+            ],
+            "Technologieipomiarywautomatyce"
+        ],
+        null,
         null
     ],
     "4": [
@@ -271,7 +259,7 @@
         [
             "AG",
             [
-                "5F"
+                "3D"
             ],
             "Matematyka"
         ],

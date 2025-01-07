@@ -31,17 +31,11 @@
         null
     ],
     "1": [
+        null,
         [
             "KJ",
             [
-                "3B"
-            ],
-            "Fizyka"
-        ],
-        [
-            "KJ",
-            [
-                "1C"
+                "4C"
             ],
             "Fizyka"
         ],
@@ -69,7 +63,7 @@
         [
             "KJ",
             [
-                "4C"
+                "1C"
             ],
             "Fizyka"
         ],
@@ -86,13 +80,7 @@
         null
     ],
     "2": [
-        [
-            "JR",
-            [
-                "4B"
-            ],
-            "Zajęciazwychowawcą"
-        ],
+        null,
         null,
         [
             "DS",
@@ -107,6 +95,20 @@
                 "4B"
             ],
             "Matematyka"
+        ],
+        [
+            "MŁ",
+            [
+                "2C"
+            ],
+            "Biznesizarządzanie"
+        ],
+        [
+            "MŁ",
+            [
+                "2D"
+            ],
+            "Biznesizarządzanie"
         ],
         [
             "MŁ",
@@ -115,15 +117,13 @@
             ],
             "Działalnośćgospodarcza"
         ],
-        null,
         [
             "MŁ",
             [
-                "2C"
+                "2D"
             ],
             "Biznesizarządzanie"
         ],
-        null,
         [
             "MŁ",
             [

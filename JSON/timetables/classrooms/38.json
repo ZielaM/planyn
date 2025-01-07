@@ -1,32 +1,24 @@
 {
     "0": [
+        [
+            "JR",
+            [
+                "3D"
+            ],
+            "SystemybazdanychD_DW"
+        ],
+        [
+            "JR",
+            [
+                "3B"
+            ],
+            "SiecikomputeroweD_DW"
+        ],
         null,
-        null,
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "JT",
-            [
-                "1D"
-            ],
-            "Językniemiecki"
-        ],
-        [
-            "KW",
-            [
-                "3C"
-            ],
-            "Projektowanieoprogramowania"
-        ],
         [
             "KK",
             [
-                "5F"
+                "5A"
             ],
             "Wiedzaospołeczeństwie"
         ],
@@ -40,24 +32,39 @@
         [
             "KK",
             [
-                "5A"
+                "5F"
             ],
             "Wiedzaospołeczeństwie"
         ],
+        [
+            "KK",
+            [
+                "4E"
+            ],
+            "Historia"
+        ],
+        null,
         null,
         null,
         null
     ],
     "1": [
         null,
-        null,
         [
-            "WSZ",
+            "OM",
             [
-                "2H"
+                "2E"
             ],
-            "Podstawyruchukolejowego"
+            "Językhiszpański"
         ],
+        [
+            "OM",
+            [
+                "5B"
+            ],
+            "Językhiszpański"
+        ],
+        null,
         [
             "WSZ",
             [
@@ -65,7 +72,6 @@
             ],
             "Eksploatacjahandlowakolei"
         ],
-        null,
         [
             "WSZ",
             [
@@ -73,7 +79,13 @@
             ],
             "Odprawapociągównastacji"
         ],
-        null,
+        [
+            "WSZ",
+            [
+                "2H"
+            ],
+            "Podstawyruchukolejowego"
+        ],
         [
             "AM",
             [
@@ -84,7 +96,7 @@
         [
             "AM",
             [
-                "2B"
+                "1A"
             ],
             "Historia"
         ],
@@ -110,12 +122,35 @@
     ],
     "2": [
         null,
+        null,
+        null,
         [
             "KK",
             [
                 "5G"
             ],
             "Historia"
+        ],
+        [
+            "KK",
+            [
+                "4F"
+            ],
+            "Wiedzaospołeczeństwie"
+        ],
+        [
+            "KK",
+            [
+                "4F"
+            ],
+            "Historia"
+        ],
+        [
+            "KK",
+            [
+                "5G"
+            ],
+            "Wiedzaospołeczeństwie"
         ],
         [
             "KK",
@@ -125,30 +160,35 @@
             "Historia"
         ],
         [
+            "MS",
+            [
+                "2E"
+            ],
+            "Programowanieobiektowe"
+        ],
+        null,
+        null
+    ],
+    "3": [
+        null,
+        [
             "KK",
             [
                 "5D"
-            ],
-            "Wiedzaospołeczeństwie"
-        ],
-        [
-            "KK",
-            [
-                "4F"
-            ],
-            "Wiedzaospołeczeństwie"
-        ],
-        [
-            "KK",
-            [
-                "4F"
             ],
             "Historia"
         ],
         [
             "KK",
             [
-                "5G"
+                "5F"
+            ],
+            "Historia"
+        ],
+        [
+            "KK",
+            [
+                "5D"
             ],
             "Wiedzaospołeczeństwie"
         ],
@@ -162,51 +202,17 @@
         [
             "KK",
             [
-                "5D"
-            ],
-            "Historia"
-        ],
-        null,
-        null
-    ],
-    "3": [
-        null,
-        [
-            "PP",
-            [
-                "4C"
-            ],
-            "Programowanieaplikacjimobilnych"
-        ],
-        [
-            "KK",
-            [
-                "5F"
-            ],
-            "Historia"
-        ],
-        [
-            "KK",
-            [
-                "4A"
-            ],
-            "Wiedzaospołeczeństwie"
-        ],
-        [
-            "OM",
-            [
-                "5C"
-            ],
-            "Językhiszpański"
-        ],
-        [
-            "KK",
-            [
                 "5E"
             ],
             "Historia"
         ],
-        null,
+        [
+            "JT",
+            [
+                "1A"
+            ],
+            "Językniemiecki"
+        ],
         [
             "KK",
             [
@@ -220,7 +226,13 @@
     ],
     "4": [
         null,
-        null,
+        [
+            "KK",
+            [
+                "4A"
+            ],
+            "Historia"
+        ],
         [
             "KK",
             [
@@ -236,11 +248,25 @@
             "Historia"
         ],
         [
+            "OM",
+            [
+                "2C"
+            ],
+            "Językhiszpański"
+        ],
+        [
             "KK",
             [
-                "4E"
+                "4C"
             ],
             "Historia"
+        ],
+        [
+            "KK",
+            [
+                "4A"
+            ],
+            "Wiedzaospołeczeństwie"
         ],
         [
             "KK",
@@ -249,27 +275,7 @@
             ],
             "Wiedzaospołeczeństwie"
         ],
-        [
-            "KK",
-            [
-                "4A"
-            ],
-            "Historia"
-        ],
-        [
-            "LA",
-            [
-                "4E"
-            ],
-            "Językpolski"
-        ],
-        [
-            "LA",
-            [
-                "4E"
-            ],
-            "Językpolski"
-        ],
+        null,
         null,
         null
     ]

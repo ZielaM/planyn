@@ -3,7 +3,13 @@
         null,
         null,
         null,
-        null,
+        [
+            [
+                "3B"
+            ],
+            "Językpolski",
+            "23"
+        ],
         [
             [
                 "1D"
@@ -32,7 +38,13 @@
             "Językpolski",
             "23"
         ],
-        null,
+        [
+            [
+                "4E"
+            ],
+            "Językpolski",
+            "23"
+        ],
         [
             [
                 "2B"
@@ -149,26 +161,14 @@
         ],
         [
             [
-                "3B"
+                "4E"
             ],
             "Językpolski",
-            "33"
+            "26"
         ],
         null,
-        [
-            [
-                "4E"
-            ],
-            "Językpolski",
-            "38"
-        ],
-        [
-            [
-                "4E"
-            ],
-            "Językpolski",
-            "38"
-        ],
+        null,
+        null,
         null,
         null
     ]

@@ -10,9 +10,14 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "56"
+            ],
+            [
+                "Pracowniabazdanych",
+                "JR",
+                "41"
             ]
         ],
         [
@@ -29,50 +34,14 @@
         ],
         [
             [
-                "Projektowanieoprogramowania",
-                "KW",
-                "38"
-            ]
-        ],
-        [
+                "Językhiszpański",
+                "OM",
+                "21"
+            ],
             [
-                "Religia",
-                "PS",
-                "62"
-            ]
-        ],
-        [
-            [
-                "Religia",
-                "PS",
-                "62"
-            ]
-        ],
-        null,
-        null,
-        null,
-        null
-    ],
-    "1": [
-        [
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "57"
-            ]
-        ],
-        [
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "57"
-            ]
-        ],
-        [
-            [
-                "Pracowniaaplikacjiinternetowych",
-                "AW",
-                "57"
+                "Językniemiecki",
+                "ME",
+                "36"
             ]
         ],
         [
@@ -80,6 +49,58 @@
                 "Systemybazdanych",
                 "FK",
                 "44"
+            ]
+        ],
+        [
+            [
+                "Zajęciazwychowawcą",
+                "PA",
+                "28"
+            ]
+        ],
+        [
+            [
+                "Religia",
+                "PS",
+                "62"
+            ]
+        ],
+        [
+            [
+                "Religia",
+                "PS",
+                "62"
+            ]
+        ],
+        null,
+        null
+    ],
+    "1": [
+        null,
+        [
+            [
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "58"
+            ]
+        ],
+        [
+            [
+                "Pracowniaaplikacjiinternetowych",
+                "AW",
+                "58"
+            ],
+            [
+                "Pracowniaprojektowaniaoprogramowania",
+                "KW",
+                "40"
+            ]
+        ],
+        [
+            [
+                "Podstawyprzedsiębiorczości",
+                "MN",
+                "33"
             ]
         ],
         [
@@ -117,18 +138,12 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Pracowniabazdanych",
+                "FK",
+                "40"
             ]
         ],
-        [
-            [
-                "Pracowniaprojektowaniaoprogramowania",
-                "KW",
-                "43"
-            ]
-        ],
+        null,
         null
     ],
     "2": [
@@ -179,21 +194,16 @@
         ],
         [
             [
-                "Biologia",
-                "SU",
-                "37"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
             [
-                "Językhiszpański",
-                "OM",
-                "22"
-            ],
-            [
-                "Językniemiecki",
-                "ME",
-                "33"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
@@ -207,19 +217,14 @@
             [
                 "Tworzenieaplikacjiinternetowych",
                 "AW",
-                "57"
+                "44"
             ]
         ],
         [
             [
-                "Pracowniaprojektowaniaoprogramowania",
-                "KW",
-                "56"
-            ],
-            [
                 "Pracowniaprogramowaniaobiektowego",
                 "MS",
-                "42"
+                "41"
             ]
         ],
         null
@@ -258,16 +263,9 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "B202"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "B202"
+                "Historia",
+                "WS",
+                "B103"
             ]
         ],
         [
@@ -279,16 +277,23 @@
         ],
         [
             [
-                "Historia",
-                "WS",
-                "B103"
+                "Matematyka",
+                "AG",
+                "B202"
             ]
         ],
         [
             [
-                "Podstawyprzedsiębiorczości",
-                "MN",
-                "B102"
+                "Matematyka",
+                "AG",
+                "B202"
+            ]
+        ],
+        [
+            [
+                "Biologia",
+                "SU",
+                "B107"
             ]
         ],
         null,
@@ -308,18 +313,7 @@
         ]
     ],
     "4": [
-        [
-            [
-                "Pracowniabazdanych",
-                "FK",
-                "40"
-            ],
-            [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
-            ]
-        ],
+        null,
         [
             [
                 "HiT",
@@ -331,14 +325,14 @@
             [
                 "Programowanieobiektowe",
                 "MS",
-                "43"
+                "33"
             ]
         ],
         [
             [
                 "Językangielski",
                 "EP",
-                "36"
+                "31"
             ],
             [
                 "Językangielski",
@@ -353,7 +347,7 @@
             [
                 "Językangielski",
                 "JK",
-                "Piwnica"
+                "56"
             ]
         ],
         [
@@ -365,9 +359,14 @@
         ],
         [
             [
-                "Zajęciazwychowawcą",
-                "PA",
-                "Piwnica"
+                "Pracowniaprojektowaniaoprogramowania",
+                "KW",
+                "50"
+            ],
+            [
+                "Pracowniabazdanych",
+                "JR",
+                "41"
             ]
         ],
         [
@@ -379,7 +378,7 @@
             [
                 "Językangielski",
                 "LS",
-                "22"
+                "27"
             ],
             [
                 "Językangielski",
@@ -394,9 +393,9 @@
         ],
         [
             [
-                "Pracowniabazdanych",
-                "JR",
-                "41"
+                "Projektowanieoprogramowania",
+                "KW",
+                "28"
             ]
         ],
         [

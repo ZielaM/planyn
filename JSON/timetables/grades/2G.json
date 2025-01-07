@@ -82,20 +82,8 @@
         null
     ],
     "1": [
-        [
-            [
-                "Urządzeniaiinstalacjeelektroniczne",
-                "RG",
-                "47"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "SG",
-                "34"
-            ]
-        ],
+        null,
+        null,
         [
             [
                 "Historia",
@@ -119,7 +107,7 @@
             [
                 "Informatyka",
                 "DS",
-                "50"
+                "40"
             ]
         ],
         [
@@ -188,9 +176,9 @@
         ],
         [
             [
-                "Językpolski",
-                "SG",
-                "36"
+                "Matematyka",
+                "KC",
+                "17"
             ]
         ],
         [
@@ -250,16 +238,27 @@
         ],
         [
             [
+                "Urządzeniaiinstalacjeelektroniczne",
+                "RG",
+                "47"
+            ],
+            [
                 "Językniemiecki",
                 "ME",
-                "33"
+                "36"
             ]
         ],
         null,
         null
     ],
     "3": [
-        null,
+        [
+            [
+                "Matematyka",
+                "KC",
+                "17"
+            ]
+        ],
         [
             [
                 "Fizyka",
@@ -324,16 +323,16 @@
         ],
         [
             [
-                "Religia",
-                "PS",
-                "62"
+                "Historia",
+                "AM",
+                "37"
             ]
         ],
         [
             [
-                "Historia",
-                "AM",
-                "37"
+                "Religia",
+                "PS",
+                "62"
             ]
         ],
         null,
@@ -349,16 +348,16 @@
         ],
         [
             [
-                "Matematyka",
-                "KC",
-                "17"
+                "Językpolski",
+                "SG",
+                "34"
             ]
         ],
         [
             [
-                "Matematyka",
-                "KC",
-                "17"
+                "Językpolski",
+                "SG",
+                "34"
             ]
         ],
         [

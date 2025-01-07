@@ -25,12 +25,18 @@
         ],
         [
             [
+                "1B"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
                 "4A"
             ],
             "Zajęciazwychowawcą",
             "B205"
         ],
-        null,
         null,
         null,
         null,
@@ -40,91 +46,73 @@
         null,
         [
             [
+                "2H"
+            ],
+            "Językpolski",
+            "34"
+        ],
+        [
+            [
+                "5A"
+            ],
+            "Językpolski",
+            "34"
+        ],
+        [
+            [
                 "2G"
             ],
             "Językpolski",
             "34"
+        ],
+        null,
+        [
+            [
+                "5D"
+            ],
+            "Językpolski",
+            "27"
         ],
         [
             [
                 "5D"
             ],
             "Językpolski",
-            "34"
-        ],
-        [
-            [
-                "2G"
-            ],
-            "Językpolski",
-            "34"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Językpolski",
-            "34"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Językpolski",
-            "34"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Językpolski",
-            "33"
+            "27"
         ],
         [
             [
                 "4F"
             ],
             "Językpolski",
-            "37"
+            "27"
         ],
-        null,
+        [
+            [
+                "1B"
+            ],
+            "Językpolski",
+            "27"
+        ],
         null,
         null
     ],
     "2": [
         null,
         null,
+        null,
+        null,
         [
             [
-                "2G"
+                "4A"
             ],
             "Językpolski",
             "36"
         ],
-        [
-            [
-                "1B"
-            ],
-            "Językpolski",
-            "36"
-        ],
+        null,
         [
             [
                 "5D"
-            ],
-            "Językpolski",
-            "36"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Językpolski",
-            "36"
-        ],
-        [
-            [
-                "1B"
             ],
             "Językpolski",
             "36"
@@ -137,58 +125,64 @@
     "3": [
         null,
         null,
+        [
+            [
+                "5A"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "2H"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "2H"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "4F"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "4F"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "3D"
+            ],
+            "Językpolski",
+            "B205"
+        ],
         null,
-        [
-            [
-                "2H"
-            ],
-            "Językpolski",
-            "B205"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Językpolski",
-            "B205"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Językpolski",
-            "B205"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Językpolski",
-            "B205"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Językpolski",
-            "B205"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Językpolski",
-            "B205"
-        ],
         null,
         null
     ],
     "4": [
         null,
-        null,
         [
             [
-                "3D"
+                "2G"
+            ],
+            "Językpolski",
+            "34"
+        ],
+        [
+            [
+                "2G"
             ],
             "Językpolski",
             "34"
@@ -200,13 +194,19 @@
             "Językpolski",
             "34"
         ],
-        null,
         [
             [
-                "4A"
+                "3D"
             ],
             "Językpolski",
-            "23"
+            "34"
+        ],
+        [
+            [
+                "3D"
+            ],
+            "Językpolski",
+            "34"
         ],
         [
             [

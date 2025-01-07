@@ -40,80 +40,19 @@
             ],
             "Językangielski"
         ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Witrynyiaplikacjeinternetowe"
-        ],
-        [
-            "WSZ",
-            [
-                "2H"
-            ],
-            "Odprawapociągównastacji"
-        ],
-        [
-            "WSZ",
-            [
-                "2H"
-            ],
-            "Podstawyruchukolejowego"
-        ],
+        null,
+        null,
+        null,
         null,
         null
     ],
     "1": [
         [
-            "FN",
-            [
-                "5F"
-            ],
-            "Urządzeniaautomatykiprzemysłowej"
-        ],
-        [
-            "FN",
-            [
-                "5F"
-            ],
-            "Urządzeniaautomatykiprzemysłowej"
-        ],
-        [
-            "WS",
-            [
-                "2E"
-            ],
-            "HistoriaD_DW"
-        ],
-        [
-            "WS",
-            [
-                "2H"
-            ],
-            "HiT"
-        ],
-        null,
-        [
-            "DS",
-            [
-                "4B"
-            ],
-            "Matematyka"
-        ],
-        [
-            "SG",
-            [
-                "2H"
-            ],
-            "Językpolski"
-        ],
-        [
             "MN",
             [
-                "3D"
+                "1B"
             ],
-            "Podstawyprzedsiębiorczości"
+            "Edukacjadlabezpieczeństwa"
         ],
         [
             "MN",
@@ -125,22 +64,59 @@
         [
             "MN",
             [
-                "1A"
-            ],
-            "Edukacjadlabezpieczeństwa"
-        ],
-        null
-    ],
-    "2": [
-        [
-            "MN",
-            [
-                "3B"
+                "3D"
             ],
             "Podstawyprzedsiębiorczości"
         ],
+        [
+            "MN",
+            [
+                "3C"
+            ],
+            "Podstawyprzedsiębiorczości"
+        ],
+        [
+            "AM",
+            [
+                "2A"
+            ],
+            "HiT"
+        ],
+        [
+            "MŁ",
+            [
+                "2E"
+            ],
+            "Biznesizarządzanie"
+        ],
+        [
+            "WS",
+            [
+                "5C"
+            ],
+            "WiedzaospołeczeństwieD_DW"
+        ],
+        [
+            "MŁ",
+            [
+                "2E"
+            ],
+            "Biznesizarządzanie"
+        ],
         null,
         null,
+        null
+    ],
+    "2": [
+        null,
+        null,
+        [
+            "OM",
+            [
+                "3D"
+            ],
+            "Językhiszpański"
+        ],
         [
             "MN",
             [
@@ -155,19 +131,13 @@
             ],
             "Bezpieczeństwoihigienapracy"
         ],
+        null,
         [
-            "ME",
+            "PP",
             [
-                "2F"
+                "4C"
             ],
-            "Językniemiecki"
-        ],
-        [
-            "ME",
-            [
-                "3C"
-            ],
-            "Językniemiecki"
+            "Programowanieaplikacjiwebowych"
         ],
         [
             "PP",
@@ -176,13 +146,7 @@
             ],
             "Programowanieaplikacjiwebowych"
         ],
-        [
-            "ME",
-            [
-                "2G"
-            ],
-            "Językniemiecki"
-        ],
+        null,
         null,
         null
     ],
@@ -197,9 +161,9 @@
         [
             "FN",
             [
-                "5F"
+                "4E"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Instalacjeautomatykiprzemysłowej"
         ],
         [
             "FN",
@@ -230,25 +194,25 @@
             "Urządzeniaautomatykiprzemysłowej"
         ],
         [
-            "GL",
-            [
-                "3B"
-            ],
-            "Witrynyiaplikacjeinternetowe"
-        ],
-        [
-            "PP",
-            [
-                "5B"
-            ],
-            "Witrynyiaplikacjeinternetowe"
-        ],
-        [
-            "SZ",
+            "CL",
             [
                 "2A"
             ],
-            "Urządzeniatechnikikomputerowej"
+            "Programowanie"
+        ],
+        [
+            "CL",
+            [
+                "4B"
+            ],
+            "Programowanie"
+        ],
+        [
+            "CL",
+            [
+                "3B"
+            ],
+            "Programowanie"
         ],
         null,
         null
@@ -257,11 +221,11 @@
         null,
         null,
         [
-            "OM",
+            "MS",
             [
-                "2C"
+                "3C"
             ],
-            "Językhiszpański"
+            "Programowanieobiektowe"
         ],
         [
             "MN",
@@ -278,11 +242,11 @@
             "Bezpieczeństwoihigienapracy"
         ],
         [
-            "LA",
+            "MN",
             [
                 "3B"
             ],
-            "Językpolski"
+            "Podstawyprzedsiębiorczości"
         ],
         [
             "MN",
@@ -292,15 +256,30 @@
             "Podstawyprzedsiębiorczości"
         ],
         [
+            "MN",
+            [
+                "1A"
+            ],
+            "Edukacjadlabezpieczeństwa"
+        ],
+        [
             "JK",
             [
-                "4A",
-                "4C"
+                "1A",
+                "1C",
+                "1D"
             ],
             "Językangielski"
         ],
-        null,
-        null,
+        [
+            "JK",
+            [
+                "1A",
+                "1C",
+                "1D"
+            ],
+            "Językangielski"
+        ],
         null
     ]
 }

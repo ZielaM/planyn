@@ -6,25 +6,19 @@
         null,
         [
             [
-                "1A"
-            ],
-            "Bezpieczeństwoihigienapracy",
-            "B102"
-        ],
-        [
-            [
-                "1B"
-            ],
-            "Edukacjadlabezpieczeństwa",
-            "B102"
-        ],
-        [
-            [
                 "3A"
             ],
             "Podstawyprzedsiębiorczości",
             "B102"
         ],
+        [
+            [
+                "1A"
+            ],
+            "Bezpieczeństwoihigienapracy",
+            "B102"
+        ],
+        null,
         [
             [
                 "3F"
@@ -37,18 +31,11 @@
         null
     ],
     "1": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         [
             [
-                "3D"
+                "1B"
             ],
-            "Podstawyprzedsiębiorczości",
+            "Edukacjadlabezpieczeństwa",
             "33"
         ],
         [
@@ -60,21 +47,28 @@
         ],
         [
             [
-                "1A"
-            ],
-            "Edukacjadlabezpieczeństwa",
-            "33"
-        ],
-        null
-    ],
-    "2": [
-        [
-            [
-                "3B"
+                "3D"
             ],
             "Podstawyprzedsiębiorczości",
             "33"
         ],
+        [
+            [
+                "3C"
+            ],
+            "Podstawyprzedsiębiorczości",
+            "33"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "2": [
+        null,
         null,
         null,
         [
@@ -106,13 +100,7 @@
         null,
         null,
         null,
-        [
-            [
-                "3C"
-            ],
-            "Podstawyprzedsiębiorczości",
-            "B102"
-        ],
+        null,
         null,
         null,
         null
@@ -135,7 +123,13 @@
             "Bezpieczeństwoihigienapracy",
             "33"
         ],
-        null,
+        [
+            [
+                "3B"
+            ],
+            "Podstawyprzedsiębiorczości",
+            "33"
+        ],
         [
             [
                 "3E"
@@ -143,7 +137,13 @@
             "Podstawyprzedsiębiorczości",
             "33"
         ],
-        null,
+        [
+            [
+                "1A"
+            ],
+            "Edukacjadlabezpieczeństwa",
+            "33"
+        ],
         null,
         null,
         null

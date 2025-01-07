@@ -18,21 +18,12 @@
             "Siecikomputerowe"
         ],
         [
-            "ME",
+            "FK",
             [
-                "2H"
+                "3C"
             ],
-            "Językniemiecki"
+            "Systemybazdanych"
         ],
-        [
-            "ME",
-            [
-                "2H"
-            ],
-            "Językniemiecki"
-        ],
-        null,
-        null,
         [
             "DR",
             [
@@ -40,24 +31,33 @@
             ],
             "Zajęciazwychowawcą"
         ],
+        null,
+        null,
+        null,
         null
     ],
     "1": [
-        null,
-        null,
         [
             "CL",
             [
-                "2A"
+                "2B"
             ],
             "Programowanie"
         ],
         [
             "FK",
             [
-                "3C"
+                "2D"
             ],
             "Systemybazdanych"
+        ],
+        null,
+        [
+            "DR",
+            [
+                "1A"
+            ],
+            "Systemyoperacyjne"
         ],
         [
             "FK",
@@ -74,13 +74,25 @@
             ],
             "Bazydanych"
         ],
-        null,
+        [
+            "KW",
+            [
+                "3D"
+            ],
+            "Projektowanieoprogramowania"
+        ],
         null,
         null,
         null
     ],
     "2": [
-        null,
+        [
+            "GI",
+            [
+                "2E"
+            ],
+            "Zajęciazwychowawcą"
+        ],
         null,
         [
             "KZ",
@@ -125,36 +137,35 @@
             "Siecikomputerowe"
         ],
         [
-            "MS",
+            "AW",
             [
-                "2E"
+                "3C"
             ],
-            "Programowanieobiektowe"
+            "Tworzenieaplikacjiinternetowych"
         ],
         null,
-        null
+        [
+            "PP",
+            [
+                "4C"
+            ],
+            "Programowanieaplikacjimobilnych"
+        ]
     ],
     "3": [
+        [
+            "JR",
+            [
+                "2C"
+            ],
+            "SiecikomputeroweD_DW"
+        ],
         null,
         [
             "WR",
             [
                 "4E"
             ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
-        ],
-        [
-            "WR",
-            [
-                "4E"
-            ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
-        ],
-        [
-            "WR",
-            [
-                "4E"
-            ],
             "Pracowniainstalacjiautomatykiprzemysłowej"
         ],
         [
@@ -174,41 +185,36 @@
         [
             "WR",
             [
-                "5F"
+                "4E"
             ],
             "Pracowniatechnologiiipomiarówwautomatyce"
         ],
         [
             "WR",
             [
-                "5F"
+                "4E"
             ],
             "Pracowniatechnologiiipomiarówwautomatyce"
         ],
+        null,
         [
-            "WR",
+            "SZ",
             [
-                "5F"
+                "2A"
             ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
+            "Urządzeniatechnikikomputerowej"
         ],
-        [
-            "WR",
-            [
-                "5F"
-            ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
-        ],
+        null,
         null
     ],
     "4": [
         null,
         [
-            "AW",
+            "JR",
             [
-                "2B"
+                "4B"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "BazydanychD_DW"
         ],
         [
             "RK",

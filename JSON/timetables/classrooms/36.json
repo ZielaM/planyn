@@ -29,11 +29,11 @@
             "Językniemiecki"
         ],
         [
-            "LS",
+            "ME",
             [
-                "3B"
+                "3C"
             ],
-            "Językangielski"
+            "Językniemiecki"
         ],
         [
             "JT",
@@ -43,19 +43,13 @@
             "Językniemiecki"
         ],
         [
-            "IS",
+            "JT",
             [
-                "4B"
+                "5A"
             ],
-            "Językangielskizawodowy"
+            "Językniemiecki"
         ],
-        [
-            "DS",
-            [
-                "4B"
-            ],
-            "Matematyka"
-        ],
+        null,
         [
             "NM",
             [
@@ -90,14 +84,14 @@
         [
             "NM",
             [
-                "4F"
+                "4E"
             ],
             "Geografia"
         ],
         [
             "NM",
             [
-                "4E"
+                "4F"
             ],
             "Geografia"
         ],
@@ -142,43 +136,43 @@
     "2": [
         null,
         null,
+        null,
+        null,
         [
             "SG",
+            [
+                "4A"
+            ],
+            "Językpolski"
+        ],
+        [
+            "ME",
+            [
+                "2F"
+            ],
+            "Językniemiecki"
+        ],
+        [
+            "SG",
+            [
+                "5D"
+            ],
+            "Językpolski"
+        ],
+        [
+            "ME",
+            [
+                "5D"
+            ],
+            "Językniemiecki"
+        ],
+        [
+            "ME",
             [
                 "2G"
             ],
-            "Językpolski"
+            "Językniemiecki"
         ],
-        [
-            "SG",
-            [
-                "1B"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "5D"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "5D"
-            ],
-            "Językpolski"
-        ],
-        [
-            "SG",
-            [
-                "1B"
-            ],
-            "Językpolski"
-        ],
-        null,
-        null,
         null,
         null
     ],
@@ -193,16 +187,16 @@
         [
             "NM",
             [
-                "1B"
+                "1A"
             ],
             "Geografia"
         ],
         [
-            "NM",
+            "MŁ",
             [
-                "1A"
+                "2B"
             ],
-            "Geografia"
+            "Biznesizarządzanie"
         ],
         [
             "NM",
@@ -228,9 +222,9 @@
         [
             "NM",
             [
-                "4E"
+                "1B"
             ],
-            "Zajęciazwychowawcą"
+            "Geografia"
         ],
         [
             "NM",
@@ -257,32 +251,25 @@
     ],
     "4": [
         null,
+        null,
         [
-            "MS",
+            "CL",
             [
-                "3D"
+                "4A"
             ],
-            "Programowanieobiektowe"
+            "Programowanie"
         ],
         [
-            "WS",
+            "FN",
             [
-                "3B"
+                "4E"
             ],
-            "HiT_DW"
+            "Instalacjeautomatykiprzemysłowej"
         ],
         [
-            "EP",
+            "NM",
             [
-                "3A",
-                "3C"
-            ],
-            "Językangielski"
-        ],
-        [
-            "GI",
-            [
-                "2E"
+                "4E"
             ],
             "Zajęciazwychowawcą"
         ],

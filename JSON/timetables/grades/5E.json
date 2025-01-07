@@ -50,44 +50,27 @@
         ],
         [
             [
-                "Programowanieaplikacjimobilnych",
-                "GI",
-                "57"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "CL",
-                "41"
-            ]
-        ],
-        [
-            [
                 "Wiedzaospołeczeństwie",
                 "KK",
                 "38"
             ]
         ],
-        [
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "CL",
-                "40"
-            ]
-        ],
+        null,
+        null,
+        null,
         null,
         null,
         null
     ],
     "1": [
         null,
-        null,
+        [
+            [
+                "Matematyka",
+                "MR",
+                "16"
+            ]
+        ],
         [
             [
                 "Matematyka",
@@ -102,41 +85,11 @@
                 "28"
             ]
         ],
-        [
-            [
-                "Językpolski",
-                "PA",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         [
             [
@@ -148,20 +101,9 @@
     ],
     "2": [
         null,
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Testowanieidokumentowanieaplikacji",
-                "CL",
-                "27"
-            ]
-        ],
+        null,
+        null,
+        null,
         [
             [
                 "Językpolski",
@@ -176,34 +118,9 @@
                 "23"
             ]
         ],
-        [
-            [
-                "Testowanieidokumentowanieaplikacji",
-                "CL",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Testowanieidokumentowanieaplikacji",
-                "CL",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Zajęciazwychowawcą",
-                "KK",
-                "38"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "MR",
-                "16"
-            ]
-        ],
+        null,
+        null,
+        null,
         null,
         null
     ],
@@ -247,9 +164,9 @@
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
-                "CL",
-                "SwF"
+                "Zajęciazwychowawcą",
+                "KK",
+                "38"
             ]
         ],
         [
@@ -276,11 +193,6 @@
         [
             [
                 "Informatyka",
-                "GI",
-                "58"
-            ],
-            [
-                "Informatyka",
                 "AL",
                 "51"
             ]
@@ -289,6 +201,61 @@
         null
     ],
     "4": [
+        null,
+        null,
+        null,
+        null,
+        [
+            [
+                "Językangielski",
+                "EI",
+                "20"
+            ],
+            [
+                "Językangielski",
+                "IS",
+                "30"
+            ],
+            [
+                "Językangielski",
+                "JK",
+                "58"
+            ],
+            [
+                "Językangielski",
+                "EP",
+                "31"
+            ]
+        ],
+        [
+            [
+                "Językangielski",
+                "EI",
+                "20"
+            ],
+            [
+                "Językangielski",
+                "IS",
+                "30"
+            ],
+            [
+                "Językangielski",
+                "JK",
+                "57"
+            ],
+            [
+                "Językangielski",
+                "EP",
+                "31"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "PA",
+                "23"
+            ]
+        ],
         [
             [
                 "Informatyka",
@@ -303,107 +270,12 @@
         ],
         [
             [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "CL",
-                "57"
-            ],
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Informatyka",
                 "GI",
                 "58"
             ]
         ],
-        [
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "CL",
-                "57"
-            ],
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Programowanieaplikacjimobilnych",
-                "GI",
-                "32"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "EI",
-                "20"
-            ],
-            [
-                "Językangielski",
-                "IS",
-                "30"
-            ],
-            [
-                "Językangielski",
-                "JK",
-                "Piwnica"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
-            ]
-        ],
-        [
-            [
-                "Językangielski",
-                "EI",
-                "20"
-            ],
-            [
-                "Językangielski",
-                "IS",
-                "30"
-            ],
-            [
-                "Językangielski",
-                "JK",
-                "21"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
+        null,
         null
     ]
 }

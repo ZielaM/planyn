@@ -6,46 +6,40 @@
         null,
         [
             [
-                "5G"
+                "4F"
             ],
             "Pracowniaorganizacjipracystacji",
-            "B105"
+            "31"
         ],
         [
             [
-                "5G"
+                "4F"
             ],
             "Pracowniaorganizacjipracystacji",
-            "B105"
+            "31"
         ],
         [
             [
-                "5G"
+                "4F"
             ],
             "Pracowniaorganizacjipracystacji",
-            "B105"
+            "31"
         ],
         [
             [
-                "5G"
+                "2H"
             ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
+            "Pracowniaruchukolejowego",
+            "31"
         ],
         [
             [
-                "5G"
+                "2H"
             ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
+            "Pracowniaruchukolejowego",
+            "31"
         ],
-        [
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
-        ],
+        null,
         null
     ],
     "1": [
@@ -90,56 +84,26 @@
     "4": [
         null,
         null,
-        [
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego",
-            "B105"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego",
-            "B105"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego",
-            "B105"
-        ],
-        [
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji",
-            "B105"
-        ],
-        [
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego",
-            "B105"
-        ],
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            [
+                "2H"
+            ],
+            "Pracowniaruchukolejowego",
+            "B105"
+        ],
+        [
+            [
+                "2H"
+            ],
+            "Pracowniaruchukolejowego",
+            "B105"
+        ],
         null
     ]
 }

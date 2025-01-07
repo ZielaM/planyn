@@ -1,11 +1,12 @@
 {
     "0": [
+        null,
         [
             "WS",
             [
-                "2E"
+                "5B"
             ],
-            "HistoriaD_DW"
+            "Historia"
         ],
         [
             "WS",
@@ -17,16 +18,9 @@
         [
             "WS",
             [
-                "2C"
+                "4D"
             ],
-            "HistoriaD_DW"
-        ],
-        [
-            "WS",
-            [
-                "3B"
-            ],
-            "HistoriaD_DW"
+            "WiedzaospołeczeństwieD_DW"
         ],
         [
             "WS",
@@ -42,40 +36,40 @@
             ],
             "Zajęciazwychowawcą"
         ],
-        null,
-        null,
         [
-            "KW",
+            "WS",
             [
-                "3D"
+                "3B"
             ],
-            "Projektowanieoprogramowania"
+            "HistoriaD_DW"
+        ],
+        [
+            "DS",
+            [
+                "4B"
+            ],
+            "Matematyka"
+        ],
+        [
+            "DS",
+            [
+                "4B"
+            ],
+            "Matematyka"
         ],
         null,
         null
     ],
     "1": [
         null,
+        null,
+        null,
         [
-            "SU",
+            "SZ",
             [
-                "2A"
+                "2B"
             ],
-            "Biologia"
-        ],
-        [
-            "SU",
-            [
-                "3D"
-            ],
-            "Biologia"
-        ],
-        [
-            "SU",
-            [
-                "4B"
-            ],
-            "Biologia"
+            "Urządzeniatechnikikomputerowej"
         ],
         [
             "JJ",
@@ -99,11 +93,11 @@
             "Biologia"
         ],
         [
-            "SG",
+            "SU",
             [
-                "4F"
+                "4B"
             ],
-            "Językpolski"
+            "Biologia"
         ],
         null,
         null,
@@ -142,7 +136,14 @@
         [
             "SU",
             [
-                "3C"
+                "3E"
+            ],
+            "Biologia"
+        ],
+        [
+            "SU",
+            [
+                "2F"
             ],
             "Biologia"
         ],
@@ -153,53 +154,34 @@
             ],
             "Biologia"
         ],
-        [
-            "GI",
-            [
-                "5D"
-            ],
-            "Programowanieaplikacjimobilnych"
-        ],
         null,
         null,
         null
     ],
     "3": [
         null,
+        null,
+        [
+            "AM",
+            [
+                "2F"
+            ],
+            "HiT"
+        ],
+        [
+            "AM",
+            [
+                "2F"
+            ],
+            "Historia"
+        ],
+        null,
         [
             "AM",
             [
                 "1A"
             ],
-            "Historia"
-        ],
-        [
-            "AM",
-            [
-                "2F"
-            ],
-            "HiT"
-        ],
-        [
-            "AM",
-            [
-                "2F"
-            ],
-            "Historia"
-        ],
-        [
-            "JR",
-            [
-                "3A"
-            ],
-            "Bazydanych"
-        ],
-        [
-            "AM",
-            [
-                "2A"
-            ],
-            "HiT"
+            "Zajęciazwychowawcą"
         ],
         [
             "AM",
@@ -211,17 +193,11 @@
         [
             "AM",
             [
-                "2F"
-            ],
-            "Historia"
-        ],
-        [
-            "AM",
-            [
                 "2G"
             ],
             "Historia"
         ],
+        null,
         null,
         null
     ],
@@ -241,11 +217,11 @@
             "HiT"
         ],
         [
-            "SU",
+            "SZ",
             [
-                "2F"
+                "1A"
             ],
-            "Biologia"
+            "Urządzeniatechnikikomputerowej"
         ],
         [
             "SU",
@@ -264,21 +240,21 @@
         [
             "SU",
             [
-                "4D"
+                "2A"
             ],
             "Biologia"
         ],
         [
-            "AM",
+            "WS",
             [
-                "1A"
+                "4D"
             ],
-            "Historia"
+            "HistoriaD_DW"
         ],
         [
             "SU",
             [
-                "3E"
+                "4D"
             ],
             "Biologia"
         ],

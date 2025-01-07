@@ -3,11 +3,9 @@
         null,
         null,
         null,
-        null,
-        null,
         [
             [
-                "5F"
+                "5A"
             ],
             "Wiedzaospołeczeństwie",
             "38"
@@ -21,19 +19,24 @@
         ],
         [
             [
-                "5A"
+                "5F"
             ],
             "Wiedzaospołeczeństwie",
             "38"
         ],
+        [
+            [
+                "4E"
+            ],
+            "Historia",
+            "38"
+        ],
+        null,
         null,
         null,
         null
     ],
     "1": [
-        null,
-        null,
-        null,
         null,
         [
             [
@@ -42,6 +45,14 @@
             "Historia",
             "B103"
         ],
+        [
+            [
+                "4C"
+            ],
+            "Wiedzaospołeczeństwie",
+            "B103"
+        ],
+        null,
         [
             [
                 "1C"
@@ -57,23 +68,14 @@
             "B103"
         ],
         null,
-        [
-            [
-                "4C"
-            ],
-            "Historia",
-            "B103"
-        ],
-        [
-            [
-                "4C"
-            ],
-            "Wiedzaospołeczeństwie",
-            "B103"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "2": [
+        null,
+        null,
         null,
         [
             [
@@ -84,20 +86,6 @@
         ],
         [
             [
-                "1D"
-            ],
-            "Historia",
-            "38"
-        ],
-        [
-            [
-                "5D"
-            ],
-            "Wiedzaospołeczeństwie",
-            "38"
-        ],
-        [
-            [
                 "4F"
             ],
             "Wiedzaospołeczeństwie",
@@ -113,6 +101,40 @@
         [
             [
                 "5G"
+            ],
+            "Wiedzaospołeczeństwie",
+            "38"
+        ],
+        [
+            [
+                "1D"
+            ],
+            "Historia",
+            "38"
+        ],
+        null,
+        null,
+        null
+    ],
+    "3": [
+        null,
+        [
+            [
+                "5D"
+            ],
+            "Historia",
+            "38"
+        ],
+        [
+            [
+                "5F"
+            ],
+            "Historia",
+            "38"
+        ],
+        [
+            [
+                "5D"
             ],
             "Wiedzaospołeczeństwie",
             "38"
@@ -124,34 +146,6 @@
             "Zajęciazwychowawcą",
             "38"
         ],
-        [
-            [
-                "5D"
-            ],
-            "Historia",
-            "38"
-        ],
-        null,
-        null
-    ],
-    "3": [
-        null,
-        null,
-        [
-            [
-                "5F"
-            ],
-            "Historia",
-            "38"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Wiedzaospołeczeństwie",
-            "38"
-        ],
-        null,
         [
             [
                 "5E"
@@ -173,7 +167,13 @@
     ],
     "4": [
         null,
-        null,
+        [
+            [
+                "4A"
+            ],
+            "Historia",
+            "38"
+        ],
         [
             [
                 "5B"
@@ -188,11 +188,19 @@
             "Historia",
             "38"
         ],
+        null,
         [
             [
-                "4E"
+                "4C"
             ],
             "Historia",
+            "38"
+        ],
+        [
+            [
+                "4A"
+            ],
+            "Wiedzaospołeczeństwie",
             "38"
         ],
         [
@@ -202,14 +210,6 @@
             "Wiedzaospołeczeństwie",
             "38"
         ],
-        [
-            [
-                "4A"
-            ],
-            "Historia",
-            "38"
-        ],
-        null,
         null,
         null,
         null

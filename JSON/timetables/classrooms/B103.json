@@ -4,54 +4,15 @@
         null,
         null,
         null,
-        [
-            "WO",
-            [
-                "4F"
-            ],
-            "Taborszynowy"
-        ],
-        [
-            "WO",
-            [
-                "4F"
-            ],
-            "Taborszynowy"
-        ],
-        [
-            "WO",
-            [
-                "5G"
-            ],
-            "Taborszynowy"
-        ],
-        [
-            "WO",
-            [
-                "5G"
-            ],
-            "Taborszynowy"
-        ],
-        [
-            "WO",
-            [
-                "5G"
-            ],
-            "Taborszynowy"
-        ],
-        [
-            "WO",
-            [
-                "5G"
-            ],
-            "Taborszynowy"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
-        null,
-        null,
-        null,
         null,
         [
             "KK",
@@ -60,6 +21,14 @@
             ],
             "Historia"
         ],
+        [
+            "KK",
+            [
+                "4C"
+            ],
+            "Wiedzaospołeczeństwie"
+        ],
+        null,
         [
             "KK",
             [
@@ -75,25 +44,20 @@
             "Historia"
         ],
         null,
-        [
-            "KK",
-            [
-                "4C"
-            ],
-            "Historia"
-        ],
-        [
-            "KK",
-            [
-                "4C"
-            ],
-            "Wiedzaospołeczeństwie"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "2": [
         null,
-        null,
+        [
+            "WS",
+            [
+                "2C"
+            ],
+            "HistoriaD_DW"
+        ],
         [
             "WS",
             [
@@ -144,7 +108,13 @@
             ],
             "Historia"
         ],
-        null,
+        [
+            "WS",
+            [
+                "3C"
+            ],
+            "Historia"
+        ],
         [
             "WS",
             [
@@ -162,17 +132,11 @@
         [
             "WS",
             [
-                "3C"
+                "3D"
             ],
-            "Historia"
+            "HiT_DW"
         ],
-        [
-            "AW",
-            [
-                "2E"
-            ],
-            "Tworzenieaplikacjiinternetowych"
-        ],
+        null,
         null,
         null,
         null
@@ -206,23 +170,23 @@
         [
             "WO",
             [
-                "5G"
-            ],
-            "Eksploatacjataboruszynowego"
-        ],
-        [
-            "WO",
-            [
-                "5G"
-            ],
-            "Eksploatacjataboruszynowego"
-        ],
-        [
-            "WO",
-            [
                 "2H"
             ],
             "Kolejowepojazdyszynowe"
+        ],
+        [
+            "WO",
+            [
+                "4F"
+            ],
+            "Taborszynowy"
+        ],
+        [
+            "WO",
+            [
+                "4F"
+            ],
+            "Taborszynowy"
         ],
         null
     ]

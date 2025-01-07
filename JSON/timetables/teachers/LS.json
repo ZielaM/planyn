@@ -3,20 +3,8 @@
         null,
         null,
         null,
-        [
-            [
-                "4D"
-            ],
-            "Językangielski",
-            "23"
-        ],
-        [
-            [
-                "3B"
-            ],
-            "Językangielski",
-            "36"
-        ],
+        null,
+        null,
         null,
         null,
         null,
@@ -68,7 +56,13 @@
             "Językangielski",
             "B106"
         ],
-        null,
+        [
+            [
+                "4D"
+            ],
+            "Językangielski",
+            "B106"
+        ],
         null,
         null,
         null
@@ -102,6 +96,7 @@
     ],
     "3": [
         null,
+        null,
         [
             [
                 "4D"
@@ -109,14 +104,13 @@
             "Językangielski",
             "22"
         ],
-        null,
         [
             [
                 "2A",
                 "2B"
             ],
             "Językangielski",
-            "23"
+            "57"
         ],
         [
             [
@@ -124,23 +118,29 @@
                 "2B"
             ],
             "Językangielski",
-            "28"
+            "32"
         ],
         [
             [
                 "2C"
             ],
             "Językangielski",
-            "28"
+            "17"
         ],
         [
             [
                 "4D"
             ],
             "Językangielski",
-            "31"
+            "17"
         ],
-        null,
+        [
+            [
+                "3B"
+            ],
+            "Językangielski",
+            "17"
+        ],
         null,
         null,
         null
@@ -162,14 +162,14 @@
                 "3B"
             ],
             "Językangielski",
-            "SwF"
+            "57"
         ],
         [
             [
                 "2C"
             ],
             "Językangielski",
-            "58"
+            "27"
         ],
         [
             [
@@ -177,7 +177,7 @@
                 "3C"
             ],
             "Językangielski",
-            "22"
+            "27"
         ],
         null,
         [

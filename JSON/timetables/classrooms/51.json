@@ -10,6 +10,13 @@
         [
             "AL",
             [
+                "5A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
                 "5B"
             ],
             "Informatyka"
@@ -17,26 +24,25 @@
         [
             "AL",
             [
-                "5A"
+                "5C"
             ],
             "Informatyka"
         ],
         [
             "AL",
             [
-                "5A"
+                "4C"
             ],
             "Informatyka"
         ],
+        null,
         [
-            "AL",
+            "PP",
             [
-                "4B"
+                "4D"
             ],
-            "Informatyka"
+            "Pracowniaaplikacjiwebowych"
         ],
-        null,
-        null,
         [
             "PP",
             [
@@ -70,7 +76,7 @@
         [
             "AL",
             [
-                "4E"
+                "4B"
             ],
             "Informatyka"
         ],
@@ -84,14 +90,14 @@
         [
             "AL",
             [
-                "5C"
+                "5F"
             ],
             "Informatyka"
         ],
         [
             "AL",
             [
-                "5C"
+                "5F"
             ],
             "Informatyka"
         ],
@@ -102,7 +108,20 @@
             ],
             "Informatyka"
         ],
-        null,
+        [
+            "OL",
+            [
+                "4B"
+            ],
+            "Pracowniaprogramowania"
+        ],
+        [
+            "OL",
+            [
+                "1B"
+            ],
+            "Podstawyprogramowania"
+        ],
         null,
         [
             "OL",
@@ -118,7 +137,6 @@
             ],
             "Pracowniaprogramowania"
         ],
-        null,
         null
     ],
     "2": [
@@ -195,49 +213,25 @@
         null
     ],
     "3": [
-        [
-            "CL",
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "CL",
-            [
-                "5A"
-            ],
-            "Pracowniaprogramowania"
-        ],
         null,
         [
-            "CL",
+            "DS",
             [
-                "5B"
+                "2D"
             ],
-            "Pracowniaprogramowania"
+            "Informatyka"
         ],
         [
-            "KW",
+            "DS",
             [
-                "5D"
+                "2D"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
+            "Informatyka"
         ],
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
-        [
-            "KW",
-            [
-                "5D"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
+        null,
+        null,
+        null,
+        null,
         null,
         [
             "AL",
@@ -259,6 +253,55 @@
         [
             "AL",
             [
+                "5C"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "3A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "3A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "4D"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "4D"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "5A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
+                "4C"
+            ],
+            "Informatyka"
+        ],
+        [
+            "AL",
+            [
                 "5E"
             ],
             "Informatyka"
@@ -266,56 +309,7 @@
         [
             "AL",
             [
-                "3A"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "3A"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "4D"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "4D"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "4C"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "4C"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "5F"
-            ],
-            "Informatyka"
-        ],
-        [
-            "AL",
-            [
-                "5F"
+                "4E"
             ],
             "Informatyka"
         ],

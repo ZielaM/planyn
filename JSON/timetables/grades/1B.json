@@ -25,9 +25,9 @@
         ],
         [
             [
-                "Edukacjadlabezpieczeństwa",
-                "MN",
-                "B102"
+                "Językpolski",
+                "SG",
+                "B205"
             ]
         ],
         [
@@ -71,12 +71,18 @@
         null
     ],
     "1": [
-        null,
         [
             [
-                "Językniemiecki",
-                "RM",
-                "21"
+                "Edukacjadlabezpieczeństwa",
+                "MN",
+                "33"
+            ]
+        ],
+        [
+            [
+                "Bezpieczeństwoihigienapracy",
+                "MN",
+                "33"
             ]
         ],
         [
@@ -88,21 +94,21 @@
         ],
         [
             [
+                "HistoriaD_DW",
+                "WS",
+                "18"
+            ]
+        ],
+        [
+            [
                 "Językangielski",
                 "EP",
                 "31"
             ],
             [
-                "Podstawyprogramowania",
+                "Pracowniapodstawprogramowania",
                 "OL",
                 "50"
-            ]
-        ],
-        [
-            [
-                "Zajęciazwychowawcą",
-                "EP",
-                "31"
             ]
         ],
         [
@@ -119,9 +125,14 @@
         ],
         [
             [
-                "HistoriaD_DW",
-                "WS",
-                "48"
+                "Językangielski",
+                "EP",
+                "31"
+            ],
+            [
+                "Podstawyprogramowania",
+                "OL",
+                "51"
             ]
         ],
         [
@@ -138,9 +149,9 @@
         ],
         [
             [
-                "Bezpieczeństwoihigienapracy",
-                "MN",
-                "33"
+                "Językpolski",
+                "SG",
+                "27"
             ]
         ],
         null,
@@ -150,9 +161,9 @@
         null,
         [
             [
-                "Językhiszpański",
-                "OM",
-                "26"
+                "Zajęciazwychowawcą",
+                "EP",
+                "31"
             ]
         ],
         [
@@ -169,9 +180,26 @@
         ],
         [
             [
-                "Językpolski",
-                "SG",
-                "36"
+                "Językangielski",
+                "EP",
+                "31"
+            ],
+            [
+                "Podstawyprogramowania",
+                "OL",
+                "41"
+            ]
+        ],
+        [
+            [
+                "Językhiszpański",
+                "OM",
+                "26"
+            ],
+            [
+                "Językniemiecki",
+                "RM",
+                "21"
             ]
         ],
         [
@@ -183,26 +211,14 @@
             [
                 "Pracowniapodstawprogramowania",
                 "OL",
-                "57"
+                "41"
             ]
         ],
         [
             [
-                "Językangielski",
-                "EP",
-                "31"
-            ],
-            [
-                "Pracowniapodstawprogramowania",
-                "OL",
-                "57"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "SG",
-                "36"
+                "Plastyka",
+                "TE",
+                "34"
             ]
         ],
         [
@@ -229,30 +245,19 @@
         null
     ],
     "3": [
+        null,
+        [
+            [
+                "SystemykomputeroweD_DW",
+                "JR",
+                "41"
+            ]
+        ],
         [
             [
                 "SiecikomputeroweD_DW",
                 "JR",
                 "41"
-            ],
-            [
-                "Językangielski",
-                "EP",
-                "31"
-            ]
-        ],
-        [
-            [
-                "Geografia",
-                "NM",
-                "36"
-            ]
-        ],
-        [
-            [
-                "Systemyoperacyjne",
-                "DR",
-                "42"
             ],
             [
                 "Językangielski",
@@ -281,21 +286,21 @@
         ],
         [
             [
+                "Systemyoperacyjne",
+                "DR",
+                "42"
+            ],
+            [
                 "Językangielski",
                 "EP",
                 "31"
-            ],
-            [
-                "Podstawyprogramowania",
-                "OL",
-                "56"
             ]
         ],
         [
             [
-                "Plastyka",
-                "TE",
-                "34"
+                "Geografia",
+                "NM",
+                "36"
             ]
         ],
         [
@@ -327,11 +332,6 @@
                 "Pracowniaurządzeńtechnikikomputerowej",
                 "SZ",
                 "61"
-            ],
-            [
-                "SystemykomputeroweD_DW",
-                "JR",
-                "41"
             ]
         ],
         null

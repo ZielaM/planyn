@@ -1,25 +1,8 @@
 {
     "0": [
         null,
-        [
-            [
-                "Językniemiecki",
-                "ME",
-                "31"
-            ],
-            [
-                "Językniemiecki",
-                "TE",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Testowanieidokumentowanieaplikacji",
-                "KW",
-                "38"
-            ]
-        ],
+        null,
+        null,
         [
             [
                 "Językangielski",
@@ -58,69 +41,22 @@
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
+                "Religia",
+                "PS",
+                "62"
             ]
         ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "1": [
+        null,
+        null,
+        null,
+        null,
         [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "SG",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "MR",
-                "16"
-            ]
-        ],
-        [
-            [
-                "Informatyka",
-                "GI",
-                "58"
-            ],
             [
                 "Informatyka",
                 "AL",
@@ -129,16 +65,16 @@
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
-                "KW",
-                "43"
+                "Językpolski",
+                "SG",
+                "27"
             ]
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
-                "KW",
-                "43"
+                "Językpolski",
+                "SG",
+                "27"
             ]
         ],
         null,
@@ -168,13 +104,9 @@
         null,
         null,
         null,
-        [
-            [
-                "Wiedzaospołeczeństwie",
-                "KK",
-                "38"
-            ]
-        ],
+        null,
+        null,
+        null,
         [
             [
                 "Językpolski",
@@ -184,38 +116,24 @@
         ],
         [
             [
-                "Językpolski",
-                "SG",
+                "Językniemiecki",
+                "ME",
                 "36"
-            ]
-        ],
-        [
-            [
-                "Testowanieidokumentowanieaplikacji",
-                "KW",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Programowanieaplikacjimobilnych",
-                "GI",
-                "37"
-            ]
-        ],
-        [
-            [
-                "Historia",
-                "KK",
-                "38"
-            ]
-        ],
-        [
-            [
-                "Informatyka",
-                "GI",
-                "58"
             ],
+            [
+                "Językniemiecki",
+                "TE",
+                "34"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "MR",
+                "16"
+            ]
+        ],
+        [
             [
                 "Informatyka",
                 "AL",
@@ -225,23 +143,12 @@
         null
     ],
     "3": [
+        null,
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ]
-        ],
-        [
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "KW",
-                "43"
-            ],
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
+                "Historia",
+                "KK",
+                "38"
             ]
         ],
         [
@@ -253,61 +160,28 @@
         ],
         [
             [
-                "Programowanieaplikacjimobilnych",
-                "GI",
-                "17"
+                "Wiedzaospołeczeństwie",
+                "KK",
+                "38"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "KW",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
-                "GI",
-                "58"
-            ],
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "KW",
-                "51"
-            ]
-        ],
-        [
-            [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
-                "KW",
-                "51"
-            ],
-            [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Informatyka",
                 "GI",
                 "58"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Informatyka",
                 "GI",
                 "58"
             ]
         ],
-        [
-            [
-                "Religia",
-                "PS",
-                "62"
-            ]
-        ],
+        null,
+        null,
+        null,
         null,
         null
     ],
@@ -348,7 +222,7 @@
             [
                 "Językangielski",
                 "JK",
-                "Piwnica"
+                "58"
             ],
             [
                 "Językangielski",
@@ -370,7 +244,7 @@
             [
                 "Językangielski",
                 "JK",
-                "21"
+                "57"
             ],
             [
                 "Językangielski",

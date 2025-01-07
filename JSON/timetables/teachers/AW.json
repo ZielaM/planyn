@@ -10,7 +10,7 @@
         ],
         [
             [
-                "2E"
+                "3C"
             ],
             "Pracowniaaplikacjiinternetowych",
             "56"
@@ -52,35 +52,29 @@
         ],
         [
             [
-                "4B"
+                "2E"
             ],
-            "Witrynyiaplikacjeinternetowe",
-            "57"
+            "Pracowniaaplikacjiinternetowych",
+            "58"
         ],
         null,
         null
     ],
     "1": [
+        null,
         [
             [
                 "3C"
             ],
             "Pracowniaaplikacjiinternetowych",
-            "57"
+            "58"
         ],
         [
             [
                 "3C"
             ],
             "Pracowniaaplikacjiinternetowych",
-            "57"
-        ],
-        [
-            [
-                "3C"
-            ],
-            "Pracowniaaplikacjiinternetowych",
-            "57"
+            "58"
         ],
         [
             [
@@ -177,7 +171,7 @@
                 "3C"
             ],
             "Tworzenieaplikacjiinternetowych",
-            "57"
+            "44"
         ],
         null,
         null
@@ -203,21 +197,21 @@
                 "3D"
             ],
             "Tworzenieaplikacjiinternetowych",
-            "B102"
+            "B101"
         ],
         [
             [
                 "1C"
             ],
             "Projektowaniewitryninternetowych",
-            "B102"
+            "B101"
         ],
         [
             [
                 "1C"
             ],
             "Projektowaniewitryninternetowych",
-            "B102"
+            "B101"
         ],
         [
             [
@@ -231,7 +225,7 @@
                 "2E"
             ],
             "Tworzenieaplikacjiinternetowych",
-            "B103"
+            "B101"
         ],
         [
             [
@@ -250,13 +244,33 @@
         null
     ],
     "4": [
-        null,
+        [
+            [
+                "3D"
+            ],
+            "Pracowniaaplikacjiinternetowych",
+            "58"
+        ],
+        [
+            [
+                "3D"
+            ],
+            "Pracowniaaplikacjiinternetowych",
+            "58"
+        ],
         [
             [
                 "2B"
             ],
             "Witrynyiaplikacjeinternetowe",
-            "44"
+            "57"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Witrynyiaplikacjeinternetowe",
+            "57"
         ],
         [
             [
@@ -270,20 +284,6 @@
                 "4A"
             ],
             "Pracowniawitryninternetowych",
-            "56"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Pracowniaaplikacjiinternetowych",
-            "56"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Pracowniaaplikacjiinternetowych",
             "56"
         ],
         [

@@ -22,78 +22,12 @@
                 "B109"
             ]
         ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Eksploatacjaelektrycznychpojazdówtrakcyjnych",
-                "AS",
-                "B104"
-            ]
-        ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Eksploatacjaelektrycznychpojazdówtrakcyjnych",
-                "AS",
-                "B104"
-            ]
-        ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Taborszynowy",
-                "WO",
-                "B103"
-            ]
-        ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Taborszynowy",
-                "WO",
-                "B103"
-            ]
-        ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Taborszynowy",
-                "WO",
-                "B103"
-            ]
-        ],
-        [
-            [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
-            ],
-            [
-                "Taborszynowy",
-                "WO",
-                "B103"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
@@ -143,7 +77,7 @@
             [
                 "Zajęciazwychowawcą",
                 "MT",
-                "31"
+                "18"
             ]
         ],
         null,
@@ -165,25 +99,13 @@
     ],
     "2": [
         null,
+        null,
+        null,
         [
             [
                 "Historia",
                 "KK",
                 "38"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "KL",
-                "28"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "KL",
-                "28"
             ]
         ],
         [
@@ -246,26 +168,9 @@
     ],
     "3": [
         null,
+        null,
+        null,
         [
-            [
-                "Eksploatacjahandlowakolei",
-                "PM",
-                "30"
-            ]
-        ],
-        [
-            [
-                "Eksploatacjahandlowakolei",
-                "PM",
-                "30"
-            ]
-        ],
-        [
-            [
-                "Działalnośćusługowakolei",
-                "PM",
-                "30"
-            ],
             [
                 "Fizyka",
                 "KJ",
@@ -273,11 +178,6 @@
             ]
         ],
         [
-            [
-                "Działalnośćusługowakolei",
-                "PM",
-                "30"
-            ],
             [
                 "Fizyka",
                 "KJ",
@@ -332,84 +232,27 @@
         null
     ],
     "4": [
+        null,
+        null,
         [
             [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "KG",
-                "@"
+                "Językpolski",
+                "KL",
+                "B205"
             ]
         ],
         [
             [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "KG",
-                "@"
+                "Językpolski",
+                "KL",
+                "B205"
             ]
         ],
-        [
-            [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "KG",
-                "@"
-            ]
-        ],
-        [
-            [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "KG",
-                "@"
-            ]
-        ],
-        [
-            [
-                "Przygotowaniepraktycznedozawodumaszynisty",
-                "KG",
-                "@"
-            ]
-        ],
-        [
-            [
-                "Eksploatacjahandlowakolei",
-                "PM",
-                "27"
-            ],
-            [
-                "Przygotowaniepraktycznedozawodumaszynisty",
-                "KG",
-                "@"
-            ]
-        ],
-        [
-            [
-                "Eksploatacjahandlowakolei",
-                "PM",
-                "27"
-            ]
-        ],
-        [
-            [
-                "Działalnośćusługowakolei",
-                "PM",
-                "27"
-            ],
-            [
-                "Eksploatacjataboruszynowego",
-                "WO",
-                "B103"
-            ]
-        ],
-        [
-            [
-                "Działalnośćusługowakolei",
-                "PM",
-                "27"
-            ],
-            [
-                "Eksploatacjataboruszynowego",
-                "WO",
-                "B103"
-            ]
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
     ]

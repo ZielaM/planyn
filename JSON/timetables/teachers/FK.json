@@ -1,5 +1,29 @@
 {
     "0": [
+        null,
+        null,
+        [
+            [
+                "2E"
+            ],
+            "Pracowniabazdanych",
+            "40"
+        ],
+        [
+            [
+                "2E"
+            ],
+            "Pracowniabazdanych",
+            "40"
+        ],
+        null,
+        [
+            [
+                "3C"
+            ],
+            "Systemybazdanych",
+            "44"
+        ],
         [
             [
                 "3D"
@@ -14,48 +38,11 @@
             "Pracowniabazdanych",
             "40"
         ],
-        [
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        null,
         null,
         null,
         null
     ],
     "1": [
-        null,
         [
             [
                 "2D"
@@ -65,17 +52,18 @@
         ],
         [
             [
-                "5A"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "3C"
+                "2D"
             ],
             "Systemybazdanych",
             "44"
+        ],
+        null,
+        [
+            [
+                "2E"
+            ],
+            "Pracowniabazdanych",
+            "40"
         ],
         [
             [
@@ -101,84 +89,36 @@
         ],
         [
             [
-                "5A"
+                "3C"
             ],
             "Pracowniabazdanych",
             "40"
         ],
-        [
-            [
-                "5A"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
+        null,
         null
     ],
     "2": [
         null,
-        [
-            [
-                "5B"
-            ],
-            "Bazydanych",
-            "B107"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "B203"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "B203"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Bazydanych",
-            "B107"
-        ],
         null,
         null,
-        [
-            [
-                "5A"
-            ],
-            "Bazydanych",
-            "B107"
-        ],
-        [
-            [
-                "5A"
-            ],
-            "Bazydanych",
-            "B107"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
     ],
     "3": [
         null,
         null,
+        null,
         [
             [
-                "5C"
+                "4A"
             ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "2D"
-            ],
-            "Systemybazdanych",
+            "Bazydanych",
             "34"
         ],
         [
@@ -197,92 +137,56 @@
         ],
         [
             [
-                "5A"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        null,
-        [
-            [
                 "2D"
             ],
             "Pracowniabazdanych",
             "40"
         ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "4": [
-        [
-            [
-                "3C"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "4A"
-            ],
-            "Bazydanych",
-            "57"
-        ],
-        [
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "4B"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
-        [
-            [
-                "4B"
-            ],
-            "Pracowniabazdanych",
-            "40"
-        ],
+        null,
+        null,
         [
             [
                 "3D"
             ],
             "Pracowniabazdanych",
+            "41"
+        ],
+        null,
+        [
+            [
+                "4A"
+            ],
+            "Pracowniabazdanych",
             "40"
         ],
+        [
+            [
+                "4A"
+            ],
+            "Pracowniabazdanych",
+            "40"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Pracowniabazdanych",
+            "40"
+        ],
+        [
+            [
+                "4B"
+            ],
+            "Pracowniabazdanych",
+            "40"
+        ],
+        null,
         null,
         null
     ]

@@ -43,7 +43,13 @@
             "Językangielski",
             "20"
         ],
-        null,
+        [
+            [
+                "4F"
+            ],
+            "Językangielskizawodowy",
+            "20"
+        ],
         [
             [
                 "5A",
@@ -52,13 +58,7 @@
             "Językangielski",
             "20"
         ],
-        [
-            [
-                "4F"
-            ],
-            "Językangielskizawodowy",
-            "20"
-        ],
+        null,
         null,
         null,
         null,

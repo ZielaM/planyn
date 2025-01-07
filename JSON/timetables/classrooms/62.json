@@ -36,32 +36,32 @@
             ],
             "Religia"
         ],
-        [
-            "PS",
-            [
-                "3C"
-            ],
-            "Religia"
-        ],
-        [
-            "PS",
-            [
-                "3C"
-            ],
-            "Religia"
-        ],
         null,
         [
             "PS",
             [
-                "4E"
+                "5D"
             ],
             "Religia"
         ],
         [
             "PS",
             [
-                "2H"
+                "3C"
+            ],
+            "Religia"
+        ],
+        [
+            "PS",
+            [
+                "3C"
+            ],
+            "Religia"
+        ],
+        [
+            "PS",
+            [
+                "4E"
             ],
             "Religia"
         ],
@@ -192,9 +192,9 @@
             "Religia"
         ],
         [
-            "RA",
+            "PS",
             [
-                "5A"
+                "5B"
             ],
             "Religia"
         ],
@@ -206,17 +206,11 @@
             "Religia"
         ],
         null,
+        null,
         [
             "PS",
             [
                 "2G"
-            ],
-            "Religia"
-        ],
-        [
-            "PS",
-            [
-                "5D"
             ],
             "Religia"
         ],
@@ -296,7 +290,7 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro"
+            "JęzykniemieckiDSDIPro"
         ],
         [
             "ME",
@@ -307,7 +301,7 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro"
+            "JęzykniemieckiDSDIPro"
         ],
         null
     ]

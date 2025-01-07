@@ -1,5 +1,23 @@
 {
     "0": [
+        null,
+        null,
+        [
+            "FK",
+            [
+                "2E"
+            ],
+            "Pracowniabazdanych"
+        ],
+        [
+            "FK",
+            [
+                "2E"
+            ],
+            "Pracowniabazdanych"
+        ],
+        null,
+        null,
         [
             "FK",
             [
@@ -14,54 +32,11 @@
             ],
             "Pracowniabazdanych"
         ],
-        [
-            "FK",
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "2E"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "CL",
-            [
-                "5E"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
         null,
         null,
         null
     ],
     "1": [
-        null,
         [
             "FK",
             [
@@ -69,26 +44,27 @@
             ],
             "Pracowniabazdanych"
         ],
+        null,
+        [
+            "KW",
+            [
+                "3C"
+            ],
+            "Pracowniaprojektowaniaoprogramowania"
+        ],
         [
             "FK",
             [
-                "5A"
+                "2E"
             ],
             "Pracowniabazdanych"
         ],
         [
-            "KW",
+            "DS",
             [
-                "3D"
+                "2G"
             ],
-            "Pracowniaprojektowaniaoprogramowania"
-        ],
-        [
-            "KW",
-            [
-                "3D"
-            ],
-            "Pracowniaprojektowaniaoprogramowania"
+            "Informatyka"
         ],
         null,
         null,
@@ -102,17 +78,11 @@
         [
             "FK",
             [
-                "5A"
+                "3C"
             ],
             "Pracowniabazdanych"
         ],
-        [
-            "FK",
-            [
-                "5A"
-            ],
-            "Pracowniabazdanych"
-        ],
+        null,
         null
     ],
     "2": [
@@ -144,22 +114,28 @@
             ],
             "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
+        null,
         [
-            "MS",
+            "PP",
             [
-                "2E"
+                "4D"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracowniaaplikacjiwebowych"
         ],
         [
-            "MS",
+            "OL",
             [
-                "2E"
+                "1C"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracowniapodstawprogramowania"
         ],
-        null,
-        null,
+        [
+            "OL",
+            [
+                "1C"
+            ],
+            "Pracowniapodstawprogramowania"
+        ],
         null,
         [
             "PP",
@@ -173,13 +149,7 @@
     "3": [
         null,
         null,
-        [
-            "FK",
-            [
-                "5C"
-            ],
-            "Pracowniabazdanych"
-        ],
+        null,
         null,
         [
             "FK",
@@ -198,67 +168,55 @@
         [
             "FK",
             [
-                "5A"
-            ],
-            "Pracowniabazdanych"
-        ],
-        null,
-        [
-            "FK",
-            [
                 "2D"
             ],
             "Pracowniabazdanych"
         ],
-        [
-            "FK",
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych"
-        ],
+        null,
+        null,
+        null,
         null
     ],
     "4": [
         [
-            "FK",
-            [
-                "3C"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "5B"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
-            "FK",
-            [
-                "4A"
-            ],
-            "Pracowniabazdanych"
-        ],
-        [
             "CL",
             [
-                "4D"
+                "4A"
+            ],
+            "Pracowniaprogramowania"
+        ],
+        [
+            "JA",
+            [
+                "3A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "JA",
+            [
+                "3A"
+            ],
+            "Informatyka"
+        ],
+        [
+            "JA",
+            [
+                "3E"
             ],
             "Informatyka"
         ],
         [
             "FK",
             [
-                "5C"
+                "4A"
+            ],
+            "Pracowniabazdanych"
+        ],
+        [
+            "FK",
+            [
+                "4A"
             ],
             "Pracowniabazdanych"
         ],
@@ -276,13 +234,7 @@
             ],
             "Pracowniabazdanych"
         ],
-        [
-            "FK",
-            [
-                "3D"
-            ],
-            "Pracowniabazdanych"
-        ],
+        null,
         null,
         null
     ]

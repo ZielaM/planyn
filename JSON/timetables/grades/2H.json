@@ -12,14 +12,14 @@
             [
                 "Urządzeniasterowaniaruchemkolejowym",
                 "SJ",
-                "46"
+                "48"
             ]
         ],
         [
             [
                 "Pracowniaurządzeństerowaniaruchemkolejowym",
                 "SJ",
-                "46"
+                "48"
             ],
             [
                 "Informatyka",
@@ -36,14 +36,14 @@
             [
                 "Pracowniaurządzeństerowaniaruchemkolejowym",
                 "SJ",
+                "48"
+            ]
+        ],
+        [
+            [
+                "Językniemiecki",
+                "ME",
                 "46"
-            ]
-        ],
-        [
-            [
-                "Językniemiecki",
-                "ME",
-                "44"
             ],
             [
                 "Pracowniaurządzeństerowaniaruchemkolejowym",
@@ -55,7 +55,7 @@
             [
                 "Językniemiecki",
                 "ME",
-                "44"
+                "46"
             ],
             [
                 "Pracowniaurządzeństerowaniaruchemkolejowym",
@@ -65,48 +65,42 @@
         ],
         [
             [
-                "Odprawapociągównastacji",
-                "WSZ",
-                "33"
+                "Pracowniaruchukolejowego",
+                "GR",
+                "31"
             ]
         ],
         [
             [
-                "Podstawyruchukolejowego",
-                "WSZ",
-                "33"
+                "Pracowniaruchukolejowego",
+                "GR",
+                "31"
             ]
         ],
-        [
-            [
-                "Religia",
-                "PS",
-                "62"
-            ]
-        ],
+        null,
         null
     ],
     "1": [
         null,
         [
             [
-                "Matematyka",
-                "MR",
-                "16"
-            ]
-        ],
-        [
-            [
-                "Podstawyruchukolejowego",
-                "WSZ",
-                "38"
+                "Językpolski",
+                "SG",
+                "34"
             ]
         ],
         [
             [
                 "HiT",
                 "WS",
-                "33"
+                "27"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "MR",
+                "16"
             ]
         ],
         [
@@ -125,9 +119,9 @@
         ],
         [
             [
-                "Językpolski",
-                "SG",
-                "33"
+                "Podstawyruchukolejowego",
+                "WSZ",
+                "38"
             ]
         ],
         [
@@ -313,19 +307,25 @@
     ],
     "4": [
         null,
-        null,
         [
             [
-                "Pracowniaruchukolejowego",
-                "GR",
-                "B105"
+                "Religia",
+                "PS",
+                "B102"
             ]
         ],
         [
             [
-                "Pracowniaruchukolejowego",
-                "GR",
-                "B105"
+                "Odprawapociągównastacji",
+                "WSZ",
+                "B102"
+            ]
+        ],
+        [
+            [
+                "Podstawyruchukolejowego",
+                "WSZ",
+                "B102"
             ]
         ],
         [
@@ -340,37 +340,13 @@
                 "Biznesizarządzanie",
                 "MŁ",
                 "B101"
-            ]
-        ],
-        [
-            [
-                "Pracowniaurządzeństerowaniaruchemkolejowym",
-                "SJ",
-                "B101"
-            ],
-            [
-                "Pracowniaruchukolejowego",
-                "GR",
-                "B105"
             ]
         ],
         [
             [
                 "Urządzeniasterowaniaruchemkolejowym",
                 "SJ",
-                "B101"
-            ]
-        ],
-        [
-            [
-                "Pracowniaurządzeństerowaniaruchemkolejowym",
-                "SJ",
-                "B101"
-            ],
-            [
-                "Pracowniaruchukolejowego",
-                "GR",
-                "B105"
+                "B102"
             ]
         ],
         [
@@ -378,6 +354,30 @@
                 "Kolejowepojazdyszynowe",
                 "WO",
                 "B103"
+            ]
+        ],
+        [
+            [
+                "Pracowniaurządzeństerowaniaruchemkolejowym",
+                "SJ",
+                "B102"
+            ],
+            [
+                "Pracowniaruchukolejowego",
+                "GR",
+                "B105"
+            ]
+        ],
+        [
+            [
+                "Pracowniaurządzeństerowaniaruchemkolejowym",
+                "SJ",
+                "B102"
+            ],
+            [
+                "Pracowniaruchukolejowego",
+                "GR",
+                "B105"
             ]
         ],
         null

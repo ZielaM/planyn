@@ -86,7 +86,13 @@
             ],
             "Językangielski"
         ],
-        null,
+        [
+            "JO",
+            [
+                "4D"
+            ],
+            "Językangielski"
+        ],
         null,
         null,
         null
@@ -94,31 +100,11 @@
     "2": [
         null,
         null,
+        null,
         [
             "DR",
             [
                 "2A"
-            ],
-            "Systemyoperacyjne"
-        ],
-        [
-            "DR",
-            [
-                "2A"
-            ],
-            "Systemyoperacyjne"
-        ],
-        [
-            "DR",
-            [
-                "2C"
-            ],
-            "Systemyoperacyjne"
-        ],
-        [
-            "DR",
-            [
-                "2C"
             ],
             "Systemyoperacyjne"
         ],
@@ -130,11 +116,25 @@
             "Projektowanieoprogramowania"
         ],
         [
-            "MŁ",
+            "DR",
             [
-                "2D"
+                "2C"
             ],
-            "Biznesizarządzanie"
+            "Systemyoperacyjne"
+        ],
+        [
+            "DR",
+            [
+                "2C"
+            ],
+            "Systemyoperacyjne"
+        ],
+        [
+            "DR",
+            [
+                "2A"
+            ],
+            "Systemyoperacyjne"
         ],
         [
             "DR",
@@ -150,9 +150,27 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
+        [
+            "AW",
+            [
+                "3D"
+            ],
+            "Tworzenieaplikacjiinternetowych"
+        ],
+        [
+            "AW",
+            [
+                "1C"
+            ],
+            "Projektowaniewitryninternetowych"
+        ],
+        [
+            "AW",
+            [
+                "1C"
+            ],
+            "Projektowaniewitryninternetowych"
+        ],
         [
             "AW",
             [
@@ -160,7 +178,13 @@
             ],
             "Tworzenieaplikacjiinternetowych"
         ],
-        null,
+        [
+            "AW",
+            [
+                "2E"
+            ],
+            "Tworzenieaplikacjiinternetowych"
+        ],
         null,
         null,
         null
@@ -184,27 +208,9 @@
             ],
             "Biznesizarządzanie"
         ],
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym"
-        ],
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Urządzeniasterowaniaruchemkolejowym"
-        ],
-        [
-            "SJ",
-            [
-                "2H"
-            ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym"
-        ],
+        null,
+        null,
+        null,
         null,
         null
     ]

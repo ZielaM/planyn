@@ -4,18 +4,18 @@
         null,
         null,
         [
-            "KW",
+            "SZ",
             [
-                "5C"
+                "1C"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Systemykomputerowe"
         ],
         [
-            "GI",
+            "SZ",
             [
-                "5E"
+                "2C"
             ],
-            "Programowanieaplikacjimobilnych"
+            "Urządzeniatechnikikomputerowej"
         ],
         [
             "AW",
@@ -38,6 +38,150 @@
             ],
             "Witrynyiaplikacjeinternetowe"
         ],
+        null,
+        null,
+        null
+    ],
+    "1": [
+        [
+            "DR",
+            [
+                "2E"
+            ],
+            "Projektowanieoprogramowania"
+        ],
+        null,
+        null,
+        [
+            "DS",
+            [
+                "3F"
+            ],
+            "Informatyka3F"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "2": [
+        [
+            "MS",
+            [
+                "3D"
+            ],
+            "Programowanieobiektowe"
+        ],
+        [
+            "MS",
+            [
+                "3D"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        [
+            "MS",
+            [
+                "2E"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        [
+            "MS",
+            [
+                "2E"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        [
+            "MS",
+            [
+                "2E"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        [
+            "MS",
+            [
+                "2E"
+            ],
+            "Pracowniaprogramowaniaobiektowego"
+        ],
+        [
+            "WK",
+            [
+                "4D"
+            ],
+            "Pracowniaaplikacjidesktopowych"
+        ],
+        [
+            "WK",
+            [
+                "4C"
+            ],
+            "Pracowniaaplikacjidesktopowych"
+        ],
+        [
+            "WK",
+            [
+                "4C"
+            ],
+            "Programowanieaplikacjidesktopowych"
+        ],
+        [
+            "WK",
+            [
+                "4C"
+            ],
+            "Pracowniaaplikacjidesktopowych"
+        ],
+        null
+    ],
+    "3": [
+        [
+            "PP",
+            [
+                "4D"
+            ],
+            "Programowanieaplikacjimobilnych"
+        ],
+        null,
+        null,
+        [
+            "LS",
+            [
+                "2A",
+                "2B"
+            ],
+            "Językangielski"
+        ],
+        [
+            "OM",
+            [
+                "5C"
+            ],
+            "Językhiszpański"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "4": [
+        null,
+        null,
+        [
+            "AW",
+            [
+                "2B"
+            ],
+            "Witrynyiaplikacjeinternetowe"
+        ],
         [
             "AW",
             [
@@ -46,233 +190,19 @@
             "Witrynyiaplikacjeinternetowe"
         ],
         [
-            "JR",
+            "LS",
             [
-                "4B"
+                "3B"
             ],
-            "BazydanychD_DW"
-        ],
-        null
-    ],
-    "1": [
-        [
-            "AW",
-            [
-                "3C"
-            ],
-            "Pracowniaaplikacjiinternetowych"
+            "Językangielski"
         ],
         [
-            "AW",
+            "JK",
             [
-                "3C"
-            ],
-            "Pracowniaaplikacjiinternetowych"
-        ],
-        [
-            "AW",
-            [
-                "3C"
-            ],
-            "Pracowniaaplikacjiinternetowych"
-        ],
-        [
-            "DR",
-            [
-                "2E"
-            ],
-            "Projektowanieoprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5C"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        null,
-        null,
-        null,
-        null
-    ],
-    "2": [
-        [
-            "OL",
-            [
-                "1C"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "1C"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "MS",
-            [
-                "2E"
-            ],
-            "Pracowniaprogramowaniaobiektowego"
-        ],
-        [
-            "MS",
-            [
-                "2E"
-            ],
-            "Pracowniaprogramowaniaobiektowego"
-        ],
-        [
-            "OL",
-            [
-                "1B"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "1B"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "1C"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "1C"
-            ],
-            "Pracowniapodstawprogramowania"
-        ],
-        [
-            "AW",
-            [
-                "3C"
-            ],
-            "Tworzenieaplikacjiinternetowych"
-        ],
-        null,
-        null
-    ],
-    "3": [
-        null,
-        [
-            "DS",
-            [
-                "2D"
-            ],
-            "Informatyka"
-        ],
-        [
-            "DS",
-            [
-                "2D"
-            ],
-            "Informatyka"
-        ],
-        [
-            "OL",
-            [
-                "5A"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "JR",
-            [
-                "4C"
-            ],
-            "Testowanieidokumentowanieaplikacji"
-        ],
-        [
-            "MS",
-            [
-                "2D"
-            ],
-            "Programowanieobiektowe"
-        ],
-        [
-            "OL",
-            [
-                "4B"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania"
-        ],
-        null,
-        null
-    ],
-    "4": [
-        null,
-        [
-            "CL",
-            [
+                "5D",
                 "5E"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
-        [
-            "CL",
-            [
-                "5E"
-            ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
-        ],
-        [
-            "CL",
-            [
-                "4D"
-            ],
-            "Informatyka"
-        ],
-        [
-            "FK",
-            [
-                "4A"
-            ],
-            "Bazydanych"
-        ],
-        [
-            "CL",
-            [
-                "4C"
-            ],
-            "Informatyka"
+            "Językangielski"
         ],
         [
             "JR",
@@ -282,11 +212,11 @@
             "SystemybazdanychD_DW"
         ],
         [
-            "CL",
+            "JR",
             [
-                "3A"
+                "2E"
             ],
-            "Programowanie"
+            "SystemybazdanychD_DW"
         ],
         null,
         null,

@@ -3,7 +3,7 @@
         null,
         [
             [
-                "3B"
+                "1C"
             ],
             "Matematyka",
             "17"
@@ -38,7 +38,7 @@
         ],
         [
             [
-                "2C"
+                "5B"
             ],
             "Matematyka",
             "17"
@@ -50,20 +50,8 @@
             "Matematyka",
             "17"
         ],
-        [
-            [
-                "1C"
-            ],
-            "Matematyka",
-            "17"
-        ],
-        [
-            [
-                "1C"
-            ],
-            "Matematyka",
-            "17"
-        ],
+        null,
+        null,
         null
     ],
     "1": [
@@ -118,7 +106,13 @@
     "2": [
         null,
         null,
-        null,
+        [
+            [
+                "2G"
+            ],
+            "Matematyka",
+            "17"
+        ],
         [
             [
                 "2G"
@@ -147,10 +141,16 @@
         null
     ],
     "3": [
-        null,
         [
             [
-                "5B"
+                "2G"
+            ],
+            "Matematyka",
+            "17"
+        ],
+        [
+            [
+                "3B"
             ],
             "Matematyka",
             "17"
@@ -162,7 +162,13 @@
             "Matematyka",
             "17"
         ],
-        null,
+        [
+            [
+                "2C"
+            ],
+            "Matematyka",
+            "17"
+        ],
         [
             [
                 "2C"
@@ -181,21 +187,14 @@
         null,
         [
             [
-                "2G"
-            ],
-            "Matematyka",
-            "17"
-        ],
-        [
-            [
-                "2G"
-            ],
-            "Matematyka",
-            "17"
-        ],
-        [
-            [
                 "5B"
+            ],
+            "Matematyka",
+            "17"
+        ],
+        [
+            [
+                "3B"
             ],
             "Matematyka",
             "17"
@@ -210,18 +209,19 @@
         null,
         [
             [
-                "4E"
+                "1C"
             ],
             "Matematyka",
             "17"
         ],
         [
             [
-                "3B"
+                "4E"
             ],
             "Matematyka",
             "17"
         ],
+        null,
         null,
         null,
         null

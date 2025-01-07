@@ -18,9 +18,14 @@
         ],
         [
             [
-                "Językpolski",
-                "KL",
-                "28"
+                "Informatyka",
+                "CL",
+                "43"
+            ],
+            [
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [
@@ -66,22 +71,6 @@
     ],
     "1": [
         null,
-        null,
-        null,
-        [
-            [
-                "Językpolski",
-                "KL",
-                "B201"
-            ]
-        ],
-        [
-            [
-                "Językpolski",
-                "KL",
-                "B201"
-            ]
-        ],
         [
             [
                 "Fizyka",
@@ -91,9 +80,30 @@
         ],
         [
             [
-                "Chemia",
-                "AJ",
-                "B109"
+                "Wiedzaospołeczeństwie",
+                "KK",
+                "B103"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "KL",
+                "B201"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "KL",
+                "B201"
+            ]
+        ],
+        [
+            [
+                "Testowanieidokumentowanieaplikacji",
+                "JR",
+                "B107"
             ]
         ],
         [
@@ -105,18 +115,13 @@
         ],
         [
             [
-                "Historia",
-                "KK",
-                "B103"
+                "Chemia",
+                "AJ",
+                "B109"
             ]
         ],
-        [
-            [
-                "Wiedzaospołeczeństwie",
-                "KK",
-                "B103"
-            ]
-        ],
+        null,
+        null,
         null
     ],
     "2": [
@@ -185,14 +190,7 @@
             [
                 "Programowanieaplikacjiwebowych",
                 "PP",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Programowanieaplikacjidesktopowych",
-                "WK",
-                "43"
+                "33"
             ]
         ],
         [
@@ -204,7 +202,14 @@
             [
                 "Pracowniaaplikacjidesktopowych",
                 "WK",
-                "43"
+                "57"
+            ]
+        ],
+        [
+            [
+                "Programowanieaplikacjidesktopowych",
+                "WK",
+                "57"
             ]
         ],
         [
@@ -216,18 +221,30 @@
             [
                 "Pracowniaaplikacjidesktopowych",
                 "WK",
-                "43"
+                "57"
             ]
         ],
-        null
-    ],
-    "3": [
-        null,
         [
             [
                 "Programowanieaplikacjimobilnych",
                 "PP",
-                "38"
+                "44"
+            ]
+        ]
+    ],
+    "3": [
+        [
+            [
+                "JęzykniemieckiDSDIPro",
+                "TE",
+                "34"
+            ]
+        ],
+        [
+            [
+                "JęzykniemieckiDSDIPro",
+                "TE",
+                "34"
             ]
         ],
         [
@@ -253,14 +270,14 @@
             [
                 "Językangielskizawodowy",
                 "JK",
-                "Piwnica"
+                "43"
             ]
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
-                "JR",
-                "57"
+                "Językpolski",
+                "KL",
+                "28"
             ]
         ],
         [
@@ -277,7 +294,7 @@
             [
                 "Językangielski",
                 "JK",
-                "Piwnica"
+                "23"
             ],
             [
                 "Językangielski",
@@ -299,7 +316,7 @@
             [
                 "Językangielski",
                 "JK",
-                "31"
+                "23"
             ],
             [
                 "Językangielski",
@@ -316,7 +333,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "16"
+                "22"
             ],
             [
                 "Językniemiecki",
@@ -339,20 +356,8 @@
         null
     ],
     "4": [
-        [
-            [
-                "JęzykniemieckiDSDIPro",
-                "TE",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Językniemiecki",
-                "TE",
-                "34"
-            ]
-        ],
+        null,
+        null,
         [
             [
                 "Matematyka",
@@ -376,21 +381,16 @@
         ],
         [
             [
-                "Informatyka",
-                "CL",
-                "57"
-            ],
-            [
-                "Informatyka",
-                "AL",
-                "51"
+                "Historia",
+                "KK",
+                "38"
             ]
         ],
         [
             [
                 "Informatyka",
                 "CL",
-                "41"
+                "50"
             ],
             [
                 "Informatyka",
@@ -412,7 +412,7 @@
             [
                 "Językangielski",
                 "JK",
-                "33"
+                "32"
             ],
             [
                 "Językangielski",
@@ -436,7 +436,7 @@
         ],
         [
             [
-                "JęzykniemieckiDSDIPro",
+                "Językniemiecki",
                 "TE",
                 "34"
             ]

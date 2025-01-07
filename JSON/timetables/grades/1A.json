@@ -18,16 +18,16 @@
         ],
         [
             [
-                "Bezpieczeństwoihigienapracy",
-                "MN",
-                "B102"
+                "Biologia",
+                "SU",
+                "B107"
             ]
         ],
         [
             [
-                "Biologia",
-                "SU",
-                "B107"
+                "Bezpieczeństwoihigienapracy",
+                "MN",
+                "B102"
             ]
         ],
         [
@@ -78,14 +78,9 @@
         ],
         [
             [
-                "Językhiszpański",
-                "OM",
-                "41"
-            ],
-            [
-                "Językniemiecki",
-                "JT",
-                "17"
+                "Systemyoperacyjne",
+                "DR",
+                "44"
             ]
         ],
         [
@@ -109,20 +104,6 @@
         ],
         [
             [
-                "Systemyoperacyjne",
-                "DR",
-                "27"
-            ]
-        ],
-        [
-            [
-                "Systemyoperacyjne",
-                "DR",
-                "27"
-            ]
-        ],
-        [
-            [
                 "Matematyka",
                 "SE",
                 "17"
@@ -130,11 +111,19 @@
         ],
         [
             [
-                "Edukacjadlabezpieczeństwa",
-                "MN",
-                "33"
+                "Systemyoperacyjne",
+                "DR",
+                "42"
             ]
         ],
+        [
+            [
+                "Historia",
+                "AM",
+                "38"
+            ]
+        ],
+        null,
         null
     ],
     "2": [
@@ -223,13 +212,6 @@
         null,
         [
             [
-                "Historia",
-                "AM",
-                "37"
-            ]
-        ],
-        [
-            [
                 "Geografia",
                 "NM",
                 "36"
@@ -237,9 +219,16 @@
         ],
         [
             [
+                "Plastyka",
+                "TE",
+                "34"
+            ]
+        ],
+        [
+            [
                 "Językhiszpański",
                 "OM",
-                "58"
+                "30"
             ],
             [
                 "Językniemiecki",
@@ -256,12 +245,23 @@
         ],
         [
             [
-                "Plastyka",
-                "TE",
-                "34"
+                "Zajęciazwychowawcą",
+                "AM",
+                "37"
             ]
         ],
-        null,
+        [
+            [
+                "Językhiszpański",
+                "OM",
+                "58"
+            ],
+            [
+                "Językniemiecki",
+                "JT",
+                "38"
+            ]
+        ],
         null,
         null,
         null,
@@ -286,7 +286,7 @@
             [
                 "Urządzeniatechnikikomputerowej",
                 "SZ",
-                "28"
+                "37"
             ]
         ],
         [
@@ -319,21 +319,21 @@
             [
                 "Historia",
                 "AM",
-                "37"
+                "28"
             ]
         ],
         [
             [
-                "Zajęciazwychowawcą",
-                "AM",
-                "21"
+                "Edukacjadlabezpieczeństwa",
+                "MN",
+                "33"
             ]
         ],
         [
             [
                 "Językangielski",
                 "JK",
-                "32"
+                "33"
             ],
             [
                 "Językangielski",
@@ -365,7 +365,7 @@
             [
                 "Językangielski",
                 "JK",
-                "32"
+                "33"
             ],
             [
                 "Językangielski",

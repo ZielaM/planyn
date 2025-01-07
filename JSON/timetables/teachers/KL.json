@@ -2,6 +2,7 @@
     "0": [
         null,
         null,
+        null,
         [
             [
                 "5B"
@@ -9,20 +10,7 @@
             "Językpolski",
             "28"
         ],
-        [
-            [
-                "5B"
-            ],
-            "Językpolski",
-            "28"
-        ],
-        [
-            [
-                "4C"
-            ],
-            "Językpolski",
-            "28"
-        ],
+        null,
         [
             [
                 "4B"
@@ -73,7 +61,13 @@
             "Językpolski",
             "B201"
         ],
-        null,
+        [
+            [
+                "2C"
+            ],
+            "Językpolski",
+            "B201"
+        ],
         null,
         null,
         null,
@@ -82,20 +76,8 @@
     "2": [
         null,
         null,
-        [
-            [
-                "5G"
-            ],
-            "Językpolski",
-            "28"
-        ],
-        [
-            [
-                "5G"
-            ],
-            "Językpolski",
-            "28"
-        ],
+        null,
+        null,
         null,
         [
             [
@@ -146,23 +128,7 @@
         ],
         [
             [
-                "2C"
-            ],
-            "Językpolski",
-            "28"
-        ],
-        null,
-        null,
-        [
-            [
-                "5G"
-            ],
-            "Językpolski",
-            "28"
-        ],
-        [
-            [
-                "5G"
+                "5B"
             ],
             "Językpolski",
             "28"
@@ -174,14 +140,48 @@
             "Językpolski",
             "28"
         ],
+        [
+            [
+                "4C"
+            ],
+            "Językpolski",
+            "28"
+        ],
+        [
+            [
+                "5G"
+            ],
+            "Językpolski",
+            "28"
+        ],
+        [
+            [
+                "5G"
+            ],
+            "Językpolski",
+            "28"
+        ],
+        null,
         null,
         null
     ],
     "4": [
         null,
         null,
-        null,
-        null,
+        [
+            [
+                "5G"
+            ],
+            "Językpolski",
+            "B205"
+        ],
+        [
+            [
+                "5G"
+            ],
+            "Językpolski",
+            "B205"
+        ],
         [
             [
                 "3F"

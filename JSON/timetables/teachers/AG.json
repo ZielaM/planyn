@@ -10,7 +10,7 @@
         ],
         [
             [
-                "3C"
+                "5A"
             ],
             "Matematyka",
             "18"
@@ -52,39 +52,16 @@
         ],
         [
             [
-                "5A"
+                "3D"
             ],
             "Matematyka",
             "18"
         ],
-        [
-            [
-                "5A"
-            ],
-            "Matematyka",
-            "18"
-        ],
+        null,
         null
     ],
     "1": [
         null,
-        null,
-        null,
-        null,
-        [
-            [
-                "2E"
-            ],
-            "Matematyka",
-            "18"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "Matematyka",
-            "18"
-        ],
         [
             [
                 "5A"
@@ -94,22 +71,34 @@
         ],
         [
             [
-                "5A"
+                "2E"
+            ],
+            "Matematyka",
+            "18"
+        ],
+        null,
+        [
+            [
+                "5F"
             ],
             "Matematyka",
             "18"
         ],
         [
             [
-                "3C"
+                "5F"
             ],
             "Matematyka",
             "18"
         ],
+        null,
+        null,
+        null,
         null,
         null
     ],
     "2": [
+        null,
         null,
         [
             [
@@ -127,21 +116,32 @@
         ],
         [
             [
-                "5F"
+                "3D"
             ],
             "Matematyka",
             "18"
         ],
         [
             [
-                "3D"
+                "3C"
             ],
             "Matematyka",
             "18"
         ],
-        null,
-        null,
-        null,
+        [
+            [
+                "3C"
+            ],
+            "Matematyka",
+            "18"
+        ],
+        [
+            [
+                "2E"
+            ],
+            "Matematyka",
+            "18"
+        ],
         null,
         null,
         null
@@ -152,7 +152,14 @@
         null,
         [
             [
-                "3C"
+                "5A"
+            ],
+            "Matematyka",
+            "B202"
+        ],
+        [
+            [
+                "5A"
             ],
             "Matematyka",
             "B202"
@@ -166,14 +173,7 @@
         ],
         [
             [
-                "3D"
-            ],
-            "Matematyka",
-            "B202"
-        ],
-        [
-            [
-                "3D"
+                "3C"
             ],
             "Matematyka",
             "B202"
@@ -240,7 +240,7 @@
         ],
         [
             [
-                "5F"
+                "3D"
             ],
             "Matematyka",
             "18"

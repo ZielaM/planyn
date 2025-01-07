@@ -18,21 +18,6 @@
             "42"
         ],
         null,
-        null,
-        [
-            [
-                "2B"
-            ],
-            "Pracowniasystemówoperacyjnych",
-            "56"
-        ],
-        [
-            [
-                "2B"
-            ],
-            "Pracowniasystemówoperacyjnych",
-            "56"
-        ],
         [
             [
                 "2C"
@@ -40,30 +25,51 @@
             "Zajęciazwychowawcą",
             "44"
         ],
+        [
+            [
+                "2B"
+            ],
+            "Pracowniasystemówoperacyjnych",
+            "56"
+        ],
+        [
+            [
+                "2B"
+            ],
+            "Pracowniasystemówoperacyjnych",
+            "56"
+        ],
+        null,
         null
     ],
     "1": [
-        null,
-        [
-            [
-                "2B"
-            ],
-            "Pracowniasystemówoperacyjnych",
-            "56"
-        ],
-        [
-            [
-                "2B"
-            ],
-            "Pracowniasystemówoperacyjnych",
-            "56"
-        ],
         [
             [
                 "2E"
             ],
             "Projektowanieoprogramowania",
             "57"
+        ],
+        [
+            [
+                "2B"
+            ],
+            "Pracowniasystemówoperacyjnych",
+            "56"
+        ],
+        [
+            [
+                "2B"
+            ],
+            "Pracowniasystemówoperacyjnych",
+            "56"
+        ],
+        [
+            [
+                "1A"
+            ],
+            "Systemyoperacyjne",
+            "44"
         ],
         [
             [
@@ -79,19 +85,13 @@
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
+        null,
         [
             [
                 "1A"
             ],
             "Systemyoperacyjne",
-            "27"
-        ],
-        [
-            [
-                "1A"
-            ],
-            "Systemyoperacyjne",
-            "27"
+            "42"
         ],
         null,
         null,
@@ -100,30 +100,10 @@
     "2": [
         null,
         null,
+        null,
         [
             [
                 "2A"
-            ],
-            "Systemyoperacyjne",
-            "B101"
-        ],
-        [
-            [
-                "2A"
-            ],
-            "Systemyoperacyjne",
-            "B101"
-        ],
-        [
-            [
-                "2C"
-            ],
-            "Systemyoperacyjne",
-            "B101"
-        ],
-        [
-            [
-                "2C"
             ],
             "Systemyoperacyjne",
             "B101"
@@ -135,7 +115,27 @@
             "Projektowanieoprogramowania",
             "B101"
         ],
-        null,
+        [
+            [
+                "2C"
+            ],
+            "Systemyoperacyjne",
+            "B101"
+        ],
+        [
+            [
+                "2C"
+            ],
+            "Systemyoperacyjne",
+            "B101"
+        ],
+        [
+            [
+                "2A"
+            ],
+            "Systemyoperacyjne",
+            "B101"
+        ],
         [
             [
                 "2B"
@@ -161,13 +161,7 @@
             "Pracowniasystemówoperacyjnych",
             "42"
         ],
-        [
-            [
-                "1B"
-            ],
-            "Systemyoperacyjne",
-            "42"
-        ],
+        null,
         [
             [
                 "1B"
@@ -182,7 +176,13 @@
             "Systemyoperacyjne",
             "42"
         ],
-        null,
+        [
+            [
+                "1B"
+            ],
+            "Systemyoperacyjne",
+            "42"
+        ],
         [
             [
                 "2C"
@@ -202,7 +202,7 @@
                 "2B"
             ],
             "Systemyoperacyjne",
-            "34"
+            "42"
         ],
         null,
         null

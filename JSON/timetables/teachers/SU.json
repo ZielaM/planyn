@@ -18,14 +18,14 @@
         ],
         [
             [
-                "4A"
+                "1A"
             ],
             "Biologia",
             "B107"
         ],
         [
             [
-                "1A"
+                "4A"
             ],
             "Biologia",
             "B107"
@@ -50,27 +50,9 @@
     ],
     "1": [
         null,
-        [
-            [
-                "2A"
-            ],
-            "Biologia",
-            "37"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Biologia",
-            "37"
-        ],
-        [
-            [
-                "4B"
-            ],
-            "Biologia",
-            "37"
-        ],
+        null,
+        null,
+        null,
         null,
         [
             [
@@ -86,7 +68,13 @@
             "Biologia",
             "37"
         ],
-        null,
+        [
+            [
+                "4B"
+            ],
+            "Biologia",
+            "37"
+        ],
         null,
         null,
         null
@@ -117,7 +105,14 @@
         ],
         [
             [
-                "3C"
+                "3E"
+            ],
+            "Biologia",
+            "37"
+        ],
+        [
+            [
+                "2F"
             ],
             "Biologia",
             "37"
@@ -129,7 +124,6 @@
             "Biologia",
             "37"
         ],
-        null,
         null,
         null,
         null
@@ -158,7 +152,13 @@
             "Biologia",
             "B107"
         ],
-        null,
+        [
+            [
+                "3D"
+            ],
+            "Biologia",
+            "B107"
+        ],
         [
             [
                 "1D"
@@ -166,7 +166,13 @@
             "Biologia",
             "B107"
         ],
-        null,
+        [
+            [
+                "3C"
+            ],
+            "Biologia",
+            "B107"
+        ],
         null,
         null,
         null
@@ -174,13 +180,7 @@
     "4": [
         null,
         null,
-        [
-            [
-                "2F"
-            ],
-            "Biologia",
-            "37"
-        ],
+        null,
         [
             [
                 "2C"
@@ -197,7 +197,7 @@
         ],
         [
             [
-                "4D"
+                "2A"
             ],
             "Biologia",
             "37"
@@ -205,7 +205,7 @@
         null,
         [
             [
-                "3E"
+                "4D"
             ],
             "Biologia",
             "37"

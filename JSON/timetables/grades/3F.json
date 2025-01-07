@@ -61,6 +61,11 @@
                 "Urządzeniaiinstalacjeelektroniczne",
                 "RG",
                 "B109"
+            ],
+            [
+                "Maszynyiurządzeniaelektryczne",
+                "AS",
+                "B104"
             ]
         ],
         [
@@ -68,13 +73,29 @@
                 "Urządzeniaiinstalacjeelektroniczne",
                 "RG",
                 "B109"
+            ],
+            [
+                "Maszynyiurządzeniaelektryczne",
+                "AS",
+                "B104"
             ]
         ],
         null
     ],
     "1": [
         null,
-        null,
+        [
+            [
+                "Układyanalogowe",
+                "RG",
+                "47"
+            ],
+            [
+                "Sieciipodstacjetrakcyjne",
+                "ZF",
+                "48"
+            ]
+        ],
         [
             [
                 "Językniemiecki",
@@ -94,9 +115,9 @@
                 "62"
             ],
             [
-                "Sieciipodstacjetrakcyjne",
-                "ZF",
-                "48"
+                "Informatyka3F",
+                "DS",
+                "57"
             ]
         ],
         [
@@ -148,7 +169,7 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "TE",
                 "34"
             ]
@@ -263,7 +284,7 @@
         ],
         [
             [
-                "JęzykNiemieckiDSDIPro",
+                "JęzykniemieckiDSDIPro",
                 "TE",
                 "34"
             ]
@@ -317,14 +338,9 @@
         ],
         [
             [
-                "Układyanalogowe",
-                "RG",
-                "32"
-            ],
-            [
-                "Informatyka3F",
-                "DS",
-                "43"
+                "Językpolski",
+                "KL",
+                "28"
             ]
         ],
         [
@@ -353,13 +369,7 @@
                 "38"
             ]
         ],
-        [
-            [
-                "Językpolski",
-                "KL",
-                "28"
-            ]
-        ],
+        null,
         null,
         null
     ],
@@ -414,20 +424,8 @@
                 "B108"
             ]
         ],
-        [
-            [
-                "Maszynyiurządzeniaelektryczne",
-                "AS",
-                "B104"
-            ]
-        ],
-        [
-            [
-                "Maszynyiurządzeniaelektryczne",
-                "AS",
-                "B104"
-            ]
-        ],
+        null,
+        null,
         null
     ]
 }

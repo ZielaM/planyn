@@ -39,21 +39,15 @@
             ],
             "Językangielski"
         ],
+        [
+            "IS",
+            [
+                "4B"
+            ],
+            "Językangielskizawodowy"
+        ],
         null,
-        [
-            "KG",
-            [
-                "4F"
-            ],
-            "Przygotowaniepraktycznedozawodumaszynisty"
-        ],
-        [
-            "KG",
-            [
-                "4F"
-            ],
-            "Przygotowaniepraktycznedozawodumaszynisty"
-        ],
+        null,
         null,
         null
     ],
@@ -107,7 +101,13 @@
             "Językangielski"
         ],
         null,
-        null,
+        [
+            "IS",
+            [
+                "4A"
+            ],
+            "Językangielskizawodowy"
+        ],
         [
             "IS",
             [
@@ -146,33 +146,27 @@
     ],
     "3": [
         null,
+        null,
         [
-            "PM",
+            "OM",
             [
-                "5G"
+                "3B"
             ],
-            "Eksploatacjahandlowakolei"
+            "Językhiszpański"
         ],
         [
-            "PM",
+            "OM",
             [
-                "5G"
+                "1A"
             ],
-            "Eksploatacjahandlowakolei"
+            "Językhiszpański"
         ],
         [
-            "PM",
+            "JR",
             [
-                "5G"
+                "3A"
             ],
-            "Działalnośćusługowakolei"
-        ],
-        [
-            "PM",
-            [
-                "5G"
-            ],
-            "Działalnośćusługowakolei"
+            "Bazydanych"
         ],
         [
             "IS",

@@ -30,23 +30,23 @@
         ],
         [
             [
-                "Matematyka",
-                "MW",
-                "B109"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "MW",
-                "B109"
-            ]
-        ],
-        [
-            [
                 "Podstawyprzedsiębiorczości",
                 "MN",
                 "B102"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "MW",
+                "B109"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "MW",
+                "B109"
             ]
         ],
         [
@@ -255,7 +255,7 @@
             [
                 "Bazydanych",
                 "JR",
-                "37"
+                "30"
             ]
         ],
         null,
@@ -322,7 +322,7 @@
             [
                 "Informatyka",
                 "JA",
-                "50"
+                "40"
             ],
             [
                 "Informatyka",
@@ -334,7 +334,7 @@
             [
                 "Informatyka",
                 "JA",
-                "41"
+                "40"
             ],
             [
                 "Informatyka",
@@ -346,7 +346,7 @@
             [
                 "Językangielski",
                 "EP",
-                "36"
+                "31"
             ],
             [
                 "Językangielski",
@@ -361,7 +361,7 @@
             [
                 "Językangielski",
                 "JK",
-                "Piwnica"
+                "56"
             ]
         ],
         [
@@ -387,7 +387,7 @@
             [
                 "Językangielski",
                 "LS",
-                "22"
+                "27"
             ],
             [
                 "Językangielski",
@@ -404,7 +404,7 @@
             [
                 "Programowanie",
                 "CL",
-                "57"
+                "31"
             ]
         ],
         [

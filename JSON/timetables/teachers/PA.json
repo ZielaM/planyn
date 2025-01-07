@@ -8,25 +8,19 @@
         null,
         [
             [
-                "4D"
+                "3C"
             ],
-            "Językpolski",
+            "Zajęciazwychowawcą",
             "28"
         ],
         [
             [
-                "5C"
+                "3E"
             ],
             "Językpolski",
             "28"
         ],
-        [
-            [
-                "5C"
-            ],
-            "Językpolski",
-            "28"
-        ],
+        null,
         null,
         null
     ],
@@ -53,13 +47,7 @@
             "Językpolski",
             "28"
         ],
-        [
-            [
-                "5E"
-            ],
-            "Językpolski",
-            "28"
-        ],
+        null,
         [
             [
                 "3C"
@@ -81,13 +69,7 @@
     ],
     "2": [
         null,
-        [
-            [
-                "5C"
-            ],
-            "Językpolski",
-            "23"
-        ],
+        null,
         [
             [
                 "1A"
@@ -97,7 +79,7 @@
         ],
         [
             [
-                "5E"
+                "5C"
             ],
             "Językpolski",
             "23"
@@ -111,7 +93,7 @@
         ],
         [
             [
-                "3E"
+                "5E"
             ],
             "Językpolski",
             "23"
@@ -130,16 +112,28 @@
             "Językpolski",
             "23"
         ],
-        null,
+        [
+            [
+                "4D"
+            ],
+            "Językpolski",
+            "23"
+        ],
         null,
         null
     ],
     "3": [
         null,
-        null,
         [
             [
                 "4D"
+            ],
+            "Językpolski",
+            "18"
+        ],
+        [
+            [
+                "5C"
             ],
             "Językpolski",
             "18"
@@ -166,12 +160,11 @@
                 "5C"
             ],
             "Językpolski",
-            "28"
+            "23"
         ],
-        null,
         [
             [
-                "5F"
+                "5C"
             ],
             "Językpolski",
             "23"
@@ -185,10 +178,10 @@
         ],
         [
             [
-                "3C"
+                "5F"
             ],
-            "Zajęciazwychowawcą",
-            "Piwnica"
+            "Językpolski",
+            "23"
         ],
         [
             [
@@ -197,21 +190,28 @@
             "Językpolski",
             "23"
         ],
+        [
+            [
+                "5E"
+            ],
+            "Językpolski",
+            "23"
+        ],
+        [
+            [
+                "3E"
+            ],
+            "Językpolski",
+            "23"
+        ],
+        [
+            [
+                "3E"
+            ],
+            "Językpolski",
+            "23"
+        ],
         null,
-        [
-            [
-                "3E"
-            ],
-            "Językpolski",
-            "23"
-        ],
-        [
-            [
-                "3E"
-            ],
-            "Językpolski",
-            "23"
-        ],
         null
     ]
 }

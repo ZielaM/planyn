@@ -7,24 +7,18 @@
         [
             "MN",
             [
-                "1A"
-            ],
-            "Bezpieczeństwoihigienapracy"
-        ],
-        [
-            "MN",
-            [
-                "1B"
-            ],
-            "Edukacjadlabezpieczeństwa"
-        ],
-        [
-            "MN",
-            [
                 "3A"
             ],
             "Podstawyprzedsiębiorczości"
         ],
+        [
+            "MN",
+            [
+                "1A"
+            ],
+            "Bezpieczeństwoihigienapracy"
+        ],
+        null,
         [
             "MN",
             [
@@ -70,23 +64,23 @@
         [
             "JR",
             [
-                "2C"
-            ],
-            "SiecikomputeroweD_DW"
-        ],
-        [
-            "JR",
-            [
                 "4C"
             ],
             "Testowanieidokumentowanieaplikacji"
         ],
         null,
         null,
+        null,
         null
     ],
     "2": [
-        null,
+        [
+            "JR",
+            [
+                "4B"
+            ],
+            "Zajęciazwychowawcą"
+        ],
         [
             "JR",
             [
@@ -105,7 +99,7 @@
         [
             "NM",
             [
-                "2D"
+                "4B"
             ],
             "Geografia"
         ],
@@ -119,7 +113,7 @@
         [
             "NM",
             [
-                "4B"
+                "2D"
             ],
             "Geografia"
         ],
@@ -142,52 +136,94 @@
     ],
     "3": [
         null,
-        null,
-        null,
         [
-            "AW",
-            [
-                "3D"
-            ],
-            "Tworzenieaplikacjiinternetowych"
-        ],
-        [
-            "AW",
+            "OL",
             [
                 "1C"
             ],
-            "Projektowaniewitryninternetowych"
+            "Podstawyprogramowania"
         ],
         [
-            "AW",
+            "OL",
             [
                 "1C"
             ],
-            "Projektowaniewitryninternetowych"
+            "Podstawyprogramowania"
         ],
         null,
-        [
-            "MN",
-            [
-                "3C"
-            ],
-            "Podstawyprzedsiębiorczości"
-        ],
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
     ],
     "4": [
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        [
+            "PS",
+            [
+                "2H"
+            ],
+            "Religia"
+        ],
+        [
+            "WSZ",
+            [
+                "2H"
+            ],
+            "Odprawapociągównastacji"
+        ],
+        [
+            "WSZ",
+            [
+                "2H"
+            ],
+            "Podstawyruchukolejowego"
+        ],
+        [
+            "WSZ",
+            [
+                "4F"
+            ],
+            "Organizacjaprzewozówkolejowych"
+        ],
+        [
+            "WSZ",
+            [
+                "4F"
+            ],
+            "Organizacjaprzewozówkolejowych"
+        ],
+        [
+            "SJ",
+            [
+                "2H"
+            ],
+            "Urządzeniasterowaniaruchemkolejowym"
+        ],
+        [
+            "WSZ",
+            [
+                "4F"
+            ],
+            "Eksploatacjahandlowakolei"
+        ],
+        [
+            "SJ",
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
+        ],
+        [
+            "SJ",
+            [
+                "2H"
+            ],
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
+        ],
         null
     ]
 }

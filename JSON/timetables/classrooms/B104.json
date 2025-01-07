@@ -7,20 +7,6 @@
         [
             "AS",
             [
-                "5G"
-            ],
-            "Eksploatacjaelektrycznychpojazdówtrakcyjnych"
-        ],
-        [
-            "AS",
-            [
-                "5G"
-            ],
-            "Eksploatacjaelektrycznychpojazdówtrakcyjnych"
-        ],
-        [
-            "AS",
-            [
                 "4F"
             ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego"
@@ -45,6 +31,20 @@
                 "4F"
             ],
             "Pracowniaeksploatacjiśrodkówtransportuszynowego"
+        ],
+        [
+            "AS",
+            [
+                "3F"
+            ],
+            "Maszynyiurządzeniaelektryczne"
+        ],
+        [
+            "AS",
+            [
+                "3F"
+            ],
+            "Maszynyiurządzeniaelektryczne"
         ],
         null
     ],
@@ -108,20 +108,8 @@
             ],
             "Eksploatacjataboruszynowego"
         ],
-        [
-            "AS",
-            [
-                "3F"
-            ],
-            "Maszynyiurządzeniaelektryczne"
-        ],
-        [
-            "AS",
-            [
-                "3F"
-            ],
-            "Maszynyiurządzeniaelektryczne"
-        ],
+        null,
+        null,
         null
     ]
 }

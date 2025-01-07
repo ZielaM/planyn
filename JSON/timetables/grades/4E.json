@@ -53,9 +53,16 @@
         ],
         [
             [
-                "Kompetencjespołeczne",
-                "EG",
-                "26"
+                "Historia",
+                "KK",
+                "38"
+            ]
+        ],
+        [
+            [
+                "Językpolski",
+                "LA",
+                "23"
             ]
         ],
         [
@@ -72,15 +79,14 @@
                 "62"
             ]
         ],
-        null,
         null
     ],
     "1": [
         [
             [
-                "Informatyka",
-                "AL",
-                "51"
+                "Eksploatacjaurządzeńelektronicznych",
+                "RG",
+                "47"
             ]
         ],
         [
@@ -92,7 +98,7 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "21"
             ],
             [
                 "Językangielski",
@@ -102,21 +108,16 @@
         ],
         [
             [
-                "Językangielskizawodowy",
-                "EP",
-                "31"
-            ],
-            [
-                "Instalacjeautomatykiprzemysłowej",
-                "FN",
-                "26"
+                "Geografia",
+                "NM",
+                "36"
             ]
         ],
         [
             [
-                "Geografia",
-                "NM",
-                "36"
+                "Kompetencjespołeczne",
+                "EG",
+                "27"
             ]
         ],
         null,
@@ -214,16 +215,16 @@
         ],
         [
             [
-                "Biologia",
-                "SU",
-                "37"
+                "Chemia",
+                "AJ",
+                "26"
             ]
         ],
         [
             [
-                "Chemia",
-                "AJ",
-                "26"
+                "Biologia",
+                "SU",
+                "37"
             ]
         ],
         [
@@ -257,9 +258,9 @@
                 "46"
             ],
             [
-                "Pracowniatechnologiiipomiarówwautomatyce",
-                "WR",
-                "44"
+                "Instalacjeautomatykiprzemysłowej",
+                "FN",
+                "33"
             ]
         ],
         [
@@ -269,7 +270,7 @@
                 "47"
             ],
             [
-                "Pracowniatechnologiiipomiarówwautomatyce",
+                "Pracowniainstalacjiautomatykiprzemysłowej",
                 "WR",
                 "44"
             ]
@@ -305,24 +306,24 @@
                 "46"
             ],
             [
-                "Pracowniainstalacjiautomatykiprzemysłowej",
+                "Pracowniatechnologiiipomiarówwautomatyce",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Zajęciazwychowawcą",
-                "NM",
-                "36"
+                "Językangielskizawodowy",
+                "EP",
+                "31"
+            ],
+            [
+                "Pracowniatechnologiiipomiarówwautomatyce",
+                "WR",
+                "44"
             ]
         ],
         [
-            [
-                "Eksploatacjaurządzeńelektronicznych",
-                "RG",
-                "26"
-            ],
             [
                 "Instalacjeautomatykiprzemysłowej",
                 "FN",
@@ -338,7 +339,7 @@
             [
                 "Językhiszpański",
                 "OM",
-                "16"
+                "22"
             ],
             [
                 "Językniemiecki",
@@ -355,7 +356,7 @@
             [
                 "Urządzeniaautomatykiprzemysłowej",
                 "FN",
-                "17"
+                "46"
             ]
         ],
         null
@@ -385,21 +386,21 @@
             [
                 "Instalacjeautomatykiprzemysłowej",
                 "FN",
-                "31"
+                "36"
             ]
         ],
         [
             [
-                "Historia",
-                "KK",
-                "38"
+                "Zajęciazwychowawcą",
+                "NM",
+                "36"
             ]
         ],
         [
             [
-                "Wiedzaospołeczeństwie",
-                "KK",
-                "38"
+                "Językpolski",
+                "LA",
+                "26"
             ]
         ],
         [
@@ -411,16 +412,16 @@
         ],
         [
             [
-                "Językpolski",
-                "LA",
+                "Wiedzaospołeczeństwie",
+                "KK",
                 "38"
             ]
         ],
         [
             [
-                "Językpolski",
-                "LA",
-                "38"
+                "Informatyka",
+                "AL",
+                "51"
             ]
         ],
         [

@@ -4,48 +4,12 @@
         null,
         null,
         null,
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "5G"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
     ],
     "1": [
@@ -66,7 +30,13 @@
         null,
         null,
         null,
-        null,
+        [
+            "MW",
+            [
+                "2A"
+            ],
+            "Chemia"
+        ],
         null,
         null,
         null,
@@ -90,56 +60,26 @@
     "4": [
         null,
         null,
-        [
-            "GR",
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego"
-        ],
-        [
-            "GR",
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego"
-        ],
-        [
-            "GR",
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego"
-        ],
-        [
-            "GR",
-            [
-                "4F"
-            ],
-            "Pracowniaorganizacjipracystacji"
-        ],
-        [
-            "GR",
-            [
-                "2H"
-            ],
-            "Pracowniaruchukolejowego"
-        ],
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+            "GR",
+            [
+                "2H"
+            ],
+            "Pracowniaruchukolejowego"
+        ],
+        [
+            "GR",
+            [
+                "2H"
+            ],
+            "Pracowniaruchukolejowego"
+        ],
         null
     ]
 }

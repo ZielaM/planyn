@@ -23,32 +23,32 @@
         null,
         [
             [
-                "Organizacjaprzewozówkolejowych",
-                "WSZ",
+                "Pracowniaorganizacjipracystacji",
+                "GR",
                 "31"
             ],
             [
-                "Taborszynowy",
-                "WO",
-                "B103"
+                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
+                "AS",
+                "B104"
             ]
         ],
         [
             [
-                "Eksploatacjahandlowakolei",
-                "WSZ",
+                "Pracowniaorganizacjipracystacji",
+                "GR",
                 "31"
             ],
             [
-                "Taborszynowy",
-                "WO",
-                "B103"
+                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
+                "AS",
+                "B104"
             ]
         ],
         [
             [
-                "Organizacjaprzewozówkolejowych",
-                "WSZ",
+                "Pracowniaorganizacjipracystacji",
+                "GR",
                 "31"
             ],
             [
@@ -61,7 +61,7 @@
             [
                 "Przygotowaniepraktycznedozawodumaszynisty",
                 "KG",
-                "30"
+                "21"
             ],
             [
                 "Pracowniaeksploatacjiśrodkówtransportuszynowego",
@@ -73,12 +73,7 @@
             [
                 "Przygotowaniepraktycznedozawodumaszynisty",
                 "KG",
-                "30"
-            ],
-            [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "AS",
-                "B104"
+                "21"
             ]
         ],
         [
@@ -86,11 +81,6 @@
                 "Geografia",
                 "NM",
                 "36"
-            ],
-            [
-                "Pracowniaeksploatacjiśrodkówtransportuszynowego",
-                "AS",
-                "B104"
             ]
         ],
         null
@@ -112,7 +102,7 @@
             [
                 "Językangielski",
                 "JK",
-                "23"
+                "21"
             ],
             [
                 "Językangielski",
@@ -124,7 +114,19 @@
             [
                 "Działalnośćusługowakolei",
                 "PM",
-                "27"
+                "46"
+            ],
+            [
+                "Językangielskizawodowy",
+                "EI",
+                "20"
+            ]
+        ],
+        [
+            [
+                "Działalnośćusługowakolei",
+                "PM",
+                "46"
             ],
             [
                 "Geografia",
@@ -141,19 +143,7 @@
             [
                 "Technikaruchukolejowego",
                 "PM",
-                "27"
-            ]
-        ],
-        [
-            [
-                "Działalnośćusługowakolei",
-                "PM",
-                "27"
-            ],
-            [
-                "Językangielskizawodowy",
-                "EI",
-                "20"
+                "46"
             ]
         ],
         [
@@ -174,7 +164,7 @@
             [
                 "Językpolski",
                 "SG",
-                "37"
+                "27"
             ]
         ],
         [
@@ -371,9 +361,9 @@
         ],
         [
             [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
+                "Organizacjaprzewozówkolejowych",
+                "WSZ",
+                "B102"
             ],
             [
                 "Taborszynowy",
@@ -383,9 +373,9 @@
         ],
         [
             [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
+                "Organizacjaprzewozówkolejowych",
+                "WSZ",
+                "B102"
             ],
             [
                 "Taborszynowy",
@@ -407,9 +397,9 @@
         ],
         [
             [
-                "Pracowniaorganizacjipracystacji",
-                "GR",
-                "B105"
+                "Eksploatacjahandlowakolei",
+                "WSZ",
+                "B102"
             ],
             [
                 "Eksploatacjataboruszynowego",
@@ -422,9 +412,20 @@
                 "Fizyka",
                 "KJ",
                 "B108"
+            ],
+            [
+                "Taborszynowy",
+                "WO",
+                "B103"
             ]
         ],
-        null,
+        [
+            [
+                "Taborszynowy",
+                "WO",
+                "B103"
+            ]
+        ],
         null
     ]
 }

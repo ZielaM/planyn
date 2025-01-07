@@ -1,6 +1,7 @@
 {
     "0": [
         null,
+        null,
         [
             "MŁ",
             [
@@ -8,7 +9,6 @@
             ],
             "Biznesizarządzanie"
         ],
-        null,
         [
             "MŁ",
             [
@@ -30,13 +30,7 @@
             ],
             "Działalnośćgospodarcza"
         ],
-        [
-            "EG",
-            [
-                "4E"
-            ],
-            "Kompetencjespołeczne"
-        ],
+        null,
         [
             "MŁ",
             [
@@ -51,30 +45,24 @@
             ],
             "Biznesizarządzanie"
         ],
-        [
-            "MŁ",
-            [
-                "2E"
-            ],
-            "Biznesizarządzanie"
-        ],
+        null,
         null
     ],
     "1": [
         null,
         [
-            "OM",
+            "MW",
             [
-                "2E"
+                "2A"
             ],
-            "Językhiszpański"
+            "Matematyka"
         ],
         [
-            "FN",
+            "MW",
             [
-                "4E"
+                "2A"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Matematyka"
         ],
         [
             "MW",
@@ -129,6 +117,15 @@
     ],
     "2": [
         null,
+        null,
+        null,
+        [
+            "AJ",
+            [
+                "1A"
+            ],
+            "Chemia"
+        ],
         [
             "OM",
             [
@@ -137,31 +134,9 @@
             "Językhiszpański"
         ],
         [
-            "OM",
-            [
-                "3D"
-            ],
-            "Językhiszpański"
-        ],
-        [
-            "AJ",
-            [
-                "1A"
-            ],
-            "Chemia"
-        ],
-        null,
-        [
             "AJ",
             [
                 "3F"
-            ],
-            "Chemia"
-        ],
-        [
-            "AJ",
-            [
-                "2F"
             ],
             "Chemia"
         ],
@@ -174,6 +149,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     "3": [
@@ -181,7 +157,7 @@
         [
             "MW",
             [
-                "2B"
+                "2C"
             ],
             "Chemia"
         ],
@@ -221,19 +197,13 @@
             "Matematyka"
         ],
         [
-            "RG",
+            "MW",
             [
-                "4E"
+                "2B"
             ],
-            "Eksploatacjaurządzeńelektronicznych"
+            "Chemia"
         ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Witrynyiaplikacjeinternetowe"
-        ],
+        null,
         null,
         null
     ],
@@ -255,18 +225,18 @@
             "Matematyka"
         ],
         [
-            "MW",
+            "AM",
             [
                 "2A"
             ],
-            "Matematyka"
+            "Historia"
         ],
         [
-            "MW",
+            "LA",
             [
-                "2A"
+                "4E"
             ],
-            "Matematyka"
+            "Językpolski"
         ],
         [
             "SG",

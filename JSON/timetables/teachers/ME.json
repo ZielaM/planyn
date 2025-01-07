@@ -3,17 +3,18 @@
         null,
         [
             [
-                "5D"
-            ],
-            "Językniemiecki",
-            "31"
-        ],
-        [
-            [
                 "2F"
             ],
             "Językniemiecki",
-            "31"
+            "28"
+        ],
+        null,
+        [
+            [
+                "3C"
+            ],
+            "Językniemiecki",
+            "36"
         ],
         [
             [
@@ -22,20 +23,19 @@
             "Językniemiecki",
             "36"
         ],
-        null,
         [
             [
                 "2H"
             ],
             "Językniemiecki",
-            "44"
+            "46"
         ],
         [
             [
                 "2H"
             ],
             "Językniemiecki",
-            "44"
+            "46"
         ],
         null,
         null,
@@ -108,22 +108,22 @@
                 "2F"
             ],
             "Językniemiecki",
-            "33"
-        ],
-        [
-            [
-                "3C"
-            ],
-            "Językniemiecki",
-            "33"
+            "36"
         ],
         null,
+        [
+            [
+                "5D"
+            ],
+            "Językniemiecki",
+            "36"
+        ],
         [
             [
                 "2G"
             ],
             "Językniemiecki",
-            "33"
+            "36"
         ],
         null,
         null
@@ -168,7 +168,7 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro",
+            "JęzykniemieckiDSDIPro",
             "23"
         ],
         [
@@ -180,7 +180,7 @@
                 "2E"
             ],
             "JęzykniemieckiDSDIPro",
-            "23"
+            "27"
         ]
     ],
     "4": [
@@ -218,7 +218,7 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro",
+            "JęzykniemieckiDSDIPro",
             "62"
         ],
         [
@@ -229,7 +229,7 @@
                 "2D",
                 "2E"
             ],
-            "JęzykNiemieckiDSDIPro",
+            "JęzykniemieckiDSDIPro",
             "62"
         ],
         null

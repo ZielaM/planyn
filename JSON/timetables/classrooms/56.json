@@ -11,7 +11,7 @@
         [
             "AW",
             [
-                "2E"
+                "3C"
             ],
             "Pracowniaaplikacjiinternetowych"
         ],
@@ -30,13 +30,7 @@
             "Pracowniaaplikacjiinternetowych"
         ],
         null,
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
+        null,
         [
             "DR",
             [
@@ -140,11 +134,11 @@
             "Informatyka"
         ],
         [
-            "PP",
+            "WK",
             [
                 "4D"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "AW",
@@ -160,20 +154,8 @@
             ],
             "Pracowniawitryninternetowych"
         ],
-        [
-            "KW",
-            [
-                "5C"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
-        [
-            "KW",
-            [
-                "3C"
-            ],
-            "Pracowniaprojektowaniaoprogramowania"
-        ],
+        null,
+        null,
         null
     ],
     "3": [
@@ -206,20 +188,8 @@
             ],
             "Pracowniawitryninternetowych"
         ],
-        [
-            "OL",
-            [
-                "1B"
-            ],
-            "Podstawyprogramowania"
-        ],
-        [
-            "OL",
-            [
-                "5B"
-            ],
-            "Pracowniaprogramowania"
-        ],
+        null,
+        null,
         [
             "GL",
             [
@@ -234,13 +204,7 @@
             ],
             "Pracowniawitryninternetowych"
         ],
-        [
-            "KW",
-            [
-                "5A"
-            ],
-            "Pracowniawitryninternetowych"
-        ],
+        null,
         null
     ],
     "4": [
@@ -258,12 +222,14 @@
             ],
             "Pracowniasystemówoperacyjnych"
         ],
+        null,
         [
-            "AW",
+            "JK",
             [
-                "4A"
+                "3A",
+                "3C"
             ],
-            "Pracowniawitryninternetowych"
+            "Językangielski"
         ],
         [
             "AW",
@@ -275,16 +241,9 @@
         [
             "AW",
             [
-                "3D"
+                "4A"
             ],
-            "Pracowniaaplikacjiinternetowych"
-        ],
-        [
-            "AW",
-            [
-                "3D"
-            ],
-            "Pracowniaaplikacjiinternetowych"
+            "Pracowniawitryninternetowych"
         ],
         [
             "AW",

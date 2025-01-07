@@ -1,13 +1,7 @@
 {
     "0": [
         null,
-        [
-            [
-                "5D"
-            ],
-            "Językniemiecki",
-            "34"
-        ],
+        null,
         [
             [
                 "1C"
@@ -37,21 +31,21 @@
             "34"
         ],
         null,
-        [
-            [
-                "3E"
-            ],
-            "Językniemiecki",
-            "34"
-        ],
-        [
-            [
-                "3E"
-            ],
-            "Językniemiecki",
-            "34"
-        ],
         null,
+        [
+            [
+                "3E"
+            ],
+            "Językniemiecki",
+            "34"
+        ],
+        [
+            [
+                "3E"
+            ],
+            "Językniemiecki",
+            "34"
+        ],
         null
     ],
     "1": [
@@ -99,13 +93,19 @@
                 "3E",
                 "3F"
             ],
-            "JęzykNiemieckiDSDIPro",
+            "JęzykniemieckiDSDIPro",
             "34"
         ]
     ],
     "2": [
         null,
-        null,
+        [
+            [
+                "1D"
+            ],
+            "Plastyka",
+            "34"
+        ],
         [
             [
                 "3D"
@@ -128,12 +128,18 @@
             "34"
         ],
         null,
-        null,
         [
             [
-                "1D"
+                "1B"
             ],
             "Plastyka",
+            "34"
+        ],
+        [
+            [
+                "5D"
+            ],
+            "Językniemiecki",
             "34"
         ],
         [
@@ -141,22 +147,29 @@
                 "3D",
                 "3F"
             ],
-            "JęzykNiemieckiDSDIPro",
+            "JęzykniemieckiDSDIPro",
             "34"
         ],
         null,
         null
     ],
     "3": [
-        null,
-        null,
-        null,
-        null,
         [
             [
-                "5F"
+                "4A",
+                "4B",
+                "4C"
             ],
-            "Językniemiecki",
+            "JęzykniemieckiDSDIPro",
+            "34"
+        ],
+        [
+            [
+                "4A",
+                "4B",
+                "4C"
+            ],
+            "JęzykniemieckiDSDIPro",
             "34"
         ],
         [
@@ -166,37 +179,24 @@
             "Plastyka",
             "34"
         ],
+        null,
         [
             [
-                "1B"
+                "5F"
             ],
-            "Plastyka",
+            "Językniemiecki",
             "34"
         ],
+        null,
+        null,
         null,
         null,
         null,
         null
     ],
     "4": [
-        [
-            [
-                "4A",
-                "4B",
-                "4C"
-            ],
-            "JęzykniemieckiDSDIPro",
-            "34"
-        ],
-        [
-            [
-                "4A",
-                "4B",
-                "4C"
-            ],
-            "Językniemiecki",
-            "34"
-        ],
+        null,
+        null,
         null,
         null,
         null,
@@ -233,7 +233,7 @@
                 "4B",
                 "4C"
             ],
-            "JęzykniemieckiDSDIPro",
+            "Językniemiecki",
             "34"
         ]
     ]

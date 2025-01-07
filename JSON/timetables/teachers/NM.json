@@ -41,14 +41,14 @@
         ],
         [
             [
-                "4F"
+                "4E"
             ],
             "Geografia",
             "36"
         ],
         [
             [
-                "4E"
+                "4F"
             ],
             "Geografia",
             "36"
@@ -104,7 +104,7 @@
         ],
         [
             [
-                "2D"
+                "4B"
             ],
             "Geografia",
             "B102"
@@ -118,7 +118,7 @@
         ],
         [
             [
-                "4B"
+                "2D"
             ],
             "Geografia",
             "B102"
@@ -150,18 +150,12 @@
         ],
         [
             [
-                "1B"
-            ],
-            "Geografia",
-            "36"
-        ],
-        [
-            [
                 "1A"
             ],
             "Geografia",
             "36"
         ],
+        null,
         [
             [
                 "4C"
@@ -185,9 +179,9 @@
         ],
         [
             [
-                "4E"
+                "1B"
             ],
-            "Zajęciazwychowawcą",
+            "Geografia",
             "36"
         ],
         [
@@ -218,7 +212,13 @@
         null,
         null,
         null,
-        null,
+        [
+            [
+                "4E"
+            ],
+            "Zajęciazwychowawcą",
+            "36"
+        ],
         [
             [
                 "1D"

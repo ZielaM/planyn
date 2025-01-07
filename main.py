@@ -150,19 +150,28 @@ async def main() -> None:
         await asyncio.gather(*tasks)
 
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
+    
+    filenames: dict[str, list[str]] = dict()  # dictionary to store filenames
+    
     # saving teachers' timetables
     path = f'{JSON_PATH}timetables/teachers/'
     tasks.extend(save_timetables(TEACHERS_TIMETABLES, path))
+    filenames[path] = list(TEACHERS_TIMETABLES.keys()) # add the filenames to the dictionary
 
     # saving classrooms' timetables
     path = f'{JSON_PATH}timetables/classrooms/'
     tasks.extend(save_timetables(CLASSROOMS_TIMETABLES, path))
+    filenames[path] = list(CLASSROOMS_TIMETABLES.keys()) # add the filenames to the dictionary
     
     # saving grades' timetables
     path = f'{JSON_PATH}timetables/grades/'
     tasks.extend(save_timetables(GRADES_TIMETABLES, path))
+    filenames[path] = list(GRADES_TIMETABLES.keys()) # add the filenames to the dictionary
     
     await asyncio.gather(*tasks)
+    
+    with open(f'{JSON_PATH}filenames.json', 'w', encoding='utf-8') as f:
+        json.dump(filenames, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the filenames to the file (used for creating the main menu in the mobile app)
 
     # saving plain text
     with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:

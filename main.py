@@ -115,7 +115,7 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                     if PLAIN_TEXT_SOLUTION[col.text] is None:  # if the plain text solution is None, skip it (I considered it an unnecessary data)
                         continue
                     else:  # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the dictionaries
-                        for span in PLAIN_TEXT_SOLUTION[col.text].split('/'):
+                        for span in PLAIN_TEXT_SOLUTION[col.text].split('//'):
                             insert_data_to_teachers(*(w := span.split(' ')), num_col, num_row, grade)
                             insert_data_to_classrooms(*w, num_col, num_row, grade)
                             insert_data_to_grades(*w, num_col, num_row, grade)

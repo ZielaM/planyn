@@ -9,12 +9,12 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-j1",
                 "OM",
                 "20"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-j2",
                 "JT",
                 "33"
             ]
@@ -128,36 +128,36 @@
         null,
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
@@ -192,7 +192,7 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]
@@ -258,19 +258,19 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "GI",
                 "58"
             ]

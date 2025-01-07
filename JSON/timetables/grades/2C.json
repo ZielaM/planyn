@@ -78,24 +78,24 @@
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "LS",
                 "B106"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "JO",
                 "B101"
             ]
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "LS",
                 "B106"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "JO",
                 "B101"
             ]
@@ -116,36 +116,36 @@
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
@@ -155,12 +155,12 @@
     "2": [
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B204"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "B203"
             ]
@@ -209,12 +209,12 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B204"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "B203"
             ]
@@ -273,36 +273,36 @@
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "LS",
                 "17"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "JO",
                 "32"
             ]
         ],
         [
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-1/2",
                 "DR",
                 "42"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-2/2",
                 "SZ",
                 "61"
             ]
         ],
         [
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-1/2",
                 "DR",
                 "42"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-2/2",
                 "SZ",
                 "61"
             ]
@@ -326,36 +326,36 @@
     "4": [
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-1/2",
                 "SZ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-2/2",
                 "DR",
                 "56"
             ]
         ],
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-1/2",
                 "SZ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-2/2",
                 "DR",
                 "56"
             ]
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-1/2",
                 "OM",
                 "20"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "RM",
                 "21"
             ]
@@ -369,48 +369,48 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-1/2",
                 "OM",
                 "38"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "LS",
                 "27"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "JO",
                 "32"
             ]
         ],
         [
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-2/2",
                 "KZ",
                 "43"
             ]
         ],
         [
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-2/2",
                 "KZ",
                 "43"
             ]

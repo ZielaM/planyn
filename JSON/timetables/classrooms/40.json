@@ -7,14 +7,14 @@
             [
                 "2E"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "2E"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-2/2"
         ],
         null,
         null,
@@ -23,14 +23,14 @@
             [
                 "3D"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "2E"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-2/2"
         ],
         null,
         null,
@@ -42,7 +42,7 @@
             [
                 "2D"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         null,
         [
@@ -50,21 +50,21 @@
             [
                 "3C"
             ],
-            "Pracowniaprojektowaniaoprogramowania"
+            "Pracowniaprojektowaniaoprogramowania-2/2"
         ],
         [
             "FK",
             [
                 "2E"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "DS",
             [
                 "2G"
             ],
-            "Informatyka"
+            "Informatyka-2/2"
         ],
         null,
         null,
@@ -73,14 +73,14 @@
             [
                 "3C"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "3C"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         null,
         null
@@ -91,28 +91,28 @@
             [
                 "4C"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
         ],
         [
             "PP",
             [
                 "4C"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
         ],
         [
             "PP",
             [
                 "4D"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
         ],
         [
             "PP",
             [
                 "4D"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
         ],
         null,
         [
@@ -120,21 +120,21 @@
             [
                 "4D"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracowniaaplikacjiwebowych-1/2"
         ],
         [
             "OL",
             [
                 "1C"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracowniapodstawprogramowania-2/2"
         ],
         [
             "OL",
             [
                 "1C"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracowniapodstawprogramowania-2/2"
         ],
         null,
         [
@@ -142,7 +142,7 @@
             [
                 "4C"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracowniaaplikacjiwebowych-1/2"
         ],
         null
     ],
@@ -156,21 +156,21 @@
             [
                 "2D"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "2D"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-2/2"
         ],
         [
             "FK",
             [
                 "2D"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-2/2"
         ],
         null,
         null,
@@ -183,56 +183,56 @@
             [
                 "4A"
             ],
-            "Pracowniaprogramowania"
+            "Pracowniaprogramowania-1/2"
         ],
         [
             "JA",
             [
                 "3A"
             ],
-            "Informatyka"
+            "Informatyka-1/2"
         ],
         [
             "JA",
             [
                 "3A"
             ],
-            "Informatyka"
+            "Informatyka-1/2"
         ],
         [
             "JA",
             [
                 "3E"
             ],
-            "Informatyka"
+            "Informatyka-1/2"
         ],
         [
             "FK",
             [
                 "4A"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "4A"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "4B"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         [
             "FK",
             [
                 "4B"
             ],
-            "Pracowniabazdanych"
+            "Pracowniabazdanych-1/2"
         ],
         null,
         null,

@@ -16,14 +16,14 @@
             [
                 "2H"
             ],
-            "Językniemiecki"
+            "Językniemiecki-1/2"
         ],
         [
             "ME",
             [
                 "2H"
             ],
-            "Językniemiecki"
+            "Językniemiecki-1/2"
         ],
         null,
         null,
@@ -38,21 +38,21 @@
             [
                 "4F"
             ],
-            "Działalnośćusługowakolei"
+            "Działalnośćusługowakolei-1/2"
         ],
         [
             "PM",
             [
                 "4F"
             ],
-            "Działalnośćusługowakolei"
+            "Działalnośćusługowakolei-1/2"
         ],
         [
             "PM",
             [
                 "4F"
             ],
-            "Technikaruchukolejowego"
+            "Technikaruchukolejowego-2/2"
         ],
         null,
         null,
@@ -99,7 +99,7 @@
             [
                 "2G"
             ],
-            "Układyanalogowe"
+            "Układyanalogowe-1/4"
         ],
         [
             "RG",
@@ -133,49 +133,49 @@
             [
                 "4E"
             ],
-            "Systemymikroprocesorowe"
+            "Systemymikroprocesorowe-1/6"
         ],
         [
             "RT",
             [
                 "3F"
             ],
-            "Systemymikroprocesorowe"
+            "Systemymikroprocesorowe-1/2"
         ],
         [
             "RT",
             [
                 "4E"
             ],
-            "Pracowniasystemówmikroprocesorowych"
+            "Pracowniasystemówmikroprocesorowych-1/6"
         ],
         [
             "RT",
             [
                 "4E"
             ],
-            "Pracowniasystemówmikroprocesorowych"
+            "Pracowniasystemówmikroprocesorowych-1/6"
         ],
         [
             "RT",
             [
                 "4E"
             ],
-            "Systemymikroprocesorowe"
+            "Systemymikroprocesorowe-1/6"
         ],
         [
             "FN",
             [
                 "3E"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-1/2"
         ],
         [
             "FN",
             [
                 "4E"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Instalacjeautomatykiprzemysłowej-2/6"
         ],
         null,
         [
@@ -183,7 +183,7 @@
             [
                 "4E"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Urządzeniaautomatykiprzemysłowej-2/6"
         ],
         null
     ],
@@ -193,70 +193,70 @@
             [
                 "3E"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "3E"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "3E"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "3E"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "RT",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-2/2"
         ],
         [
             "FN",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-1/2"
         ],
         [
             "FN",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-1/2"
         ],
         [
             "FN",
             [
                 "2F"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej"
+            "Pracowniaurządzeńautomatykiprzemysłowej-1/2"
         ],
         null
     ]

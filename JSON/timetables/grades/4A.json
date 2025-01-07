@@ -72,36 +72,36 @@
         null,
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
@@ -122,19 +122,19 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-1/2",
                 "KW",
                 "58"
             ],
             [
-                "Pracowniaprogramowania",
+                "Pracowniaprogramowania-2/2",
                 "OL",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaprogramowania",
+                "Pracowniaprogramowania-2/2",
                 "OL",
                 "51"
             ]
@@ -146,7 +146,7 @@
         null,
         [
             [
-                "Językniemiecki",
+                "Językniemiecki-6/6",
                 "RM",
                 "21"
             ]
@@ -181,31 +181,31 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "CL",
                 "50"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "CL",
                 "50"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaprogramowania",
+                "Pracowniaprogramowania-1/2",
                 "CL",
                 "50"
             ]
@@ -322,12 +322,12 @@
     "4": [
         [
             [
-                "Pracowniaprogramowania",
+                "Pracowniaprogramowania-1/2",
                 "CL",
                 "40"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "JR",
                 "41"
             ]
@@ -348,36 +348,36 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-1/2",
                 "KW",
                 "58"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "JR",
                 "41"
             ]
         ],
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-2/2",
                 "AW",
                 "56"
             ]
         ],
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-2/2",
                 "AW",
                 "56"
             ]

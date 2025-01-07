@@ -26,24 +26,24 @@
         null,
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "SG2"
             ]
@@ -123,26 +123,26 @@
         null,
         [
             [
-                "Pracowniapodstawprogramowania",
+                "Pracowniapodstawprogramowania-1/2",
                 "OL",
                 "41"
             ]
         ],
         [
             [
-                "Pracowniapodstawprogramowania",
+                "Pracowniapodstawprogramowania-1/2",
                 "OL",
                 "41"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AW",
                 "56"
             ]
@@ -156,36 +156,36 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-j1",
                 "OM",
                 "27"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-j2",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-1/2",
                 "AW",
                 "56"
             ],
             [
-                "Pracowniapodstawprogramowania",
+                "Pracowniapodstawprogramowania-2/2",
                 "OL",
                 "40"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-1/2",
                 "AW",
                 "56"
             ],
             [
-                "Pracowniapodstawprogramowania",
+                "Pracowniapodstawprogramowania-2/2",
                 "OL",
                 "40"
             ]
@@ -259,14 +259,14 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-2/2",
                 "AW",
                 "B204"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych",
+                "Pracowniawitryninternetowych-2/2",
                 "AW",
                 "B204"
             ]
@@ -318,12 +318,12 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-j1",
                 "OM",
                 "32"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-j2",
                 "RM",
                 "21"
             ]

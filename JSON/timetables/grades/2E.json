@@ -3,48 +3,48 @@
         null,
         [
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-1/2",
                 "AW",
                 "56"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "EP",
                 "31"
             ]
         ],
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "EP",
                 "31"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-1/2",
                 "AW",
                 "56"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "FK",
                 "40"
             ]
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "JO",
                 "32"
             ],
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-2/2",
                 "AW",
                 "56"
             ]
@@ -65,24 +65,24 @@
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "JO",
                 "32"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "FK",
                 "40"
             ]
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "JO",
                 "32"
             ],
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-2/2",
                 "AW",
                 "58"
             ]
@@ -100,12 +100,12 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-1/2",
                 "OM",
                 "38"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "ME",
                 "62"
             ]
@@ -119,12 +119,12 @@
         ],
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "EP",
                 "31"
             ]
@@ -183,60 +183,60 @@
         ],
         [
             [
-                "Językangielski",
+                "Językangielski-1/2",
                 "JO",
                 "32"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "GI",
                 "58"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-2/2",
                 "MS",
                 "57"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-2/2",
                 "MS",
                 "57"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-1/2",
                 "MS",
                 "57"
             ],
             [
-                "Językangielski",
+                "Językangielski-2/2",
                 "EP",
                 "31"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-1/2",
                 "MS",
                 "57"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "GI",
                 "58"
             ]
@@ -289,36 +289,36 @@
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "BSG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "BSG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "KM",
                 "BSG"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "BSG1"
             ]
@@ -391,12 +391,12 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-1/2",
                 "OM",
                 "22"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "ME",
                 "62"
             ]

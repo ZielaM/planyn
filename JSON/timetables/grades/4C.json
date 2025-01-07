@@ -18,12 +18,12 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "CL",
                 "43"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]
@@ -44,24 +44,24 @@
         ],
         [
             [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
+                "Pracowniatestowaniaidokumentowaniaaplikacji-1/2",
                 "RF",
                 "50"
             ],
             [
-                "Pracowniaaplikacjiwebowych",
+                "Pracowniaaplikacjiwebowych-2/2",
                 "PP",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjiwebowych",
+                "Pracowniaaplikacjiwebowych-1/2",
                 "PP",
                 "51"
             ],
             [
-                "Pracowniatestowaniaidokumentowaniaaplikacji",
+                "Pracowniatestowaniaidokumentowaniaaplikacji-2/2",
                 "RF",
                 "50"
             ]
@@ -127,24 +127,24 @@
     "2": [
         [
             [
-                "Pracowniaaplikacjidesktopowych",
+                "Pracowniaaplikacjidesktopowych-1/2",
                 "WK",
                 "43"
             ],
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Pracowniaprogramowaniaaplikacjimobilnych-2/2",
                 "PP",
                 "40"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjidesktopowych",
+                "Pracowniaaplikacjidesktopowych-1/2",
                 "WK",
                 "43"
             ],
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Pracowniaprogramowaniaaplikacjimobilnych-2/2",
                 "PP",
                 "40"
             ]
@@ -152,36 +152,36 @@
         null,
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
@@ -195,12 +195,12 @@
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Pracowniaprogramowaniaaplikacjimobilnych-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaaplikacjidesktopowych",
+                "Pracowniaaplikacjidesktopowych-2/2",
                 "WK",
                 "57"
             ]
@@ -214,12 +214,12 @@
         ],
         [
             [
-                "Pracowniaaplikacjiwebowych",
+                "Pracowniaaplikacjiwebowych-1/2",
                 "PP",
                 "40"
             ],
             [
-                "Pracowniaaplikacjidesktopowych",
+                "Pracowniaaplikacjidesktopowych-2/2",
                 "WK",
                 "57"
             ]
@@ -249,12 +249,12 @@
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych",
+                "Pracowniaprogramowaniaaplikacjimobilnych-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaaplikacjiwebowych",
+                "Pracowniaaplikacjiwebowych-2/2",
                 "PP",
                 "50"
             ]
@@ -388,12 +388,12 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "CL",
                 "50"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "AL",
                 "51"
             ]

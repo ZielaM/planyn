@@ -2,21 +2,21 @@
     "0": [
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "SW",
                 "SG1"
             ]
@@ -37,48 +37,48 @@
         ],
         [
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-2/2",
                 "KZ",
                 "43"
             ]
         ],
         [
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych",
+                "Pracowniasiecikomputerowych-2/2",
                 "KZ",
                 "43"
             ]
         ],
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-1/2",
                 "JJ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-2/2",
                 "DR",
                 "56"
             ]
         ],
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-1/2",
                 "JJ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-2/2",
                 "DR",
                 "56"
             ]
@@ -102,24 +102,24 @@
         ],
         [
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-1/2",
                 "DR",
                 "56"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-2/2",
                 "SZ",
                 "61"
             ]
         ],
         [
             [
-                "Pracowniasystemówoperacyjnych",
+                "Pracowniasystemówoperacyjnych-1/2",
                 "DR",
                 "56"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej",
+                "Pracowniaurządzeńtechnikikomputerowej-2/2",
                 "SZ",
                 "61"
             ]
@@ -133,12 +133,12 @@
         ],
         [
             [
-                "Językniemiecki",
+                "Językniemiecki-1/2",
                 "ME",
                 "62"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "JT",
                 "32"
             ]
@@ -177,21 +177,21 @@
     "2": [
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "SW",
                 "BSG"
             ]
@@ -212,24 +212,24 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B204"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "B203"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B204"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "B203"
             ]
@@ -399,12 +399,12 @@
         ],
         [
             [
-                "Językniemiecki",
+                "Językniemiecki-1/2",
                 "ME",
                 "62"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-2/2",
                 "JT",
                 "20"
             ]

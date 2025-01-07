@@ -24,24 +24,24 @@
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B203"
             ],
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-2/2",
                 "GL",
                 "B204"
             ]
         ],
         [
             [
-                "Informatyka",
+                "Informatyka-1/2",
                 "SE",
                 "B203"
             ],
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-2/2",
                 "GL",
                 "B204"
             ]
@@ -79,7 +79,7 @@
     "1": [
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ]
@@ -114,24 +114,24 @@
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-j1",
                 "OM",
                 "20"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-j2",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Językhiszpański",
+                "Językhiszpański-j1",
                 "OM",
                 "20"
             ],
             [
-                "Językniemiecki",
+                "Językniemiecki-j2",
                 "RM",
                 "21"
             ]
@@ -224,24 +224,24 @@
         ],
         [
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-1/2",
                 "GL",
                 "56"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjiinternetowych",
+                "Pracowniaaplikacjiinternetowych-1/2",
                 "GL",
                 "56"
             ],
             [
-                "Informatyka",
+                "Informatyka-2/2",
                 "DS",
                 "51"
             ]
@@ -255,36 +255,36 @@
         ],
         [
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-2/2",
                 "MS",
                 "41"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-1/2",
                 "MS",
                 "41"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "FK",
                 "40"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-1/2",
                 "MS",
                 "41"
             ],
             [
-                "Pracowniabazdanych",
+                "Pracowniabazdanych-2/2",
                 "FK",
                 "40"
             ]
@@ -310,7 +310,7 @@
                 "23"
             ],
             [
-                "Pracowniaprogramowaniaobiektowego",
+                "Pracowniaprogramowaniaobiektowego-2/2",
                 "MS",
                 "34"
             ]
@@ -371,36 +371,36 @@
         null,
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne",
+                "Wychowaniefizyczne-2/2",
                 "WM",
                 "SG1"
             ]

@@ -168,14 +168,14 @@ async def main() -> None:
     tasks.extend(save_timetables(GRADES_TIMETABLES, path))
     filenames[path] = list(GRADES_TIMETABLES.keys()) # add the filenames to the dictionary
     
-    tasks.append(asyncio.create_task(save_timetable('plain_text', PLAIN_TEXT, JSON_PATH)))
-    tasks.append(asyncio.create_task(save_timetable('filenames', filenames, JSON_PATH)))
-    # with open(f'{JSON_PATH}filenames.json', 'w', encoding='utf-8') as f:
-    #     json.dump(filenames, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the filenames to the file (used for creating the main menu in the mobile app)
+    filenames = dict(sorted(filenames.items()))  # sort the filenames
+    for x in filenames.keys():
+        filenames[x].sort()  # sort the filenames
+    tasks.append(asyncio.create_task(save_timetable('filenames', filenames, JSON_PATH)))  # save the filenames to the file (used for creating the main menu in the mobile app)
 
-    # # saving plain text
-    # with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
-    #     json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
+    # saving plain text
+    with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
+        json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
     
     await asyncio.gather(*tasks)
 

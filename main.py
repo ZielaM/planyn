@@ -156,21 +156,21 @@ async def main() -> None:
     # saving teachers' timetables
     path = f'{JSON_PATH}timetables/teachers/'
     tasks.extend(save_timetables(TEACHERS_TIMETABLES, path))
-    filenames[path] = list(TEACHERS_TIMETABLES.keys()) # add the filenames to the dictionary
+    filenames[path] = [f'{filename}.json' for filename in list(TEACHERS_TIMETABLES.keys())] # add the filenames to the dictionary
 
     # saving classrooms' timetables
     path = f'{JSON_PATH}timetables/classrooms/'
     tasks.extend(save_timetables(CLASSROOMS_TIMETABLES, path))
-    filenames[path] = list(CLASSROOMS_TIMETABLES.keys()) # add the filenames to the dictionary
+    filenames[path] = [f'{filename}.json' for filename in list(CLASSROOMS_TIMETABLES.keys())] # add the filenames to the dictionary
     
     # saving grades' timetables
     path = f'{JSON_PATH}timetables/grades/'
     tasks.extend(save_timetables(GRADES_TIMETABLES, path))
-    filenames[path] = list(GRADES_TIMETABLES.keys()) # add the filenames to the dictionary
+    filenames[path] = [f'{filename}.json' for filename in list(GRADES_TIMETABLES.keys())] # add the filenames to the dictionary
     
     filenames = dict(sorted(filenames.items()))  # sort the filenames
-    for x in filenames.keys():
-        filenames[x].sort()  # sort the filenames
+    for path in filenames.keys():
+        filenames[path].sort()  # sort the filenames
     tasks.append(asyncio.create_task(save_timetable('filenames', filenames, JSON_PATH)))  # save the filenames to the file (used for creating the main menu in the mobile app)
 
     # saving plain text

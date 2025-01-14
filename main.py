@@ -100,6 +100,7 @@ async def get_timetable(session: ClientSession, i: int) -> None:
             col: Tag
             for num_col, col in enumerate(row.find_all('td')[2:]):  # iterate over the days (columns)
                 col_spans: ResultSet[Tag] = col.find_all('span', recursive=False)  # get the spans from the column (the data is stored in spans, exept the plain text)
+                groups = [col.text[x:x+4] for x in [i for i, letter in enumerate(col.text) if letter == '-']] # get the groups from corrupted data (it's stored in plain text)
                 if len(col_spans) == 0:  # if there are no spans, it's a plain text
                     if col.text == '\xa0':  # if the text is empty just skip it
                         continue
@@ -121,22 +122,22 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                             insert_data_to_grades(*w, num_col, num_row, grade)
 
                 elif len(col_spans) == 3:  # if there are 3 spans, put the data in the Dictionaries (the default case)
-                    insert_data_to_teachers(*(w := get_lesson_details(col_spans)), num_col, num_row, grade)
+                    insert_data_to_teachers(*(w := get_lesson_details(col_spans, groups[0] if len(groups) != 0 else None)), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
                     insert_data_to_grades(*w, num_col, num_row, grade)
                 elif len(col_spans) == 2:  # if there are 2 spans, iterate over it and put the data in the Dictionaries (group lesson case)
-                    for span in col_spans:
-                        insert_data_to_teachers(*(w := get_lesson_details(span.find_all('span'))), num_col, num_row, grade)
+                    for k, span in enumerate(col_spans):
+                        insert_data_to_teachers(*(w := get_lesson_details(span.find_all('span'), groups[k] if len(groups) != 0 else None)), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
                         insert_data_to_grades(*w, num_col, num_row, grade)
                 elif len(col_spans) == 1:   # if there is only one span, it's a group lesson with one group (half of the class case)
-                    insert_data_to_teachers(*(w := get_lesson_details(col_spans[0].find_all('span', recursive=False))), num_col, num_row, grade)
+                    insert_data_to_teachers(*(w := get_lesson_details(col_spans[0].find_all('span', recursive=False), groups[0] if len(groups) != 0 else None)), num_col, num_row, grade)
                     insert_data_to_classrooms(*w, num_col, num_row, grade)
                     insert_data_to_grades(*w, num_col, num_row, grade)
                 else:  # if there are more than 3 spans, iterate over it, organize spans into groups of 3 and put the data in the Dictionaries (more than two groups case)
                     it = iter(col_spans)
-                    for span in zip(it, it, it):
-                        insert_data_to_teachers(*(w := get_lesson_details(span)), num_col, num_row, grade)
+                    for k, span in enumerate(zip(it, it, it)):
+                        insert_data_to_teachers(*(w := get_lesson_details(span, groups[k] if len(groups) != 0 else None)), num_col, num_row, grade)
                         insert_data_to_classrooms(*w, num_col, num_row, grade)
                         insert_data_to_grades(*w, num_col, num_row, grade)
 

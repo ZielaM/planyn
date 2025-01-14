@@ -3,9 +3,9 @@
         [
             "GL",
             [
-                "3A"
+                "3A-1/2"
             ],
-            "Pracowniawitryninternetowych-1/2"
+            "Pracowniawitryninternetowych"
         ],
         null,
         null,
@@ -13,24 +13,24 @@
         [
             "GL",
             [
-                "2D"
+                "2D-2/2"
             ],
-            "Pracowniaaplikacjiinternetowych-2/2"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
             "GL",
             [
-                "2D"
+                "2D-2/2"
             ],
-            "Pracowniaaplikacjiinternetowych-2/2"
+            "Pracowniaaplikacjiinternetowych"
         ],
         null,
         [
             "GL",
             [
-                "3A"
+                "3A-2/2"
             ],
-            "Pracowniawitryninternetowych-2/2"
+            "Pracowniawitryninternetowych"
         ],
         null,
         null,
@@ -53,9 +53,9 @@
         [
             "SE",
             [
-                "2C"
+                "2C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         null,
         null,
@@ -64,23 +64,23 @@
         [
             "SE",
             [
-                "2B"
+                "2B-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "SE",
             [
-                "2B"
+                "2B-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "SE",
             [
-                "2C"
+                "2C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         null,
         null,
@@ -91,16 +91,16 @@
         [
             "AW",
             [
-                "3C"
+                "3C-2/2"
             ],
-            "Pracowniaaplikacjiinternetowych-2/2"
+            "Pracowniaaplikacjiinternetowych"
         ],
         [
             "AW",
             [
-                "3C"
+                "3C-2/2"
             ],
-            "Pracowniaaplikacjiinternetowych-2/2"
+            "Pracowniaaplikacjiinternetowych"
         ],
         null,
         null,
@@ -110,16 +110,16 @@
         [
             "AW",
             [
-                "1C"
+                "1C-2/2"
             ],
-            "Pracowniawitryninternetowych-2/2"
+            "Pracowniawitryninternetowych"
         ],
         [
             "AW",
             [
-                "1C"
+                "1C-2/2"
             ],
-            "Pracowniawitryninternetowych-2/2"
+            "Pracowniawitryninternetowych"
         ],
         null
     ],

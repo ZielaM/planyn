@@ -17,7 +17,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     """
     if group is None and len(span[0].text.split('-')) == 2: 
         span[0], group = span[0].text.split('-')
-    lesson_title: str = w if (w := span[0].text) not in LESSONS else LESSONS[w]  # if lesson is corrupted, replace it with correct one
+    lesson_title: str = w if (w := span[0].text.split('-')[0]) not in LESSONS else LESSONS[w]  # if lesson is corrupted, replace it with correct one
     lesson_teacher: str = w if (w := span[1].text)[0] != '#' else TEACHERS[w]  # if teacher is corrupted, replace it with correct one
     lesson_classroom: str = span[2].text
     return lesson_title, lesson_teacher, lesson_classroom, group

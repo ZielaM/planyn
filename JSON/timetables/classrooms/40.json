@@ -5,32 +5,32 @@
         [
             "FK",
             [
-                "2E"
+                "2E-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Pracowniabazdanych-2/2"
+            "Pracowniabazdanych"
         ],
         null,
         null,
         [
             "FK",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Pracowniabazdanych-2/2"
+            "Pracowniabazdanych"
         ],
         null,
         null,
@@ -40,47 +40,47 @@
         [
             "FK",
             [
-                "2D"
+                "2D-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         null,
         [
             "KW",
             [
-                "3C"
+                "3C-2/2"
             ],
-            "Pracowniaprojektowaniaoprogramowania-2/2"
+            "Pracowniaprojektowaniaoprogramowania"
         ],
         [
             "FK",
             [
-                "2E"
+                "2E-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "DS",
             [
-                "2G"
+                "2G-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         null,
         null,
         [
             "FK",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         null,
         null
@@ -89,60 +89,60 @@
         [
             "PP",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
+            "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
         [
             "PP",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
+            "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
         [
             "PP",
             [
-                "4D"
+                "4D-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
+            "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
         [
             "PP",
             [
-                "4D"
+                "4D-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych-2/2"
+            "Pracowniaprogramowaniaaplikacjimobilnych"
         ],
         null,
         [
             "PP",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Pracowniaaplikacjiwebowych-1/2"
+            "Pracowniaaplikacjiwebowych"
         ],
         [
             "OL",
             [
-                "1C"
+                "1C-2/2"
             ],
-            "Pracowniapodstawprogramowania-2/2"
+            "Pracowniapodstawprogramowania"
         ],
         [
             "OL",
             [
-                "1C"
+                "1C-2/2"
             ],
-            "Pracowniapodstawprogramowania-2/2"
+            "Pracowniapodstawprogramowania"
         ],
         null,
         [
             "PP",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Pracowniaaplikacjiwebowych-1/2"
+            "Pracowniaaplikacjiwebowych"
         ],
         null
     ],
@@ -154,23 +154,23 @@
         [
             "FK",
             [
-                "2D"
+                "2D-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "2D"
+                "2D-2/2"
             ],
-            "Pracowniabazdanych-2/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "2D"
+                "2D-2/2"
             ],
-            "Pracowniabazdanych-2/2"
+            "Pracowniabazdanych"
         ],
         null,
         null,
@@ -181,58 +181,58 @@
         [
             "CL",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Pracowniaprogramowania-1/2"
+            "Pracowniaprogramowania"
         ],
         [
             "JA",
             [
-                "3A"
+                "3A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3A"
+                "3A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "FK",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         [
             "FK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Pracowniabazdanych-1/2"
+            "Pracowniabazdanych"
         ],
         null,
         null,

@@ -3,73 +3,73 @@
         [
             "DS",
             [
-                "2F"
+                "2F-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2F"
+                "2F-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         null,
         [
             "DS",
             [
-                "2H"
+                "2H-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2H"
+                "2H-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "RF",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji-1/2"
+            "Pracowniatestowaniaidokumentowaniaaplikacji"
         ],
         [
             "RF",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji-2/2"
+            "Pracowniatestowaniaidokumentowaniaaplikacji"
         ],
         [
             "RF",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji-1/2"
+            "Pracowniatestowaniaidokumentowaniaaplikacji"
         ],
         [
             "RF",
             [
-                "4D"
+                "4D-2/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji-2/2"
+            "Pracowniatestowaniaidokumentowaniaaplikacji"
         ]
     ],
     "1": [
@@ -79,38 +79,38 @@
         [
             "OL",
             [
-                "4B"
+                "4B-2/2"
             ],
-            "Pracowniaprogramowania-2/2"
+            "Pracowniaprogramowania"
         ],
         [
             "OL",
             [
-                "1B"
+                "1B-2/2"
             ],
-            "Pracowniapodstawprogramowania-2/2"
+            "Pracowniapodstawprogramowania"
         ],
         null,
         [
             "DS",
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Informatyka3F-1/2"
+            "Informatyka3F"
         ],
         [
             "DS",
             [
-                "2A"
+                "2A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2A"
+                "2A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         null,
         null
@@ -119,72 +119,72 @@
         [
             "JA",
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3B"
+                "3B-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3B"
+                "3B-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "JA",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "CL",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "CL",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "CL",
             [
-                "4A"
+                "4A-1/2"
             ],
-            "Pracowniaprogramowania-1/2"
+            "Pracowniaprogramowania"
         ],
         null
     ],
@@ -194,9 +194,9 @@
         [
             "PP",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniaaplikacjiwebowych-2/2"
+            "Pracowniaaplikacjiwebowych"
         ],
         null,
         null,
@@ -211,45 +211,45 @@
         [
             "MS",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-2/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-2/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         null,
         [
             "CL",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "CL",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "KW",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Pracowniaprojektowaniaoprogramowania-1/2"
+            "Pracowniaprojektowaniaoprogramowania"
         ],
         [
             "CL",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         null,
         null,

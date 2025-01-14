@@ -12,23 +12,23 @@
         [
             "TE",
             [
-                "1D"
+                "1D-1/2"
             ],
-            "Językniemiecki-1/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Językniemiecki-1/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Językniemiecki-1/2"
+            "Językniemiecki"
         ],
         [
             "KM",
@@ -41,16 +41,16 @@
         [
             "TE",
             [
-                "3E"
+                "3E-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3E"
+                "3E-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         null
     ],
@@ -88,21 +88,21 @@
         [
             "TE",
             [
-                "3F"
+                "3F-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3F"
+                "3F-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3D",
+                "3D-2/2",
                 "3E",
                 "3F"
             ],
@@ -111,7 +111,7 @@
         [
             "TE",
             [
-                "3D",
+                "3D-2/2",
                 "3E",
                 "3F"
             ],
@@ -139,16 +139,16 @@
         [
             "TE",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
@@ -168,9 +168,9 @@
         [
             "TE",
             [
-                "5D"
+                "5D-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "TE",
@@ -189,7 +189,7 @@
             [
                 "4A",
                 "4B",
-                "4C"
+                "4C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -198,7 +198,7 @@
             [
                 "4A",
                 "4B",
-                "4C"
+                "4C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -219,9 +219,9 @@
         [
             "TE",
             [
-                "5F"
+                "5F-1/2"
             ],
-            "Językniemiecki-1/2"
+            "Językniemiecki"
         ],
         null,
         [
@@ -248,7 +248,7 @@
         [
             "MS",
             [
-                "2D"
+                "2D2/2"
             ],
             "Pracowniaprogramowaniaobiektowego-2/2"
         ],
@@ -294,32 +294,23 @@
         [
             "TE",
             [
-                "1D"
+                "1D-1/2"
             ],
-            "Językniemiecki-1/2"
+            "Językniemiecki"
         ],
         [
             "OM",
             [
-                "2A"
+                "2A-j1 "
             ],
-            "Językhiszpański-j1"
+            "Językhiszpański"
         ],
         [
             "TE",
             [
                 "4A",
                 "4B",
-                "4C"
-            ],
-            "JęzykniemieckiDSDIPro"
-        ],
-        [
-            "TE",
-            [
-                "4A",
-                "4B",
-                "4C"
+                "4C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -328,7 +319,16 @@
             [
                 "4A",
                 "4B",
-                "4C"
+                "4C-1/1"
+            ],
+            "JęzykniemieckiDSDIPro"
+        ],
+        [
+            "TE",
+            [
+                "4A",
+                "4B",
+                "4C-5/6"
             ],
             "Językniemiecki"
         ]

@@ -41,16 +41,16 @@
     "3": [
         [
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Urządzeniaautomatykiprzemysłowej-2/6",
+            "Urządzeniaautomatykiprzemysłowej",
             "33"
         ],
         [
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Instalacjeautomatykiprzemysłowej-2/6",
+            "Instalacjeautomatykiprzemysłowej",
             "33"
         ],
         [
@@ -83,24 +83,24 @@
         ],
         [
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "46"
         ],
         [
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Instalacjeautomatykiprzemysłowej-2/6",
+            "Instalacjeautomatykiprzemysłowej",
             "46"
         ],
         null,
         [
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Urządzeniaautomatykiprzemysłowej-2/6",
+            "Urządzeniaautomatykiprzemysłowej",
             "46"
         ],
         null
@@ -108,30 +108,30 @@
     "4": [
         [
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "48"
         ],
         [
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "48"
         ],
         [
             [
-                "3E"
+                "3E-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "48"
         ],
         [
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Instalacjeautomatykiprzemysłowej-2/6",
+            "Instalacjeautomatykiprzemysłowej",
             "36"
         ],
         [
@@ -151,23 +151,23 @@
         null,
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "46"
         ],
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "46"
         ],
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaurządzeńautomatykiprzemysłowej-1/2",
+            "Pracowniaurządzeńautomatykiprzemysłowej",
             "46"
         ],
         null

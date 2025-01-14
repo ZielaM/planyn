@@ -4,21 +4,21 @@
         [
             "EP",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "5D",
+                "5D-4/4",
                 "5E"
             ],
             "Językangielski"
@@ -26,37 +26,37 @@
         [
             "GR",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Pracowniaorganizacjipracystacji-1/2"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
             "GR",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Pracowniaorganizacjipracystacji-1/2"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
             "GR",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Pracowniaorganizacjipracystacji-1/2"
+            "Pracowniaorganizacjipracystacji"
         ],
         [
             "GR",
             [
-                "2H"
+                "2H-1/2"
             ],
-            "Pracowniaruchukolejowego-1/2"
+            "Pracowniaruchukolejowego"
         ],
         [
             "GR",
             [
-                "2H"
+                "2H-1/2"
             ],
-            "Pracowniaruchukolejowego-1/2"
+            "Pracowniaruchukolejowego"
         ],
         null,
         null
@@ -68,30 +68,30 @@
         [
             "EP",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "1B"
+                "1B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "1B"
+                "1B-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "1B"
+                "1B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         null,
         null,
@@ -111,29 +111,21 @@
         [
             "EP",
             [
-                "1B"
+                "1B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "1B"
-            ],
-            "Językangielski-1/2"
-        ],
-        [
-            "EP",
-            [
-                "3E",
-                "3F"
+                "1B-1/2"
             ],
             "Językangielski"
         ],
@@ -141,7 +133,15 @@
             "EP",
             [
                 "3E",
-                "3F"
+                "3F-3/4"
+            ],
+            "Językangielski"
+        ],
+        [
+            "EP",
+            [
+                "3E",
+                "3F-3/4"
             ],
             "Językangielski"
         ],
@@ -155,15 +155,7 @@
         [
             "EP",
             [
-                "1B"
-            ],
-            "Językangielski-2/2"
-        ],
-        [
-            "EP",
-            [
-                "2A",
-                "2B"
+                "1B-2/2"
             ],
             "Językangielski"
         ],
@@ -171,23 +163,31 @@
             "EP",
             [
                 "2A",
-                "2B"
+                "2B-3/4"
             ],
             "Językangielski"
         ],
         [
             "EP",
             [
-                "1B"
+                "2A",
+                "2B-3/4"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "4E"
+                "1B-2/2"
             ],
-            "Językangielskizawodowy-1/6"
+            "Językangielski"
+        ],
+        [
+            "EP",
+            [
+                "4E-1/6"
+            ],
+            "Językangielskizawodowy"
         ],
         null,
         null,
@@ -198,7 +198,7 @@
         [
             "EP",
             [
-                "2D",
+                "2D-3/4",
                 "2F"
             ],
             "Językangielski"
@@ -206,7 +206,7 @@
         [
             "EP",
             [
-                "2D",
+                "2D-3/4",
                 "2F"
             ],
             "Językangielski"
@@ -214,14 +214,14 @@
         [
             "EP",
             [
-                "1B"
+                "1B-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "EP",
             [
-                "3A",
+                "3A-1/4",
                 "3C"
             ],
             "Językangielski"
@@ -229,7 +229,7 @@
         [
             "EP",
             [
-                "5D",
+                "5D-4/4",
                 "5E"
             ],
             "Językangielski"
@@ -237,7 +237,7 @@
         [
             "EP",
             [
-                "5D",
+                "5D-4/4",
                 "5E"
             ],
             "Językangielski"
@@ -245,7 +245,7 @@
         [
             "EP",
             [
-                "3A",
+                "3A-1/4",
                 "3C"
             ],
             "Językangielski"
@@ -261,7 +261,7 @@
             "EP",
             [
                 "1A",
-                "1C",
+                "1C-4/6",
                 "1D"
             ],
             "Językangielski"
@@ -270,7 +270,7 @@
             "EP",
             [
                 "1A",
-                "1C",
+                "1C-4/6",
                 "1D"
             ],
             "Językangielski"

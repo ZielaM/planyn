@@ -55,9 +55,9 @@
         [
             "DS",
             [
-                "3F"
+                "3F-2/2"
             ],
-            "Informatyka3F-2/2"
+            "Informatyka3F"
         ],
         null,
         null,
@@ -78,51 +78,51 @@
         [
             "MS",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-1/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-2/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "2E"
+                "2E-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-2/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "2E"
+                "2E-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-1/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "2E"
+                "2E-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-1/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "WK",
             [
-                "4D"
+                "4D-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych-2/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "WK",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych-2/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "WK",
@@ -134,9 +134,9 @@
         [
             "WK",
             [
-                "4C"
+                "4C-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych-2/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         null
     ],
@@ -154,16 +154,16 @@
             "LS",
             [
                 "2A",
-                "2B"
+                "2B-2/4"
             ],
             "Językangielski"
         ],
         [
             "OM",
             [
-                "5C"
+                "5C-1/2"
             ],
-            "Językhiszpański-1/2"
+            "Językhiszpański"
         ],
         null,
         null,
@@ -192,14 +192,14 @@
         [
             "LS",
             [
-                "3B"
+                "3B-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "JK",
             [
-                "5D",
+                "5D-3/4",
                 "5E"
             ],
             "Językangielski"

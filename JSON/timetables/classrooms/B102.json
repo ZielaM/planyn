@@ -185,16 +185,16 @@
         [
             "WSZ",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Organizacjaprzewozówkolejowych-1/2"
+            "Organizacjaprzewozówkolejowych"
         ],
         [
             "WSZ",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Organizacjaprzewozówkolejowych-1/2"
+            "Organizacjaprzewozówkolejowych"
         ],
         [
             "SJ",
@@ -206,23 +206,23 @@
         [
             "WSZ",
             [
-                "4F"
+                "4F-1/2"
             ],
-            "Eksploatacjahandlowakolei-1/2"
+            "Eksploatacjahandlowakolei"
         ],
         [
             "SJ",
             [
-                "2H"
+                "2H-1/2"
             ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym-1/2"
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
         ],
         [
             "SJ",
             [
-                "2H"
+                "2H-1/2"
             ],
-            "Pracowniaurządzeństerowaniaruchemkolejowym-1/2"
+            "Pracowniaurządzeństerowaniaruchemkolejowym"
         ],
         null
     ]

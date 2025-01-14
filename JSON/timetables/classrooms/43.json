@@ -3,72 +3,72 @@
         [
             "CL",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "KZ",
             [
-                "2A"
+                "2A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "2A"
+                "2A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "CL",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Pracowniaprogramowania-1/2"
+            "Pracowniaprogramowania"
         ],
         [
             "CL",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "KZ",
             [
-                "2B"
+                "2B-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "2B"
+                "2B-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "3B"
+                "3B-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "3B"
+                "3B-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "2G"
+                "2G-2/4"
             ],
-            "Elektrotechnikaielektronika-2/4"
+            "Elektrotechnikaielektronika"
         ],
         null
     ],
@@ -76,30 +76,30 @@
         [
             "KZ",
             [
-                "3A"
+                "3A-2/2"
             ],
-            "Pracowniasystemówoperacyjnych-2/2"
+            "Pracowniasystemówoperacyjnych"
         ],
         [
             "KZ",
             [
-                "3A"
+                "3A-2/2"
             ],
-            "Pracowniasystemówoperacyjnych-2/2"
+            "Pracowniasystemówoperacyjnych"
         ],
         [
             "KZ",
             [
-                "3A"
+                "3A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "3A"
+                "3A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
@@ -119,51 +119,51 @@
         [
             "WK",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Pracowniaaplikacjidesktopowych-1/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "WK",
             [
-                "4C"
+                "4C-1/2"
             ],
-            "Pracowniaaplikacjidesktopowych-1/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "WK",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Pracowniaaplikacjidesktopowych-1/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "WK",
             [
-                "4D"
+                "4D-1/2"
             ],
-            "Pracowniaaplikacjidesktopowych-1/2"
+            "Pracowniaaplikacjidesktopowych"
         ],
         [
             "KZ",
             [
-                "2G"
+                "2G-2/4"
             ],
-            "Elektrotechnikaielektronika-2/4"
+            "Elektrotechnikaielektronika"
         ],
         [
             "KZ",
             [
-                "1A"
+                "1A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "1A"
+                "1A-2/2"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Pracowniasiecikomputerowych"
         ],
         null,
         null,
@@ -192,23 +192,23 @@
         [
             "KZ",
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Układycyfrowe-1/2"
+            "Układycyfrowe"
         ],
         [
             "KZ",
             [
-                "1B"
+                "1B-1/2"
             ],
-            "Pracowniasiecikomputerowych-1/2"
+            "Pracowniasiecikomputerowych"
         ],
         [
             "KZ",
             [
-                "1B"
+                "1B-1/2"
             ],
-            "Pracowniasiecikomputerowych-1/2"
+            "Pracowniasiecikomputerowych"
         ],
         null,
         null
@@ -217,46 +217,46 @@
         [
             "KZ",
             [
-                "3B"
+                "3B-2/2"
             ],
-            "Pracowniasystemówoperacyjnych-2/2"
+            "Pracowniasystemówoperacyjnych"
         ],
         [
             "KZ",
             [
-                "3B"
+                "3B-2/2"
             ],
-            "Pracowniasystemówoperacyjnych-2/2"
-        ],
-        null,
-        [
-            "KZ",
-            [
-                "2G"
-            ],
-            "Układycyfrowe-1/4"
-        ],
-        [
-            "KZ",
-            [
-                "2G"
-            ],
-            "Układycyfrowe-1/4"
+            "Pracowniasystemówoperacyjnych"
         ],
         null,
         [
             "KZ",
             [
-                "2C"
+                "2G-1/4"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Układycyfrowe"
         ],
         [
             "KZ",
             [
-                "2C"
+                "2G-1/4"
             ],
-            "Pracowniasiecikomputerowych-2/2"
+            "Układycyfrowe"
+        ],
+        null,
+        [
+            "KZ",
+            [
+                "2C-2/2"
+            ],
+            "Pracowniasiecikomputerowych"
+        ],
+        [
+            "KZ",
+            [
+                "2C-2/2"
+            ],
+            "Pracowniasiecikomputerowych"
         ],
         null,
         null,

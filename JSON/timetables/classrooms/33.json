@@ -4,14 +4,14 @@
         [
             "JT",
             [
-                "5E"
+                "5E-j2 "
             ],
-            "Językniemiecki-j2"
+            "Językniemiecki"
         ],
         [
             "JT",
             [
-                "4D",
+                "4D-6/6",
                 "4E"
             ],
             "Językniemiecki"
@@ -19,7 +19,7 @@
         [
             "JK",
             [
-                "5D",
+                "5D-3/4",
                 "5E"
             ],
             "Językangielski"
@@ -27,7 +27,7 @@
         [
             "JK",
             [
-                "5A",
+                "5A-1/4",
                 "5B"
             ],
             "Językangielski"
@@ -35,7 +35,7 @@
         [
             "JK",
             [
-                "5A",
+                "5A-1/4",
                 "5B"
             ],
             "Językangielski"
@@ -113,9 +113,9 @@
         [
             "OM",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Językhiszpański-1/2"
+            "Językhiszpański"
         ],
         [
             "MN",
@@ -154,16 +154,16 @@
         [
             "FN",
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Urządzeniaautomatykiprzemysłowej-2/6"
+            "Urządzeniaautomatykiprzemysłowej"
         ],
         [
             "FN",
             [
-                "4E"
+                "4E-2/6"
             ],
-            "Instalacjeautomatykiprzemysłowej-2/6"
+            "Instalacjeautomatykiprzemysłowej"
         ],
         [
             "FN",
@@ -266,7 +266,7 @@
             "JK",
             [
                 "1A",
-                "1C",
+                "1C-1/6",
                 "1D"
             ],
             "Językangielski"
@@ -275,7 +275,7 @@
             "JK",
             [
                 "1A",
-                "1C",
+                "1C-1/6",
                 "1D"
             ],
             "Językangielski"

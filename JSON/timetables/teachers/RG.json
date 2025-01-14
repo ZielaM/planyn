@@ -24,16 +24,16 @@
         null,
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Eksploatacjaurządzeńelektronicznych-1/6",
+            "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "2G"
+                "2G-1/4"
             ],
-            "Układyanalogowe-1/4",
+            "Układyanalogowe",
             "47"
         ],
         [
@@ -46,16 +46,16 @@
         null,
         [
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Urządzeniaiinstalacjeelektroniczne-1/2",
+            "Urządzeniaiinstalacjeelektroniczne",
             "B109"
         ],
         [
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Urządzeniaiinstalacjeelektroniczne-1/2",
+            "Urządzeniaiinstalacjeelektroniczne",
             "B109"
         ],
         null
@@ -63,16 +63,16 @@
     "1": [
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Eksploatacjaurządzeńelektronicznych-1/6",
+            "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Układyanalogowe-1/2",
+            "Układyanalogowe",
             "47"
         ],
         null,
@@ -92,9 +92,9 @@
         null,
         [
             [
-                "2G"
+                "2G-1/4"
             ],
-            "Układyanalogowe-1/4",
+            "Układyanalogowe",
             "46"
         ],
         [
@@ -114,9 +114,9 @@
         null,
         [
             [
-                "2G"
+                "2G-1/2"
             ],
-            "Urządzeniaiinstalacjeelektroniczne-1/2",
+            "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         null,
@@ -125,23 +125,23 @@
     "3": [
         [
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Pracowniamontażuinstalacjiiurządzeńelektronicznych-1/2",
+            "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "3F"
+                "3F-1/2"
             ],
-            "Pracowniamontażuinstalacjiiurządzeńelektronicznych-1/2",
+            "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Eksploatacjaurządzeńelektronicznych-1/6",
+            "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         null,
@@ -156,51 +156,51 @@
     "4": [
         [
             [
-                "2G"
+                "2G-1/2"
             ],
-            "Urządzeniaiinstalacjeelektroniczne-1/2",
+            "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+            "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+            "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E"
+                "4E-1/6"
             ],
-            "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+            "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaelektrycznaielektroniczna-1/2",
+            "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaelektrycznaielektroniczna-1/2",
+            "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
             [
-                "2F"
+                "2F-1/2"
             ],
-            "Pracowniaelektrycznaielektroniczna-1/2",
+            "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         null,

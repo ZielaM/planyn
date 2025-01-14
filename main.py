@@ -9,7 +9,7 @@ from utils.saving import save_timetables, save_timetable
 from utils.constants import JSON_PATH, LESSONS_NUMBER, PLAIN_TEXT_SOLUTION, URL, WEEK_DAYS_NUMBER  
 
 
-def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str) -> None:
     """Puts lesson data into TEACHERS_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -27,7 +27,7 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
     if lesson_teacher not in TEACHERS_TIMETABLES:   # if teacher is not in the TEACHERS_TIMETABLES dictionary, add him
         TEACHERS_TIMETABLES[lesson_teacher] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
     if not TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row]:  # if the lesson is empty, put it there
-        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row] = ([grade], lesson_title, lesson_classroom)
+        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row] = ([f'{grade}{'' if group is None else group}'], lesson_title, lesson_classroom)
     elif TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][1] == lesson_title \
             and TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][2] == lesson_classroom:  # if the lesson is the same as the new one, just add the grade
         i: int = 0
@@ -39,7 +39,7 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
         raise ValueError(f'Error: {TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row]} != {grade} {lesson_title} {lesson_classroom}')  # if the lesson is different, raise an error
 
 
-def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str) -> None:
     """Puts lesson data into CLASSROOMS_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -56,7 +56,7 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
     if lesson_classroom not in CLASSROOMS_TIMETABLES:  # if classroom is not in the CLASSROOMS_TIMETABLES dictionary, add it
         CLASSROOMS_TIMETABLES[lesson_classroom] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
     if not CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row]:  # if the lesson is empty, put it there
-        CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row] = (lesson_teacher, [grade], lesson_title)
+        CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row] = (lesson_teacher, [f'{grade}{'' if group is None else group}'], lesson_title)
     elif CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][2] == lesson_title \
             and CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row][0] == lesson_teacher:  # if the lesson is the same as the new one, just add the grade
         i: int = 0
@@ -68,7 +68,7 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         raise ValueError(f'Error: {CLASSROOMS_TIMETABLES[lesson_classroom][num_col][num_row]} != {grade} {lesson_teacher} {lesson_title}')  # if the lesson is different, raise an error
 
 
-def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, num_col: int, num_row: int, grade: str) -> None:
+def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str) -> None:
     """Puts lesson data into GRADES_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -85,9 +85,9 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
     if grade not in GRADES_TIMETABLES:  # if grade is not in the GRADES_TIMETABLES dictionary, add it
         GRADES_TIMETABLES[grade] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
     if not GRADES_TIMETABLES[grade][num_col][num_row]:  # if the lesson is empty, put it there
-        GRADES_TIMETABLES[grade][num_col][num_row] = [(lesson_title, lesson_teacher, lesson_classroom)]
+        GRADES_TIMETABLES[grade][num_col][num_row] = [(f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom)]
     else:
-        GRADES_TIMETABLES[grade][num_col][num_row].append((lesson_title, lesson_teacher, lesson_classroom))
+        GRADES_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{group}', lesson_teacher, lesson_classroom))
 
 
 async def get_timetable(session: ClientSession, i: int) -> None:
@@ -117,7 +117,8 @@ async def get_timetable(session: ClientSession, i: int) -> None:
                         continue
                     else:  # if the plain text is in the PLAIN_TEXT_SOLUTION dictionary, iterate over the spans and put the data in the dictionaries
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('//'):
-                            insert_data_to_teachers(*(w := span.split(' ')), num_col, num_row, grade)
+                            group = span.split(' ')[0].split('-')[1] if len(span.split(' ')[0].split('-')) == 2 else None
+                            insert_data_to_teachers(*(w := (*span.split(' '), group)), num_col, num_row, grade)
                             insert_data_to_classrooms(*w, num_col, num_row, grade)
                             insert_data_to_grades(*w, num_col, num_row, grade)
 

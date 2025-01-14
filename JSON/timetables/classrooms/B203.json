@@ -7,16 +7,16 @@
         [
             "SE",
             [
-                "2D"
+                "2D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         [
             "SE",
             [
-                "2D"
+                "2D-1/2"
             ],
-            "Informatyka-1/2"
+            "Informatyka"
         ],
         null,
         null,
@@ -41,48 +41,48 @@
         [
             "DS",
             [
-                "2C"
+                "2C-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         [
             "DS",
             [
-                "2A"
+                "2A-2/2"
             ],
-            "Informatyka-2/2"
-        ],
-        null,
-        null,
-        null,
-        [
-            "DS",
-            [
-                "2B"
-            ],
-            "Informatyka-2/2"
-        ],
-        [
-            "DS",
-            [
-                "2B"
-            ],
-            "Informatyka-2/2"
-        ],
-        [
-            "DS",
-            [
-                "2C"
-            ],
-            "Informatyka-2/2"
+            "Informatyka"
         ],
         null,
+        null,
+        null,
         [
             "DS",
             [
-                "2A"
+                "2B-2/2"
             ],
-            "Informatyka-2/2"
+            "Informatyka"
+        ],
+        [
+            "DS",
+            [
+                "2B-2/2"
+            ],
+            "Informatyka"
+        ],
+        [
+            "DS",
+            [
+                "2C-2/2"
+            ],
+            "Informatyka"
+        ],
+        null,
+        [
+            "DS",
+            [
+                "2A-2/2"
+            ],
+            "Informatyka"
         ],
         null
     ],
@@ -90,23 +90,23 @@
         [
             "MS",
             [
-                "3C"
+                "3C-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-2/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-1/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         [
             "MS",
             [
-                "3C"
+                "3C-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego-1/2"
+            "Pracowniaprogramowaniaobiektowego"
         ],
         null,
         null,

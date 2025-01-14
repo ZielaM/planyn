@@ -4,28 +4,28 @@
         [
             "SK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "JT",
             [
-                "1D"
+                "1D-2/2"
             ],
-            "Językniemiecki-2/2"
+            "Językniemiecki"
         ],
         [
             "SK",
             [
-                "5A",
+                "5A-3/4",
                 "5B"
             ],
             "Językangielski"
@@ -33,7 +33,7 @@
         [
             "SK",
             [
-                "5A",
+                "5A-3/4",
                 "5B"
             ],
             "Językangielski"
@@ -41,9 +41,9 @@
         [
             "SK",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         null,
         null,
@@ -55,7 +55,7 @@
         [
             "SK",
             [
-                "4E",
+                "4E-6/6",
                 "4F"
             ],
             "Językangielski"
@@ -63,14 +63,14 @@
         [
             "SK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "5A",
+                "5A-3/4",
                 "5B"
             ],
             "Językangielski"
@@ -78,23 +78,23 @@
         [
             "SK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         null,
         null,
@@ -106,14 +106,14 @@
         [
             "SK",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "4E",
+                "4E-6/6",
                 "4F"
             ],
             "Językangielski"
@@ -121,7 +121,7 @@
         [
             "SK",
             [
-                "4E",
+                "4E-6/6",
                 "4F"
             ],
             "Językangielski"
@@ -129,7 +129,7 @@
         [
             "SK",
             [
-                "5F",
+                "5F-2/3",
                 "5G"
             ],
             "Językangielski"
@@ -137,7 +137,7 @@
         [
             "SK",
             [
-                "5F",
+                "5F-2/3",
                 "5G"
             ],
             "Językangielski"
@@ -146,23 +146,23 @@
         [
             "SK",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "SK",
             [
-                "3D"
+                "3D1/2"
             ],
             "Językangielski-1/2"
         ],
         [
             "SK",
             [
-                "3D"
+                "3D-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         null
     ],
@@ -172,15 +172,7 @@
         [
             "LS",
             [
-                "4D"
-            ],
-            "Językangielski-1/2"
-        ],
-        [
-            "SK",
-            [
-                "2A",
-                "2B"
+                "4D-1/2"
             ],
             "Językangielski"
         ],
@@ -188,14 +180,22 @@
             "SK",
             [
                 "2A",
-                "2B"
+                "2B-4/4"
             ],
             "Językangielski"
         ],
         [
             "SK",
             [
-                "5F",
+                "2A",
+                "2B-4/4"
+            ],
+            "Językangielski"
+        ],
+        [
+            "SK",
+            [
+                "5F-2/3",
                 "5G"
             ],
             "Językangielski"
@@ -204,7 +204,7 @@
             "SK",
             [
                 "4A",
-                "4C"
+                "4C-4/6"
             ],
             "Językangielski"
         ],
@@ -212,7 +212,7 @@
             "SK",
             [
                 "4A",
-                "4C"
+                "4C-4/6"
             ],
             "Językangielski"
         ],
@@ -221,7 +221,7 @@
             [
                 "4A",
                 "4B",
-                "4C",
+                "4C-2/6",
                 "4D",
                 "4E"
             ],
@@ -234,7 +234,7 @@
         [
             "JK",
             [
-                "2D",
+                "2D-4/4",
                 "2F"
             ],
             "Językangielski"
@@ -242,7 +242,7 @@
         [
             "JK",
             [
-                "2D",
+                "2D-4/4",
                 "2F"
             ],
             "Językangielski"
@@ -250,9 +250,9 @@
         [
             "SK",
             [
-                "3D"
+                "3D-2/2"
             ],
-            "Językangielski-2/2"
+            "Językangielski"
         ],
         [
             "SK",
@@ -264,16 +264,16 @@
         [
             "SK",
             [
-                "4B"
+                "4B-1/2"
             ],
-            "Językangielski-1/2"
+            "Językangielski"
         ],
         [
             "OM",
             [
-                "2E"
+                "2E-1/2"
             ],
-            "Językhiszpański-1/2"
+            "Językhiszpański"
         ],
         [
             "SZ",
@@ -286,7 +286,7 @@
             "SK",
             [
                 "4A",
-                "4C"
+                "4C-4/6"
             ],
             "Językangielski"
         ],
@@ -294,7 +294,7 @@
             "SK",
             [
                 "1A",
-                "1C",
+                "1C-5/6",
                 "1D"
             ],
             "Językangielski"
@@ -303,7 +303,7 @@
             "SK",
             [
                 "1A",
-                "1C",
+                "1C-5/6",
                 "1D"
             ],
             "Językangielski"

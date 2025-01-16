@@ -3,7 +3,7 @@
         null,
         [
             [
-                "5E-j1 "
+                "5E-j1 -j1 "
             ],
             "Językhiszpański",
             "20"
@@ -11,23 +11,23 @@
         [
             [
                 "4C-3/6",
-                "4D",
-                "4E",
-                "4F"
+                "4D-3/6",
+                "4E-3/6-3/6",
+                "4F-2/4"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "3C-j1 "
+                "3C-j1 -j1 "
             ],
             "Językhiszpański",
             "21"
         ],
         [
             [
-                "3C-j1 "
+                "3C-j1 -j1 "
             ],
             "Językhiszpański",
             "21"
@@ -43,14 +43,14 @@
         null,
         [
             [
-                "2E-1/2"
+                "2E-1/2-1/2"
             ],
             "Językhiszpański",
             "38"
         ],
         [
             [
-                "5B-j1 "
+                "5B-j1 -j1 "
             ],
             "Językhiszpański",
             "38"
@@ -58,42 +58,42 @@
         null,
         [
             [
-                "5A-1/4"
+                "5A-1/4-1/4"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "2D-j1 "
+                "2D-j1 -j1 "
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "2D-j1 "
+                "2D-j1 -j1 "
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "1B-1/2"
+                "1B-1/2-1/2"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "3A-1/2"
+                "3A-1/2-1/2"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "3A-1/2"
+                "3A-1/2-1/2"
             ],
             "Językhiszpański",
             "20"
@@ -105,28 +105,28 @@
         null,
         [
             [
-                "3D-1/2"
+                "3D-1/2-1/2"
             ],
             "Językhiszpański",
             "33"
         ],
         [
             [
-                "3D-1/2"
+                "3D-1/2-1/2"
             ],
             "Językhiszpański",
             "32"
         ],
         [
             [
-                "1B-1/2"
+                "1B-1/2-1/2"
             ],
             "Językhiszpański",
             "26"
         ],
         [
             [
-                "1C-j1 "
+                "1C-j1 -j1 "
             ],
             "Językhiszpański",
             "27"
@@ -142,21 +142,21 @@
         null,
         [
             [
-                "3B-1/2"
+                "3B-1/2-1/2"
             ],
             "Językhiszpański",
             "30"
         ],
         [
             [
-                "1A-j1 "
+                "1A-j1 -j1 "
             ],
             "Językhiszpański",
             "30"
         ],
         [
             [
-                "5C-1/2"
+                "5C-1/2-1/2"
             ],
             "Językhiszpański",
             "57"
@@ -164,25 +164,25 @@
         null,
         [
             [
-                "1A-j1 "
+                "1A-j1 -j1 "
             ],
             "Językhiszpański",
             "58"
         ],
         [
             [
-                "2A-j1 "
+                "2A-j1 -j1 "
             ],
             "Językhiszpański",
             "21"
         ],
         [
             [
-                "4A",
-                "4B",
+                "4A-2/6",
+                "4B-2/6",
                 "4C-2/6",
-                "4D",
-                "4E"
+                "4D-2/6",
+                "4E-2/6-2/6"
             ],
             "Językhiszpański",
             "22"
@@ -195,50 +195,50 @@
         null,
         [
             [
-                "2C-1/2"
+                "2C-1/2-1/2"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "3B-1/2"
+                "3B-1/2-1/2"
             ],
             "Językhiszpański",
             "20"
         ],
         [
             [
-                "2C-1/2"
+                "2C-1/2-1/2"
             ],
             "Językhiszpański",
             "38"
         ],
         [
             [
-                "2E-1/2"
+                "2E-1/2-1/2"
             ],
             "Językhiszpański",
             "22"
         ],
         [
             [
-                "1C-j1 "
+                "1C-j1 -j1 "
             ],
             "Językhiszpański",
             "32"
         ],
         [
             [
-                "2A-j1 "
+                "2A-j1 -j1 "
             ],
             "Językhiszpański",
             "34"
         ],
         [
             [
-                "4A",
-                "4B-3/6"
+                "4A-3/6",
+                "4B-3/6-3/6"
             ],
             "Językhiszpański",
             "26"

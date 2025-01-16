@@ -24,14 +24,14 @@
         null,
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "2G-1/4"
+                "2G-1/4-1/4"
             ],
             "Układyanalogowe",
             "47"
@@ -46,14 +46,14 @@
         null,
         [
             [
-                "3F-1/2"
+                "3F-1/2-1/2"
             ],
             "Urządzeniaiinstalacjeelektroniczne",
             "B109"
         ],
         [
             [
-                "3F-1/2"
+                "3F-1/2-1/2"
             ],
             "Urządzeniaiinstalacjeelektroniczne",
             "B109"
@@ -63,14 +63,14 @@
     "1": [
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "3F-1/2"
+                "3F-1/2-1/2"
             ],
             "Układyanalogowe",
             "47"
@@ -92,7 +92,7 @@
         null,
         [
             [
-                "2G-1/4"
+                "2G-1/4-1/4"
             ],
             "Układyanalogowe",
             "46"
@@ -114,7 +114,7 @@
         null,
         [
             [
-                "2G-1/2"
+                "2G-1/2-1/2"
             ],
             "Urządzeniaiinstalacjeelektroniczne",
             "47"
@@ -125,21 +125,21 @@
     "3": [
         [
             [
-                "3F-1/2"
+                "3F-1/2-1/2"
             ],
             "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "3F-1/2"
+                "3F-1/2-1/2"
             ],
             "Pracowniamontażuinstalacjiiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Eksploatacjaurządzeńelektronicznych",
             "47"
@@ -156,49 +156,49 @@
     "4": [
         [
             [
-                "2G-1/2"
+                "2G-1/2-1/2"
             ],
             "Urządzeniaiinstalacjeelektroniczne",
             "47"
         ],
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "4E-1/6"
+                "4E-1/6-1/6"
             ],
             "Pracowniaeksploatacjiurządzeńelektronicznych",
             "47"
         ],
         [
             [
-                "2F-1/2"
+                "2F-1/2-1/2"
             ],
             "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
             [
-                "2F-1/2"
+                "2F-1/2-1/2"
             ],
             "Pracowniaelektrycznaielektroniczna",
             "47"
         ],
         [
             [
-                "2F-1/2"
+                "2F-1/2-1/2"
             ],
             "Pracowniaelektrycznaielektroniczna",
             "47"

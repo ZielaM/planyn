@@ -5,8 +5,8 @@
             "RM",
             [
                 "4D-1/6",
-                "4E",
-                "4F"
+                "4E-1/6",
+                "4F-1/4"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -14,8 +14,8 @@
             "RM",
             [
                 "4D-1/6",
-                "4E",
-                "4F"
+                "4E-1/6",
+                "4F-1/4"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -70,7 +70,7 @@
             "JK",
             [
                 "4E-2/6",
-                "4F"
+                "4F-2/4"
             ],
             "Językangielski"
         ],
@@ -85,7 +85,7 @@
             "JK",
             [
                 "5A-1/4",
-                "5B"
+                "5B-1/4"
             ],
             "Językangielski"
         ],
@@ -138,8 +138,8 @@
             "RM",
             [
                 "4D-1/6",
-                "4E",
-                "4F"
+                "4E-1/6",
+                "4F-1/4"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -147,8 +147,8 @@
             "RM",
             [
                 "4D-1/6",
-                "4E",
-                "4F"
+                "4E-1/6",
+                "4F-1/4"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -191,20 +191,20 @@
         [
             "RM",
             [
-                "1A",
-                "1B",
+                "1A-1/1",
+                "1B-1/1",
                 "1C-1/1",
-                "1D"
+                "1D-1/6"
             ],
             "JęzykniemieckiDSDIPro"
         ],
         [
             "RM",
             [
-                "1A",
-                "1B",
+                "1A-1/1",
+                "1B-1/1",
                 "1C-1/1",
-                "1D"
+                "1D-1/6"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -253,26 +253,26 @@
             "RM",
             [
                 "4D-5/6",
-                "4E",
-                "4F"
+                "4E-5/6",
+                "4F-3/4"
             ],
             "Językniemiecki"
         ],
         [
             "RM",
             [
-                "3A",
+                "3A-1/1",
                 "3B-1/1",
-                "3C"
+                "3C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],
         [
             "RM",
             [
-                "3A",
+                "3A-1/1",
                 "3B-1/1",
-                "3C"
+                "3C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ]
@@ -281,20 +281,20 @@
         [
             "RM",
             [
-                "1A",
-                "1B",
+                "1A-1/1",
+                "1B-1/1",
                 "1C-1/1",
-                "1D"
+                "1D-1/6"
             ],
             "JęzykniemieckiDSDIPro"
         ],
         [
             "RM",
             [
-                "1A",
-                "1B",
+                "1A-1/1",
+                "1B-1/1",
                 "1C-1/1",
-                "1D"
+                "1D-1/6"
             ],
             "JęzykniemieckiDSDIPro"
         ],
@@ -343,18 +343,18 @@
         [
             "RM",
             [
-                "3A",
+                "3A-1/1",
                 "3B-1/1",
-                "3C"
+                "3C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],
         [
             "RM",
             [
-                "3A",
+                "3A-1/1",
                 "3B-1/1",
-                "3C"
+                "3C-1/1"
             ],
             "JęzykniemieckiDSDIPro"
         ],

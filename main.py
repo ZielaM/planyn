@@ -28,7 +28,7 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
     if lesson_teacher not in TEACHERS_TIMETABLES:   # if teacher is not in the TEACHERS_TIMETABLES dictionary, add him
         TEACHERS_TIMETABLES[lesson_teacher] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
     if not TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row]:  # if the lesson is empty, put it there
-        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row] = ([f'{grade}{'' if group is None else group}'], lesson_title, lesson_classroom)
+        TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row] = ([grade], lesson_title, lesson_classroom)
     elif TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][1] == lesson_title \
             and TEACHERS_TIMETABLES[lesson_teacher][num_col][num_row][2] == lesson_classroom:  # if the lesson is the same as the new one, just add the grade
         i: int = 0

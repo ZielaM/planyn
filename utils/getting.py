@@ -1,9 +1,22 @@
+import requests
+
 from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
 
 from utils.inserting import insert_all
 from .constants import PLAIN_TEXT_SOLUTION, TEACHERS, LESSONS, URL
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
+
+
+def get_number_of_timetables() -> int:
+    """Returns the number of timetables
+
+    Returns:
+        int: number of timetables
+    """
+    response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the main page
+    soup = bs(response.text, 'html.parser')  # parse the main page
+    return len(soup.find_all('a')) - 1  # return the number of timetables (substract 1 because the first link is not a timetable)
 
 
 def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str, str|None]:

@@ -3,17 +3,18 @@ import json
 
 from aiohttp import ClientSession
 
-from utils.getting import get_timetable
+from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
 from utils.constants import JSON_PATH
 
 
 async def main() -> None:
+    print(get_number_of_timetables())
     # getting timetables
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
-        for i in range(1, 32):
-            tasks.append(asyncio.create_task(get_timetable(session, i)))  # create tasks for each timetable
+        for i in range(1, get_number_of_timetables()):
+            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
 
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)

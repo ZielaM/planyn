@@ -2,7 +2,7 @@ from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
 
 from utils.inserting import insert_all
-from .constants import TEACHERS, LESSONS, URL
+from .constants import PLAIN_TEXT_SOLUTION, TEACHERS, LESSONS, URL
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
@@ -27,7 +27,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, i: int, TIMETABLES: tuple, PLAIN_TEXT_SOLUTION: dict, PLAIN_TEXT: dict) -> None:
+async def get_timetable(session: ClientSession, i: int, TIMETABLES: tuple, PLAIN_TEXT: dict) -> None:
     async with session.get(f'{URL}o{i}.html') as response:  # get the timetable
         timetable_html = bs(await response.text(), 'html.parser')  # parse the timetable
         grade = timetable_html.find('span', class_='tytulnapis').text.split(' ')[0]  # get the grade

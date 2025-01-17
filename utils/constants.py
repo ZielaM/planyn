@@ -1,8 +1,8 @@
 import json
 
 
-JSON_PATH = 'JSON/'  # path to the JSON files
-URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'  # URL to the timetables
+JSON_PATH = 'JSON/'
+URL = 'https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/plany/'
 WEEK_DAYS_NUMBER = 5
 LESSONS_NUMBER = 11
 with open(f'{JSON_PATH}lessons.json', 'r', encoding='utf-8') as f:

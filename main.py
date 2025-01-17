@@ -9,11 +9,11 @@ from utils.constants import JSON_PATH
 
 
 async def main() -> None:
-    print(get_number_of_timetables())
+    print(num_of_timetables := get_number_of_timetables())
     # getting timetables
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
-        for i in range(1, get_number_of_timetables()):
+        for i in range(1, num_of_timetables + 1):
             tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
 

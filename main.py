@@ -1,7 +1,9 @@
 import asyncio
 import json
+import os
 
 from aiohttp import ClientSession
+import google.generativeai as genai
 
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
@@ -9,15 +11,23 @@ from utils.constants import JSON_PATH
 
 
 async def main() -> None:
-    print(num_of_timetables := get_number_of_timetables())
+    print('number of timetables: ', num_of_timetables := get_number_of_timetables())
     # getting timetables
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
-            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT)))  # create tasks for each timetable
+            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT, LESSON_NAMES)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
 
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
+    
+    print('number of lessons', len(LESSON_NAMES))
+    SPACED_LESSON_NAMES = {name: None for name in LESSON_NAMES}
+    
+    genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+    model = genai.GenerativeModel('gemini-1.5-flash-8b')
+    response = model.generate_content(f'Wejście: objekt JSON z kluczami jako nazwy lekcji bez spacji i wartościami pustymi; Wyjście: tylko objekt JSON z kluczami jako nazwy lekcji bez spacji i wartościami jako nazwy lekcji z dodanymi spacji; Dane: {json.dumps(SPACED_LESSON_NAMES)}')
+    #####################
     
     filenames: dict[str, list[str]] = dict()  # dictionary to store filenames
     
@@ -55,6 +65,9 @@ if __name__ == '__main__':
     GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Variable to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
     PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     # {grade: {day: {lesson: lesson_text}}}
+    LESSON_NAMES: set[str] = set() # holds distinct lesson names
+    SPACED_LESSON_NAMES: dict[str, str] = dict() # lesson name without spaces => lesson name with spaces
+    
     TIMETABLES: tuple = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries
 
     asyncio.run(main())   # run the main

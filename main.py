@@ -6,6 +6,7 @@ from aiohttp import ClientSession
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
 from utils.constants import JSON_PATH
+from utils.inserting import add_spaces_to_names
 
 
 async def main() -> None:
@@ -18,6 +19,11 @@ async def main() -> None:
         await asyncio.gather(*tasks)
 
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
+    
+    print('number of lessons', len(LESSON_NAMES))
+    
+    global TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES
+    add_spaces_to_names(LESSON_NAMES, TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # add spaces to lesson names
     
     filenames: dict[str, list[str]] = dict()  # dictionary to store filenames
     

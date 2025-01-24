@@ -1,3 +1,9 @@
+import os
+import json
+from typing_extensions import TypedDict
+
+import google.generativeai as genai
+
 from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER
 
 def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: dict) -> None:
@@ -83,7 +89,7 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
     if not GRADE_TIMETABLES[grade][num_col][num_row]:  # if the lesson is empty, put it there
         GRADE_TIMETABLES[grade][num_col][num_row] = [(f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom)]
     else:
-        GRADE_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{group}', lesson_teacher, lesson_classroom))
+        GRADE_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom))
 
 
 def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: dict, CLASSROOM_TIMETABLES: dict, GRADE_TIMETABLES: dict) -> None:
@@ -106,3 +112,43 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
     insert_data_to_teachers(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, TEACHER_TIMETABLES)
     insert_data_to_classrooms(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, CLASSROOM_TIMETABLES)
     insert_data_to_grades(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, GRADE_TIMETABLES)
+
+
+def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: dict, CLASSROOM_TIMETABLES: dict, GRADE_TIMETABLES: dict): 
+    
+    class LessonDict(TypedDict):
+        lesson_name_spaced: str
+    
+    genai.configure(api_key=os.getenv('GEMINI_API_KEY')) 
+    model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='Dodaj spacje do nazw lekcji w języku polskim w podanej liście lekcji (nie zmieniaj liter, kolejności liter, nie ucinaj liter).')
+    response = model.generate_content(json.dumps(list(LESSON_NAMES)), generation_config=genai.GenerationConfig(response_mime_type='application/json', 
+                                                                                       response_schema=list[LessonDict]))
+    print(response.text)
+    SPACED_LESSON_NAMES: dict[str, str] = {lesson['lesson_name_spaced'].replace(' ', ''): lesson['lesson_name_spaced'] for lesson in json.loads(response.text)}
+    print(SPACED_LESSON_NAMES)
+    
+    for techer, timetable in TEACHER_TIMETABLES.items():
+        for day, lessons in timetable.items():
+            for lesson_num, lesson in enumerate(lessons):
+                if lesson:
+                    TEACHER_TIMETABLES[techer][day][lesson_num] = \
+                        (TEACHER_TIMETABLES[techer][day][lesson_num][0], SPACED_LESSON_NAMES[lesson[1].split('-')[0]], \
+                            TEACHER_TIMETABLES[techer][day][lesson_num][2])
+    
+    for classroom, timetable in CLASSROOM_TIMETABLES.items():
+        for day, lessons in timetable.items():
+            for lesson_num, lesson in enumerate(lessons):
+                if lesson:
+                    CLASSROOM_TIMETABLES[classroom][day][lesson_num] = \
+                        (*CLASSROOM_TIMETABLES[classroom][day][lesson_num][:2], SPACED_LESSON_NAMES[lesson[2].split('-')[0]])
+    
+    for grade, timetable in GRADE_TIMETABLES.items():
+        for day, lessons in timetable.items():
+            for lesson_group_num, lesson_group in enumerate(lessons):
+                if lesson_group:
+                    for lesson_num, lesson in enumerate(lesson_group):
+                        if lesson:
+                            GRADE_TIMETABLES[grade][day][lesson_group_num][lesson_num] = \
+                                (f'{SPACED_LESSON_NAMES[lesson[0].split('-')[0]]}{f'-{w[1]}' if len((w := lesson[0].split('-'))) == 2 else ''}', \
+                                    *GRADE_TIMETABLES[grade][day][lesson_group_num][lesson_num][1:])
+

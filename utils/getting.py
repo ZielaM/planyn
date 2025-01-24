@@ -16,7 +16,7 @@ def get_number_of_timetables() -> int:
     """
     response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
     soup = bs(response.text, 'html.parser') 
-    return len(soup.find('table').find_all('a')) 
+    return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
 
 
 def get_lesson_details(span: ResultSet[Tag], group: str, LESSON_NAMES: set[str]) -> tuple[str, str, str, str|None]:

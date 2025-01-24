@@ -7,14 +7,14 @@
             [
                 "2E-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "2E-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,
@@ -23,14 +23,14 @@
             [
                 "3D-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "2E-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,
@@ -42,7 +42,7 @@
             [
                 "2D-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         [
@@ -50,14 +50,14 @@
             [
                 "3C-2/2"
             ],
-            "Pracowniaprojektowaniaoprogramowania"
+            "Pracownia projektowania oprogramowania"
         ],
         [
             "FK",
             [
                 "2E-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "DS",
@@ -73,14 +73,14 @@
             [
                 "3C-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "3C-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null
@@ -91,28 +91,28 @@
             [
                 "4C-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracownia programowania aplikacji mobilnych"
         ],
         [
             "PP",
             [
                 "4C-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracownia programowania aplikacji mobilnych"
         ],
         [
             "PP",
             [
                 "4D-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracownia programowania aplikacji mobilnych"
         ],
         [
             "PP",
             [
                 "4D-2/2"
             ],
-            "Pracowniaprogramowaniaaplikacjimobilnych"
+            "Pracownia programowania aplikacji mobilnych"
         ],
         null,
         [
@@ -120,21 +120,21 @@
             [
                 "4D-1/2"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracownia aplikacji webowych"
         ],
         [
             "OL",
             [
                 "1C-2/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         [
             "OL",
             [
                 "1C-2/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         null,
         [
@@ -142,7 +142,7 @@
             [
                 "4C-1/2"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracownia aplikacji webowych"
         ],
         null
     ],
@@ -156,21 +156,21 @@
             [
                 "2D-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "2D-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "2D-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,
@@ -183,7 +183,7 @@
             [
                 "4A-1/2"
             ],
-            "Pracowniaprogramowania"
+            "Pracownia programowania"
         ],
         [
             "JA",
@@ -211,28 +211,28 @@
             [
                 "4A-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "4A-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "4B-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "FK",
             [
                 "4B-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,

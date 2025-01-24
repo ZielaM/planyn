@@ -8,28 +8,28 @@
             [
                 "2B"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "RK",
             [
                 "2B"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "FK",
             [
                 "3C"
             ],
-            "Systemybazdanych"
+            "Systemy baz danych"
         ],
         [
             "DR",
             [
                 "2C"
             ],
-            "Zajęciazwychowawcą"
+            "Zajęcia z wychowawcą"
         ],
         null,
         null,
@@ -49,7 +49,7 @@
             [
                 "2D"
             ],
-            "Systemybazdanych"
+            "Systemy baz danych"
         ],
         null,
         [
@@ -57,14 +57,14 @@
             [
                 "1A"
             ],
-            "Systemyoperacyjne"
+            "Systemy operacyjne"
         ],
         [
             "FK",
             [
                 "2D"
             ],
-            "Systemybazdanych"
+            "Systemy baz danych"
         ],
         null,
         [
@@ -72,14 +72,14 @@
             [
                 "4A"
             ],
-            "Bazydanych"
+            "Bazy danych"
         ],
         [
             "KW",
             [
                 "3D"
             ],
-            "Projektowanieoprogramowania"
+            "Projektowanie oprogramowania"
         ],
         null,
         null,
@@ -91,7 +91,7 @@
             [
                 "2E"
             ],
-            "Zajęciazwychowawcą"
+            "Zajęcia z wychowawcą"
         ],
         null,
         [
@@ -99,49 +99,49 @@
             [
                 "2F"
             ],
-            "Elektrotechnikaielektronika"
+            "Elektrotechnika i elektronika"
         ],
         [
             "KZ",
             [
                 "2F"
             ],
-            "Elektrotechnikaielektronika"
+            "Elektrotechnika i elektronika"
         ],
         [
             "WK",
             [
                 "4D"
             ],
-            "Programowanieaplikacjidesktopowych"
+            "Programowanie aplikacji desktopowych"
         ],
         [
             "AW",
             [
                 "4A"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Witryny i aplikacje internetowe"
         ],
         [
             "MS",
             [
                 "2E"
             ],
-            "Programowanieobiektowe"
+            "Programowanie obiektowe"
         ],
         [
             "RK",
             [
                 "1A"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "AW",
             [
                 "3C"
             ],
-            "Tworzenieaplikacjiinternetowych"
+            "Tworzenie aplikacji internetowych"
         ],
         null,
         [
@@ -149,7 +149,7 @@
             [
                 "4C"
             ],
-            "Programowanieaplikacjimobilnych"
+            "Programowanie aplikacji mobilnych"
         ]
     ],
     "3": [
@@ -158,7 +158,7 @@
             [
                 "2C"
             ],
-            "SiecikomputeroweD_DW"
+            "Sieci komputerowe D_DW"
         ],
         null,
         [
@@ -166,35 +166,35 @@
             [
                 "4E-2/6"
             ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
+            "Pracownia instalacji automatyki przemysłowej"
         ],
         [
             "WR",
             [
                 "4E-2/6"
             ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
+            "Pracownia instalacji automatyki przemysłowej"
         ],
         [
             "WR",
             [
                 "4E-2/6"
             ],
-            "Pracowniainstalacjiautomatykiprzemysłowej"
+            "Pracownia instalacji automatyki przemysłowej"
         ],
         [
             "WR",
             [
                 "4E-2/6"
             ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
+            "Pracownia technologii i pomiarów w automatyce"
         ],
         [
             "WR",
             [
                 "4E-2/6"
             ],
-            "Pracowniatechnologiiipomiarówwautomatyce"
+            "Pracownia technologii i pomiarów w automatyce"
         ],
         null,
         [
@@ -202,7 +202,7 @@
             [
                 "2A"
             ],
-            "Urządzeniatechnikikomputerowej"
+            "Urządzenia techniki komputerowej"
         ],
         null,
         null
@@ -214,49 +214,49 @@
             [
                 "4B"
             ],
-            "BazydanychD_DW"
+            "Bazy danych D_DW"
         ],
         [
             "RK",
             [
                 "2A"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "RK",
             [
                 "2A"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "RK",
             [
                 "3A"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "RK",
             [
                 "3A"
             ],
-            "Siecikomputerowe"
+            "Sieci komputerowe"
         ],
         [
             "JJ",
             [
                 "1D-2/2"
             ],
-            "Rysunektechniczny"
+            "Rysunek techniczny"
         ],
         [
             "JJ",
             [
                 "1D-1/2"
             ],
-            "Rysunektechniczny"
+            "Rysunek techniczny"
         ],
         null,
         null,

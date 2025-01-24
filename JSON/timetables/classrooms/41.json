@@ -7,14 +7,14 @@
             [
                 "3C-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "JR",
             [
                 "4B-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,
@@ -45,7 +45,7 @@
             [
                 "4B-1/2"
             ],
-            "Pracowniaprogramowania"
+            "Pracownia programowania"
         ],
         null,
         null,
@@ -62,21 +62,21 @@
             [
                 "1C-1/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         [
             "OL",
             [
                 "1C-1/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         [
             "OL",
             [
                 "1B-2/2"
             ],
-            "Podstawyprogramowania"
+            "Podstawy programowania"
         ],
         null,
         [
@@ -84,7 +84,7 @@
             [
                 "1B-2/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         null,
         [
@@ -92,7 +92,7 @@
             [
                 "3D-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         null,
         [
@@ -100,7 +100,7 @@
             [
                 "3C-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         null
     ],
@@ -111,42 +111,42 @@
             [
                 "1B-2/2"
             ],
-            "SystemykomputeroweD_DW"
+            "Systemy komputerowe D_DW"
         ],
         [
             "JR",
             [
                 "1B-1/2"
             ],
-            "SiecikomputeroweD_DW"
+            "Sieci komputerowe D_DW"
         ],
         [
             "JR",
             [
                 "1B-2/2"
             ],
-            "SystemykomputeroweD_DW"
+            "Systemy komputerowe D_DW"
         ],
         [
             "MS",
             [
                 "2D-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2D-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2D-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         null,
         null,
@@ -159,7 +159,7 @@
             [
                 "4A-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         [
@@ -167,28 +167,28 @@
             [
                 "3D-1/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "JR",
             [
                 "4A-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "JR",
             [
                 "4B-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "JR",
             [
                 "3C-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null,
         null,
@@ -197,14 +197,14 @@
             [
                 "3D-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         [
             "JR",
             [
                 "3D-2/2"
             ],
-            "Pracowniabazdanych"
+            "Pracownia baz danych"
         ],
         null
     ]

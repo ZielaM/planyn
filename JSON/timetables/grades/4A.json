@@ -4,14 +4,14 @@
         null,
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "B205"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "B205"
             ]
@@ -32,7 +32,7 @@
         ],
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "SG",
                 "B205"
             ]
@@ -72,69 +72,69 @@
         null,
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "WZ",
                 "SG2"
             ]
         ],
         [
             [
-                "Bazydanych",
+                "Bazy danych",
                 "FK",
                 "44"
             ]
         ],
         [
             [
-                "Kompetencjespołeczne",
+                "Kompetencje społeczne",
                 "EG",
                 "28"
             ]
         ],
         [
             [
-                "Pracowniawitryninternetowych-1/2",
+                "Pracownia witryn internetowych-1/2",
                 "KW",
                 "58"
             ],
             [
-                "Pracowniaprogramowania-2/2",
+                "Pracownia programowania-2/2",
                 "OL",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaprogramowania-2/2",
+                "Pracownia programowania-2/2",
                 "OL",
                 "51"
             ]
@@ -146,28 +146,28 @@
         null,
         [
             [
-                "Językniemiecki-6/6",
+                "Język niemiecki-6/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Językangielskizawodowy",
+                "Język angielski zawodowy",
                 "IS",
                 "30"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "36"
             ]
         ],
         [
             [
-                "Witrynyiaplikacjeinternetowe",
+                "Witryny i aplikacje internetowe",
                 "AW",
                 "44"
             ]
@@ -205,7 +205,7 @@
         ],
         [
             [
-                "Pracowniaprogramowania-1/2",
+                "Pracownia programowania-1/2",
                 "CL",
                 "50"
             ]
@@ -215,14 +215,14 @@
     "3": [
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "TE",
                 "34"
             ]
@@ -236,14 +236,14 @@
         ],
         [
             [
-                "Bazydanych",
+                "Bazy danych",
                 "FK",
                 "34"
             ]
         ],
         [
             [
-                "Działalnośćgospodarcza",
+                "Działalność gospodarcza",
                 "MŁ",
                 "23"
             ]
@@ -257,61 +257,61 @@
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "23"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "23"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językrosyjski-1/6",
+                "Język rosyjski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językhiszpański-2/6",
+                "Język hiszpański-2/6",
                 "OM",
                 "22"
             ],
             [
-                "Językniemiecki-4/6",
+                "Język niemiecki-4/6",
                 "ME",
                 "27"
             ]
@@ -322,12 +322,12 @@
     "4": [
         [
             [
-                "Pracowniaprogramowania-1/2",
+                "Pracownia programowania-1/2",
                 "CL",
                 "40"
             ],
             [
-                "Pracowniabazdanych-2/2",
+                "Pracownia baz danych-2/2",
                 "JR",
                 "41"
             ]
@@ -348,91 +348,91 @@
         ],
         [
             [
-                "Pracowniawitryninternetowych-1/2",
+                "Pracownia witryn internetowych-1/2",
                 "KW",
                 "58"
             ],
             [
-                "Pracowniabazdanych-2/2",
+                "Pracownia baz danych-2/2",
                 "JR",
                 "41"
             ]
         ],
         [
             [
-                "Pracowniabazdanych-1/2",
+                "Pracownia baz danych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Pracowniawitryninternetowych-2/2",
+                "Pracownia witryn internetowych-2/2",
                 "AW",
                 "56"
             ]
         ],
         [
             [
-                "Pracowniabazdanych-1/2",
+                "Pracownia baz danych-1/2",
                 "FK",
                 "40"
             ],
             [
-                "Pracowniawitryninternetowych-2/2",
+                "Pracownia witryn internetowych-2/2",
                 "AW",
                 "56"
             ]
         ],
         [
             [
-                "Wiedzaospołeczeństwie",
+                "Wiedza o społeczeństwie",
                 "KK",
                 "38"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "32"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "TE",
                 "34"
             ],
             [
-                "Językhiszpański-3/6",
+                "Język hiszpański-3/6",
                 "OM",
                 "26"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "Językniemiecki-5/6",
+                "Język niemiecki-5/6",
                 "TE",
                 "34"
             ]

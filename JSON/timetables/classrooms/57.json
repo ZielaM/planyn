@@ -8,35 +8,35 @@
             [
                 "1C"
             ],
-            "Systemykomputerowe"
+            "Systemy komputerowe"
         ],
         [
             "SZ",
             [
                 "2C"
             ],
-            "Urządzeniatechnikikomputerowej"
+            "Urządzenia techniki komputerowej"
         ],
         [
             "AW",
             [
                 "4D"
             ],
-            "Zajęciazwychowawcą"
+            "Zajęcia z wychowawcą"
         ],
         [
             "AW",
             [
                 "2A"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Witryny i aplikacje internetowe"
         ],
         [
             "AW",
             [
                 "2C"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Witryny i aplikacje internetowe"
         ],
         null,
         null,
@@ -48,7 +48,7 @@
             [
                 "2E"
             ],
-            "Projektowanieoprogramowania"
+            "Projektowanie oprogramowania"
         ],
         null,
         null,
@@ -57,7 +57,7 @@
             [
                 "3F-2/2"
             ],
-            "Informatyka3F"
+            "Informatyka 3F"
         ],
         null,
         null,
@@ -73,70 +73,70 @@
             [
                 "3D"
             ],
-            "Programowanieobiektowe"
+            "Programowanie obiektowe"
         ],
         [
             "MS",
             [
                 "3D-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2E-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2E-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2E-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "2E-1/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "WK",
             [
                 "4D-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych"
+            "Pracownia aplikacji desktopowych"
         ],
         [
             "WK",
             [
                 "4C-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych"
+            "Pracownia aplikacji desktopowych"
         ],
         [
             "WK",
             [
                 "4C"
             ],
-            "Programowanieaplikacjidesktopowych"
+            "Programowanie aplikacji desktopowych"
         ],
         [
             "WK",
             [
                 "4C-2/2"
             ],
-            "Pracowniaaplikacjidesktopowych"
+            "Pracownia aplikacji desktopowych"
         ],
         null
     ],
@@ -146,7 +146,7 @@
             [
                 "4D"
             ],
-            "Programowanieaplikacjimobilnych"
+            "Programowanie aplikacji mobilnych"
         ],
         null,
         null,
@@ -156,14 +156,14 @@
                 "2A-2/4",
                 "2B-2/4"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "OM",
             [
                 "5C-1/2"
             ],
-            "Językhiszpański"
+            "Język hiszpański"
         ],
         null,
         null,
@@ -180,21 +180,21 @@
             [
                 "2B"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Witryny i aplikacje internetowe"
         ],
         [
             "AW",
             [
                 "4B"
             ],
-            "Witrynyiaplikacjeinternetowe"
+            "Witryny i aplikacje internetowe"
         ],
         [
             "LS",
             [
                 "3B-2/2"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "JK",
@@ -202,21 +202,21 @@
                 "5D-3/4",
                 "5E-3/4"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "JR",
             [
                 "2E"
             ],
-            "SystemybazdanychD_DW"
+            "Systemy baz danych D_DW"
         ],
         [
             "JR",
             [
                 "2E"
             ],
-            "SystemybazdanychD_DW"
+            "Systemy baz danych D_DW"
         ],
         null,
         null,

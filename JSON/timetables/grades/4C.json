@@ -4,14 +4,14 @@
         null,
         [
             [
-                "Językhiszpański-3/6",
+                "Język hiszpański-3/6",
                 "OM",
                 "20"
             ]
         ],
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "AG",
                 "18"
             ]
@@ -44,24 +44,24 @@
         ],
         [
             [
-                "Pracowniatestowaniaidokumentowaniaaplikacji-1/2",
+                "Pracownia testowania i dokumentowania aplikacji-1/2",
                 "RF",
                 "50"
             ],
             [
-                "Pracowniaaplikacjiwebowych-2/2",
+                "Pracownia aplikacji webowych-2/2",
                 "PP",
                 "51"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjiwebowych-1/2",
+                "Pracownia aplikacji webowych-1/2",
                 "PP",
                 "51"
             ],
             [
-                "Pracowniatestowaniaidokumentowaniaaplikacji-2/2",
+                "Pracownia testowania i dokumentowania aplikacji-2/2",
                 "RF",
                 "50"
             ]
@@ -80,35 +80,35 @@
         ],
         [
             [
-                "Wiedzaospołeczeństwie",
+                "Wiedza o społeczeństwie",
                 "KK",
                 "B103"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "KL",
                 "B201"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "KL",
                 "B201"
             ]
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
+                "Testowanie i dokumentowanie aplikacji",
                 "JR",
                 "B107"
             ]
         ],
         [
             [
-                "Testowanieidokumentowanieaplikacji",
+                "Testowanie i dokumentowanie aplikacji",
                 "JR",
                 "B102"
             ]
@@ -127,24 +127,24 @@
     "2": [
         [
             [
-                "Pracowniaaplikacjidesktopowych-1/2",
+                "Pracownia aplikacji desktopowych-1/2",
                 "WK",
                 "43"
             ],
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych-2/2",
+                "Pracownia programowania aplikacji mobilnych-2/2",
                 "PP",
                 "40"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjidesktopowych-1/2",
+                "Pracownia aplikacji desktopowych-1/2",
                 "WK",
                 "43"
             ],
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych-2/2",
+                "Pracownia programowania aplikacji mobilnych-2/2",
                 "PP",
                 "40"
             ]
@@ -152,81 +152,81 @@
         null,
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "MT",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "ZI",
                 "SG1"
             ]
         ],
         [
             [
-                "Programowanieaplikacjiwebowych",
+                "Programowanie aplikacji webowych",
                 "PP",
                 "33"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych-1/2",
+                "Pracownia programowania aplikacji mobilnych-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaaplikacjidesktopowych-2/2",
+                "Pracownia aplikacji desktopowych-2/2",
                 "WK",
                 "57"
             ]
         ],
         [
             [
-                "Programowanieaplikacjidesktopowych",
+                "Programowanie aplikacji desktopowych",
                 "WK",
                 "57"
             ]
         ],
         [
             [
-                "Pracowniaaplikacjiwebowych-1/2",
+                "Pracownia aplikacji webowych-1/2",
                 "PP",
                 "40"
             ],
             [
-                "Pracowniaaplikacjidesktopowych-2/2",
+                "Pracownia aplikacji desktopowych-2/2",
                 "WK",
                 "57"
             ]
         ],
         [
             [
-                "Programowanieaplikacjimobilnych",
+                "Programowanie aplikacji mobilnych",
                 "PP",
                 "44"
             ]
@@ -235,26 +235,26 @@
     "3": [
         [
             [
-                "JęzykniemieckiDSDIPro-1/1",
+                "Język niemiecki DSDIPro-1/1",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/1",
+                "Język niemiecki DSDIPro-1/1",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "Pracowniaprogramowaniaaplikacjimobilnych-1/2",
+                "Pracownia programowania aplikacji mobilnych-1/2",
                 "GI",
                 "58"
             ],
             [
-                "Pracowniaaplikacjiwebowych-2/2",
+                "Pracownia aplikacji webowych-2/2",
                 "PP",
                 "50"
             ]
@@ -268,80 +268,80 @@
         ],
         [
             [
-                "Językangielskizawodowy",
+                "Język angielski zawodowy",
                 "JK",
                 "43"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "KL",
                 "28"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "23"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "23"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językrosyjski-1/6",
+                "Język rosyjski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językhiszpański-2/6",
+                "Język hiszpański-2/6",
                 "OM",
                 "22"
             ],
             [
-                "Językniemiecki-4/6",
+                "Język niemiecki-4/6",
                 "ME",
                 "27"
             ],
             [
-                "Językniemiecki-6/6",
+                "Język niemiecki-6/6",
                 "JT",
                 "23"
             ]
@@ -400,43 +400,43 @@
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "IS",
                 "30"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "JK",
                 "32"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/1",
+                "Język niemiecki DSDIPro-1/1",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/1",
+                "Język niemiecki DSDIPro-1/1",
                 "TE",
                 "34"
             ]
         ],
         [
             [
-                "Językniemiecki-5/6",
+                "Język niemiecki-5/6",
                 "TE",
                 "34"
             ]

@@ -6,7 +6,7 @@
             [
                 "5E-j2 "
             ],
-            "Językniemiecki"
+            "Język niemiecki"
         ],
         [
             "JT",
@@ -14,7 +14,7 @@
                 "4D-6/6",
                 "4E-6/6"
             ],
-            "Językniemiecki"
+            "Język niemiecki"
         ],
         [
             "JK",
@@ -22,7 +22,7 @@
                 "5D-3/4",
                 "5E-3/4"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "JK",
@@ -30,7 +30,7 @@
                 "5A-1/4",
                 "5B-1/4"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "JK",
@@ -38,7 +38,7 @@
                 "5A-1/4",
                 "5B-1/4"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         null,
         null,
@@ -52,28 +52,28 @@
             [
                 "1B"
             ],
-            "Edukacjadlabezpieczeństwa"
+            "Edukacja dla bezpieczeństwa"
         ],
         [
             "MN",
             [
                 "1B"
             ],
-            "Bezpieczeństwoihigienapracy"
+            "Bezpieczeństwo i higiena pracy"
         ],
         [
             "MN",
             [
                 "3D"
             ],
-            "Podstawyprzedsiębiorczości"
+            "Podstawy przedsiębiorczości"
         ],
         [
             "MN",
             [
                 "3C"
             ],
-            "Podstawyprzedsiębiorczości"
+            "Podstawy przedsiębiorczości"
         ],
         [
             "AM",
@@ -87,21 +87,21 @@
             [
                 "2E"
             ],
-            "Biznesizarządzanie"
+            "Biznes i zarządzanie"
         ],
         [
             "WS",
             [
                 "5C"
             ],
-            "WiedzaospołeczeństwieD_DW"
+            "Wiedza o społeczeństwie D_DW"
         ],
         [
             "MŁ",
             [
                 "2E"
             ],
-            "Biznesizarządzanie"
+            "Biznes i zarządzanie"
         ],
         null,
         null,
@@ -115,21 +115,21 @@
             [
                 "3D-1/2"
             ],
-            "Językhiszpański"
+            "Język hiszpański"
         ],
         [
             "MN",
             [
                 "1D"
             ],
-            "Edukacjadlabezpieczeństwa"
+            "Edukacja dla bezpieczeństwa"
         ],
         [
             "MN",
             [
                 "1C"
             ],
-            "Bezpieczeństwoihigienapracy"
+            "Bezpieczeństwo i higiena pracy"
         ],
         null,
         [
@@ -137,14 +137,14 @@
             [
                 "4C"
             ],
-            "Programowanieaplikacjiwebowych"
+            "Programowanie aplikacji webowych"
         ],
         [
             "PP",
             [
                 "4D"
             ],
-            "Programowanieaplikacjiwebowych"
+            "Programowanie aplikacji webowych"
         ],
         null,
         null,
@@ -156,42 +156,42 @@
             [
                 "4E-2/6"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Urządzenia automatyki przemysłowej"
         ],
         [
             "FN",
             [
                 "4E-2/6"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Instalacje automatyki przemysłowej"
         ],
         [
             "FN",
             [
                 "3E"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Instalacje automatyki przemysłowej"
         ],
         [
             "FN",
             [
                 "3E"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Instalacje automatyki przemysłowej"
         ],
         [
             "FN",
             [
                 "2F"
             ],
-            "Instalacjeautomatykiprzemysłowej"
+            "Instalacje automatyki przemysłowej"
         ],
         [
             "FN",
             [
                 "2F"
             ],
-            "Urządzeniaautomatykiprzemysłowej"
+            "Urządzenia automatyki przemysłowej"
         ],
         [
             "CL",
@@ -225,42 +225,42 @@
             [
                 "3C"
             ],
-            "Programowanieobiektowe"
+            "Programowanie obiektowe"
         ],
         [
             "MN",
             [
                 "1C"
             ],
-            "Edukacjadlabezpieczeństwa"
+            "Edukacja dla bezpieczeństwa"
         ],
         [
             "MN",
             [
                 "1D"
             ],
-            "Bezpieczeństwoihigienapracy"
+            "Bezpieczeństwo i higiena pracy"
         ],
         [
             "MN",
             [
                 "3B"
             ],
-            "Podstawyprzedsiębiorczości"
+            "Podstawy przedsiębiorczości"
         ],
         [
             "MN",
             [
                 "3E"
             ],
-            "Podstawyprzedsiębiorczości"
+            "Podstawy przedsiębiorczości"
         ],
         [
             "MN",
             [
                 "1A"
             ],
-            "Edukacjadlabezpieczeństwa"
+            "Edukacja dla bezpieczeństwa"
         ],
         [
             "JK",
@@ -269,7 +269,7 @@
                 "1C-1/6",
                 "1D-1/6"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         [
             "JK",
@@ -278,7 +278,7 @@
                 "1C-1/6",
                 "1D-1/6"
             ],
-            "Językangielski"
+            "Język angielski"
         ],
         null
     ]

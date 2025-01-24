@@ -2,40 +2,40 @@
     "0": [
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "RG",
                 "36"
             ]
         ],
         [
             [
-                "Elektrotechnikaielektronika",
+                "Elektrotechnika i elektronika",
                 "RG",
                 "36"
             ]
         ],
         [
             [
-                "Elektrotechnikaielektronika",
+                "Elektrotechnika i elektronika",
                 "RG",
                 "36"
             ]
         ],
         [
             [
-                "Językniemiecki-1/2",
+                "Język niemiecki-1/2",
                 "TE",
                 "34"
             ],
             [
-                "Językniemiecki-2/2",
+                "Język niemiecki-2/2",
                 "JT",
                 "22"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "23"
             ]
@@ -50,60 +50,60 @@
     "1": [
         [
             [
-                "Zajęciapraktyczne-1/2",
+                "Zajęcia praktyczne-1/2",
                 "CKP1",
                 "CKP1"
             ],
             [
-                "Zajęciapraktyczne-2/2",
+                "Zajęcia praktyczne-2/2",
                 "CKP2",
                 "CKP2"
             ]
         ],
         [
             [
-                "Zajęciapraktyczne-1/2",
+                "Zajęcia praktyczne-1/2",
                 "CKP1",
                 "CKP1"
             ],
             [
-                "Zajęciapraktyczne-2/2",
+                "Zajęcia praktyczne-2/2",
                 "CKP2",
                 "CKP2"
             ]
         ],
         [
             [
-                "Zajęciapraktyczne-1/2",
+                "Zajęcia praktyczne-1/2",
                 "CKP1",
                 "CKP1"
             ],
             [
-                "Zajęciapraktyczne-2/2",
+                "Zajęcia praktyczne-2/2",
                 "CKP2",
                 "CKP2"
             ]
         ],
         [
             [
-                "Zajęciapraktyczne-1/2",
+                "Zajęcia praktyczne-1/2",
                 "CKP1",
                 "CKP1"
             ],
             [
-                "Zajęciapraktyczne-2/2",
+                "Zajęcia praktyczne-2/2",
                 "CKP2",
                 "CKP2"
             ]
         ],
         [
             [
-                "Zajęciapraktyczne-1/2",
+                "Zajęcia praktyczne-1/2",
                 "CKP1",
                 "CKP1"
             ],
             [
-                "Zajęciapraktyczne-2/2",
+                "Zajęcia praktyczne-2/2",
                 "CKP2",
                 "CKP2"
             ]
@@ -151,7 +151,7 @@
         ],
         [
             [
-                "Edukacjadlabezpieczeństwa",
+                "Edukacja dla bezpieczeństwa",
                 "MN",
                 "33"
             ]
@@ -170,14 +170,14 @@
         ],
         [
             [
-                "Elektrotechnikaielektronika",
+                "Elektrotechnika i elektronika",
                 "RG",
                 "46"
             ]
         ],
         [
             [
-                "Elektrotechnikaielektronika",
+                "Elektrotechnika i elektronika",
                 "RG",
                 "46"
             ]
@@ -191,14 +191,14 @@
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
@@ -208,21 +208,21 @@
     "3": [
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "KM",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "KM",
                 "BSG"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "KM",
                 "BSG"
             ]
@@ -236,14 +236,14 @@
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "B201"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "B201"
             ]
@@ -275,14 +275,14 @@
     "4": [
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
@@ -297,7 +297,7 @@
         ],
         [
             [
-                "Bezpieczeństwoihigienapracy",
+                "Bezpieczeństwo i higiena pracy",
                 "MN",
                 "33"
             ]
@@ -311,88 +311,88 @@
         ],
         [
             [
-                "Językniemiecki-1/2",
+                "Język niemiecki-1/2",
                 "TE",
                 "34"
             ],
             [
-                "Rysunektechniczny-2/2",
+                "Rysunek techniczny-2/2",
                 "JJ",
                 "44"
             ]
         ],
         [
             [
-                "Rysunektechniczny-1/2",
+                "Rysunek techniczny-1/2",
                 "JJ",
                 "44"
             ],
             [
-                "Językniemiecki-2/2",
+                "Język niemiecki-2/2",
                 "JT",
                 "21"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "JK",
                 "33"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "LS",
                 "17"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "EP",
                 "31"
             ],
             [
-                "Językangielski-5/6",
+                "Język angielski-5/6",
                 "SK",
                 "22"
             ],
             [
-                "Językangielski-6/6",
+                "Język angielski-6/6",
                 "IS",
                 "30"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "JK",
                 "33"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-3/6",
+                "Język angielski-3/6",
                 "LS",
                 "17"
             ],
             [
-                "Językangielski-4/6",
+                "Język angielski-4/6",
                 "EP",
                 "31"
             ],
             [
-                "Językangielski-5/6",
+                "Język angielski-5/6",
                 "SK",
                 "22"
             ],
             [
-                "Językangielski-6/6",
+                "Język angielski-6/6",
                 "IS",
                 "30"
             ]

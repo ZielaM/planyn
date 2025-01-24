@@ -10,14 +10,14 @@
         ],
         [
             [
-                "Urządzeniasterowaniaruchemkolejowym",
+                "Urządzenia sterowania ruchem kolejowym",
                 "SJ",
                 "48"
             ]
         ],
         [
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-1/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-1/2",
                 "SJ",
                 "48"
             ],
@@ -34,45 +34,45 @@
                 "50"
             ],
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-2/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-2/2",
                 "SJ",
                 "48"
             ]
         ],
         [
             [
-                "Językniemiecki-1/2",
+                "Język niemiecki-1/2",
                 "ME",
                 "46"
             ],
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-2/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-2/2",
                 "SJ",
                 "48"
             ]
         ],
         [
             [
-                "Językniemiecki-1/2",
+                "Język niemiecki-1/2",
                 "ME",
                 "46"
             ],
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-2/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-2/2",
                 "SJ",
                 "48"
             ]
         ],
         [
             [
-                "Pracowniaruchukolejowego-1/2",
+                "Pracownia ruchu kolejowego-1/2",
                 "GR",
                 "31"
             ]
         ],
         [
             [
-                "Pracowniaruchukolejowego-1/2",
+                "Pracownia ruchu kolejowego-1/2",
                 "GR",
                 "31"
             ]
@@ -84,7 +84,7 @@
         null,
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "34"
             ]
@@ -105,21 +105,21 @@
         ],
         [
             [
-                "Infrastrukturakolejowa",
+                "Infrastruktura kolejowa",
                 "JJ",
                 "37"
             ]
         ],
         [
             [
-                "Odprawapociągównastacji",
+                "Odprawa pociągów na stacji",
                 "WSZ",
                 "38"
             ]
         ],
         [
             [
-                "Podstawyruchukolejowego",
+                "Podstawy ruchu kolejowego",
                 "WSZ",
                 "38"
             ]
@@ -144,44 +144,44 @@
     "2": [
         [
             [
-                "Językangielski-1/4",
+                "Język angielski-1/4",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/4",
+                "Język angielski-2/4",
                 "JK",
                 "46"
             ],
             [
-                "Językangielski-3/4",
+                "Język angielski-3/4",
                 "LS",
                 "28"
             ],
             [
-                "Językangielski-4/4",
+                "Język angielski-4/4",
                 "IS",
                 "30"
             ]
         ],
         [
             [
-                "Językangielski-1/4",
+                "Język angielski-1/4",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/4",
+                "Język angielski-2/4",
                 "JK",
                 "46"
             ],
             [
-                "Językangielski-3/4",
+                "Język angielski-3/4",
                 "LS",
                 "28"
             ],
             [
-                "Językangielski-4/4",
+                "Język angielski-4/4",
                 "IS",
                 "30"
             ]
@@ -216,14 +216,14 @@
         ],
         [
             [
-                "Językniemiecki-2/2",
+                "Język niemiecki-2/2",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Językniemiecki-2/2",
+                "Język niemiecki-2/2",
                 "RM",
                 "21"
             ]
@@ -256,14 +256,14 @@
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "B205"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "SG",
                 "B205"
             ]
@@ -277,28 +277,28 @@
         ],
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "WM",
                 "B108"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "WM",
                 "BSG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "WM",
                 "BSG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne",
+                "Wychowanie fizyczne",
                 "WM",
                 "BSG1"
             ]
@@ -316,66 +316,66 @@
         ],
         [
             [
-                "Odprawapociągównastacji",
+                "Odprawa pociągów na stacji",
                 "WSZ",
                 "B102"
             ]
         ],
         [
             [
-                "Podstawyruchukolejowego",
+                "Podstawy ruchu kolejowego",
                 "WSZ",
                 "B102"
             ]
         ],
         [
             [
-                "Biznesizarządzanie",
+                "Biznes i zarządzanie",
                 "MŁ",
                 "B101"
             ]
         ],
         [
             [
-                "Biznesizarządzanie",
+                "Biznes i zarządzanie",
                 "MŁ",
                 "B101"
             ]
         ],
         [
             [
-                "Urządzeniasterowaniaruchemkolejowym",
+                "Urządzenia sterowania ruchem kolejowym",
                 "SJ",
                 "B102"
             ]
         ],
         [
             [
-                "Kolejowepojazdyszynowe",
+                "Kolejowe pojazdy szynowe",
                 "WO",
                 "B103"
             ]
         ],
         [
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-1/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-1/2",
                 "SJ",
                 "B102"
             ],
             [
-                "Pracowniaruchukolejowego-2/2",
+                "Pracownia ruchu kolejowego-2/2",
                 "GR",
                 "B105"
             ]
         ],
         [
             [
-                "Pracowniaurządzeństerowaniaruchemkolejowym-1/2",
+                "Pracownia urządzeń sterowania ruchem kolejowym-1/2",
                 "SJ",
                 "B102"
             ],
             [
-                "Pracowniaruchukolejowego-2/2",
+                "Pracownia ruchu kolejowego-2/2",
                 "GR",
                 "B105"
             ]

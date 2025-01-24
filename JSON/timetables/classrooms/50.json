@@ -48,28 +48,28 @@
             [
                 "4C-1/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
+            "Pracownia testowania i dokumentowania aplikacji"
         ],
         [
             "RF",
             [
                 "4C-2/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
+            "Pracownia testowania i dokumentowania aplikacji"
         ],
         [
             "RF",
             [
                 "4D-1/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
+            "Pracownia testowania i dokumentowania aplikacji"
         ],
         [
             "RF",
             [
                 "4D-2/2"
             ],
-            "Pracowniatestowaniaidokumentowaniaaplikacji"
+            "Pracownia testowania i dokumentowania aplikacji"
         ]
     ],
     "1": [
@@ -81,14 +81,14 @@
             [
                 "4B-2/2"
             ],
-            "Pracowniaprogramowania"
+            "Pracownia programowania"
         ],
         [
             "OL",
             [
                 "1B-2/2"
             ],
-            "Pracowniapodstawprogramowania"
+            "Pracownia podstaw programowania"
         ],
         null,
         [
@@ -96,7 +96,7 @@
             [
                 "3F-1/2"
             ],
-            "Informatyka3F"
+            "Informatyka 3F"
         ],
         [
             "DS",
@@ -184,7 +184,7 @@
             [
                 "4A-1/2"
             ],
-            "Pracowniaprogramowania"
+            "Pracownia programowania"
         ],
         null
     ],
@@ -196,7 +196,7 @@
             [
                 "4C-2/2"
             ],
-            "Pracowniaaplikacjiwebowych"
+            "Pracownia aplikacji webowych"
         ],
         null,
         null,
@@ -213,14 +213,14 @@
             [
                 "3D-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         [
             "MS",
             [
                 "3D-2/2"
             ],
-            "Pracowniaprogramowaniaobiektowego"
+            "Pracownia programowania obiektowego"
         ],
         null,
         [
@@ -242,7 +242,7 @@
             [
                 "3C-1/2"
             ],
-            "Pracowniaprojektowaniaoprogramowania"
+            "Pracownia projektowania oprogramowania"
         ],
         [
             "CL",

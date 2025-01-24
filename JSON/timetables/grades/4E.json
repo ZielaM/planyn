@@ -3,24 +3,24 @@
         null,
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ],
             [
-                "Językhiszpański-3/6",
+                "Język hiszpański-3/6",
                 "OM",
                 "20"
             ],
             [
-                "Językniemiecki-6/6",
+                "Język niemiecki-6/6",
                 "JT",
                 "33"
             ]
@@ -34,7 +34,7 @@
         ],
         [
             [
-                "Eksploatacjaurządzeńelektronicznych-1/6",
+                "Eksploatacja urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ],
@@ -46,7 +46,7 @@
         ],
         [
             [
-                "Działalnośćgospodarcza",
+                "Działalność gospodarcza",
                 "MŁ",
                 "26"
             ]
@@ -60,14 +60,14 @@
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "23"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "23"
             ]
@@ -84,24 +84,24 @@
     "1": [
         [
             [
-                "Eksploatacjaurządzeńelektronicznych-1/6",
+                "Eksploatacja urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "JK",
                 "21"
             ],
             [
-                "Językangielski-6/6",
+                "Język angielski-6/6",
                 "SK",
                 "22"
             ]
@@ -115,7 +115,7 @@
         ],
         [
             [
-                "Kompetencjespołeczne",
+                "Kompetencje społeczne",
                 "EG",
                 "27"
             ]
@@ -124,24 +124,24 @@
         null,
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "WZ",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "WM",
                 "SG2"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "WZ",
                 "SG1"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "WM",
                 "SG2"
             ]
@@ -153,48 +153,48 @@
     "2": [
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/6",
+                "Język niemiecki DSDIPro-1/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "JK",
                 "46"
             ],
             [
-                "Językangielski-6/6",
+                "Język angielski-6/6",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językangielski-1/6",
+                "Język angielski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/6",
+                "Język angielski-2/6",
                 "JK",
                 "46"
             ],
             [
-                "Językangielski-6/6",
+                "Język angielski-6/6",
                 "SK",
                 "22"
             ]
@@ -246,115 +246,115 @@
     "3": [
         [
             [
-                "Urządzeniaautomatykiprzemysłowej-2/6",
+                "Urządzenia automatyki przemysłowej-2/6",
                 "FN",
                 "33"
             ]
         ],
         [
             [
-                "Systemymikroprocesorowe-1/6",
+                "Systemy mikroprocesorowe-1/6",
                 "RT",
                 "46"
             ],
             [
-                "Instalacjeautomatykiprzemysłowej-2/6",
+                "Instalacje automatyki przemysłowej-2/6",
                 "FN",
                 "33"
             ]
         ],
         [
             [
-                "Eksploatacjaurządzeńelektronicznych-1/6",
+                "Eksploatacja urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ],
             [
-                "Pracowniainstalacjiautomatykiprzemysłowej-2/6",
+                "Pracownia instalacji automatyki przemysłowej-2/6",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Pracowniasystemówmikroprocesorowych-1/6",
+                "Pracownia systemów mikroprocesorowych-1/6",
                 "RT",
                 "46"
             ],
             [
-                "Pracowniainstalacjiautomatykiprzemysłowej-2/6",
+                "Pracownia instalacji automatyki przemysłowej-2/6",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Pracowniasystemówmikroprocesorowych-1/6",
+                "Pracownia systemów mikroprocesorowych-1/6",
                 "RT",
                 "46"
             ],
             [
-                "Pracowniainstalacjiautomatykiprzemysłowej-2/6",
+                "Pracownia instalacji automatyki przemysłowej-2/6",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Systemymikroprocesorowe-1/6",
+                "Systemy mikroprocesorowe-1/6",
                 "RT",
                 "46"
             ],
             [
-                "Pracowniatechnologiiipomiarówwautomatyce-2/6",
+                "Pracownia technologii i pomiarów w automatyce-2/6",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Językangielskizawodowy-1/6",
+                "Język angielski zawodowy-1/6",
                 "EP",
                 "31"
             ],
             [
-                "Pracowniatechnologiiipomiarówwautomatyce-2/6",
+                "Pracownia technologii i pomiarów w automatyce-2/6",
                 "WR",
                 "44"
             ]
         ],
         [
             [
-                "Instalacjeautomatykiprzemysłowej-2/6",
+                "Instalacje automatyki przemysłowej-2/6",
                 "FN",
                 "46"
             ]
         ],
         [
             [
-                "Językrosyjski-1/6",
+                "Język rosyjski-1/6",
                 "EI",
                 "20"
             ],
             [
-                "Językhiszpański-2/6",
+                "Język hiszpański-2/6",
                 "OM",
                 "22"
             ],
             [
-                "Językniemiecki-4/6",
+                "Język niemiecki-4/6",
                 "ME",
                 "27"
             ],
             [
-                "Językniemiecki-5/6",
+                "Język niemiecki-5/6",
                 "RM",
                 "21"
             ]
         ],
         [
             [
-                "Urządzeniaautomatykiprzemysłowej-2/6",
+                "Urządzenia automatyki przemysłowej-2/6",
                 "FN",
                 "46"
             ]
@@ -365,40 +365,40 @@
         null,
         [
             [
-                "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+                "Pracownia eksploatacji urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ]
         ],
         [
             [
-                "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+                "Pracownia eksploatacji urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ]
         ],
         [
             [
-                "Pracowniaeksploatacjiurządzeńelektronicznych-1/6",
+                "Pracownia eksploatacji urządzeń elektronicznych-1/6",
                 "RG",
                 "47"
             ],
             [
-                "Instalacjeautomatykiprzemysłowej-2/6",
+                "Instalacje automatyki przemysłowej-2/6",
                 "FN",
                 "36"
             ]
         ],
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "NM",
                 "36"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "LA",
                 "26"
             ]
@@ -412,7 +412,7 @@
         ],
         [
             [
-                "Wiedzaospołeczeństwie",
+                "Wiedza o społeczeństwie",
                 "KK",
                 "38"
             ]

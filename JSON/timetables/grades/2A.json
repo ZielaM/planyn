@@ -3,48 +3,48 @@
         null,
         [
             [
-                "Pracowniasiecikomputerowych-1/2",
+                "Pracownia sieci komputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych-2/2",
+                "Pracownia sieci komputerowych-2/2",
                 "KZ",
                 "43"
             ]
         ],
         [
             [
-                "Pracowniasiecikomputerowych-1/2",
+                "Pracownia sieci komputerowych-1/2",
                 "RK",
                 "42"
             ],
             [
-                "Pracowniasiecikomputerowych-2/2",
+                "Pracownia sieci komputerowych-2/2",
                 "KZ",
                 "43"
             ]
         ],
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej-1/2",
+                "Pracownia urządzeń techniki komputerowej-1/2",
                 "JJ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych-2/2",
+                "Pracownia systemów operacyjnych-2/2",
                 "DR",
                 "42"
             ]
         ],
         [
             [
-                "Pracowniaurządzeńtechnikikomputerowej-1/2",
+                "Pracownia urządzeń techniki komputerowej-1/2",
                 "JJ",
                 "61"
             ],
             [
-                "Pracowniasystemówoperacyjnych-2/2",
+                "Pracownia systemów operacyjnych-2/2",
                 "DR",
                 "42"
             ]
@@ -58,7 +58,7 @@
         ],
         [
             [
-                "Witrynyiaplikacjeinternetowe",
+                "Witryny i aplikacje internetowe",
                 "AW",
                 "57"
             ]
@@ -66,36 +66,36 @@
         null,
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "KM",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "MT",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "KM",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "MT",
                 "SG1"
             ]
         ],
         [
             [
-                "Wychowaniefizyczne-1/2",
+                "Wychowanie fizyczne-1/2",
                 "KM",
                 "SG2"
             ],
             [
-                "Wychowaniefizyczne-2/2",
+                "Wychowanie fizyczne-2/2",
                 "MT",
                 "SG1"
             ]
@@ -133,14 +133,14 @@
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "AB",
                 "23"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "AB",
                 "23"
             ]
@@ -180,7 +180,7 @@
         ],
         [
             [
-                "Systemyoperacyjne",
+                "Systemy operacyjne",
                 "DR",
                 "B101"
             ]
@@ -208,14 +208,14 @@
         ],
         [
             [
-                "Systemyoperacyjne",
+                "Systemy operacyjne",
                 "DR",
                 "B101"
             ]
         ],
         [
             [
-                "Biznesizarządzanie",
+                "Biznes i zarządzanie",
                 "MŁ",
                 "B108"
             ]
@@ -232,82 +232,82 @@
     "3": [
         [
             [
-                "Pracowniasystemówoperacyjnych-1/2",
+                "Pracownia systemów operacyjnych-1/2",
                 "DR",
                 "42"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej-2/2",
+                "Pracownia urządzeń techniki komputerowej-2/2",
                 "SZ",
                 "61"
             ]
         ],
         [
             [
-                "Pracowniasystemówoperacyjnych-1/2",
+                "Pracownia systemów operacyjnych-1/2",
                 "DR",
                 "42"
             ],
             [
-                "Pracowniaurządzeńtechnikikomputerowej-2/2",
+                "Pracownia urządzeń techniki komputerowej-2/2",
                 "SZ",
                 "61"
             ]
         ],
         [
             [
-                "Językpolski",
+                "Język polski",
                 "AB",
                 "23"
             ]
         ],
         [
             [
-                "Językangielski-1/4",
+                "Język angielski-1/4",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/4",
+                "Język angielski-2/4",
                 "LS",
                 "57"
             ],
             [
-                "Językangielski-3/4",
+                "Język angielski-3/4",
                 "EP",
                 "31"
             ],
             [
-                "Językangielski-4/4",
+                "Język angielski-4/4",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Językangielski-1/4",
+                "Język angielski-1/4",
                 "EI",
                 "20"
             ],
             [
-                "Językangielski-2/4",
+                "Język angielski-2/4",
                 "LS",
                 "32"
             ],
             [
-                "Językangielski-3/4",
+                "Język angielski-3/4",
                 "EP",
                 "31"
             ],
             [
-                "Językangielski-4/4",
+                "Język angielski-4/4",
                 "SK",
                 "22"
             ]
         ],
         [
             [
-                "Biznesizarządzanie",
+                "Biznes i zarządzanie",
                 "MŁ",
                 "23"
             ]
@@ -321,33 +321,33 @@
         ],
         [
             [
-                "Językhiszpański-j1 ",
+                "Język hiszpański-j1 ",
                 "OM",
                 "21"
             ],
             [
-                "Językniemiecki-j2 ",
+                "Język niemiecki-j2 ",
                 "ME",
                 "27"
             ]
         ],
         [
             [
-                "Urządzeniatechnikikomputerowej",
+                "Urządzenia techniki komputerowej",
                 "SZ",
                 "44"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro",
+                "Język niemiecki DSDIPro",
                 "ME",
                 "23"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro-1/1",
+                "Język niemiecki DSDIPro-1/1",
                 "ME",
                 "27"
             ]
@@ -370,14 +370,14 @@
         ],
         [
             [
-                "Siecikomputerowe",
+                "Sieci komputerowe",
                 "RK",
                 "44"
             ]
         ],
         [
             [
-                "Siecikomputerowe",
+                "Sieci komputerowe",
                 "RK",
                 "44"
             ]
@@ -398,43 +398,43 @@
         ],
         [
             [
-                "Zajęciazwychowawcą",
+                "Zajęcia z wychowawcą",
                 "SZ",
                 "22"
             ]
         ],
         [
             [
-                "Językhiszpański-j1 ",
+                "Język hiszpański-j1 ",
                 "OM",
                 "34"
             ],
             [
-                "Językniemiecki-j2 ",
+                "Język niemiecki-j2 ",
                 "ME",
                 "62"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro",
+                "Język niemiecki DSDIPro",
                 "ME",
                 "62"
             ],
             [
-                "EtykaNone",
+                "Etyka",
                 "AM",
                 "37"
             ]
         ],
         [
             [
-                "JęzykniemieckiDSDIPro",
+                "Język niemiecki DSDIPro",
                 "ME",
                 "62"
             ],
             [
-                "EtykaNone",
+                "Etyka",
                 "AM",
                 "37"
             ]

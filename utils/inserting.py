@@ -6,6 +6,20 @@ import google.generativeai as genai
 
 from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER
 
+
+def generate_structure(key: str, timetable: dict) -> None:
+    """Generates a structure for a timetable
+
+    Args:
+        timetable (dict): dictionary with timetables
+
+    Returns:
+        dict: generated structure
+    """
+    if key not in timetable: # new timetable if there isn't one
+        timetable[key] = [[None for _ in range(LESSONS_NUMBER)] for _ in range(WEEK_DAYS_NUMBER)]  # add LESSONS_NUMBER lessons per day
+
+
 def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: dict) -> None:
     """Puts lesson data into TEACHER_TIMETABLES dictionary in aprioriate place
 
@@ -23,8 +37,7 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
         and it's not the same as the new one (except the grade)
     """
     grade = f'{grade}{'' if group is None else group}' # add the group to the grade
-    if lesson_teacher not in TEACHER_TIMETABLES:   # new timetable if there isn't one
-        TEACHER_TIMETABLES[lesson_teacher] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    generate_structure(lesson_teacher, TEACHER_TIMETABLES) 
     if not TEACHER_TIMETABLES[lesson_teacher][num_col][num_row]:  # if the lesson is empty, put it there
         TEACHER_TIMETABLES[lesson_teacher][num_col][num_row] = ([grade], lesson_title, lesson_classroom)
     elif TEACHER_TIMETABLES[lesson_teacher][num_col][num_row][1] == lesson_title \
@@ -54,8 +67,7 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         ValueError: if the lesson is already in the CLASSROOM_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
     grade = f'{grade}{'' if group is None else group}' # add the group to the grade
-    if lesson_classroom not in CLASSROOM_TIMETABLES:  # new timetable if there isn't one
-        CLASSROOM_TIMETABLES[lesson_classroom] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    generate_structure(lesson_classroom, CLASSROOM_TIMETABLES)
     if not CLASSROOM_TIMETABLES[lesson_classroom][num_col][num_row]:  # if the lesson is empty, put it there
         CLASSROOM_TIMETABLES[lesson_classroom][num_col][num_row] = (lesson_teacher, [grade], lesson_title)
     elif CLASSROOM_TIMETABLES[lesson_classroom][num_col][num_row][2] == lesson_title \
@@ -84,8 +96,7 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
     Raises:
         None
     """
-    if grade not in GRADE_TIMETABLES:  # new timetable if there isn't one
-        GRADE_TIMETABLES[grade] = {day: [None for _ in range(LESSONS_NUMBER)] for day in range(WEEK_DAYS_NUMBER)}  # add LESSONS_NUMBER lessons per day
+    generate_structure(grade, GRADE_TIMETABLES)
     if not GRADE_TIMETABLES[grade][num_col][num_row]:  # if the lesson is empty, put it there
         GRADE_TIMETABLES[grade][num_col][num_row] = [(f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom)]
     else:
@@ -128,7 +139,7 @@ def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: dict, CLASSR
     print(SPACED_LESSON_NAMES)
     
     for techer, timetable in TEACHER_TIMETABLES.items():
-        for day, lessons in timetable.items():
+        for day, lessons in enumerate(timetable):
             for lesson_num, lesson in enumerate(lessons):
                 if lesson:
                     TEACHER_TIMETABLES[techer][day][lesson_num] = \
@@ -136,14 +147,14 @@ def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: dict, CLASSR
                             TEACHER_TIMETABLES[techer][day][lesson_num][2])
     
     for classroom, timetable in CLASSROOM_TIMETABLES.items():
-        for day, lessons in timetable.items():
+        for day, lessons in enumerate(timetable):
             for lesson_num, lesson in enumerate(lessons):
                 if lesson:
                     CLASSROOM_TIMETABLES[classroom][day][lesson_num] = \
                         (*CLASSROOM_TIMETABLES[classroom][day][lesson_num][:2], SPACED_LESSON_NAMES[lesson[2].split('-')[0]])
     
     for grade, timetable in GRADE_TIMETABLES.items():
-        for day, lessons in timetable.items():
+        for day, lessons in enumerate(timetable):
             for lesson_group_num, lesson_group in enumerate(lessons):
                 if lesson_group:
                     for lesson_num, lesson in enumerate(lesson_group):

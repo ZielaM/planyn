@@ -120,7 +120,7 @@ def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: dict, CLASSR
         lesson_name_spaced: str
     
     genai.configure(api_key=os.getenv('GEMINI_API_KEY')) 
-    model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='Dodaj spacje do nazw lekcji w języku polskim w podanej liście lekcji (nie zmieniaj liter, kolejności liter, nie ucinaj liter).')
+    model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='Dodaj spacje do nazw lekcji w języku polskim w podanej liście lekcji (nie zmieniaj liter, kolejności liter, nie ucinaj liter). Na przykład: "językniemieckiDSDIPRO" -> "język niemiecki DSD I PRO", "zajęciazwychowawcą" -> "zajęcia z wychowawcą", bazydanychD_WD" -> "bazy danych D WD", "SysytemybazdanychD_DW" -> "Systemy baz danych D_DW.')
     response = model.generate_content(json.dumps(list(LESSON_NAMES)), generation_config=genai.GenerationConfig(response_mime_type='application/json', 
                                                                                        response_schema=list[LessonDict]))
     print(response.text)

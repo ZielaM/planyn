@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -75,7 +75,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -146,7 +146,7 @@
         null,
         null
     ],
-    "2": [
+    [
         [
             [
                 "Wychowanie fizyczne",
@@ -229,7 +229,7 @@
         ],
         null
     ],
-    "3": [
+    [
         [
             [
                 "Pracownia programowania obiektowego-2/2",
@@ -312,7 +312,7 @@
             ]
         ]
     ],
-    "4": [
+    [
         null,
         [
             [
@@ -414,4 +414,4 @@
         ],
         null
     ]
-}
+]

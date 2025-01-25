@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -60,7 +60,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -152,7 +152,7 @@
         ],
         null
     ],
-    "2": [
+    [
         [
             [
                 "Informatyka-1/2",
@@ -235,7 +235,7 @@
         ],
         null
     ],
-    "3": [
+    [
         [
             [
                 "Sieci komputerowe D_DW",
@@ -323,7 +323,7 @@
             ]
         ]
     ],
-    "4": [
+    [
         [
             [
                 "Pracownia urządzeń techniki komputerowej-1/2",
@@ -431,4 +431,4 @@
         ],
         null
     ]
-}
+]

@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         null,
         [
@@ -70,7 +70,7 @@
         ],
         null
     ],
-    "1": [
+    [
         [
             [
                 "Edukacja dla bezpieczeństwa",
@@ -157,7 +157,7 @@
         null,
         null
     ],
-    "2": [
+    [
         null,
         [
             [
@@ -244,7 +244,7 @@
         ],
         null
     ],
-    "3": [
+    [
         null,
         [
             [
@@ -336,7 +336,7 @@
         ],
         null
     ],
-    "4": [
+    [
         [
             [
                 "Język niemiecki DSD I Pro-1/1",
@@ -412,4 +412,4 @@
         ],
         null
     ]
-}
+]

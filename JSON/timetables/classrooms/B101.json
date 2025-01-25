@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             "GL",
@@ -42,7 +42,7 @@
         ],
         null
     ],
-    "1": [
+    [
         null,
         [
             "JO",
@@ -97,7 +97,7 @@
         null,
         null
     ],
-    "2": [
+    [
         null,
         null,
         null,
@@ -146,7 +146,7 @@
         null,
         null
     ],
-    "3": [
+    [
         null,
         null,
         null,
@@ -189,7 +189,7 @@
         null,
         null
     ],
-    "4": [
+    [
         null,
         null,
         null,
@@ -214,4 +214,4 @@
         null,
         null
     ]
-}
+]

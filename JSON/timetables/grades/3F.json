@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         [
             [
                 "Religia",
@@ -82,7 +82,7 @@
         ],
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -175,7 +175,7 @@
             ]
         ]
     ],
-    "2": [
+    [
         [
             [
                 "Pracownia eksploatacji urządzeń elektronicznych-1/2",
@@ -292,7 +292,7 @@
         null,
         null
     ],
-    "3": [
+    [
         [
             [
                 "Pracownia montażu instalacji i urządzeń elektronicznych-1/2",
@@ -373,7 +373,7 @@
         null,
         null
     ],
-    "4": [
+    [
         null,
         [
             [
@@ -428,4 +428,4 @@
         null,
         null
     ]
-}
+]

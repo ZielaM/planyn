@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         [
             "SW",
             [
@@ -78,7 +78,7 @@
             "Wychowanie fizyczne"
         ]
     ],
-    "1": [
+    [
         [
             "MT",
             [
@@ -157,7 +157,7 @@
             "Wychowanie fizyczne"
         ]
     ],
-    "2": [
+    [
         [
             "WZ",
             [
@@ -236,7 +236,7 @@
             "Wychowanie fizyczne"
         ]
     ],
-    "3": [
+    [
         null,
         [
             "ZI",
@@ -309,7 +309,7 @@
             "Wychowanie fizyczne"
         ]
     ],
-    "4": [
+    [
         [
             "WM",
             [
@@ -388,4 +388,4 @@
             "Wychowanie fizyczne"
         ]
     ]
-}
+]

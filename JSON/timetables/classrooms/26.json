@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         null,
         [
@@ -48,7 +48,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             "MW",
@@ -115,7 +115,7 @@
         ],
         null
     ],
-    "2": [
+    [
         null,
         null,
         null,
@@ -152,7 +152,7 @@
         null,
         null
     ],
-    "3": [
+    [
         null,
         [
             "MW",
@@ -207,7 +207,7 @@
         null,
         null
     ],
-    "4": [
+    [
         null,
         null,
         [
@@ -263,4 +263,4 @@
         null,
         null
     ]
-}
+]

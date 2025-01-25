@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         [
             [
                 "Pracownia witryn internetowych-1/2",
@@ -60,7 +60,7 @@
         null,
         null
     ],
-    "1": [
+    [
         [
             [
                 "Pracownia systemów operacyjnych-1/2",
@@ -173,7 +173,7 @@
         ],
         null
     ],
-    "2": [
+    [
         null,
         null,
         null,
@@ -222,7 +222,7 @@
         null,
         null
     ],
-    "3": [
+    [
         [
             [
                 "Religia",
@@ -310,7 +310,7 @@
             ]
         ]
     ],
-    "4": [
+    [
         [
             [
                 "HiT",
@@ -423,4 +423,4 @@
         ],
         null
     ]
-}
+]

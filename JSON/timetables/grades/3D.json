@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         [
             [
                 "Systemy baz danych D_DW",
@@ -80,7 +80,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -173,7 +173,7 @@
             ]
         ]
     ],
-    "2": [
+    [
         [
             [
                 "Programowanie obiektowe",
@@ -281,7 +281,7 @@
         ],
         null
     ],
-    "3": [
+    [
         null,
         [
             [
@@ -342,7 +342,7 @@
         null,
         null
     ],
-    "4": [
+    [
         [
             [
                 "Pracownia aplikacji internetowych-1/2",
@@ -430,4 +430,4 @@
         ],
         null
     ]
-}
+]

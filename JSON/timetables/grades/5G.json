@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -30,7 +30,7 @@
         null,
         null
     ],
-    "1": [
+    [
         [
             [
                 "Wychowanie fizyczne",
@@ -97,7 +97,7 @@
             ]
         ]
     ],
-    "2": [
+    [
         null,
         null,
         null,
@@ -166,7 +166,7 @@
         ],
         null
     ],
-    "3": [
+    [
         null,
         null,
         null,
@@ -231,7 +231,7 @@
         ],
         null
     ],
-    "4": [
+    [
         null,
         null,
         [
@@ -256,4 +256,4 @@
         null,
         null
     ]
-}
+]

@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -81,7 +81,7 @@
         ],
         null
     ],
-    "1": [
+    [
         [
             [
                 "Eksploatacja urządzeń elektronicznych-1/6",
@@ -150,7 +150,7 @@
         null,
         null
     ],
-    "2": [
+    [
         [
             [
                 "Język niemiecki DSD I Pro-1/6",
@@ -243,7 +243,7 @@
         ],
         null
     ],
-    "3": [
+    [
         [
             [
                 "Urządzenia automatyki przemysłowej-2/6",
@@ -361,7 +361,7 @@
         ],
         null
     ],
-    "4": [
+    [
         null,
         [
             [
@@ -433,4 +433,4 @@
         ],
         null
     ]
-}
+]

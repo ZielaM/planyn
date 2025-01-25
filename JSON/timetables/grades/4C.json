@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         null,
         [
@@ -69,7 +69,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -124,7 +124,7 @@
         null,
         null
     ],
-    "2": [
+    [
         [
             [
                 "Pracownia aplikacji desktopowych-1/2",
@@ -232,7 +232,7 @@
             ]
         ]
     ],
-    "3": [
+    [
         [
             [
                 "Język niemiecki DSD I Pro-1/1",
@@ -355,7 +355,7 @@
         ],
         null
     ],
-    "4": [
+    [
         null,
         null,
         [
@@ -442,4 +442,4 @@
             ]
         ]
     ]
-}
+]

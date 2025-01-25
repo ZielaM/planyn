@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -97,7 +97,7 @@
             ]
         ]
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -179,7 +179,7 @@
             ]
         ]
     ],
-    "2": [
+    [
         [
             [
                 "Język niemiecki DSD I Pro-1/6",
@@ -266,7 +266,7 @@
         null,
         null
     ],
-    "3": [
+    [
         [
             [
                 "Programowanie aplikacji mobilnych",
@@ -358,7 +358,7 @@
         null,
         null
     ],
-    "4": [
+    [
         [
             [
                 "Wychowanie fizyczne",
@@ -429,4 +429,4 @@
         null,
         null
     ]
-}
+]

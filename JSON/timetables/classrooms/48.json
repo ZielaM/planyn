@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         null,
         [
@@ -42,7 +42,7 @@
         null,
         null
     ],
-    "1": [
+    [
         null,
         [
             "ZF",
@@ -67,7 +67,7 @@
         null,
         null
     ],
-    "2": [
+    [
         null,
         [
             "ZF",
@@ -140,7 +140,7 @@
             "Pracownia elektryczna i elektroniczna"
         ]
     ],
-    "3": [
+    [
         [
             "JG",
             [
@@ -207,7 +207,7 @@
         null,
         null
     ],
-    "4": [
+    [
         [
             "FN",
             [
@@ -281,4 +281,4 @@
         ],
         null
     ]
-}
+]

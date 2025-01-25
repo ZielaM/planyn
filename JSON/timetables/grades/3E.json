@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         null,
         [
@@ -60,7 +60,7 @@
         ],
         null
     ],
-    "1": [
+    [
         null,
         [
             [
@@ -127,7 +127,7 @@
             ]
         ]
     ],
-    "2": [
+    [
         [
             [
                 "Informatyka-1/2",
@@ -241,7 +241,7 @@
             ]
         ]
     ],
-    "3": [
+    [
         [
             [
                 "Technologie i pomiary w automatyce",
@@ -319,7 +319,7 @@
         ],
         null
     ],
-    "4": [
+    [
         [
             [
                 "Pracownia urządzeń automatyki przemysłowej-1/2",
@@ -406,4 +406,4 @@
         null,
         null
     ]
-}
+]

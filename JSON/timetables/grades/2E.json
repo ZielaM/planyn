@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         null,
         [
             [
@@ -90,7 +90,7 @@
         null,
         null
     ],
-    "1": [
+    [
         [
             [
                 "Projektowanie oprogramowania",
@@ -173,7 +173,7 @@
         ],
         null
     ],
-    "2": [
+    [
         [
             [
                 "Zajęcia z wychowawcą",
@@ -265,7 +265,7 @@
         null,
         null
     ],
-    "3": [
+    [
         [
             [
                 "Chemia",
@@ -353,7 +353,7 @@
             ]
         ]
     ],
-    "4": [
+    [
         [
             [
                 "Matematyka",
@@ -431,4 +431,4 @@
         ],
         null
     ]
-}
+]

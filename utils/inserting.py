@@ -27,10 +27,11 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
         lesson_title (str): name of the lesson
         lesson_teacher (str): initials of the teacher
         lesson_classroom (str): number of the classroom
+        group (str): group of the grade
         num_col (int): day of a week
         num_row (int): number of the lesson
         grade (str): just a grade
-        TEACHER_TIMETABLES (dict): dictionary with timetables
+        TEACHER_TIMETABLES (teachers_type): dictionary with timetables
 
     Raises:
         ValueError: if the lesson is already in the TEACHER_TIMETABLES dictionary
@@ -58,10 +59,11 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         lesson_title (str): name of the lesson
         lesson_teacher (str): initials of the teacher
         lesson_classroom (str): number of the classroom
+        group (str): group of the grade
         num_col (int): day of a week
         num_row (int): number of the lesson
         grade (str): just a grade
-        CLASSROOM_TIMETABLES (dict): dictionary with timetables
+        CLASSROOM_TIMETABLES (classrooms_type): dictionary with timetables
 
     Raises:
         ValueError: if the lesson is already in the CLASSROOM_TIMETABLES dictionary and it's not the same as the new one (except the grade)
@@ -88,13 +90,12 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
         lesson_title (str): name of the lesson
         lesson_teacher (str): initials of the teacher
         lesson_classroom (str): number of the classroom
+        group (str): group of the grade
         num_col (int): day of a week
         num_row (int): number of the lesson
         grade (str): just a grade
-        GRADE_TIMETABLES (dict): dictionary with timetables
-
-    Raises:
-        None
+        GRADE_TIMETABLES (grades_type): dictionary with timetables
+        
     """
     generate_structure(grade, GRADE_TIMETABLES)
     if not GRADE_TIMETABLES[grade][num_col][num_row]:  # if the lesson is empty, put it there
@@ -110,6 +111,7 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
         lesson_title (str): name of the lesson
         lesson_teacher (str): initials of the teacher
         lesson_classroom (str): number of the classroom
+        group (str): group of the grade
         num_col (int): day of a week
         num_row (int): number of the lesson
         grade (str): just a grade

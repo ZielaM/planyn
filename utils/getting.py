@@ -9,11 +9,6 @@ from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
 def get_number_of_timetables() -> int:
-    """Returns the number of timetables
-
-    Returns:
-        int: number of timetables
-    """
     response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
     soup = bs(response.text, 'html.parser') 
     return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
@@ -27,10 +22,11 @@ def get_lesson_details(span: ResultSet[Tag], group: str, LESSON_NAMES: set[str])
         It should contain 3 spans with lesson title {lesson_title-group},
         teacher {teacher_initials} and classroom {classroom_number}
         group (str): group number
+        LESSON_NAMES (set[str]): set with lesson names
 
     Returns:
-        tuple[str, str, str, str|None]: returns a tuple with lesson title,
-        teacher, classroom and group number in string format
+        tuple[str, str, str, str|None]: returns a tuple with 
+        lesson title, teacher, classroom and group in string format
     """
     if group is None and len(span[0].text.split('-')) == 2: # if group is None and there is a group in the lesson title, extract it
         span[0], group = span[0].text.split('-')

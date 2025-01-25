@@ -4,8 +4,10 @@ import os
 
 import aiofiles
 
+from utils.constants import timetable, timetables
 
-def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]], directory: str) -> None:
+
+def save_timetables(timetables: timetables, directory: str) -> None:
     """Saves the timetables to the files
 
     Args:
@@ -21,7 +23,7 @@ def save_timetables(timetables: dict[str, dict[str, list[tuple[str, str, str]]]]
     return tasks
 
 
-async def save_timetable(timetable_name: str, timetable, directory: str) -> None:
+async def save_timetable(timetable_name: str, timetable: timetable, directory: str) -> None:
     """Saves the timetable to the file
 
     Args:

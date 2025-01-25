@@ -3,9 +3,9 @@ import json
 
 from aiohttp import ClientSession
 
+from utils.constants import JSON_PATH, teachers_type, classrooms_type, grades_type, plain_text_type
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
-from utils.constants import JSON_PATH
 from utils.inserting import add_spaces_to_names
 
 
@@ -56,13 +56,12 @@ async def main() -> None:
 
 if __name__ == '__main__':
     # tiemetables dictionaries
-    TEACHERS_TIMETABLES: dict[str, dict[str, list[tuple[list[str], str, str]]]] = dict()    # Variable to store teachers timetables {teacher: {day: [lesson1, lesson2, ...]}}
-    CLASSROOMS_TIMETABLES: dict[str, dict[str, list[tuple[str, list[str], str]]]] = dict()  # Variable to store classrooms timetables {classroom: {day: [lesson1, lesson2, ...]}}
-    GRADES_TIMETABLES: dict[str, dict[str, list[list[tuple[str, str, str]]]]] = dict()      # Variable to store grades timetables {grade: {day: [lesson1, lesson2, ...]}}
-    PLAIN_TEXT: dict[str, dict[str, dict[str, str]]] = dict()                               # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
-    # {grade: {day: {lesson: lesson_text}}}
+    TEACHERS_TIMETABLES: teachers_type = dict()
+    CLASSROOMS_TIMETABLES: classrooms_type = dict()
+    GRADES_TIMETABLES: grades_type = dict()
+    PLAIN_TEXT: plain_text_type = dict()  # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     LESSON_NAMES: set[str] = set() # holds distinct lesson names
     
-    TIMETABLES: tuple = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries
+    TIMETABLES: tuple[teachers_type, classrooms_type, grades_type] = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries
 
     asyncio.run(main())   # run the main

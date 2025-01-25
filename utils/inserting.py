@@ -4,10 +4,10 @@ from typing_extensions import TypedDict
 
 import google.generativeai as genai
 
-from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER
+from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER, timetable, teachers_type, classrooms_type, grades_type
 
 
-def generate_structure(key: str, timetable: dict) -> None:
+def generate_structure(key: str, timetable: timetable) -> None:
     """Generates a structure for a timetable
 
     Args:
@@ -20,7 +20,7 @@ def generate_structure(key: str, timetable: dict) -> None:
         timetable[key] = [[None for _ in range(LESSONS_NUMBER)] for _ in range(WEEK_DAYS_NUMBER)]  # add LESSONS_NUMBER lessons per day
 
 
-def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: dict) -> None:
+def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: teachers_type) -> None:
     """Puts lesson data into TEACHER_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -51,7 +51,7 @@ def insert_data_to_teachers(lesson_title: str, lesson_teacher: str, lesson_class
         raise ValueError(f'Error: {TEACHER_TIMETABLES[lesson_teacher][num_col][num_row]} != {grade} {lesson_title} {lesson_classroom}')  # if the lessons are different, raise an error
 
 
-def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, CLASSROOM_TIMETABLES: dict) -> None:
+def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, CLASSROOM_TIMETABLES: classrooms_type) -> None:
     """Puts lesson data into CLASSROOM_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -81,7 +81,7 @@ def insert_data_to_classrooms(lesson_title: str, lesson_teacher: str, lesson_cla
         raise ValueError(f'Error: {CLASSROOM_TIMETABLES[lesson_classroom][num_col][num_row]} != {grade} {lesson_teacher} {lesson_title}')  # if the lesson is different, raise an error
 
 
-def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, GRADE_TIMETABLES: dict) -> None:
+def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, GRADE_TIMETABLES: grades_type) -> None:
     """Puts lesson data into GRADE_TIMETABLES dictionary in aprioriate place
 
     Args:
@@ -103,7 +103,7 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
         GRADE_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom))
 
 
-def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: dict, CLASSROOM_TIMETABLES: dict, GRADE_TIMETABLES: dict) -> None:
+def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type) -> None:
     """Puts lesson data into all dictionaries in aprioriate place
     
     Args:
@@ -125,7 +125,7 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
     insert_data_to_grades(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, GRADE_TIMETABLES)
 
 
-def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: dict, CLASSROOM_TIMETABLES: dict, GRADE_TIMETABLES: dict): 
+def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type) -> None: 
     
     class LessonDict(TypedDict):
         lesson_name_spaced: str

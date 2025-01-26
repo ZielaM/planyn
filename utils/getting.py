@@ -1,4 +1,5 @@
 import requests
+import asyncio
 
 from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
@@ -39,9 +40,10 @@ def get_lesson_details(span: ResultSet[Tag], group: str, LESSON_NAMES: set[str])
 
 async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, PLAIN_TEXT: plain_text_type, LESSON_NAMES: set[str]) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
+        print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 
         grade = timetable_html.find('span', class_='tytulnapis').text.split(' ')[0]  # get the grade
-        print(f'\t->got timetable: {grade}')  # print the grade so we know the progress
+        print(f'\t->got timetable {asyncio.current_task().get_name()} : {grade}')
         row: Tag
         for num_row, row in enumerate(timetable_html.find('table', class_='tabela').find_all('tr')[1:]):  # iterate over the lesson numbers (rows)
             col: Tag

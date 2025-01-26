@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from utils.constants import JSON_PATH, teachers_type, classrooms_type, grades_type, plain_text_type
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
-from utils.inserting import add_spaces_to_names
+from utils.spacing import add_spaces_to_names
 
 
 async def main() -> None:

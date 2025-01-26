@@ -2,6 +2,7 @@ import asyncio
 import json
 
 from aiohttp import ClientSession
+from dotenv import load_dotenv
 
 from utils.constants import JSON_PATH, teachers_type, classrooms_type, grades_type, plain_text_type
 from utils.getting import get_timetable, get_number_of_timetables
@@ -55,6 +56,8 @@ async def main() -> None:
 
 
 if __name__ == '__main__':
+    load_dotenv() 
+    
     # tiemetables dictionaries
     TEACHERS_TIMETABLES: teachers_type = dict()
     CLASSROOMS_TIMETABLES: classrooms_type = dict()

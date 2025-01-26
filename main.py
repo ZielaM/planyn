@@ -28,7 +28,7 @@ async def main() -> None:
     
     print('Adding spaces to lesson names...')
     global TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES
-    add_spaces_to_names(LESSON_NAMES, TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # add spaces to lesson names
+    await add_spaces_to_names(LESSON_NAMES, TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # add spaces to lesson names
     print('Added spaces to lesson names...')
     
     print('Saving timetables to files...')

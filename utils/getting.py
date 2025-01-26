@@ -41,7 +41,7 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
     async with session.get(f'{URL}o{i}.html') as response: 
         timetable_html = bs(await response.text(), 'html.parser') 
         grade = timetable_html.find('span', class_='tytulnapis').text.split(' ')[0]  # get the grade
-        print(grade)  # print the grade so we know the progress
+        print(f'\t->got timetable: {grade}')  # print the grade so we know the progress
         row: Tag
         for num_row, row in enumerate(timetable_html.find('table', class_='tabela').find_all('tr')[1:]):  # iterate over the lesson numbers (rows)
             col: Tag

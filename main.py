@@ -11,21 +11,27 @@ from utils.spacing import add_spaces_to_names
 
 
 async def main() -> None:
-    print('number of timetables: ', num_of_timetables := get_number_of_timetables())
+    print('Searching for timetables to get...')
+    print('Found: ', num_of_timetables := get_number_of_timetables(), ' timetables...')
     # getting timetables
+    print('Getting data from timetables...')
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
             tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT, LESSON_NAMES)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
-
+    print('Got all timetables...')
+    
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
     
-    print('number of lessons', len(LESSON_NAMES))
+    print(f'Found {len(LESSON_NAMES)} lessons')
     
+    print('Adding spaces to lesson names...')
     global TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES
     add_spaces_to_names(LESSON_NAMES, TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # add spaces to lesson names
+    print('Added spaces to lesson names...')
     
+    print('Saving timetables to files...')
     filenames: dict[str, list[str]] = dict()  # dictionary to store filenames
     
     # saving teachers' timetables
@@ -51,8 +57,10 @@ async def main() -> None:
     # saving plain text
     with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
         json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
+    print('\t->saved PLAIN_TEXT')
     
     await asyncio.gather(*tasks)
+    print('Done!')
 
 
 if __name__ == '__main__':

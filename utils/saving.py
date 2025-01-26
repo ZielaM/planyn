@@ -20,6 +20,7 @@ def save_timetables(timetables: timetables, directory: str) -> list[asyncio.Task
 
 async def save_timetable(timetable_name: str, timetable: timetable, directory: str) -> None:
     async with aiofiles.open(f'{directory}{timetable_name}.json', 'w', encoding='utf-8') as f:
-        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4))   
+        await f.write(json.dumps(timetable, ensure_ascii=False, indent=4))
+    print(f'\t->saved timetable: {timetable_name} in {directory}{timetable_name}.json')  
  
 

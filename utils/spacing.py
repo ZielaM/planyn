@@ -12,14 +12,15 @@ def add_spaces_to_names(LESSON_NAMES: set[str], TEACHER_TIMETABLES: teachers_typ
     class LessonDict(TypedDict):
         lesson_name_spaced: str
     
+    print('\t->prompting gemini...')
     genai.configure(api_key=os.getenv('GEMINI_API_KEY')) 
     model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='Dodaj spacje do nazw lekcji w języku polskim w podanej liście lekcji, twoja odpowiedź powinna zawierać polskie znaki (nie zmieniaj liter, kolejności liter, nie ucinaj liter). Na przykład: "JęzykniemieckiDSDIPRO" -> "Język niemiecki DSD I PRO", "Zajęciazwychowawcą" -> "Zajęcia z wychowawcą", "BazydanychD_DW" -> "Bazy danych D_DW", "SysytemybazdanychD_DW" -> "Systemy baz danych D_DW", "Taborszynowy" -> "Tabor szynowy".')
     response = model.generate_content(json.dumps(list(LESSON_NAMES)), generation_config=genai.GenerationConfig(response_mime_type='application/json', 
                                                                                        response_schema=list[LessonDict]))
-    print(response.text)
+    print('\t->parsing gemini response into json...')
     SPACED_LESSON_NAMES: dict[str, str] = {lesson['lesson_name_spaced'].replace(' ', ''): lesson['lesson_name_spaced'] for lesson in json.loads(response.text)}
-    print(SPACED_LESSON_NAMES)
     
+    print('\t->changing lesson names...')
     for techer, timetable in TEACHER_TIMETABLES.items():
         for day, lessons in enumerate(timetable):
             for lesson_num, lesson in enumerate(lessons):

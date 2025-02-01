@@ -90,13 +90,7 @@
     [
         null,
         null,
-        [
-            [
-                "4B-1/2"
-            ],
-            "Pracownia witryn internetowych",
-            "58"
-        ],
+        null,
         [
             [
                 "4A-1/2"
@@ -104,7 +98,13 @@
             "Pracownia witryn internetowych",
             "58"
         ],
-        null,
+        [
+            [
+                "4B-1/2"
+            ],
+            "Pracownia witryn internetowych",
+            "22"
+        ],
         [
             [
                 "3C-1/2"

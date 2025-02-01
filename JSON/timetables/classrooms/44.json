@@ -87,11 +87,11 @@
     ],
     [
         [
-            "GI",
+            "MS",
             [
-                "2E"
+                "3D"
             ],
-            "Zajęcia z wychowawcą"
+            "Programowanie obiektowe"
         ],
         null,
         [
@@ -258,7 +258,13 @@
             ],
             "Rysunek techniczny"
         ],
-        null,
+        [
+            "RK",
+            [
+                "5A"
+            ],
+            "Zajęcia z wychowawcą"
+        ],
         null,
         null
     ]

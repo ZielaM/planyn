@@ -3,17 +3,11 @@
         [
             "KJ",
             [
-                "3B"
-            ],
-            "Fizyka"
-        ],
-        [
-            "KJ",
-            [
                 "3D"
             ],
             "Fizyka"
         ],
+        null,
         [
             "KJ",
             [
@@ -43,7 +37,13 @@
             "Fizyka"
         ],
         null,
-        null,
+        [
+            "DS",
+            [
+                "4B"
+            ],
+            "Matematyka"
+        ],
         null,
         null,
         null
@@ -56,7 +56,7 @@
             [
                 "2H"
             ],
-            "HiT"
+            "Historia"
         ],
         [
             "EG",
@@ -98,7 +98,13 @@
         null
     ],
     [
-        null,
+        [
+            "KJ",
+            [
+                "3B"
+            ],
+            "Fizyka"
+        ],
         [
             "KJ",
             [
@@ -262,7 +268,13 @@
             ],
             "Fizyka"
         ],
-        null,
+        [
+            "SZ",
+            [
+                "1A"
+            ],
+            "Urządzenia techniki komputerowej"
+        ],
         [
             "KJ",
             [
@@ -293,11 +305,12 @@
             "Język angielski"
         ],
         [
-            "WS",
+            "JK",
             [
-                "3B"
+                "4A-3/6",
+                "4C-3/6"
             ],
-            "HiT_DW"
+            "Język angielski"
         ],
         null,
         null,

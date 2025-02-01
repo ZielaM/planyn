@@ -1,26 +1,14 @@
 [
     [
-        [
-            "JR",
-            [
-                "3D"
-            ],
-            "Systemy baz danych D_DW"
-        ],
-        [
-            "JR",
-            [
-                "3B"
-            ],
-            "Sieci komputerowe D_DW"
-        ],
+        null,
+        null,
         null,
         [
             "KK",
             [
-                "5A"
+                "4C"
             ],
-            "Wiedza o społeczeństwie"
+            "Historia"
         ],
         [
             "KK",
@@ -57,14 +45,14 @@
             ],
             "Język hiszpański"
         ],
-        [
-            "OM",
-            [
-                "5B-j1 "
-            ],
-            "Język hiszpański"
-        ],
         null,
+        [
+            "WS",
+            [
+                "1B"
+            ],
+            "Historia D_DW"
+        ],
         [
             "WSZ",
             [
@@ -248,18 +236,18 @@
             "Historia"
         ],
         [
-            "OM",
-            [
-                "2C-1/2"
-            ],
-            "Język hiszpański"
-        ],
-        [
             "KK",
             [
-                "4C"
+                "5A"
             ],
-            "Historia"
+            "Wiedza o społeczeństwie"
+        ],
+        [
+            "SZ",
+            [
+                "2A"
+            ],
+            "Zajęcia z wychowawcą"
         ],
         [
             "KK",

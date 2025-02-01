@@ -62,19 +62,19 @@
         null,
         null,
         null,
-        null,
+        [
+            "DR",
+            [
+                "1A"
+            ],
+            "Systemy operacyjne"
+        ],
         null,
         null,
         null
     ],
     [
-        [
-            "MS",
-            [
-                "3D"
-            ],
-            "Programowanie obiektowe"
-        ],
+        null,
         [
             "MS",
             [
@@ -158,17 +158,23 @@
             ],
             "Język angielski"
         ],
+        null,
+        null,
         [
-            "OM",
+            "GL",
             [
-                "5C-1/2"
+                "3B"
             ],
-            "Język hiszpański"
+            "Witryny i aplikacje internetowe"
         ],
         null,
-        null,
-        null,
-        null,
+        [
+            "DR",
+            [
+                "2B"
+            ],
+            "Systemy operacyjne"
+        ],
         null,
         null
     ],
@@ -205,11 +211,11 @@
             "Język angielski"
         ],
         [
-            "JR",
+            "GI",
             [
                 "2E"
             ],
-            "Systemy baz danych D_DW"
+            "Zajęcia z wychowawcą"
         ],
         [
             "JR",

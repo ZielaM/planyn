@@ -4,7 +4,7 @@
         [
             "AG",
             [
-                "3C"
+                "3D"
             ],
             "Matematyka"
         ],
@@ -18,9 +18,9 @@
         [
             "AG",
             [
-                "4C"
+                "5A"
             ],
-            "Zajęcia z wychowawcą"
+            "Matematyka"
         ],
         [
             "AG",
@@ -46,7 +46,7 @@
         [
             "AG",
             [
-                "3D"
+                "3C"
             ],
             "Matematyka"
         ],
@@ -76,13 +76,7 @@
             ],
             "Matematyka"
         ],
-        [
-            "WS",
-            [
-                "1B"
-            ],
-            "Historia D_DW"
-        ],
+        null,
         [
             "AG",
             [
@@ -245,9 +239,9 @@
         [
             "AG",
             [
-                "5A"
+                "4C"
             ],
-            "Matematyka"
+            "Zajęcia z wychowawcą"
         ],
         [
             "AG",
@@ -257,6 +251,13 @@
             "Matematyka"
         ],
         [
+            "WS",
+            [
+                "4D"
+            ],
+            "Historia D_DW"
+        ],
+        [
             "AG",
             [
                 "3D"
@@ -270,7 +271,6 @@
             ],
             "Matematyka"
         ],
-        null,
         null,
         null
     ]

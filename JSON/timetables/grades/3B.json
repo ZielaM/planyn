@@ -1,17 +1,11 @@
 [
     [
-        [
-            [
-                "Fizyka",
-                "KJ",
-                "27"
-            ]
-        ],
+        null,
         [
             [
                 "Sieci komputerowe D_DW",
                 "JR",
-                "38"
+                "46"
             ]
         ],
         [
@@ -160,7 +154,13 @@
         ]
     ],
     [
-        null,
+        [
+            [
+                "Fizyka",
+                "KJ",
+                "27"
+            ]
+        ],
         [
             [
                 "Informatyka-1/2",
@@ -283,7 +283,7 @@
             [
                 "Witryny i aplikacje internetowe",
                 "GL",
-                "34"
+                "57"
             ]
         ],
         [
@@ -394,7 +394,7 @@
             [
                 "HiT_DW",
                 "WS",
-                "27"
+                "32"
             ]
         ],
         [

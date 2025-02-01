@@ -44,20 +44,8 @@
             ],
             "Pracownia organizacji pracy stacji"
         ],
-        [
-            "GR",
-            [
-                "2H-1/2"
-            ],
-            "Pracownia ruchu kolejowego"
-        ],
-        [
-            "GR",
-            [
-                "2H-1/2"
-            ],
-            "Pracownia ruchu kolejowego"
-        ],
+        null,
+        null,
         null,
         null
     ],
@@ -189,8 +177,24 @@
             ],
             "Język angielski zawodowy"
         ],
-        null,
-        null,
+        [
+            "OM",
+            [
+                "2A-j1 "
+            ],
+            "Język hiszpański"
+        ],
+        [
+            "OM",
+            [
+                "4A-2/6",
+                "4B-2/6",
+                "4C-2/6",
+                "4D-2/6",
+                "4E-2/6"
+            ],
+            "Język hiszpański"
+        ],
         null,
         null
     ],

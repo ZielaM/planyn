@@ -56,26 +56,20 @@
     ],
     [
         null,
+        null,
         [
-            "SG",
+            "OM",
             [
-                "2H"
+                "5B-j1 "
             ],
-            "Język polski"
+            "Język hiszpański"
         ],
         [
-            "SG",
+            "SZ",
             [
-                "5A"
+                "2B"
             ],
-            "Język polski"
-        ],
-        [
-            "SG",
-            [
-                "2G"
-            ],
-            "Język polski"
+            "Urządzenia techniki komputerowej"
         ],
         [
             "WS",
@@ -120,9 +114,9 @@
         [
             "TE",
             [
-                "3D",
-                "3E",
-                "3F"
+                "3D-2/2",
+                "3E-1/1",
+                "3F-1/1"
             ],
             "Język niemiecki DSD I Pro"
         ]
@@ -225,11 +219,11 @@
         ],
         null,
         [
-            "GL",
+            "OM",
             [
-                "3B"
+                "1A-j1 "
             ],
-            "Witryny i aplikacje internetowe"
+            "Język hiszpański"
         ],
         [
             "MS",
@@ -298,13 +292,7 @@
             ],
             "Język niemiecki"
         ],
-        [
-            "OM",
-            [
-                "2A-j1 "
-            ],
-            "Język hiszpański"
-        ],
+        null,
         [
             "TE",
             [

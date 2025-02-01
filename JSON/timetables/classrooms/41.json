@@ -162,13 +162,7 @@
             "Pracownia baz danych"
         ],
         null,
-        [
-            "FK",
-            [
-                "3D-1/2"
-            ],
-            "Pracownia baz danych"
-        ],
+        null,
         [
             "JR",
             [
@@ -190,8 +184,6 @@
             ],
             "Pracownia baz danych"
         ],
-        null,
-        null,
         [
             "JR",
             [
@@ -199,6 +191,8 @@
             ],
             "Pracownia baz danych"
         ],
+        null,
+        null,
         [
             "JR",
             [

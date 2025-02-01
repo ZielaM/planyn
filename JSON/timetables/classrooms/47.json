@@ -227,9 +227,27 @@
             ],
             "Pracownia elektryczna i elektroniczna"
         ],
-        null,
-        null,
-        null,
+        [
+            "FN",
+            [
+                "2F-1/2"
+            ],
+            "Pracownia urządzeń automatyki przemysłowej"
+        ],
+        [
+            "FN",
+            [
+                "2F-1/2"
+            ],
+            "Pracownia urządzeń automatyki przemysłowej"
+        ],
+        [
+            "FN",
+            [
+                "2F-1/2"
+            ],
+            "Pracownia urządzeń automatyki przemysłowej"
+        ],
         null
     ]
 ]

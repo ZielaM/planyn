@@ -43,7 +43,13 @@
             "Historia D_DW",
             "37"
         ],
-        null,
+        [
+            [
+                "3D"
+            ],
+            "HiT_DW",
+            "37"
+        ],
         null,
         null,
         null
@@ -55,7 +61,7 @@
             [
                 "2H"
             ],
-            "HiT",
+            "Historia",
             "27"
         ],
         [
@@ -63,7 +69,7 @@
                 "1B"
             ],
             "Historia D_DW",
-            "18"
+            "38"
         ],
         [
             [
@@ -162,16 +168,10 @@
             [
                 "2H"
             ],
-            "Historia",
+            "HiT",
             "B103"
         ],
-        [
-            [
-                "3D"
-            ],
-            "HiT_DW",
-            "B103"
-        ],
+        null,
         null,
         null,
         null,
@@ -207,14 +207,14 @@
                 "4D"
             ],
             "Historia D_DW",
-            "37"
+            "18"
         ],
         [
             [
                 "3B"
             ],
             "HiT_DW",
-            "27"
+            "32"
         ],
         null,
         null,

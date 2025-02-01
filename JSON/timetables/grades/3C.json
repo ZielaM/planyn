@@ -1,13 +1,7 @@
 [
     [
         null,
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
+        null,
         [
             [
                 "Pracownia aplikacji internetowych-1/2",
@@ -60,9 +54,9 @@
         ],
         [
             [
-                "Religia",
-                "PS",
-                "62"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
@@ -313,7 +307,13 @@
         ]
     ],
     [
-        null,
+        [
+            [
+                "Religia",
+                "PS",
+                "62"
+            ]
+        ],
         [
             [
                 "HiT",
@@ -347,7 +347,7 @@
             [
                 "Język angielski-4/4",
                 "JK",
-                "56"
+                "32"
             ]
         ],
         [

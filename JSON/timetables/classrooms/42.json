@@ -104,13 +104,7 @@
             "Pracownia systemów operacyjnych"
         ],
         null,
-        [
-            "DR",
-            [
-                "1A"
-            ],
-            "Systemy operacyjne"
-        ],
+        null,
         null,
         null,
         null
@@ -188,11 +182,11 @@
             "Systemy operacyjne"
         ],
         [
-            "DR",
+            "JR",
             [
-                "1A"
+                "3A"
             ],
-            "Systemy operacyjne"
+            "Bazy danych"
         ],
         [
             "DR",
@@ -215,13 +209,7 @@
             ],
             "Pracownia systemów operacyjnych"
         ],
-        [
-            "DR",
-            [
-                "2B"
-            ],
-            "Systemy operacyjne"
-        ],
+        null,
         null,
         null
     ],
@@ -282,13 +270,7 @@
             ],
             "Pracownia sieci komputerowych"
         ],
-        [
-            "RK",
-            [
-                "5A"
-            ],
-            "Zajęcia z wychowawcą"
-        ],
+        null,
         null,
         null
     ]

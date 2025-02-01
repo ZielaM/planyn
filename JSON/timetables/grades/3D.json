@@ -2,16 +2,16 @@
     [
         [
             [
-                "Systemy baz danych D_DW",
-                "JR",
-                "38"
+                "Fizyka",
+                "KJ",
+                "27"
             ]
         ],
         [
             [
-                "Fizyka",
-                "KJ",
-                "27"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         null,
@@ -65,9 +65,9 @@
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "HiT_DW",
+                "WS",
+                "37"
             ]
         ],
         [
@@ -167,7 +167,7 @@
         ],
         [
             [
-                "Język niemiecki DSD I Pro",
+                "Język niemiecki DSD I Pro-2/2",
                 "TE",
                 "34"
             ]
@@ -178,7 +178,7 @@
             [
                 "Programowanie obiektowe",
                 "MS",
-                "57"
+                "44"
             ]
         ],
         [
@@ -272,13 +272,7 @@
                 "22"
             ]
         ],
-        [
-            [
-                "Język angielski-1/2",
-                "SK",
-                "22"
-            ]
-        ],
+        null,
         null
     ],
     [
@@ -320,9 +314,9 @@
         ],
         [
             [
-                "HiT_DW",
-                "WS",
-                "B103"
+                "Chemia",
+                "AJ",
+                "B109"
             ]
         ],
         [
@@ -334,7 +328,7 @@
         ],
         [
             [
-                "Chemia",
+                "Zajęcia z wychowawcą",
                 "AJ",
                 "B109"
             ]
@@ -369,9 +363,16 @@
         ],
         [
             [
+                "Systemy baz danych D_DW",
+                "JR",
+                "37"
+            ]
+        ],
+        [
+            [
                 "Pracownia baz danych-1/2",
                 "FK",
-                "41"
+                "56"
             ],
             [
                 "Język angielski-2/2",
@@ -381,44 +382,42 @@
         ],
         [
             [
-                "Zajęcia z wychowawcą",
+                "Język polski",
+                "SG",
+                "34"
+            ]
+        ],
+        [
+            [
+                "Język polski",
+                "SG",
+                "34"
+            ]
+        ],
+        [
+            [
+                "Język angielski-1/2",
                 "SK",
                 "22"
-            ]
-        ],
-        [
-            [
-                "Język polski",
-                "SG",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Język polski",
-                "SG",
-                "34"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "AG",
-                "18"
-            ]
-        ],
-        [
+            ],
             [
                 "Pracownia baz danych-2/2",
                 "JR",
                 "41"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "AG",
+                "18"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [

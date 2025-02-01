@@ -127,15 +127,9 @@
             [
                 "2H"
             ],
-            "Historia"
+            "HiT"
         ],
-        [
-            "WS",
-            [
-                "3D"
-            ],
-            "HiT_DW"
-        ],
+        null,
         null,
         null,
         null,

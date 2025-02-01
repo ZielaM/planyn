@@ -151,13 +151,7 @@
             "Język angielski",
             "22"
         ],
-        [
-            [
-                "3D-1/2"
-            ],
-            "Język angielski",
-            "22"
-        ],
+        null,
         null
     ],
     [
@@ -213,27 +207,27 @@
         null,
         [
             [
-                "3D-2/2"
-            ],
-            "Język angielski",
-            "22"
-        ],
-        [
-            [
-                "3D"
-            ],
-            "Zajęcia z wychowawcą",
-            "22"
-        ],
-        [
-            [
                 "4B-1/2"
             ],
             "Język angielski",
             "22"
         ],
+        [
+            [
+                "3D-2/2"
+            ],
+            "Język angielski",
+            "22"
+        ],
         null,
         null,
+        [
+            [
+                "3D-1/2"
+            ],
+            "Język angielski",
+            "22"
+        ],
         [
             [
                 "4A-4/6",

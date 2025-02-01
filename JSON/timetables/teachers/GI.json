@@ -56,13 +56,7 @@
         null
     ],
     [
-        [
-            [
-                "2E"
-            ],
-            "Zajęcia z wychowawcą",
-            "44"
-        ],
+        null,
         [
             [
                 "2E-2/2"
@@ -160,7 +154,13 @@
             "Informatyka",
             "58"
         ],
-        null,
+        [
+            [
+                "2E"
+            ],
+            "Zajęcia z wychowawcą",
+            "57"
+        ],
         [
             [
                 "5E-1/2"

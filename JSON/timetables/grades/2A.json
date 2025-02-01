@@ -189,7 +189,7 @@
             [
                 "Chemia",
                 "MW",
-                "B105"
+                "B109"
             ]
         ],
         [
@@ -323,7 +323,7 @@
             [
                 "Język hiszpański-j1 ",
                 "OM",
-                "21"
+                "31"
             ],
             [
                 "Język niemiecki-j2 ",
@@ -358,14 +358,14 @@
             [
                 "Religia",
                 "RA",
-                "62"
+                "32"
             ]
         ],
         [
             [
                 "Religia",
                 "RA",
-                "62"
+                "32"
             ]
         ],
         [
@@ -391,6 +391,13 @@
         ],
         [
             [
+                "Zajęcia z wychowawcą",
+                "SZ",
+                "38"
+            ]
+        ],
+        [
+            [
                 "Biologia",
                 "SU",
                 "37"
@@ -398,16 +405,9 @@
         ],
         [
             [
-                "Zajęcia z wychowawcą",
-                "SZ",
-                "22"
-            ]
-        ],
-        [
-            [
                 "Język hiszpański-j1 ",
                 "OM",
-                "34"
+                "17"
             ],
             [
                 "Język niemiecki-j2 ",

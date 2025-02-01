@@ -2,17 +2,17 @@
     [
         [
             [
-                "3D"
+                "2E"
             ],
             "Systemy baz danych D_DW",
-            "38"
+            "46"
         ],
         [
             [
                 "3B"
             ],
             "Sieci komputerowe D_DW",
-            "38"
+            "46"
         ],
         [
             [
@@ -97,7 +97,7 @@
                 "4B"
             ],
             "Zajęcia z wychowawcą",
-            "B102"
+            "B108"
         ],
         [
             [
@@ -150,7 +150,7 @@
                 "3A"
             ],
             "Bazy danych",
-            "30"
+            "42"
         ],
         null,
         null,
@@ -174,7 +174,13 @@
             "Bazy danych D_DW",
             "44"
         ],
-        null,
+        [
+            [
+                "3D"
+            ],
+            "Systemy baz danych D_DW",
+            "37"
+        ],
         [
             [
                 "4A-2/2"
@@ -198,25 +204,19 @@
         ],
         [
             [
-                "2E"
-            ],
-            "Systemy baz danych D_DW",
-            "57"
-        ],
-        [
-            [
-                "2E"
-            ],
-            "Systemy baz danych D_DW",
-            "57"
-        ],
-        [
-            [
                 "3D-2/2"
             ],
             "Pracownia baz danych",
             "41"
         ],
+        [
+            [
+                "2E"
+            ],
+            "Systemy baz danych D_DW",
+            "57"
+        ],
+        null,
         [
             [
                 "3D-2/2"

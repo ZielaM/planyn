@@ -44,11 +44,11 @@
             "Historia D_DW"
         ],
         [
-            "DS",
+            "WS",
             [
-                "4B"
+                "3D"
             ],
-            "Matematyka"
+            "HiT_DW"
         ],
         [
             "DS",
@@ -62,14 +62,26 @@
     ],
     [
         null,
-        null,
-        null,
         [
-            "SZ",
+            "SG",
             [
-                "2B"
+                "2H"
             ],
-            "Urządzenia techniki komputerowej"
+            "Język polski"
+        ],
+        [
+            "SG",
+            [
+                "5A"
+            ],
+            "Język polski"
+        ],
+        [
+            "SG",
+            [
+                "2G"
+            ],
+            "Język polski"
         ],
         [
             "JJ",
@@ -175,7 +187,13 @@
             ],
             "Historia"
         ],
-        null,
+        [
+            "DR",
+            [
+                "1A"
+            ],
+            "Systemy operacyjne"
+        ],
         [
             "AM",
             [
@@ -217,11 +235,11 @@
             "HiT"
         ],
         [
-            "SZ",
+            "JR",
             [
-                "1A"
+                "3D"
             ],
-            "Urządzenia techniki komputerowej"
+            "Systemy baz danych D_DW"
         ],
         [
             "SU",
@@ -229,6 +247,13 @@
                 "2C"
             ],
             "Biologia"
+        ],
+        [
+            "OM",
+            [
+                "2C-1/2"
+            ],
+            "Język hiszpański"
         ],
         [
             "SU",
@@ -243,13 +268,6 @@
                 "2A"
             ],
             "Biologia"
-        ],
-        [
-            "WS",
-            [
-                "4D"
-            ],
-            "Historia D_DW"
         ],
         [
             "SU",

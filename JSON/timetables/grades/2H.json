@@ -65,18 +65,12 @@
         ],
         [
             [
-                "Pracownia ruchu kolejowego-1/2",
-                "GR",
-                "31"
+                "Religia",
+                "PS",
+                "62"
             ]
         ],
-        [
-            [
-                "Pracownia ruchu kolejowego-1/2",
-                "GR",
-                "31"
-            ]
-        ],
+        null,
         null,
         null
     ],
@@ -86,12 +80,12 @@
             [
                 "Język polski",
                 "SG",
-                "34"
+                "37"
             ]
         ],
         [
             [
-                "HiT",
+                "Historia",
                 "WS",
                 "27"
             ]
@@ -270,7 +264,7 @@
         ],
         [
             [
-                "Historia",
+                "HiT",
                 "WS",
                 "B103"
             ]
@@ -306,12 +300,18 @@
         null
     ],
     [
-        null,
         [
             [
-                "Religia",
-                "PS",
-                "B102"
+                "Pracownia ruchu kolejowego-1/2",
+                "GR",
+                "B105"
+            ]
+        ],
+        [
+            [
+                "Pracownia ruchu kolejowego-1/2",
+                "GR",
+                "B105"
             ]
         ],
         [

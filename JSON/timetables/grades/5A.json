@@ -22,9 +22,9 @@
         ],
         [
             [
-                "Wiedza o społeczeństwie",
-                "KK",
-                "38"
+                "Matematyka",
+                "AG",
+                "18"
             ]
         ],
         [
@@ -96,7 +96,7 @@
             [
                 "Język polski",
                 "SG",
-                "34"
+                "37"
             ]
         ],
         [
@@ -211,14 +211,14 @@
             [
                 "Religia",
                 "RA",
-                "32"
+                "Piwnica"
             ]
         ],
         [
             [
-                "Matematyka",
-                "AG",
-                "18"
+                "Wiedza o społeczeństwie",
+                "KK",
+                "38"
             ]
         ],
         [
@@ -251,7 +251,7 @@
             [
                 "Zajęcia z wychowawcą",
                 "RK",
-                "42"
+                "44"
             ]
         ],
         null,

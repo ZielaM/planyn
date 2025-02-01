@@ -4,14 +4,14 @@
         [
             "JO",
             [
-                "5C-2/2"
+                "5C-1/2"
             ],
             "Język angielski"
         ],
         [
             "JO",
             [
-                "5C-2/2"
+                "5C-1/2"
             ],
             "Język angielski"
         ],
@@ -39,7 +39,7 @@
         [
             "JO",
             [
-                "5C-1/2"
+                "5C-2/2"
             ],
             "Język angielski"
         ],
@@ -115,7 +115,7 @@
         [
             "JO",
             [
-                "5C-2/2"
+                "5C-1/2"
             ],
             "Język angielski"
         ],
@@ -136,14 +136,14 @@
         [
             "JO",
             [
-                "5C-1/2"
+                "5C-2/2"
             ],
             "Język angielski"
         ],
         [
             "JO",
             [
-                "5C-1/2"
+                "5C-2/2"
             ],
             "Język angielski"
         ],
@@ -209,8 +209,20 @@
         null
     ],
     [
-        null,
-        null,
+        [
+            "RA",
+            [
+                "2A"
+            ],
+            "Religia"
+        ],
+        [
+            "RA",
+            [
+                "2A"
+            ],
+            "Religia"
+        ],
         [
             "RA",
             [
@@ -219,11 +231,12 @@
             "Religia"
         ],
         [
-            "RA",
+            "JK",
             [
-                "5A"
+                "3A-4/4",
+                "3C-4/4"
             ],
-            "Religia"
+            "Język angielski"
         ],
         [
             "JO",
@@ -247,12 +260,11 @@
             "Język hiszpański"
         ],
         [
-            "JK",
+            "WS",
             [
-                "4A-3/6",
-                "4C-3/6"
+                "3B"
             ],
-            "Język angielski"
+            "HiT_DW"
         ],
         null,
         null,

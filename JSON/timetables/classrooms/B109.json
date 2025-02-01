@@ -126,7 +126,13 @@
             ],
             "Matematyka"
         ],
-        null,
+        [
+            "MW",
+            [
+                "2A"
+            ],
+            "Chemia"
+        ],
         [
             "MW",
             [
@@ -195,14 +201,20 @@
             "Chemia"
         ],
         null,
-        null,
-        null,
         [
             "AJ",
             [
                 "3D"
             ],
             "Chemia"
+        ],
+        null,
+        [
+            "AJ",
+            [
+                "3D"
+            ],
+            "Zajęcia z wychowawcą"
         ],
         null,
         null

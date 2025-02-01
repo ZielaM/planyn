@@ -52,19 +52,15 @@
         null
     ],
     [
+        null,
+        null,
+        null,
         [
-            "GR",
+            "RA",
             [
-                "2H-1/2"
+                "5A"
             ],
-            "Pracownia ruchu kolejowego"
-        ],
-        [
-            "GR",
-            [
-                "2H-1/2"
-            ],
-            "Pracownia ruchu kolejowego"
+            "Religia"
         ],
         null,
         null,
@@ -72,20 +68,6 @@
         null,
         null,
         null,
-        [
-            "GR",
-            [
-                "2H-2/2"
-            ],
-            "Pracownia ruchu kolejowego"
-        ],
-        [
-            "GR",
-            [
-                "2H-2/2"
-            ],
-            "Pracownia ruchu kolejowego"
-        ],
         null
     ]
 ]

@@ -1,7 +1,19 @@
 [
     [
-        null,
-        null,
+        [
+            "JR",
+            [
+                "2E"
+            ],
+            "Systemy baz danych D_DW"
+        ],
+        [
+            "JR",
+            [
+                "3B"
+            ],
+            "Sieci komputerowe D_DW"
+        ],
         null,
         null,
         [
@@ -237,27 +249,9 @@
             ],
             "Pracownia urządzeń automatyki przemysłowej"
         ],
-        [
-            "FN",
-            [
-                "2F-1/2"
-            ],
-            "Pracownia urządzeń automatyki przemysłowej"
-        ],
-        [
-            "FN",
-            [
-                "2F-1/2"
-            ],
-            "Pracownia urządzeń automatyki przemysłowej"
-        ],
-        [
-            "FN",
-            [
-                "2F-1/2"
-            ],
-            "Pracownia urządzeń automatyki przemysłowej"
-        ],
+        null,
+        null,
+        null,
         null
     ]
 ]

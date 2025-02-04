@@ -16,13 +16,11 @@ async def main() -> None:
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
-            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT, LESSON_NAMES)))  # create tasks for each timetable
+            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
     print('Got all timetables...')
     
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
-    
-    print(f'Found {len(LESSON_NAMES)} lessons')
     
     print('Saving timetables to files...')
     filenames: dict[str, list[str]] = dict()  # dictionary to store filenames
@@ -64,7 +62,6 @@ if __name__ == '__main__':
     CLASSROOMS_TIMETABLES: classrooms_type = dict()
     GRADES_TIMETABLES: grades_type = dict()
     PLAIN_TEXT: plain_text_type = dict()  # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
-    LESSON_NAMES: set[str] = set() # holds distinct lesson names
     
     TIMETABLES: tuple[teachers_type, classrooms_type, grades_type] = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries
 

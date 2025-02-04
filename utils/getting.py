@@ -15,7 +15,7 @@ def get_number_of_timetables() -> int:
     return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
 
 
-def get_lesson_details(span: ResultSet[Tag], group: str, LESSON_NAMES: set[str]) -> tuple[str, str, str, str|None]:
+def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str, str|None]:
     """extracts lesson details from spans
 
     Args:
@@ -34,11 +34,10 @@ def get_lesson_details(span: ResultSet[Tag], group: str, LESSON_NAMES: set[str])
     lesson_title: str = w if (w := span[0].text.split('-')[0]) not in LESSONS else LESSONS[w]  # if lesson is corrupted, replace it with correct one
     lesson_teacher: str = w if (w := span[1].text)[0] != '#' else TEACHERS[w]  # if teacher is corrupted, replace it with correct one
     lesson_classroom: str = span[2].text
-    LESSON_NAMES.add(lesson_title)
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, PLAIN_TEXT: plain_text_type, LESSON_NAMES: set[str]) -> None:
+async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, PLAIN_TEXT: plain_text_type) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
         print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 
@@ -68,18 +67,17 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('//'): # iterate over the lessons
                             (w[0], group) = w[0].split('-') if len((w := span.split(' '))[0].split('-')) == 2 else (w[0], None) # get the group from the lesson title
                             group = f'-{group}' if group is not None else None
-                            LESSON_NAMES.add(w[0]) 
                             insert_all(*w, group, num_col, num_row, grade, *TIMETABLES) 
 
                 elif len(col_spans) == 3:  # 1 lesson in the cell case
-                    insert_all(*get_lesson_details(col_spans, groups[0] if len(groups) != 0 else None, LESSON_NAMES), num_col, num_row, grade, *TIMETABLES)
+                    insert_all(*get_lesson_details(col_spans, groups[0] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES)
                 elif len(col_spans) == 2:  # group lesson case
                     for k, span in enumerate(col_spans):
-                        insert_all(*get_lesson_details(span.find_all('span'), groups[k] if len(groups) != 0 else None, LESSON_NAMES), num_col, num_row, grade, *TIMETABLES)
+                        insert_all(*get_lesson_details(span.find_all('span'), groups[k] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES)
                 elif len(col_spans) == 1:   # group lesson case (half of the class)
-                    insert_all(*get_lesson_details(col_spans[0].find_all('span', recursive=False), groups[0] if len(groups) != 0 else None, LESSON_NAMES), num_col, num_row, grade, *TIMETABLES)
+                    insert_all(*get_lesson_details(col_spans[0].find_all('span', recursive=False), groups[0] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES)
                 else:  # more than two groups case
                     it = iter(col_spans)
                     for k, span in enumerate(zip(it, it, it)):
-                        insert_all(*get_lesson_details(span, groups[k] if len(groups) != 0 else None, LESSON_NAMES), num_col, num_row, grade, *TIMETABLES)
+                        insert_all(*get_lesson_details(span, groups[k] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES)
 

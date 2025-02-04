@@ -12,6 +12,8 @@ with open(f'{JSON_PATH}teachers.json', 'r', encoding='utf-8') as f:
     TEACHERS: dict[str, str] = json.load(f)  # Constant to replace corrupted teacher names {corrupted_teacher: teacher_name}
 with open(f'{JSON_PATH}plain_text_solution.json', 'r', encoding='utf-8') as f:
     PLAIN_TEXT_SOLUTION: dict[str, str] = json.load(f)  # Constant to replace plain text lessons {pt_lesson: lesson_data}
+with open(f'{JSON_PATH}spaced_lessons.json', 'r', encoding='utf-8') as f:
+    SPACED_LESSONS: dict[str, str] = json.load(f)  # Constant to store lesson names
 
 teacher_type = list[list[tuple[list[str], str, str] | None]]
 classroom_type = list[list[tuple[str, list[str], str] | None]]

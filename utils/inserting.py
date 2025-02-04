@@ -1,4 +1,4 @@
-from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER, timetable, teachers_type, classrooms_type, grades_type
+from .constants import LESSONS_NUMBER, WEEK_DAYS_NUMBER, SPACED_LESSONS, timetable, teachers_type, classrooms_type, grades_type
 
 
 def generate_structure(key: str, timetable: timetable) -> None:
@@ -116,6 +116,7 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
     Raises:
         ValueError: if the lesson is already in the CLASSROOM_TIMETABLES/TEACHER_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
+    lesson_title = SPACED_LESSONS.get(lesson_title, lesson_title)  # add spaces to the lesson title
     insert_data_to_teachers(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, TEACHER_TIMETABLES)
     insert_data_to_classrooms(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, CLASSROOM_TIMETABLES)
     insert_data_to_grades(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, GRADE_TIMETABLES)

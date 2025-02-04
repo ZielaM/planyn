@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 from utils.constants import JSON_PATH, teachers_type, classrooms_type, grades_type, plain_text_type
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
-from utils.spacing import add_spaces_to_names
-
 
 async def main() -> None:
     print('Searching for timetables to get...')
@@ -25,11 +23,6 @@ async def main() -> None:
     tasks.clear()  # list to store tasks (saving timetables; see inside of the function)
     
     print(f'Found {len(LESSON_NAMES)} lessons')
-    
-    print('Adding spaces to lesson names...')
-    global TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES
-    await add_spaces_to_names(LESSON_NAMES, TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # add spaces to lesson names
-    print('Added spaces to lesson names...')
     
     print('Saving timetables to files...')
     filenames: dict[str, list[str]] = dict()  # dictionary to store filenames

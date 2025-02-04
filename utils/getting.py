@@ -66,8 +66,9 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
                         continue
                     else: 
                         for span in PLAIN_TEXT_SOLUTION[col.text].split('//'): # iterate over the lessons
-                            group = span.split(' ')[0].split('-')[1] if len(span.split(' ')[0].split('-')) == 2 else None # get the group from the lesson title
-                            LESSON_NAMES.add((w := span.split(' '))[0].split('-')[0]) 
+                            (w[0], group) = w[0].split('-') if len((w := span.split(' '))[0].split('-')) == 2 else (w[0], None) # get the group from the lesson title
+                            group = f'-{group}' if group is not None else None
+                            LESSON_NAMES.add(w[0]) 
                             insert_all(*w, group, num_col, num_row, grade, *TIMETABLES) 
 
                 elif len(col_spans) == 3:  # 1 lesson in the cell case

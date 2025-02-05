@@ -98,7 +98,7 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
         GRADE_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom))
 
 
-def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type) -> None:
+def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     """Puts lesson data into all dictionaries in aprioriate place
     
     Args:
@@ -116,7 +116,20 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
     Raises:
         ValueError: if the lesson is already in the CLASSROOM_TIMETABLES/TEACHER_TIMETABLES dictionary and it's not the same as the new one (except the grade)
     """
-    lesson_title = SPACED_LESSONS.get(lesson_title, lesson_title)  # add spaces to the lesson title
+    if lesson_title in SPACED_LESSONS:
+        lesson_title = SPACED_LESSONS[lesson_title]
+    elif lesson_title in TEMP_SPACED_LESSONS:
+        lesson_title = TEMP_SPACED_LESSONS[lesson_title]
+    else:
+        while True: 
+            temp_lesson_title = input(f'\t\tAdd spaces to {lesson_title}: ') 
+            if lesson_title == temp_lesson_title.replace(' ', ''): 
+                TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
+                lesson_title = temp_lesson_title 
+                print('\t\tAdded to SPACED_LESSONS')
+                break
+            else:
+                print('\t\tError: lesson title and spaced lesson title are different')
     insert_data_to_teachers(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, TEACHER_TIMETABLES)
     insert_data_to_classrooms(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, CLASSROOM_TIMETABLES)
     insert_data_to_grades(lesson_title, lesson_teacher, lesson_classroom, group, num_col, num_row, grade, GRADE_TIMETABLES)

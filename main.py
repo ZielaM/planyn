@@ -4,7 +4,7 @@ import json
 from aiohttp import ClientSession
 from dotenv import load_dotenv
 
-from utils.constants import JSON_PATH, teachers_type, classrooms_type, grades_type, plain_text_type
+from utils.constants import JSON_PATH, SPACED_LESSONS, teachers_type, classrooms_type, grades_type, plain_text_type
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
 
@@ -16,7 +16,7 @@ async def main() -> None:
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
-            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT)))  # create tasks for each timetable
+            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT, TEMP_SPACED_LESSONS)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
     print('Got all timetables...')
     
@@ -45,6 +45,13 @@ async def main() -> None:
         filenames[path].sort()  # sort the filenames
     tasks.append(asyncio.create_task(save_timetable('filenames', filenames, JSON_PATH)))  # save the filenames to the file (used for creating the main menu in the mobile app)
 
+    # saving updated SPACED_LESSONS
+    if TEMP_SPACED_LESSONS:
+        global SPACED_LESSONS
+        SPACED_LESSONS.update(TEMP_SPACED_LESSONS)
+        SPACED_LESSONS = dict(sorted(SPACED_LESSONS.items()))  # sort the SPACED_LESSONS
+        tasks.append(asyncio.create_task(save_timetable('spaced_lessons', SPACED_LESSONS, JSON_PATH)))  # save the SPACED_LESSONS to the file (used for creating the main menu in the mobile app)
+    
     # saving plain text
     with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
         json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
@@ -62,6 +69,7 @@ if __name__ == '__main__':
     CLASSROOMS_TIMETABLES: classrooms_type = dict()
     GRADES_TIMETABLES: grades_type = dict()
     PLAIN_TEXT: plain_text_type = dict()  # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
+    TEMP_SPACED_LESSONS = dict()
     
     TIMETABLES: tuple[teachers_type, classrooms_type, grades_type] = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries
 

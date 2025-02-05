@@ -126,7 +126,6 @@ def insert_all(lesson_title: str, lesson_teacher: str, lesson_classroom: str, gr
             if lesson_title == temp_lesson_title.replace(' ', ''): 
                 TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
                 lesson_title = temp_lesson_title 
-                print('\t\tAdded to SPACED_LESSONS')
                 break
             else:
                 print('\t\tError: lesson title and spaced lesson title are different')

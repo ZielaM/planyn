@@ -5,7 +5,7 @@ from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
 
 from utils.inserting import insert_all
-from .constants import PLAIN_TEXT_SOLUTION, TEACHERS, LESSONS, URL, timetables, plain_text_type
+from .constants import PLAIN_TEXT, TEACHERS, LESSONS, URL, timetables
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
@@ -37,7 +37,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, PLAIN_TEXT: plain_text_type, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
         print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 
@@ -50,21 +50,32 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
                 col_spans: ResultSet[Tag] = col.find_all('span', recursive=False)  # get the data from the table cell
                 groups = [col.text[x:x+4] for x in [i for i, letter in enumerate(col.text) if letter == '-']] # get the groups from data
                 if len(col_spans) == 0:  # plain text case
+                    solution: str | None
                     if col.text == '\xa0':  # skip if empty
                         continue
-                    if grade not in PLAIN_TEXT:
-                        PLAIN_TEXT[grade] = dict()
-                    if num_col not in PLAIN_TEXT[grade]:
-                        PLAIN_TEXT[grade][num_col] = dict()
-                    PLAIN_TEXT[grade][num_col][num_row] = col.text # add the plain text to PLAIN_TEXT 
 
-                    if col.text not in PLAIN_TEXT_SOLUTION:  # print an error and continue in case of missing substitution
-                        print(f'Error: {grade}/{num_col}/{num_row}: {col.text} not in PLAIN_TEXT_SOLUTION')
-                        continue
-                    if PLAIN_TEXT_SOLUTION[col.text] is None:  # unnecessary data
+                    if col.text in PLAIN_TEXT: 
+                        solution = PLAIN_TEXT[col.text]
+                    elif col.text in TEMP_PLAIN_TEXT:
+                        solution = TEMP_PLAIN_TEXT[col.text]
+                    else:
+                        while True: 
+                            temp_solution = input(f'\t\tWrite correct lesson (example: lesson_title teacher_initials classroom; use // to add grouped lesson; leave empty if unnecessary) {col.text}: ')
+                            if temp_solution == '':
+                                TEMP_PLAIN_TEXT[col.text] = None
+                                solution = None
+                                break 
+                            elif (len(temp_solution.split('//')), len(temp_solution.split(' '))) in ((1, 3), (2, 6)): 
+                                TEMP_PLAIN_TEXT[col.text] = temp_solution
+                                solution = temp_solution 
+                                break
+                            else:
+                                print('\t\tError: could not parse the input')
+                    
+                    if solution is None:  # unnecessary data
                         continue
                     else: 
-                        for span in PLAIN_TEXT_SOLUTION[col.text].split('//'): # iterate over the lessons
+                        for span in solution.split('//'): # iterate over the lessons
                             (w[0], group) = w[0].split('-') if len((w := span.split(' '))[0].split('-')) == 2 else (w[0], None) # get the group from the lesson title
                             group = f'-{group}' if group is not None else None
                             insert_all(*w, group, num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS) 

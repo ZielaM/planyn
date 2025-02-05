@@ -4,7 +4,7 @@ import json
 from aiohttp import ClientSession
 from dotenv import load_dotenv
 
-from utils.constants import JSON_PATH, SPACED_LESSONS, teachers_type, classrooms_type, grades_type, plain_text_type
+from utils.constants import JSON_PATH, SPACED_LESSONS, PLAIN_TEXT, teachers_type, classrooms_type, grades_type
 from utils.getting import get_timetable, get_number_of_timetables
 from utils.saving import save_timetables, save_timetable
 
@@ -16,7 +16,7 @@ async def main() -> None:
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
-            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, PLAIN_TEXT, TEMP_SPACED_LESSONS)))  # create tasks for each timetable
+            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, TEMP_PLAIN_TEXT, TEMP_SPACED_LESSONS)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
     print('Got all timetables...')
     
@@ -53,9 +53,11 @@ async def main() -> None:
         tasks.append(asyncio.create_task(save_timetable('spaced_lessons', SPACED_LESSONS, JSON_PATH)))  # save the SPACED_LESSONS to the file (used for creating the main menu in the mobile app)
     
     # saving plain text
-    with open(f'{JSON_PATH}plain_text.json', 'w', encoding='utf-8') as f:
-        json.dump(PLAIN_TEXT, f, ensure_ascii=False, indent=4, sort_keys=True)  # save the PLAIN_TEXT dictionary to the file (used for creating PLAIN_TEXT_SOLUTION in other program)
-    print('\t->saved PLAIN_TEXT')
+    if TEMP_PLAIN_TEXT:
+        global PLAIN_TEXT
+        PLAIN_TEXT.update(TEMP_PLAIN_TEXT)
+        PLAIN_TEXT = dict(sorted(PLAIN_TEXT.items()))  # sort the TEMP_PLAIN_TEXT
+        tasks.append(asyncio.create_task(save_timetable('plain_text', PLAIN_TEXT, JSON_PATH)))  # save the TEMP_PLAIN_TEXT to the file (used for creating the main menu in the mobile app)
     
     await asyncio.gather(*tasks)
     print('Done!')
@@ -68,7 +70,7 @@ if __name__ == '__main__':
     TEACHERS_TIMETABLES: teachers_type = dict()
     CLASSROOMS_TIMETABLES: classrooms_type = dict()
     GRADES_TIMETABLES: grades_type = dict()
-    PLAIN_TEXT: plain_text_type = dict()  # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
+    TEMP_PLAIN_TEXT: dict[str, str] = dict()  # Variable to store plain text lessons (later exported and used in other program to get PLAIN_TEXT_SOLUTION)
     TEMP_SPACED_LESSONS = dict()
     
     TIMETABLES: tuple[teachers_type, classrooms_type, grades_type] = (TEACHERS_TIMETABLES, CLASSROOMS_TIMETABLES, GRADES_TIMETABLES)  # Tuple to store all timetables dictionaries

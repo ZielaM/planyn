@@ -56,7 +56,7 @@ async def main() -> None:
     if TEMP_PLAIN_TEXT:
         global PLAIN_TEXT
         PLAIN_TEXT.update(TEMP_PLAIN_TEXT)
-        PLAIN_TEXT = dict(sorted(PLAIN_TEXT.items()))  # sort the TEMP_PLAIN_TEXT
+        PLAIN_TEXT = dict(sorted(PLAIN_TEXT.items()))  # sort the PLAIN_TEXT
         tasks.append(asyncio.create_task(save_timetable('plain_text', PLAIN_TEXT, JSON_PATH)))  # save the TEMP_PLAIN_TEXT to the file (used for creating the main menu in the mobile app)
     
     await asyncio.gather(*tasks)

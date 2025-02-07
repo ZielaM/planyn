@@ -3,9 +3,11 @@ import asyncio
 
 from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
+from google.generativeai import GenerativeModel
 
-from utils.inserting import insert_all
-from .constants import PLAIN_TEXT, TEACHERS, LESSONS, URL, timetables
+from .inserting import insert_all
+from .correcting import correct_plain_text
+from .constants import TEACHERS, LESSONS, URL, timetables
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
@@ -37,7 +39,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, requests_num: int, TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
         print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 
@@ -54,23 +56,7 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
                     if col.text == '\xa0':  # skip if empty
                         continue
 
-                    if col.text in PLAIN_TEXT: 
-                        solution = PLAIN_TEXT[col.text]
-                    elif col.text in TEMP_PLAIN_TEXT:
-                        solution = TEMP_PLAIN_TEXT[col.text]
-                    else:
-                        while True: 
-                            temp_solution = input(f'\t\tWrite correct lesson (example: lesson_title teacher_initials classroom; use // to add grouped lesson; leave empty if unnecessary) {col.text}: ')
-                            if temp_solution == '':
-                                TEMP_PLAIN_TEXT[col.text] = None
-                                solution = None
-                                break 
-                            elif (len(temp_solution.split('//')), len(temp_solution.split(' '))) in ((1, 3), (2, 6)): 
-                                TEMP_PLAIN_TEXT[col.text] = temp_solution
-                                solution = temp_solution 
-                                break
-                            else:
-                                print('\t\tError: could not parse the input')
+                    solution = correct_plain_text(col.text, TEMP_PLAIN_TEXT)  # correct the lesson title
                     
                     if solution is None:  # unnecessary data
                         continue
@@ -78,17 +64,17 @@ async def get_timetable(session: ClientSession, i: int, TIMETABLES: timetables, 
                         for span in solution.split('//'): # iterate over the lessons
                             (w[0], group) = w[0].split('-') if len((w := span.split(' '))[0].split('-')) == 2 else (w[0], None) # get the group from the lesson title
                             group = f'-{group}' if group is not None else None
-                            insert_all(*w, group, num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS) 
+                            insert_all(model, *w, group, num_col, num_row, grade, requests_num, *TIMETABLES, TEMP_SPACED_LESSONS) 
 
                 elif len(col_spans) == 3:  # 1 lesson in the cell case
-                    insert_all(*get_lesson_details(col_spans, groups[0] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS)
+                    insert_all(model, *get_lesson_details(col_spans, groups[0] if len(groups) != 0 else None), num_col, num_row, grade, requests_num, *TIMETABLES, TEMP_SPACED_LESSONS)
                 elif len(col_spans) == 2:  # group lesson case
                     for k, span in enumerate(col_spans):
-                        insert_all(*get_lesson_details(span.find_all('span'), groups[k] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS)
+                        insert_all(model, *get_lesson_details(span.find_all('span'), groups[k] if len(groups) != 0 else None), num_col, num_row, grade, requests_num, *TIMETABLES, TEMP_SPACED_LESSONS)
                 elif len(col_spans) == 1:   # group lesson case (half of the class)
-                    insert_all(*get_lesson_details(col_spans[0].find_all('span', recursive=False), groups[0] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS)
+                    insert_all(model, *get_lesson_details(col_spans[0].find_all('span', recursive=False), groups[0] if len(groups) != 0 else None), num_col, num_row, grade, requests_num, *TIMETABLES, TEMP_SPACED_LESSONS)
                 else:  # more than two groups case
                     it = iter(col_spans)
                     for k, span in enumerate(zip(it, it, it)):
-                        insert_all(*get_lesson_details(span, groups[k] if len(groups) != 0 else None), num_col, num_row, grade, *TIMETABLES, TEMP_SPACED_LESSONS)
+                        insert_all(model, *get_lesson_details(span, groups[k] if len(groups) != 0 else None), num_col, num_row, grade, requests_num, *TIMETABLES, TEMP_SPACED_LESSONS)
 

@@ -1,8 +1,9 @@
 import asyncio
-import json
+import os
 
 from aiohttp import ClientSession
 from dotenv import load_dotenv
+import google.generativeai as genai
 
 from utils.constants import JSON_PATH, SPACED_LESSONS, PLAIN_TEXT, teachers_type, classrooms_type, grades_type
 from utils.getting import get_timetable, get_number_of_timetables
@@ -11,12 +12,18 @@ from utils.saving import save_timetables, save_timetable
 async def main() -> None:
     print('Searching for timetables to get...')
     print('Found: ', num_of_timetables := get_number_of_timetables(), ' timetables...')
+    
+    # establishing connection with Gemini
+    genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+    model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='dodaj spacje do nazwy lekcji')  # model for adding spaces to the lesson titles
+    requests_num = 0
+    
     # getting timetables
     print('Getting data from timetables...')
     tasks: list[asyncio.Task] = list()  # list to store tasks (getting timetables)
     async with ClientSession() as session:
         for i in range(1, num_of_timetables + 1):
-            tasks.append(asyncio.create_task(get_timetable(session, i, TIMETABLES, TEMP_PLAIN_TEXT, TEMP_SPACED_LESSONS)))  # create tasks for each timetable
+            tasks.append(asyncio.create_task(get_timetable(session, model, i, requests_num, TIMETABLES, TEMP_PLAIN_TEXT, TEMP_SPACED_LESSONS)))  # create tasks for each timetable
         await asyncio.gather(*tasks)
     print('Got all timetables...')
     

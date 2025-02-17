@@ -70,7 +70,8 @@
                 "4D-1/2"
             ],
             "Pracownia aplikacji webowych"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -137,6 +138,7 @@
             ],
             "Pracownia programowania"
         ],
+        null,
         null
     ],
     [
@@ -210,6 +212,7 @@
             ],
             "Informatyka"
         ],
+        null,
         null
     ],
     [
@@ -247,6 +250,7 @@
             ],
             "Informatyka"
         ],
+        null,
         null
     ],
     [
@@ -320,6 +324,7 @@
             ],
             "Informatyka"
         ],
+        null,
         null
     ]
 ]

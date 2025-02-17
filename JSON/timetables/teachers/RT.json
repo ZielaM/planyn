@@ -10,22 +10,25 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -103,6 +106,7 @@
             "18"
         ],
         null,
+        null,
         null
     ],
     [
@@ -155,6 +159,7 @@
             "Pracownia urządzeń automatyki przemysłowej",
             "46"
         ],
+        null,
         null,
         null,
         null,

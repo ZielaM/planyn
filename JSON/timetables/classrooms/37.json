@@ -58,6 +58,7 @@
             "Matematyka"
         ],
         null,
+        null,
         null
     ],
     [
@@ -111,6 +112,7 @@
             ],
             "Biologia"
         ],
+        null,
         null,
         null,
         null
@@ -168,6 +170,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
@@ -215,6 +218,7 @@
             ],
             "Historia"
         ],
+        null,
         null,
         null,
         null
@@ -290,6 +294,7 @@
             ],
             "Etyka"
         ],
+        null,
         null
     ]
 ]

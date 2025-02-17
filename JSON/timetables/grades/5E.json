@@ -60,6 +60,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -97,7 +98,8 @@
                 "AM",
                 "38"
             ]
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -118,6 +120,7 @@
                 "23"
             ]
         ],
+        null,
         null,
         null,
         null,
@@ -125,7 +128,13 @@
         null
     ],
     [
-        null,
+        [
+            [
+                "WF 7.45 - 10.00",
+                "",
+                ""
+            ]
+        ],
         [
             [
                 "Wychowanie fizyczne-1/2",
@@ -197,6 +206,7 @@
                 "51"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -275,6 +285,7 @@
                 "58"
             ]
         ],
+        null,
         null,
         null
     ]

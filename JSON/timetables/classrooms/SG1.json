@@ -76,7 +76,8 @@
                 "2A-2/2"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -155,7 +156,8 @@
                 "5D"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -234,7 +236,8 @@
                 "5F"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -307,7 +310,8 @@
                 "5C"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -386,6 +390,7 @@
                 "2G"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ]
 ]

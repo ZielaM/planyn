@@ -10,18 +10,6 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
@@ -36,9 +24,25 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -86,6 +90,7 @@
             ],
             "Pracownia ruchu kolejowego"
         ],
+        null,
         null
     ]
 ]

@@ -28,6 +28,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -76,6 +77,13 @@
                 "Etyka",
                 "AM",
                 "38"
+            ]
+        ],
+        [
+            [
+                "Etyka co 2 tygodnie",
+                "",
+                ""
             ]
         ]
     ],
@@ -143,12 +151,11 @@
                 "23"
             ]
         ],
-        null,
         [
             [
-                "Wychowanie fizyczne",
-                "KM",
-                "SG1"
+                "WF KM 13.45-16.00",
+                "",
+                ""
             ]
         ],
         [
@@ -164,7 +171,15 @@
                 "KM",
                 "SG1"
             ]
-        ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne",
+                "KM",
+                "SG1"
+            ]
+        ],
+        null
     ],
     [
         null,
@@ -216,6 +231,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -249,6 +265,7 @@
                 "18"
             ]
         ],
+        null,
         null,
         null,
         null,

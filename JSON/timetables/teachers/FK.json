@@ -40,6 +40,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
@@ -95,9 +96,11 @@
             "40"
         ],
         null,
+        null,
         null
     ],
     [
+        null,
         null,
         null,
         null,
@@ -145,6 +148,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -186,6 +190,7 @@
             "Pracownia baz danych",
             "40"
         ],
+        null,
         null,
         null,
         null

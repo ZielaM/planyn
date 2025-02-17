@@ -58,7 +58,8 @@
                 "2A-1/2"
             ],
             "Wychowanie fizyczne"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -99,6 +100,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null,
         null,
         null
@@ -142,6 +144,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null,
         null,
         null
@@ -205,6 +208,7 @@
             "Wychowanie fizyczne"
         ],
         null,
+        null,
         null
     ],
     [
@@ -246,6 +250,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null,
         null,
         null

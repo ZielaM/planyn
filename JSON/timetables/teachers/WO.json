@@ -10,18 +10,6 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
@@ -36,9 +24,25 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -98,6 +102,7 @@
             "Tabor szynowy",
             "B103"
         ],
+        null,
         null
     ]
 ]

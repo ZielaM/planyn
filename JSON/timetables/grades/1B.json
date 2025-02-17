@@ -68,6 +68,7 @@
                 "B107"
             ]
         ],
+        null,
         null
     ],
     [
@@ -154,6 +155,7 @@
                 "27"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -242,6 +244,7 @@
                 "21"
             ]
         ],
+        null,
         null
     ],
     [
@@ -334,6 +337,7 @@
                 "61"
             ]
         ],
+        null,
         null
     ],
     [
@@ -371,45 +375,52 @@
             ]
         ],
         null,
+        [
+            [
+                "WF KM/SW 11.30-13.45",
+                "",
+                ""
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "KM",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "SW",
+                "SG2"
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "KM",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "SW",
+                "SG2"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "SE",
+                "16"
+            ]
+        ],
+        [
+            [
+                "Matematyka",
+                "SE",
+                "16"
+            ]
+        ],
         null,
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "KM",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "SW",
-                "SG2"
-            ]
-        ],
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "KM",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "SW",
-                "SG2"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "SE",
-                "16"
-            ]
-        ],
-        [
-            [
-                "Matematyka",
-                "SE",
-                "16"
-            ]
-        ],
         null
     ]
 ]

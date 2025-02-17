@@ -40,6 +40,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -65,6 +66,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -138,7 +140,8 @@
                 "3E-1/2"
             ],
             "Pracownia elektryczna i elektroniczna"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -204,6 +207,7 @@
             ],
             "Pracownia elektryczna i elektroniczna"
         ],
+        null,
         null,
         null
     ],
@@ -279,6 +283,7 @@
             ],
             "Pracownia elektryczna i elektroniczna"
         ],
+        null,
         null
     ]
 ]

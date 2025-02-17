@@ -62,6 +62,7 @@
             "Przygotowanie praktyczne do zawodu maszynisty"
         ],
         null,
+        null,
         null
     ],
     [
@@ -131,6 +132,7 @@
             ],
             "Język niemiecki"
         ],
+        null,
         null
     ],
     [
@@ -208,6 +210,7 @@
             ],
             "Język niemiecki DSD I Pro"
         ],
+        null,
         null
     ],
     [
@@ -269,7 +272,8 @@
                 "3C-1/1"
             ],
             "Język niemiecki DSD I Pro"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -352,6 +356,7 @@
             ],
             "Język niemiecki DSD I Pro"
         ],
+        null,
         null
     ]
 ]

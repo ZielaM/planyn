@@ -46,6 +46,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
@@ -94,6 +95,7 @@
             ],
             "Język polski"
         ],
+        null,
         null,
         null
     ],
@@ -170,6 +172,7 @@
             ],
             "Fizyka"
         ],
+        null,
         null
     ],
     [
@@ -251,7 +254,8 @@
                 "2E-1/1"
             ],
             "Język niemiecki DSD I Pro"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -312,6 +316,7 @@
             ],
             "Język angielski"
         ],
+        null,
         null,
         null,
         null

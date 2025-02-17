@@ -46,6 +46,7 @@
             "Język niemiecki",
             "34"
         ],
+        null,
         null
     ],
     [
@@ -95,7 +96,8 @@
             ],
             "Język niemiecki DSD I Pro",
             "34"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -151,6 +153,7 @@
             "34"
         ],
         null,
+        null,
         null
     ],
     [
@@ -187,6 +190,7 @@
             "Język niemiecki",
             "34"
         ],
+        null,
         null,
         null,
         null,
@@ -235,6 +239,7 @@
             ],
             "Język niemiecki",
             "34"
-        ]
+        ],
+        null
     ]
 ]

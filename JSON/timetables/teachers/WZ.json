@@ -46,6 +46,7 @@
             "Wychowanie fizyczne",
             "BSG"
         ],
+        null,
         null
     ],
     [
@@ -107,7 +108,8 @@
             ],
             "Wychowanie fizyczne",
             "SG1"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -131,6 +133,7 @@
             "Wychowanie fizyczne",
             "SG1"
         ],
+        null,
         null,
         null,
         null,
@@ -168,6 +171,7 @@
             "Wychowanie fizyczne",
             "SG1"
         ],
+        null,
         null,
         null
     ],
@@ -206,6 +210,7 @@
             ],
             "Wychowanie fizyczne",
             "SG1"
-        ]
+        ],
+        null
     ]
 ]

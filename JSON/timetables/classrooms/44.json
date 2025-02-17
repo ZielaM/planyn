@@ -34,6 +34,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -81,6 +82,7 @@
             ],
             "Projektowanie oprogramowania"
         ],
+        null,
         null,
         null,
         null
@@ -150,7 +152,8 @@
                 "4C"
             ],
             "Programowanie aplikacji mobilnych"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -204,6 +207,7 @@
             ],
             "Urządzenia techniki komputerowej"
         ],
+        null,
         null,
         null
     ],
@@ -265,6 +269,7 @@
             ],
             "Zajęcia z wychowawcą"
         ],
+        null,
         null,
         null
     ]

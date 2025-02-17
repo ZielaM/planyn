@@ -49,6 +49,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -77,12 +78,11 @@
                 "27"
             ]
         ],
-        null,
         [
             [
-                "Wychowanie fizyczne",
-                "WZ",
-                "SG1"
+                "wf - wz - 13.45-16",
+                "",
+                ""
             ]
         ],
         [
@@ -98,7 +98,15 @@
                 "WZ",
                 "SG1"
             ]
-        ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne",
+                "WZ",
+                "SG1"
+            ]
+        ],
+        null
     ],
     [
         null,
@@ -140,6 +148,7 @@
                 "51"
             ]
         ],
+        null,
         null
     ],
     [
@@ -179,6 +188,7 @@
                 "58"
             ]
         ],
+        null,
         null,
         null,
         null,
@@ -252,6 +262,7 @@
                 "31"
             ]
         ],
+        null,
         null,
         null,
         null,

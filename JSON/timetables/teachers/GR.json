@@ -28,18 +28,6 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
@@ -54,9 +42,25 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -104,6 +108,7 @@
             "Pracownia ruchu kolejowego",
             "B105"
         ],
+        null,
         null
     ]
 ]

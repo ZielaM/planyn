@@ -52,6 +52,7 @@
             ],
             "Język niemiecki"
         ],
+        null,
         null
     ],
     [
@@ -119,7 +120,8 @@
                 "3F-1/1"
             ],
             "Język niemiecki DSD I Pro"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -174,6 +176,7 @@
             ],
             "Język niemiecki DSD I Pro"
         ],
+        null,
         null,
         null
     ],
@@ -246,6 +249,7 @@
             ],
             "Pracownia programowania obiektowego"
         ],
+        null,
         null
     ],
     [
@@ -319,6 +323,7 @@
                 "4C-5/6"
             ],
             "Język niemiecki"
-        ]
+        ],
+        null
     ]
 ]

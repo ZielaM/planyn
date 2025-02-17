@@ -64,6 +64,7 @@
             ],
             "Urządzenia i instalacje elektroniczne"
         ],
+        null,
         null
     ],
     [
@@ -105,6 +106,7 @@
             ],
             "Chemia"
         ],
+        null,
         null,
         null,
         null
@@ -162,6 +164,7 @@
             ],
             "Matematyka Dodatkowa"
         ],
+        null,
         null
     ],
     [
@@ -217,9 +220,11 @@
             "Zajęcia z wychowawcą"
         ],
         null,
+        null,
         null
     ],
     [
+        null,
         null,
         null,
         null,

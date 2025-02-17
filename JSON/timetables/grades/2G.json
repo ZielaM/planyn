@@ -79,6 +79,7 @@
                 "43"
             ]
         ],
+        null,
         null
     ],
     [
@@ -124,6 +125,7 @@
                 "37"
             ]
         ],
+        null,
         null,
         null,
         null,
@@ -249,6 +251,7 @@
             ]
         ],
         null,
+        null,
         null
     ],
     [
@@ -336,6 +339,7 @@
             ]
         ],
         null,
+        null,
         null
     ],
     [
@@ -418,6 +422,13 @@
                 "Wychowanie fizyczne",
                 "WZ",
                 "SG1"
+            ]
+        ],
+        [
+            [
+                "wych 12:55-13:40/ Wych 13:45- 16:00",
+                "",
+                ""
             ]
         ]
     ]

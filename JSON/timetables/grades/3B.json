@@ -68,6 +68,7 @@
             ]
         ],
         null,
+        null,
         null
     ],
     [
@@ -151,7 +152,8 @@
                 "RA",
                 "B108A"
             ]
-        ]
+        ],
+        null
     ],
     [
         [
@@ -193,31 +195,38 @@
             ]
         ],
         null,
+        [
+            [
+                "WF KM/MT 11.30 - 13.45",
+                "",
+                ""
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "KM",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "MT",
+                "SG2"
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "KM",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "MT",
+                "SG2"
+            ]
+        ],
         null,
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "KM",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "MT",
-                "SG2"
-            ]
-        ],
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "KM",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "MT",
-                "SG2"
-            ]
-        ],
         null,
         null,
         null
@@ -318,7 +327,8 @@
                 "RM",
                 "21"
             ]
-        ]
+        ],
+        null
     ],
     [
         [
@@ -411,6 +421,7 @@
                 "21"
             ]
         ],
+        null,
         null
     ]
 ]

@@ -10,6 +10,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -53,6 +54,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -62,13 +64,6 @@
         null,
         null,
         null,
-        [
-            [
-                "3A"
-            ],
-            "Język polski",
-            "B201"
-        ],
         [
             [
                 "3A"
@@ -76,6 +71,14 @@
             "Język polski",
             "B201"
         ],
+        [
+            [
+                "3A"
+            ],
+            "Język polski",
+            "B201"
+        ],
+        null,
         null,
         null,
         null
@@ -103,9 +106,11 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
+        null,
         null,
         null,
         null,

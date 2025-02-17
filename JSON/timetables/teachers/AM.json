@@ -22,6 +22,7 @@
             "Historia",
             "B101"
         ],
+        null,
         null
     ],
     [
@@ -94,9 +95,11 @@
             ],
             "Etyka",
             "38"
-        ]
+        ],
+        null
     ],
     [
+        null,
         null,
         null,
         null,
@@ -150,6 +153,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
@@ -199,6 +203,7 @@
             "Etyka",
             "37"
         ],
+        null,
         null
     ]
 ]

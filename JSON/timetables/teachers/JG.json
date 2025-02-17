@@ -10,9 +10,11 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
+        null,
         null,
         null,
         null,
@@ -102,7 +104,8 @@
             ],
             "Pracownia elektryczna i elektroniczna",
             "48"
-        ]
+        ],
+        null
     ],
     [
         [
@@ -168,6 +171,7 @@
             "Pracownia elektryczna i elektroniczna",
             "48"
         ],
+        null,
         null,
         null
     ],
@@ -218,6 +222,7 @@
             "Pracownia elektryczna i elektroniczna",
             "48"
         ],
+        null,
         null
     ]
 ]

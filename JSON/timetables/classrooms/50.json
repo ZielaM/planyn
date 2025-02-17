@@ -70,7 +70,8 @@
                 "4D-2/2"
             ],
             "Pracownia testowania i dokumentowania aplikacji"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -112,6 +113,7 @@
             ],
             "Informatyka"
         ],
+        null,
         null,
         null
     ],
@@ -186,6 +188,7 @@
             ],
             "Pracownia programowania"
         ],
+        null,
         null
     ],
     [
@@ -198,6 +201,7 @@
             ],
             "Pracownia aplikacji webowych"
         ],
+        null,
         null,
         null,
         null,
@@ -251,6 +255,7 @@
             ],
             "Informatyka"
         ],
+        null,
         null,
         null,
         null,

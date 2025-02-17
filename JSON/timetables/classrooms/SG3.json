@@ -10,22 +10,25 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -55,6 +58,7 @@
             "Wychowanie fizyczne"
         ],
         null,
+        null,
         null
     ],
     [
@@ -72,6 +76,7 @@
             ],
             "Zajęcia z wychowawcą"
         ],
+        null,
         null,
         null,
         null

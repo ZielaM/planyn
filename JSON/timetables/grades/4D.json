@@ -95,7 +95,8 @@
                 "RF",
                 "50"
             ]
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -176,6 +177,13 @@
                 "Etyka",
                 "AM",
                 "38"
+            ]
+        ],
+        [
+            [
+                "Etyka co 2 tygodnie",
+                "",
+                ""
             ]
         ]
     ],
@@ -263,6 +271,7 @@
                 "23"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -356,6 +365,7 @@
             ]
         ],
         null,
+        null,
         null
     ],
     [
@@ -425,6 +435,7 @@
                 "37"
             ]
         ],
+        null,
         null,
         null,
         null

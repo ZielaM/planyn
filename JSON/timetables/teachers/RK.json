@@ -58,6 +58,7 @@
             "42"
         ],
         null,
+        null,
         null
     ],
     [
@@ -89,6 +90,7 @@
             "Pracownia sieci komputerowych",
             "42"
         ],
+        null,
         null,
         null,
         null,
@@ -150,9 +152,11 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
+        null,
         null,
         null,
         null,
@@ -229,6 +233,7 @@
             "Zajęcia z wychowawcą",
             "44"
         ],
+        null,
         null,
         null
     ]

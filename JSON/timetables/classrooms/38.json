@@ -34,6 +34,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -106,7 +107,8 @@
                 "5G"
             ],
             "Etyka"
-        ]
+        ],
+        null
     ],
     [
         null,
@@ -154,6 +156,7 @@
             ],
             "Programowanie obiektowe"
         ],
+        null,
         null,
         null
     ],
@@ -210,6 +213,7 @@
         ],
         null,
         null,
+        null,
         null
     ],
     [
@@ -263,6 +267,7 @@
             ],
             "Wiedza o społeczeństwie"
         ],
+        null,
         null,
         null,
         null

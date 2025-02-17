@@ -10,6 +10,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -59,22 +60,25 @@
             "58"
         ],
         null,
-        null
-    ],
-    [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
     ],
     [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
         null,
         null,
         null,
@@ -120,6 +124,7 @@
             "Projektowanie oprogramowania",
             "28"
         ],
+        null,
         null,
         null,
         null

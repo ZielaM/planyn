@@ -46,6 +46,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null
     ],
     [
@@ -113,6 +114,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null
     ],
     [
@@ -180,58 +182,60 @@
             ],
             "Wychowanie fizyczne"
         ],
-        null
-    ],
-    [
-        [
-            "KM",
-            [
-                "1D"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        [
-            "KM",
-            [
-                "1D"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        [
-            "KM",
-            [
-                "1D"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        [
-            "KM",
-            [
-                "2E-1/2"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        [
-            "KM",
-            [
-                "2E-1/2"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        [
-            "KM",
-            [
-                "2E-1/2"
-            ],
-            "Wychowanie fizyczne"
-        ],
-        null,
-        null,
-        null,
         null,
         null
     ],
     [
+        [
+            "KM",
+            [
+                "1D"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        [
+            "KM",
+            [
+                "1D"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        [
+            "KM",
+            [
+                "1D"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        [
+            "KM",
+            [
+                "2E-1/2"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        [
+            "KM",
+            [
+                "2E-1/2"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        [
+            "KM",
+            [
+                "2E-1/2"
+            ],
+            "Wychowanie fizyczne"
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    [
         null,
         [
             "ZI",
@@ -254,6 +258,7 @@
             ],
             "Wychowanie fizyczne"
         ],
+        null,
         null,
         null,
         null,

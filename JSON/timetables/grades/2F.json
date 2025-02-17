@@ -62,6 +62,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -127,6 +128,13 @@
                 "Wychowanie fizyczne-2/2",
                 "ZI",
                 "BSG"
+            ]
+        ],
+        [
+            [
+                "WF 10:40-12:55",
+                "",
+                ""
             ]
         ],
         null,
@@ -204,6 +212,7 @@
             ]
         ],
         null,
+        null,
         null
     ],
     [
@@ -270,6 +279,7 @@
                 "18"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -404,6 +414,7 @@
                 "48"
             ]
         ],
+        null,
         null
     ]
 ]

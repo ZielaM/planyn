@@ -10,61 +10,63 @@
         null,
         null,
         null,
-        null
-    ],
-    [
-        null,
-        [
-            [
-                "3E"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        [
-            [
-                "3E"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        [
-            [
-                "3E"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        [
-            [
-                "2F-2/2"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        [
-            [
-                "2F-2/2"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        [
-            [
-                "2F-2/2"
-            ],
-            "Wychowanie fizyczne",
-            "BSG"
-        ],
-        null,
-        null,
         null,
         null
     ],
     [
         null,
+        [
+            [
+                "3E"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
+        [
+            [
+                "3E"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
+        [
+            [
+                "3E"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
+        [
+            [
+                "2F-2/2"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
+        [
+            [
+                "2F-2/2"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
+        [
+            [
+                "2F-2/2"
+            ],
+            "Wychowanie fizyczne",
+            "BSG"
+        ],
         null,
         null,
+        null,
+        null,
+        null
+    ],
+    [
+        null,
+        null,
+        null,
         [
             [
                 "4C-2/2"
@@ -86,6 +88,7 @@
             "Wychowanie fizyczne",
             "SG1"
         ],
+        null,
         null,
         null,
         null,
@@ -133,6 +136,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -158,6 +162,7 @@
             "Wychowanie fizyczne",
             "BSG"
         ],
+        null,
         null,
         null,
         null,

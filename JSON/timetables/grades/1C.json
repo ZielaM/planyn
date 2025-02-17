@@ -23,31 +23,38 @@
             ]
         ],
         null,
+        [
+            [
+                "WF MT/WM 11.30-13.45",
+                "",
+                ""
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "MT",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "WM",
+                "SG2"
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "MT",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "WM",
+                "SG2"
+            ]
+        ],
         null,
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "MT",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "WM",
-                "SG2"
-            ]
-        ],
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "MT",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "WM",
-                "SG2"
-            ]
-        ],
         null,
         null,
         null
@@ -116,6 +123,7 @@
                 "B108A"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -204,6 +212,7 @@
                 "21"
             ]
         ],
+        null,
         null
     ],
     [
@@ -271,6 +280,7 @@
                 "B204"
             ]
         ],
+        null,
         null
     ],
     [
@@ -399,6 +409,7 @@
                 "30"
             ]
         ],
+        null,
         null
     ]
 ]

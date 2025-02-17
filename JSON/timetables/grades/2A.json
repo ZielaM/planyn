@@ -63,17 +63,11 @@
                 "57"
             ]
         ],
-        null,
         [
             [
-                "Wychowanie fizyczne-1/2",
-                "KM",
-                "SG2"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "MT",
-                "SG1"
+                "WF KM/MT 13.45-16.00",
+                "",
+                ""
             ]
         ],
         [
@@ -99,7 +93,20 @@
                 "MT",
                 "SG1"
             ]
-        ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "KM",
+                "SG2"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "MT",
+                "SG1"
+            ]
+        ],
+        null
     ],
     [
         null,
@@ -159,6 +166,7 @@
                 "50"
             ]
         ],
+        null,
         null,
         null
     ],
@@ -227,6 +235,7 @@
                 "B203"
             ]
         ],
+        null,
         null
     ],
     [
@@ -351,7 +360,8 @@
                 "ME",
                 "27"
             ]
-        ]
+        ],
+        null
     ],
     [
         [
@@ -439,6 +449,7 @@
                 "37"
             ]
         ],
+        null,
         null
     ]
 ]

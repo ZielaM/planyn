@@ -40,6 +40,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -89,6 +90,7 @@
         null,
         null,
         null,
+        null,
         null
     ],
     [
@@ -106,6 +108,7 @@
             "Bazy danych D_DW",
             "B102"
         ],
+        null,
         null,
         null,
         null,
@@ -152,6 +155,7 @@
             "Bazy danych",
             "42"
         ],
+        null,
         null,
         null,
         null,
@@ -224,6 +228,7 @@
             "Pracownia baz danych",
             "41"
         ],
+        null,
         null
     ]
 ]

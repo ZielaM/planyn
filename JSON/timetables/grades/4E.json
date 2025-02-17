@@ -79,6 +79,7 @@
                 "62"
             ]
         ],
+        null,
         null
     ],
     [
@@ -121,31 +122,38 @@
             ]
         ],
         null,
+        [
+            [
+                "WF WZ/WM 11.30-13.45",
+                "",
+                ""
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "WZ",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "WM",
+                "SG2"
+            ]
+        ],
+        [
+            [
+                "Wychowanie fizyczne-1/2",
+                "WZ",
+                "SG1"
+            ],
+            [
+                "Wychowanie fizyczne-2/2",
+                "WM",
+                "SG2"
+            ]
+        ],
         null,
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "WZ",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "WM",
-                "SG2"
-            ]
-        ],
-        [
-            [
-                "Wychowanie fizyczne-1/2",
-                "WZ",
-                "SG1"
-            ],
-            [
-                "Wychowanie fizyczne-2/2",
-                "WM",
-                "SG2"
-            ]
-        ],
         null,
         null,
         null
@@ -241,6 +249,7 @@
                 "27"
             ]
         ],
+        null,
         null
     ],
     [
@@ -359,6 +368,7 @@
                 "46"
             ]
         ],
+        null,
         null
     ],
     [
@@ -431,6 +441,7 @@
                 "51"
             ]
         ],
+        null,
         null
     ]
 ]

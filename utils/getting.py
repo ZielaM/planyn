@@ -5,9 +5,9 @@ from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
 from google.generativeai import GenerativeModel
 
-from .inserting import insert_all
+from .inserting import insert_all, insert_data_to_grades
 from .correcting import correct_plain_text
-from .constants import TEACHERS, LESSONS, URL, timetables
+from .constants import TEACHERS, LESSONS, URL, timetables_tuple
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
@@ -39,7 +39,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, requests_num: dict[str, int], TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, requests_num: dict[str, int], TIMETABLES: timetables_tuple, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
         print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 
@@ -58,8 +58,9 @@ async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, 
 
                     solution = correct_plain_text(col.text, TEMP_PLAIN_TEXT)  # correct the lesson title
                     
-                    if solution is None:  # unnecessary data
-                        continue
+                    if solution is None:  # comments (adding only to grade timetables)
+                        insert_data_to_grades(col.text, '', '', '',  num_col, num_row, grade, TIMETABLES[2])
+                        
                     else: 
                         for span in solution.split('//'): # iterate over the lessons
                             (w[0], group) = w[0].split('-') if len((w := span.split(' '))[0].split('-')) == 2 else (w[0], None) # get the group from the lesson title

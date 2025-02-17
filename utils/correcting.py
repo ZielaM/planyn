@@ -2,7 +2,7 @@ from google.generativeai import GenerativeModel
 
 from .constants import PLAIN_TEXT, SPACED_LESSONS, RPM
 
-def add_spaces(model: GenerativeModel, requests_num: int, lesson_title: str, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+def add_spaces(model: GenerativeModel, requests_num: dict[str, int], lesson_title: str, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     """Adds spaces to the lesson title
     
     Args:
@@ -15,16 +15,27 @@ def add_spaces(model: GenerativeModel, requests_num: int, lesson_title: str, TEM
         lesson_title = TEMP_SPACED_LESSONS[lesson_title]
     else:
         temp_lesson_title = ''
-        if requests_num < RPM:
+        if requests_num['num'] < RPM:
             print(f'\t\tAdding spaces using Gemini AI to {lesson_title}...')
             temp_lesson_title = model.generate_content(lesson_title).text.strip()
-        if lesson_title == temp_lesson_title.replace(' ', ''): 
-            TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
-            lesson_title = temp_lesson_title 
+            requests_num['num'] += 1
+            if lesson_title == temp_lesson_title.replace(' ', ''): 
+                TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
+                lesson_title = temp_lesson_title 
+            else:
+                print(f'\t\tError: lesson title and spaced lesson title are different (Gemini failed): {temp_lesson_title}')
+                while True: 
+                    temp_lesson_title = input(f'\t\tManually add spaces to {lesson_title}: ') 
+                    if lesson_title == temp_lesson_title.replace(' ', ''): 
+                        TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
+                        lesson_title = temp_lesson_title 
+                        break
+                    else:
+                        print('\t\tError: lesson title and spaced lesson title are different')
         else:
-            print(f'\t\tError: lesson title and spaced lesson title are different (Gemini failed): {temp_lesson_title}')
+            print(f'\t\tError: Gemini AI requests limit reached, add spaces manually to {lesson_title}')
             while True: 
-                temp_lesson_title = input(f'\t\tManually add spaces to {lesson_title}: ') 
+                temp_lesson_title = input(f'\t\tManually add spaces to {lesson_title}: ').strip()
                 if lesson_title == temp_lesson_title.replace(' ', ''): 
                     TEMP_SPACED_LESSONS[lesson_title] = temp_lesson_title
                     lesson_title = temp_lesson_title 

@@ -16,7 +16,7 @@ async def main() -> None:
     # establishing connection with Gemini
     genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
     model = genai.GenerativeModel('gemini-2.0-flash-exp', system_instruction='dodaj spacje do nazwy lekcji')  # model for adding spaces to the lesson titles
-    requests_num = 0
+    requests_num = {'num': 0}
     
     # getting timetables
     print('Getting data from timetables...')

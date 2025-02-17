@@ -101,7 +101,7 @@ def insert_data_to_grades(lesson_title: str, lesson_teacher: str, lesson_classro
         GRADE_TIMETABLES[grade][num_col][num_row].append((f'{lesson_title}{'' if group is None else group}', lesson_teacher, lesson_classroom))
 
 
-def insert_all(model: GenerativeModel, lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, requests_num: int, TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+def insert_all(model: GenerativeModel, lesson_title: str, lesson_teacher: str, lesson_classroom: str, group: str, num_col: int, num_row: int, grade: str, requests_num: dict[str, int], TEACHER_TIMETABLES: teachers_type, CLASSROOM_TIMETABLES: classrooms_type, GRADE_TIMETABLES: grades_type, TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     """Puts lesson data into all dictionaries in aprioriate place
     
     Args:

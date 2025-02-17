@@ -39,7 +39,7 @@ def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str,
     return lesson_title, lesson_teacher, lesson_classroom, group
 
 
-async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, requests_num: int, TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
+async def get_timetable(session: ClientSession, model: GenerativeModel, i: int, requests_num: dict[str, int], TIMETABLES: timetables, TEMP_PLAIN_TEXT: dict[str, str], TEMP_SPACED_LESSONS: dict[str, str]) -> None:
     async with session.get(f'{URL}o{i}.html') as response: 
         print(f'\t->getting timetable {asyncio.current_task().get_name()}')
         timetable_html = bs(await response.text(), 'html.parser') 

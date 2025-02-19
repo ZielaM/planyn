@@ -12,9 +12,19 @@ from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
 def get_number_of_timetables() -> int:
-    response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
-    soup = bs(response.text, 'html.parser') 
-    return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
+    try: 
+        response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
+        response.raise_for_status()
+        soup = bs(response.text, 'html.parser') 
+        return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
+    except requests.exceptions.HTTPError:
+        print('Page could not be found')
+        print('Number of timetables could not be fetched. Using the default value instead.')
+        return 32
+    except AttributeError:
+        print('div#oddzialy could not be found')
+        print('Number of timetables could not be fetched. Using the default value instead.')
+        return 32
 
 
 def get_lesson_details(span: ResultSet[Tag], group: str) -> tuple[str, str, str, str|None]:

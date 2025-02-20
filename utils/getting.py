@@ -1,5 +1,6 @@
 import requests
 import asyncio
+import time
 
 from aiohttp import ClientSession
 from bs4 import ResultSet, Tag
@@ -7,16 +8,21 @@ from google.generativeai import GenerativeModel
 
 from .inserting import insert_all, insert_data_to_grades
 from .correcting import correct_plain_text
-from .constants import TEACHERS, LESSONS, URL, timetables_tuple
+from .constants import TEACHERS, LESSONS, URL, TRIES, timetables_tuple
 from bs4 import BeautifulSoup as bs, ResultSet, Tag
 
 
 def get_number_of_timetables() -> int:
     try: 
-        response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
+        for i in range(TRIES):
+            response = requests.get('https://www.zsk.poznan.pl/plany_lekcji/2023plany/technikum/lista.html')  # get the page with timetables list
+            if response.status_code == 404:
+                print(f'Failed to fetch the number of timetables {i/TRIES}')
+                time.sleep(1)
+                continue
+            soup = bs(response.text, 'html.parser') 
+            return len(soup.find('div', { "id" : "oddzialy" }).find_all('a'))
         response.raise_for_status()
-        soup = bs(response.text, 'html.parser') 
-        return len(soup.find('div', { "id" : "oddzialy" }).find_all('a')) 
     except requests.exceptions.HTTPError:
         print('Page could not be found')
         print('Number of timetables could not be fetched. Using the default value instead.')
